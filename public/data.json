@@ -1,0 +1,144 @@
+{
+  "date": "2026-04-14",
+  "summary": "BTC 从 $70.7K 反弹至 $74.9K（霍尔木兹封锁→伊朗释放谈判信号），空头清算超 $5 亿。Andrew Kang 在 Hyperliquid 建仓 $1 亿+ BTC 多头 (40x)，Kruger 宣称超级周期取代 4 年周期。Hyperliquid 商品永续交易量爆发引发 CEX 产品竞争力讨论。",
+  "topTk": ["GENIUS", "EPT", "HYPE", "SOL", "CC"],
+  "L3": [
+    {
+      "name": "Hyperliquid 商品永续 vs CEX",
+      "tk": "HYPE",
+      "heat": 88,
+      "urg": "critical",
+      "desc": "原油永续交易量 $3.39 亿飙至 $73 亿（霍尔木兹危机催化）。OKX 已有 BZ(布伦特)+CL(WTI)+NG(天然气) 永续合约，但 Hyperliquid 以 7x24 无限制杠杆+链上透明正在分流 CEX 用户。Hayes 买入 $110 万 HYPE(目标 $150)，三家机构提交 ETF 申请。",
+      "act": "对比 OKX BZ/CL 与 Hyperliquid 油品永续的交易量、杠杆、费率差异，评估产品体验是否需升级",
+      "comp": [
+        "Hyperliquid 油品永续 7x24 交易，CEX 有休市时段",
+        "Flood: Hyperliquid 给交易者超过 IBKR 的优势",
+        "Hyperliquid Strategies S-1 拟募资 $10 亿",
+        "Robinhood / Coinbase 尚未上线 HYPE"
+      ],
+      "gap": [
+        "HYPE — OKX 已有现货+永续，非上币缺口",
+        "核心差异在产品体验: 杠杆倍数/交易时段/费率"
+      ],
+      "kol": [
+        { "n": "Flood", "v": "HL = 当今金融最重要公司，油品永续最有趣" },
+        { "n": "Arthur Hayes", "v": "买入 $110 万 HYPE 目标 $150" },
+        { "n": "Andrew Kang", "v": "$1 亿+ BTC long (40x on HL)" }
+      ],
+      "sig": ["KOL Tier1", "TG(8次)", "ETF 三家申请"],
+      "tks": ["HYPE"]
+    },
+    {
+      "name": "GENIUS — Binance Alpha 新币",
+      "tk": "GENIUS",
+      "heat": 78,
+      "urg": "high",
+      "desc": "4/13 上线 Binance Alpha，CZ 任顾问，YZi Labs 投资八位数。多源交叉确认: Gap(Bitget 有 OKX 无) + TG(4 次提及)。EPT(Balance) 4/21 上 Binance Alpha + 永续合约。",
+      "act": "评估 GENIUS 上币优先级；跟踪 EPT 4/21 动态，避免被 Binance Alpha 拉开时间差",
+      "comp": [
+        "Binance Alpha 上新加速: GENIUS(4/13) + EPT(4/21 含永续)",
+        "CZ 顾问 + YZi Labs 八位数投资",
+        "Binance OTC 前2月=2025全年25%"
+      ],
+      "gap": [
+        "GENIUS — OKX 无（多源交叉确认: Gap + TG 4次）",
+        "EPT — 4/21 上线，OKX 未跟进"
+      ],
+      "kol": [
+        { "n": "Ice Frog", "v": "Binance Alpha 积分刷取是当前最活跃链上 meta" }
+      ],
+      "sig": ["exchange_gap", "TG(4次)", "KOL CN"],
+      "tks": ["GENIUS", "EPT"]
+    }
+  ],
+  "L2": [
+    {
+      "name": "AI x Crypto 赛道趋势",
+      "heat": 58,
+      "desc": "x402 加入 Linux Foundation (Google/AWS/Stripe 创始成员)。Metaplex 在 SOL 上线 Agent Tokens。Ice Frog 看好融合趋势。注: AIO(OlaXBT) 在 Gap 中但仅为 BNB Chain AI 交易工具，非赛道龙头，暂无明确上币标的。",
+      "tks": [],
+      "sig": ["Ice Frog", "Metaplex", "赛道趋势"]
+    },
+    {
+      "name": "RWA / PayFi / 港币稳定币",
+      "heat": 55,
+      "desc": "Canton (CC) 上线 Upbit。HSBC 完成代币化存款试点。香港首批稳定币牌照 (HSBC+Anchorpoint)。Huma 交易量破 $100 亿。CC / ONDO OKX 均已有现货+永续。",
+      "tks": ["CC \u2705", "ONDO \u2705", "HUMA"],
+      "sig": ["WuBlockchain", "律动", "TG"]
+    },
+    {
+      "name": "Solana 生态多头共识",
+      "heat": 50,
+      "desc": "Bluntz EW 目标 SOL $200(2026)/$450(2027)，「最清晰的长线入场点」。Pentoshi 看好 BTC\u2192ETH\u2192SOL 轮动。Alameda 解质押 19.8 万 SOL 构成定期抛压。",
+      "tks": ["SOL \u2705", "WIF", "SPX6900"],
+      "sig": ["Bluntz", "Pentoshi"]
+    },
+    {
+      "name": "BTC 超级周期 / 地缘宏观",
+      "heat": 48,
+      "desc": "Kruger: 4 年周期终结，只有 40% 回调不再有熊市。Murphy: 筹码集中度 13.3% 逼近 15% 危险区。Kang $1 亿+ 多头 (40x)。高盛拟推 BTC 溢价收益 ETF。沃什听证会 4/21。",
+      "tks": ["BTC \u2705"],
+      "sig": ["Kruger", "Kang", "Murphy", "律动"]
+    }
+  ],
+  "L1": [
+    {
+      "name": "DePIN 新项目",
+      "desc": "Dabba ($DBT) ~4/15 TGE; Wingbits ($WINGS) 4/22 上 Kraken",
+      "sig": ["链上", "新闻"]
+    },
+    {
+      "name": "ZK 赛道",
+      "desc": "Scroll 手续费丑闻（6 天加价 1280 倍），资金或转竞品 L2",
+      "sig": ["KOL", "链上"]
+    },
+    {
+      "name": "Meme 动向",
+      "desc": "HORMUZ (BSC) 蹭海峡封锁叙事。TG Meme 讨论多但无明确方向",
+      "sig": ["TG", "传闻"]
+    },
+    {
+      "name": "DOT 安全事件",
+      "desc": "Hyperbridge 漏洞在 ETH 主网铸造 10 亿 DOT，短期负面",
+      "sig": ["新闻"]
+    }
+  ],
+  "comp": [
+    { "what": "Binance Alpha 上新加速", "detail": "GENIUS(4/13) + EPT(4/21 含永续)，积分刷取成链上meta" },
+    { "what": "Binance OTC 爆发", "detail": "前2月交易量=2025全年25%，BTC OTC 份额 4.91%→45.81%" },
+    { "what": "Binance Spot PRER", "detail": "4/14 上线价格区间执行规则，防异常成交" },
+    { "what": "Upbit 抢先上 Canton(CC)", "detail": "韩国市场抢跑" },
+    { "what": "Hyperliquid 分流 CEX", "detail": "油品永续 $73亿 交易量，S-1 拟募 $10亿" }
+  ],
+  "kols": [
+    { "n": "Flood", "v": "Hyperliquid 给交易者超过 IBKR 的优势", "s": "up" },
+    { "n": "Arthur Hayes", "v": "买入 $110 万 HYPE 目标 $150", "s": "up" },
+    { "n": "Andrew Kang", "v": "$1 亿+ BTC long (40x on Hyperliquid)", "s": "up" },
+    { "n": "Bluntz", "v": "SOL $200 (EW分析)，最清晰的周期交易", "s": "up" },
+    { "n": "Kruger", "v": "4 年周期已死，超级周期开启", "s": "n" },
+    { "n": "Murphy", "v": "BTC 筹码集中度 13.3% 逼近危险区", "s": "dn" },
+    { "n": "Ice Frog", "v": "All in AI x Crypto", "s": "up" },
+    { "n": "WuBlockchain", "v": "港稳定币牌照落地, TOKEN2049 延至 2027", "s": "n" }
+  ],
+  "tg": [
+    { "t": "ZEC", "c": 18 },
+    { "t": "RAVE", "c": 15 },
+    { "t": "BTC", "c": 14 },
+    { "t": "ETH", "c": 9 },
+    { "t": "HYPE", "c": 8 },
+    { "t": "ASON", "c": 6 },
+    { "t": "SOL", "c": 5 },
+    { "t": "CRWV", "c": 4 },
+    { "t": "ENA", "c": 4 },
+    { "t": "GENIUS", "c": 4 },
+    { "t": "ONDO", "c": 3 },
+    { "t": "TAO", "c": 3 }
+  ],
+  "st": { "tg": 28, "msgs": 2328, "cry": 248, "kol": 38 },
+  "ex": [
+    { "n": "Binance", "c": 1900 },
+    { "n": "Bybit", "c": 1204 },
+    { "n": "Bitget", "c": 1150 },
+    { "n": "OKX", "c": 380 }
+  ]
+}
