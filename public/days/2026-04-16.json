@@ -1,0 +1,213 @@
+{
+  "summary": "BTC $74-75K 震荡（2月新高 $76K 后回落），ETF 持续净流入（BTC +$1.86亿, ETH +$6790万），CEX 净流出近两月进入积累阶段。S&P 500 创历史新高 7023 点。地缘风险：伊朗霍尔木兹海峡首设加密通行费。Arthur Hayes 基金避险模式仅增持 Hyperliquid。Binance+Bitget 同步上线 GENIUS 永续。RAVE 一周暴涨6000%但90%供应集中于3钱包，风控重点关注。SEC CLARITY Act 今日听证。",
+  "topTk": [
+    "GENIUS",
+    "RAVE",
+    "WLFI",
+    "RENDER",
+    "HYPE",
+    "BTC"
+  ],
+  "L3": [
+    {
+      "name": "GENIUS 永续合约缺失",
+      "tk": "GENIUS",
+      "heat": 85,
+      "urg": "high",
+      "desc": "Binance + Bitget 同日上线 GENIUSUSDT 永续合约，OKX 无任何产品。Genius Terminal 是去中心化交易聚合器（150+ DEX，10+ 链），YZi Labs（Binance投资部）大额投资（8位数美元），CZ 任顾问。4/13 TGE，当前价 ~$0.60，mcap ~$200M，流通仅33.5%。Spot: Bitget/Gate/MEXC/Binance Alpha。需评估项目基本面和流动性。",
+      "act": "紧急评估 GENIUS 项目，考虑跟进上线永续合约",
+      "comp": [
+        "Binance",
+        "Bitget"
+      ],
+      "gap": [
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "竞对新上币(Binance+Bitget)",
+        "律动新闻确认"
+      ],
+      "tks": [
+        "GENIUS"
+      ]
+    },
+    {
+      "name": "RAVE 合约风控预警 + 产品线不完整",
+      "tk": "RAVE",
+      "heat": 90,
+      "urg": "critical",
+      "desc": "RAVE(RaveDAO) 一周暴涨 6000%（$0.25→$14），mcap ~$3B，24h vol $423M。极度危险信号：90% 供应集中在 3 个钱包，$43M 期货清算（排名仅次于 BTC/ETH）。OKX 仅有永续无现货，资金费率极度负向（Binance -0.36%/h, Bybit -0.5%/h）。筹码高度集中 + 巨量OI = ADL/穿仓风险极高。",
+      "act": "紧急：合约风控团队评估 RAVE 穿仓/ADL 风险；90%筹码集中3钱包，暂不建议开现货",
+      "comp": [
+        "Binance",
+        "Bybit"
+      ],
+      "gap": [
+        "仅有永续，无现货"
+      ],
+      "kol": [],
+      "sig": [
+        "KOL(OwenJin12资金费率数据)",
+        "TG(4次)",
+        "KOL(EmberCN)"
+      ],
+      "tks": [
+        "RAVE"
+      ]
+    },
+    {
+      "name": "BLESS 项目方砸盘预警",
+      "tk": "BLESS",
+      "heat": 65,
+      "urg": "medium",
+      "desc": "BLESS 项目方 9h 内抛售 3 亿枚（$383万），暴跌 55%。SIREN（AI meme币）88.5% 供应集中于单一钱包集群，同样高风险。OKX 均未上线（规避正确）。需确认无做市/投资关联。",
+      "act": "确认无做市/投资关联风险；标记 BLESS 为高风险项目",
+      "comp": [],
+      "gap": [
+        "OKX无",
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "KOL(EmberCN)",
+        "律动新闻"
+      ],
+      "tks": [
+        "BLESS",
+        "SIREN"
+      ]
+    },
+    {
+      "name": "Binance USD1/WLFI 生态布局",
+      "tk": "WLFI",
+      "heat": 60,
+      "urg": "medium",
+      "desc": "Binance 推出持有 USD1 瓜分 1500 万美元 WLFI 奖励活动。WLFI 被 KOL 3次提及。OKX 已有 WLFI 现货+永续，但需关注 Binance 围绕 Trump 系 token 的生态运营攻势。",
+      "act": "关注 Binance USD1 生态运营力度，评估 OKX 是否需要跟进类似活动",
+      "comp": [
+        "Binance"
+      ],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "律动新闻",
+        "KOL(EmberCN,roger9949)"
+      ],
+      "tks": [
+        "WLFI",
+        "USD1"
+      ]
+    }
+  ],
+  "L2": [
+    {
+      "name": "BTC 积累阶段信号",
+      "heat": 80,
+      "desc": "ETF 持续流入 + CEX 净流出近两月 + 3个新地址从 CEX 提取 1600 BTC($1.2亿) + 巨鲸平空头仓位。链上多指标显示积累。但 CryptoQuant 提示卖压增强。",
+      "tks": [
+        "BTC"
+      ],
+      "sig": [
+        "律动新闻(多条) + KOL(CryptoHayes,krugermacro)"
+      ]
+    },
+    {
+      "name": "地缘政治风险 — 伊朗/霍尔木兹海峡",
+      "heat": 70,
+      "desc": "Trump 称可无限期封锁伊朗港口。Arthur Hayes 新文分析霍尔木兹海峡开放与否对 BTC 的影响，基金已进入避险状态仅小幅增持 Hyperliquid。krugermacro 则认为 S&P 回收全部跌幅 = 空头错误。",
+      "tks": [
+        "BTC"
+      ],
+      "sig": [
+        "KOL(CryptoHayes,krugermacro) + 律动新闻"
+      ]
+    },
+    {
+      "name": "Meme 板块回温",
+      "heat": 60,
+      "desc": "Solana 生态 Meme 币 unc 市值达 $1200 万（24h +150%）。TG 群讨论老牌 meme 币「妖币行情」。KOL(Jingxin147741) 表示 MEME 热度回升。",
+      "tks": [
+        "UNC,"
+      ],
+      "sig": [
+        "律动新闻 + TG群 + KOL"
+      ]
+    },
+    {
+      "name": "RENDER / HYPE 持续活跃",
+      "heat": 55,
+      "desc": "RENDER TG 7次提及，HYPE TG 6次提及。Arthur Hayes 基金仅增持 Hyperliquid。两者 OKX 均已有现货+永续，覆盖完整。",
+      "tks": [
+        "RENDER",
+        "HYPE"
+      ],
+      "sig": [
+        "TG(RENDER 7次,HYPE 6次) + KOL(CryptoHayes)"
+      ]
+    },
+    {
+      "name": "AI x Crypto 动态",
+      "heat": 45,
+      "desc": "0G Labs 推出去中心化消费级 AI 开发平台。Anthropic 开始身份验证（KOL cyrilxuq 讨论）。AI 叙事持续演进但本日无重大 token 信号。",
+      "tks": [],
+      "sig": [
+        "律动新闻 + KOL"
+      ]
+    }
+  ],
+  "L1": [
+    {
+      "name": "LISTA",
+      "desc": "KOL 1次提及，OKX无。信号较弱，待观察。",
+      "sig": [
+        "KOL"
+      ]
+    },
+    {
+      "name": "LEOS",
+      "desc": "TG 2次提及，OKX无。项目信息不足。",
+      "sig": [
+        "TG"
+      ]
+    },
+    {
+      "name": "BitMEX 量子威胁方案",
+      "desc": "提出「金丝雀」机制替代量子冻结，中长期关注。",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "美国加密市场结构法案",
+      "desc": "白宫力推，中期选举临近，监管走向关注。",
+      "sig": [
+        "监管"
+      ]
+    },
+    {
+      "name": "铝供应危机",
+      "desc": "JPM 报告全球铝库存仅 9 天需求量，中东冲突加剧。商品相关。",
+      "sig": [
+        "商品"
+      ]
+    }
+  ],
+  "comp": [],
+  "kols": [
+    {
+      "n": "test",
+      "v": "ok",
+      "s": "up"
+    }
+  ],
+  "tg": [],
+  "st": {
+    "tg": 0,
+    "msgs": 0,
+    "cry": 0,
+    "kol": 1
+  },
+  "ex": [],
+  "stockGap": []
+}

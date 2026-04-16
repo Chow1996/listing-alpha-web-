@@ -1,0 +1,320 @@
+{
+  "dates": [
+    "2026-04-16"
+  ],
+  "daily": {
+    "2026-04-16": {
+      "summary": "BTC $74-75K 震荡（2月新高 $76K 后回落），ETF 持续净流入（BTC +$1.86亿, ETH +$6790万），CEX 净流出近两月进入积累阶段。S&P 500 创历史新高 7023 点。地缘风险：伊朗霍尔木兹海峡首设加密通行费。Arthur Hayes 基金避险模式仅增持 Hyperliquid。Binance+Bitget 同步上线 GENIUS 永续。RAVE 一周暴涨6",
+      "topTk": [
+        "GENIUS",
+        "RAVE",
+        "WLFI",
+        "RENDER",
+        "HYPE",
+        "BTC"
+      ],
+      "l3": [
+        {
+          "name": "GENIUS 永续合约缺失",
+          "heat": 85,
+          "urg": "high"
+        },
+        {
+          "name": "RAVE 合约风控预警 + 产品线不完整",
+          "heat": 90,
+          "urg": "critical"
+        },
+        {
+          "name": "BLESS 项目方砸盘预警",
+          "heat": 65,
+          "urg": "medium"
+        },
+        {
+          "name": "Binance USD1/WLFI 生态布局",
+          "heat": 60,
+          "urg": "medium"
+        }
+      ],
+      "l2": [
+        {
+          "name": "BTC 积累阶段信号",
+          "heat": 80
+        },
+        {
+          "name": "地缘政治风险 — 伊朗/霍尔木兹海峡",
+          "heat": 70
+        },
+        {
+          "name": "Meme 板块回温",
+          "heat": 60
+        },
+        {
+          "name": "RENDER / HYPE 持续活跃",
+          "heat": 55
+        },
+        {
+          "name": "AI x Crypto 动态",
+          "heat": 45
+        }
+      ],
+      "l1": [
+        {
+          "name": "LISTA"
+        },
+        {
+          "name": "LEOS"
+        },
+        {
+          "name": "BitMEX 量子威胁方案"
+        },
+        {
+          "name": "美国加密市场结构法案"
+        },
+        {
+          "name": "铝供应危机"
+        }
+      ],
+      "comp": [],
+      "cry": 0
+    }
+  },
+  "weekly": {
+    "period": "2026-04-16",
+    "kpis": [
+      {
+        "label": "新增L3",
+        "val": 4,
+        "prev": 2,
+        "unit": ""
+      },
+      {
+        "label": "竞对动作",
+        "val": 0,
+        "prev": 1,
+        "unit": "条"
+      },
+      {
+        "label": "信号总数",
+        "val": 0,
+        "prev": 1,
+        "unit": "条"
+      },
+      {
+        "label": "追踪叙事",
+        "val": 14,
+        "prev": 7,
+        "unit": "个"
+      }
+    ],
+    "movers": [
+      {
+        "name": "GENIUS 永续合约缺失",
+        "from": "L3",
+        "to": "L3",
+        "heat": 85,
+        "delta": "+85",
+        "type": "up"
+      },
+      {
+        "name": "RAVE 合约风控预警 + 产品线不完整",
+        "from": "L3",
+        "to": "L3",
+        "heat": 90,
+        "delta": "+90",
+        "type": "up"
+      },
+      {
+        "name": "BLESS 项目方砸盘预警",
+        "from": "L3",
+        "to": "L3",
+        "heat": 65,
+        "delta": "+65",
+        "type": "up"
+      },
+      {
+        "name": "Binance USD1/WLFI 生态布局",
+        "from": "L3",
+        "to": "L3",
+        "heat": 60,
+        "delta": "+60",
+        "type": "up"
+      },
+      {
+        "name": "BTC 积累阶段信号",
+        "from": "L2",
+        "to": "L2",
+        "heat": 80,
+        "delta": "+80",
+        "type": "stay"
+      },
+      {
+        "name": "地缘政治风险 — 伊朗/霍尔木兹海峡",
+        "from": "L2",
+        "to": "L2",
+        "heat": 70,
+        "delta": "+70",
+        "type": "stay"
+      },
+      {
+        "name": "Meme 板块回温",
+        "from": "L2",
+        "to": "L2",
+        "heat": 60,
+        "delta": "+60",
+        "type": "stay"
+      },
+      {
+        "name": "RENDER / HYPE 持续活跃",
+        "from": "L2",
+        "to": "L2",
+        "heat": 55,
+        "delta": "+55",
+        "type": "stay"
+      },
+      {
+        "name": "AI x Crypto 动态",
+        "from": "L2",
+        "to": "L2",
+        "heat": 45,
+        "delta": "+45",
+        "type": "stay"
+      }
+    ],
+    "events": [
+      {
+        "date": "04-16",
+        "title": "GENIUS 永续合约缺失 (Heat 85)",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-16",
+        "title": "RAVE 合约风控预警 + 产品线不完整 (Heat 90)",
+        "color": "#E74C5A"
+      },
+      {
+        "date": "04-16",
+        "title": "BLESS 项目方砸盘预警 (Heat 65)",
+        "color": "#23F7DD"
+      },
+      {
+        "date": "04-16",
+        "title": "Binance USD1/WLFI 生态布局 (Heat 60)",
+        "color": "#23F7DD"
+      }
+    ]
+  },
+  "monthly": {
+    "period": "2026-04-16",
+    "kpis": [
+      {
+        "label": "追踪叙事",
+        "val": 14,
+        "prev": 7,
+        "unit": "个"
+      },
+      {
+        "label": "累计L3预警",
+        "val": 4,
+        "prev": 2,
+        "unit": "个"
+      },
+      {
+        "label": "竞对动作",
+        "val": 0,
+        "prev": 1,
+        "unit": "条"
+      },
+      {
+        "label": "信号总数",
+        "val": 0,
+        "prev": 1,
+        "unit": "条"
+      }
+    ],
+    "hits": [],
+    "misses": [],
+    "lifecycle": [
+      {
+        "name": "GENIUS 永续合约缺失",
+        "days": 1,
+        "level": "L3",
+        "phase": "爆发期",
+        "heat": [
+          85
+        ]
+      },
+      {
+        "name": "RAVE 合约风控预警 + 产品线不完整",
+        "days": 1,
+        "level": "L3",
+        "phase": "爆发期",
+        "heat": [
+          90
+        ]
+      },
+      {
+        "name": "BLESS 项目方砸盘预警",
+        "days": 1,
+        "level": "L3",
+        "phase": "增长期",
+        "heat": [
+          65
+        ]
+      },
+      {
+        "name": "Binance USD1/WLFI 生态布局",
+        "days": 1,
+        "level": "L3",
+        "phase": "增长期",
+        "heat": [
+          60
+        ]
+      },
+      {
+        "name": "BTC 积累阶段信号",
+        "days": 1,
+        "level": "L2",
+        "phase": "爆发期",
+        "heat": [
+          80
+        ]
+      },
+      {
+        "name": "地缘政治风险 — 伊朗/霍尔木兹海峡",
+        "days": 1,
+        "level": "L2",
+        "phase": "爆发期",
+        "heat": [
+          70
+        ]
+      },
+      {
+        "name": "Meme 板块回温",
+        "days": 1,
+        "level": "L2",
+        "phase": "增长期",
+        "heat": [
+          60
+        ]
+      },
+      {
+        "name": "RENDER / HYPE 持续活跃",
+        "days": 1,
+        "level": "L2",
+        "phase": "增长期",
+        "heat": [
+          55
+        ]
+      },
+      {
+        "name": "AI x Crypto 动态",
+        "days": 1,
+        "level": "L2",
+        "phase": "增长期",
+        "heat": [
+          45
+        ]
+      }
+    ]
+  }
+}
