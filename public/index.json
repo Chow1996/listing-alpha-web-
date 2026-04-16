@@ -17,44 +17,85 @@
         {
           "name": "GENIUS 永续合约缺失",
           "heat": 85,
-          "urg": "high"
+          "urg": "high",
+          "desc": "Binance + Bitget 同日上线 GENIUSUSDT 永续合约，OKX 无任何产品。Genius Terminal 是去中心化交易聚合器（150+ ",
+          "act": "紧急评估 GENIUS 项目，考虑跟进上线永续合约",
+          "tks": [
+            "GENIUS"
+          ]
         },
         {
           "name": "RAVE 合约风控预警 + 产品线不完整",
           "heat": 90,
-          "urg": "critical"
+          "urg": "critical",
+          "desc": "RAVE(RaveDAO) 一周暴涨 6000%（$0.25→$14），mcap ~$3B，24h vol $423M。极度危险信号：90% 供应集中在 3 个",
+          "act": "紧急：合约风控团队评估 RAVE 穿仓/ADL 风险；90%筹码集中3钱包，暂不建议开现货",
+          "tks": [
+            "RAVE"
+          ]
         },
         {
           "name": "BLESS 项目方砸盘预警",
           "heat": 65,
-          "urg": "medium"
+          "urg": "medium",
+          "desc": "BLESS 项目方 9h 内抛售 3 亿枚（$383万），暴跌 55%。SIREN（AI meme币）88.5% 供应集中于单一钱包集群，同样高风险。OKX 均",
+          "act": "确认无做市/投资关联风险；标记 BLESS 为高风险项目",
+          "tks": [
+            "BLESS",
+            "SIREN"
+          ]
         },
         {
           "name": "Binance USD1/WLFI 生态布局",
           "heat": 60,
-          "urg": "medium"
+          "urg": "medium",
+          "desc": "Binance 推出持有 USD1 瓜分 1500 万美元 WLFI 奖励活动。WLFI 被 KOL 3次提及。OKX 已有 WLFI 现货+永续，但需关注 B",
+          "act": "关注 Binance USD1 生态运营力度，评估 OKX 是否需要跟进类似活动",
+          "tks": [
+            "WLFI",
+            "USD1"
+          ]
         }
       ],
       "l2": [
         {
           "name": "BTC 积累阶段信号",
-          "heat": 80
+          "heat": 80,
+          "desc": "ETF 持续流入 + CEX 净流出近两月 + 3个新地址从 CEX 提取 1600 BTC($1.2亿) + 巨鲸平空",
+          "tks": [
+            "BTC"
+          ]
         },
         {
           "name": "地缘政治风险 — 伊朗/霍尔木兹海峡",
-          "heat": 70
+          "heat": 70,
+          "desc": "Trump 称可无限期封锁伊朗港口。Arthur Hayes 新文分析霍尔木兹海峡开放与否对 BTC 的影响，基金已进入",
+          "tks": [
+            "BTC"
+          ]
         },
         {
           "name": "Meme 板块回温",
-          "heat": 60
+          "heat": 60,
+          "desc": "Solana 生态 Meme 币 unc 市值达 $1200 万（24h +150%）。TG 群讨论老牌 meme 币「",
+          "tks": [
+            "UNC,"
+          ]
         },
         {
           "name": "RENDER / HYPE 持续活跃",
-          "heat": 55
+          "heat": 55,
+          "desc": "RENDER TG 7次提及，HYPE TG 6次提及。Arthur Hayes 基金仅增持 Hyperliquid。两",
+          "tks": [
+            "RENDER",
+            "HYPE"
+          ]
         },
         {
           "name": "AI x Crypto 动态",
-          "heat": 45
+          "heat": 45,
+          "desc": "0G Labs 推出去中心化消费级 AI 开发平台。Anthropic 开始身份验证（KOL cyrilxuq 讨论）。",
+          "tks": []
         }
       ],
       "l1": [
@@ -74,8 +115,19 @@
           "name": "铝供应危机"
         }
       ],
-      "comp": [],
-      "cry": 0
+      "comp": [
+        {
+          "what": "Binance 上线 GENIUS",
+          "detail": "perp_usdt"
+        },
+        {
+          "what": "Bitget 上线 GENIUS",
+          "detail": "perp_usdt"
+        }
+      ],
+      "cry": 238,
+      "kolCount": 0,
+      "tgGroups": 27
     }
   },
   "weekly": {
@@ -89,14 +141,14 @@
       },
       {
         "label": "竞对动作",
-        "val": 0,
+        "val": 2,
         "prev": 1,
         "unit": "条"
       },
       {
         "label": "信号总数",
-        "val": 0,
-        "prev": 1,
+        "val": 238,
+        "prev": 119,
         "unit": "条"
       },
       {
@@ -108,43 +160,27 @@
     ],
     "movers": [
       {
-        "name": "GENIUS 永续合约缺失",
-        "from": "L3",
-        "to": "L3",
-        "heat": 85,
-        "delta": "+85",
-        "type": "up"
-      },
-      {
         "name": "RAVE 合约风控预警 + 产品线不完整",
         "from": "L3",
         "to": "L3",
         "heat": 90,
-        "delta": "+90",
-        "type": "up"
+        "delta": "+0",
+        "type": "stay"
       },
       {
-        "name": "BLESS 项目方砸盘预警",
+        "name": "GENIUS 永续合约缺失",
         "from": "L3",
         "to": "L3",
-        "heat": 65,
-        "delta": "+65",
-        "type": "up"
-      },
-      {
-        "name": "Binance USD1/WLFI 生态布局",
-        "from": "L3",
-        "to": "L3",
-        "heat": 60,
-        "delta": "+60",
-        "type": "up"
+        "heat": 85,
+        "delta": "+0",
+        "type": "stay"
       },
       {
         "name": "BTC 积累阶段信号",
         "from": "L2",
         "to": "L2",
         "heat": 80,
-        "delta": "+80",
+        "delta": "+0",
         "type": "stay"
       },
       {
@@ -152,7 +188,23 @@
         "from": "L2",
         "to": "L2",
         "heat": 70,
-        "delta": "+70",
+        "delta": "+0",
+        "type": "stay"
+      },
+      {
+        "name": "BLESS 项目方砸盘预警",
+        "from": "L3",
+        "to": "L3",
+        "heat": 65,
+        "delta": "+0",
+        "type": "stay"
+      },
+      {
+        "name": "Binance USD1/WLFI 生态布局",
+        "from": "L3",
+        "to": "L3",
+        "heat": 60,
+        "delta": "+0",
         "type": "stay"
       },
       {
@@ -160,7 +212,7 @@
         "from": "L2",
         "to": "L2",
         "heat": 60,
-        "delta": "+60",
+        "delta": "+0",
         "type": "stay"
       },
       {
@@ -168,7 +220,7 @@
         "from": "L2",
         "to": "L2",
         "heat": 55,
-        "delta": "+55",
+        "delta": "+0",
         "type": "stay"
       },
       {
@@ -176,30 +228,48 @@
         "from": "L2",
         "to": "L2",
         "heat": 45,
-        "delta": "+45",
+        "delta": "+0",
+        "type": "stay"
+      },
+      {
+        "name": "LISTA",
+        "from": "L1",
+        "to": "L1",
+        "heat": 0,
+        "delta": "+0",
         "type": "stay"
       }
     ],
     "events": [
       {
         "date": "04-16",
-        "title": "GENIUS 永续合约缺失 (Heat 85)",
+        "title": "紧急评估 GENIUS 项目，考虑跟进上线永续合约",
         "color": "#FFB302"
       },
       {
         "date": "04-16",
-        "title": "RAVE 合约风控预警 + 产品线不完整 (Heat 90)",
+        "title": "紧急：合约风控团队评估 RAVE 穿仓/ADL 风险；90%筹码集中3钱包，暂不建议开现货",
         "color": "#E74C5A"
       },
       {
         "date": "04-16",
-        "title": "BLESS 项目方砸盘预警 (Heat 65)",
+        "title": "确认无做市/投资关联风险；标记 BLESS 为高风险项目",
         "color": "#23F7DD"
       },
       {
         "date": "04-16",
-        "title": "Binance USD1/WLFI 生态布局 (Heat 60)",
+        "title": "关注 Binance USD1 生态运营力度，评估 OKX 是否需要跟进类似活动",
         "color": "#23F7DD"
+      },
+      {
+        "date": "04-16",
+        "title": "Binance 上线 GENIUS — perp_usdt",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-16",
+        "title": "Bitget 上线 GENIUS — perp_usdt",
+        "color": "#FFB302"
       }
     ]
   },
@@ -220,14 +290,14 @@
       },
       {
         "label": "竞对动作",
-        "val": 0,
+        "val": 2,
         "prev": 1,
         "unit": "条"
       },
       {
         "label": "信号总数",
-        "val": 0,
-        "prev": 1,
+        "val": 238,
+        "prev": 119,
         "unit": "条"
       }
     ],

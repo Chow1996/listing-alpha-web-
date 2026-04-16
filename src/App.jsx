@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 
 const C={bg:"#1A1F2E",bg2:"#212738",t1:"#E2E2EE",t2:"#A8A8C0",t3:"#6E6E88",t4:"#555570",ac:"#23F7DD",acd:"rgba(35,247,221,0.07)",bd:"rgba(255,255,255,0.06)",bm:"rgba(255,255,255,0.08)",r:"#E74C5A",rg:"rgba(231,76,90,0.08)",rb:"rgba(231,76,90,0.15)",g:"#23F7DD",gg:"rgba(35,247,221,0.07)",y:"#FFB302",yg:"rgba(255,179,2,0.08)",p:"#A78BFA",pg:"rgba(167,139,250,0.1)",w:"#6E6E88"};
 const MO={fontFamily:"'Space Mono',monospace"};
@@ -88,44 +88,63 @@ const PageMonthly=({data,onKpi})=> <div>
   {data.lifecycle?.length>0&&<section style={{marginBottom:32}}><div style={{display:"flex",alignItems:"center",gap:10,marginBottom:16}}><span style={{fontSize:16}}>{"\uD83C\uDF00"}</span><h2 style={{...HD,fontSize:18,fontWeight:800,color:C.t1,margin:0}}>{"\u53D9\u4E8B\u751F\u547D\u5468\u671F"}</h2></div><Glass style={{padding:0}}><div style={{display:"grid",gridTemplateColumns:"1.2fr 0.5fr 0.4fr 0.5fr 1fr",gap:8,padding:"10px 20px",borderBottom:"1px solid "+C.bm,fontSize:10,fontWeight:600,color:C.t4,textTransform:"uppercase",letterSpacing:"0.06em"}}><div>{"\u53D9\u4E8B"}</div><div>{"\u8FFD\u8E2A"}</div><div>{"\u7B49\u7EA7"}</div><div>{"\u9636\u6BB5"}</div><div>{"\u8D8B\u52BF"}</div></div>{data.lifecycle.map((lc,i)=> (<div key={i} style={{display:"grid",gridTemplateColumns:"1.2fr 0.5fr 0.4fr 0.5fr 1fr",gap:8,padding:"12px 20px",borderBottom:i<data.lifecycle.length-1?"1px solid "+C.bd:"none",alignItems:"center"}}><div style={{fontSize:14,fontWeight:600,color:C.t1}}>{lc.name}</div><div style={{...MO,fontSize:12,color:C.t2}}>{lc.days}{"\u5929"}</div><div><LvlTag level={lc.level}/></div><div style={{fontSize:12,color:C.t3}}>{lc.phase}</div><div><MiniBar data={lc.heat} w={100} h={20}/></div></div>))}</Glass></section>}
 </div>;
 
-// ══════ PAGE: WATCHLIST (auto-generated from index.json) ══════
-const PageWL=({dailyIndex,dates})=>{
-  // 从 daily 摘要自动生成 watchlist
-  const items = [];
+// ══════ Build watchlist from daily index ══════
+function buildWatchlist(dailyIndex, dates){
   const seen = {};
   const sortedDates = [...dates].sort();
-
   for(const d of dates){
     const ds = dailyIndex[d];
     if(!ds) continue;
     for(const item of [...(ds.l3||[]),...(ds.l2||[])]){
       const name = item.name;
       if(!seen[name]){
-        seen[name] = {name, level:"L1", heat:0, heats:{}, firstDate:d};
+        seen[name] = {name, level:"L1", heat:0, heats:{}, firstDate:d, descs:{}, tks:new Set(), acts:{}, urgs:{}};
       }
       seen[name].heats[d] = item.heat||0;
       seen[name].heat = item.heat||seen[name].heat;
+      if(item.desc) seen[name].descs[d] = item.desc;
+      if(item.act) seen[name].acts[d] = item.act;
+      if(item.urg) seen[name].urgs[d] = item.urg;
+      (item.tks||[]).forEach(t=>seen[name].tks.add(t));
       if(ds.l3?.some(x=>x.name===name)) seen[name].level="L3";
       else if(seen[name].level!=="L3" && ds.l2?.some(x=>x.name===name)) seen[name].level="L2";
     }
   }
-
+  const items = [];
   for(const [name,info] of Object.entries(seen)){
     const trend = sortedDates.slice(-9).map(d=>info.heats[d]||0);
     while(trend.length<2) trend.unshift(0);
     const days = Math.max(1, Math.round((new Date(dates[0])-new Date(info.firstDate))/(86400000))+1);
-    items.push({name, level:info.level, heat:info.heat, trend, days});
+    // Build events from daily appearances
+    const events = [];
+    for(const d of [...dates].reverse()){
+      if(info.heats[d]){
+        const urg = info.urgs[d];
+        const etype = urg==="critical"?"critical":urg==="high"?"comp":"data";
+        events.push({date:d.slice(5), type:etype, title:info.acts[d]||info.descs[d]||name, desc:info.descs[d]||""});
+      }
+    }
+    items.push({
+      id:name.toLowerCase().replace(/[^a-z0-9]/g,"-").slice(0,20),
+      name, level:info.level, heat:info.heat, trend, days,
+      tokens:[...info.tks].slice(0,5),
+      events:events.slice(-8),
+      lastEvt:events.length?events[events.length-1].title:"",
+    });
   }
   items.sort((a,b)=>b.heat-a.heat);
+  return items;
+}
 
-  if(items.length===0) return <div style={{textAlign:"center",padding:60,color:C.t3}}>{"\u6682\u65E0\u8FFD\u8E2A\u6570\u636E"}</div>;
-
+// ══════ PAGE: WATCHLIST ══════
+const PageWL=({wl,onOpen})=>{
+  if(wl.length===0) return <div style={{textAlign:"center",padding:60,color:C.t3}}>{"\u6682\u65E0\u8FFD\u8E2A\u6570\u636E"}</div>;
   return <div>
     <div style={{marginBottom:24}}>
       <h2 style={{...HD,fontSize:22,fontWeight:800,color:C.t1,marginBottom:4}}>{"\u957F\u671F\u8FFD\u8E2A"}</h2>
       <p style={{fontSize:13,color:C.t3,margin:0}}>{"\u57FA\u4E8E\u6BCF\u65E5 L3/L2 \u6570\u636E\u81EA\u52A8\u751F\u6210"}</p>
     </div>
-    {items.map((w,i)=>{const hc=w.heat>=70?C.r:w.heat>=50?C.g:C.t3;return (<div key={i} style={{display:"flex",alignItems:"center",justifyContent:"space-between",padding:"14px 0",borderBottom:"1px solid "+C.bd}}>
+    {wl.map((w,i)=>{const hc=w.heat>=70?C.r:w.heat>=50?C.g:C.t3;return (<div key={i} onClick={()=>onOpen(w.id)} style={{display:"flex",alignItems:"center",justifyContent:"space-between",padding:"14px 0",borderBottom:"1px solid "+C.bd,cursor:"pointer",transition:"background 0.15s"}} onMouseEnter={e=>e.currentTarget.style.background="rgba(255,255,255,0.02)"} onMouseLeave={e=>e.currentTarget.style.background="transparent"}>
       <div style={{display:"flex",alignItems:"center",gap:14,flex:1}}>
         <LvlTag level={w.level}/>
         <div>
@@ -136,10 +155,27 @@ const PageWL=({dailyIndex,dates})=>{
       <div style={{display:"flex",alignItems:"center",gap:16}}>
         <Spark data={w.trend} color={hc} w={50} h={18}/>
         <div style={{...MO,fontSize:14,fontWeight:700,color:hc,width:50,textAlign:"right"}}>{w.heat}</div>
+        <div style={{fontSize:10,color:C.t4}}>{"\u2192"}</div>
       </div>
     </div>)})}
   </div>;
 };
+
+// ══════ PAGE: TIMELINE (watchlist detail) ══════
+const PageTL=({item,onBack})=>{const hc=item.heat>=70?C.r:item.heat>=50?C.g:C.t3;return (<div>
+  <BackBtn onClick={onBack} label="Watchlist"/>
+  <div style={{marginBottom:28}}><h1 style={{...HD,fontSize:28,fontWeight:800,color:C.t1,margin:"0 0 8px"}}>{item.name}</h1><div style={{display:"flex",gap:8}}><LvlTag level={item.level}/></div></div>
+  <div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",gap:12,marginBottom:28}}>
+    <Glass style={{textAlign:"center",padding:16}}><div style={{...MO,fontSize:24,fontWeight:700,color:hc}}>{item.heat}</div><div style={{fontSize:10,fontWeight:600,color:C.t4,textTransform:"uppercase",marginTop:4}}>{"\u70ED\u5EA6"}</div></Glass>
+    <Glass style={{textAlign:"center",padding:16}}><div style={{...MO,fontSize:24,fontWeight:700,color:C.t1}}>{item.days}<span style={{fontSize:12,color:C.t3}}>{"\u5929"}</span></div><div style={{fontSize:10,fontWeight:600,color:C.t4,textTransform:"uppercase",marginTop:4}}>{"\u8FFD\u8E2A"}</div></Glass>
+    <Glass style={{textAlign:"center",padding:16}}><div style={{...MO,fontSize:24,fontWeight:700,color:C.t1}}>{item.events.length}</div><div style={{fontSize:10,fontWeight:600,color:C.t4,textTransform:"uppercase",marginTop:4}}>{"\u4E8B\u4EF6"}</div></Glass>
+    <Glass style={{textAlign:"center",padding:16}}><div style={{fontSize:22}}>{item.trend[item.trend.length-1]>=(item.trend[item.trend.length-2]||0)?"\u2197\uFE0F":"\u2198\uFE0F"}</div><div style={{fontSize:10,fontWeight:600,color:C.t4,textTransform:"uppercase",marginTop:4}}>{"\u8D8B\u52BF"}</div></Glass>
+  </div>
+  {item.tokens?.length>0&&<div style={{marginBottom:24}}><div style={{fontSize:10,fontWeight:600,color:C.t4,textTransform:"uppercase",letterSpacing:"0.06em",marginBottom:8}}>{"\u5173\u8054\u4EE3\u5E01"}</div><div style={{display:"flex",gap:6}}>{item.tokens.map((t,i)=> <Tag key={i} color={C.ac} bg={C.acd}>${t}</Tag>)}</div></div>}
+  <Glass style={{marginBottom:24}}><div style={{fontSize:10,fontWeight:600,color:C.t4,textTransform:"uppercase",letterSpacing:"0.06em",marginBottom:10}}>{"\u70ED\u5EA6\u8D8B\u52BF"}</div><div style={{display:"flex",alignItems:"flex-end",gap:3,height:60}}>{item.trend.map((v,i)=>{const mx=Math.max(...item.trend)||1;return (<div key={i} style={{flex:1,borderRadius:"3px 3px 0 0",height:Math.max(3,Math.round(v/mx*52)),background:v>=70?C.r:v>=50?C.ac:"rgba(255,255,255,0.1)"}}/>)})}</div></Glass>
+  {item.events.length>0&&<><div style={{fontSize:10,fontWeight:600,color:C.t4,textTransform:"uppercase",letterSpacing:"0.06em",marginBottom:12}}>{"\u4E8B\u4EF6\u65F6\u95F4\u7EBF"}</div>
+  {item.events.map((ev,i)=>{const dc=ev.type==="critical"?C.r:ev.type==="comp"?C.y:ev.type==="data"?C.ac:C.w;return (<div key={i} style={{position:"relative",paddingLeft:28,paddingBottom:i<item.events.length-1?20:0}}><div style={{position:"absolute",left:0,top:5,width:12,height:12,borderRadius:"50%",border:"2px solid "+dc,background:C.bg}}/>{i<item.events.length-1&&<div style={{position:"absolute",left:5,top:18,width:2,bottom:0,background:"rgba(255,255,255,0.05)"}}/>}<div style={{...MO,fontSize:10,color:C.t4,marginBottom:2}}>{ev.date}</div><div style={{fontSize:14,fontWeight:700,color:C.t1,marginBottom:2}}>{ev.title}</div><div style={{fontSize:12,color:C.t3,lineHeight:1.5}}>{ev.desc}</div></div>)})}</>}
+</div>)};
 
 // ══════ SELECT STYLE ══════
 const SEL={...MO,fontSize:12,color:C.t1,fontWeight:700,padding:"5px 28px 5px 10px",background:"rgba(255,255,255,0.04)",border:"1px solid "+C.bm,borderRadius:6,cursor:"pointer",appearance:"none",WebkitAppearance:"none",backgroundImage:"url(\"data:image/svg+xml,%3Csvg width='10' height='6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%236E6E88' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E\")",backgroundRepeat:"no-repeat",backgroundPosition:"right 8px center",outline:"none"};
@@ -150,10 +186,10 @@ export default function App(){
   const[dateIdx,setDateIdx]=useState(0);
   const[kpiIdx,setKpiIdx]=useState(null);
   const[kpiSrc,setKpiSrc]=useState(null);
+  const[tlId,setTlId]=useState(null);
 
   // index.json data
   const[index,setIndex]=useState(null);
-  // Cache of loaded day data: { "2026-04-16": {...} }
   const[dayCache,setDayCache]=useState({});
   const[loadingDay,setLoadingDay]=useState(false);
 
@@ -169,6 +205,10 @@ export default function App(){
   const dailyIndex = index?.daily || {};
   const wkDetails = WK_DETAILS;
   const moDetails = MO_DETAILS;
+
+  // Build watchlist from daily index
+  const wl = buildWatchlist(dailyIndex, dates);
+  const tlItem = tlId ? wl.find(w=>w.id===tlId) : null;
 
   // Load day data when date changes
   const currentDate = dates[dateIdx] || dates[0];
@@ -196,8 +236,8 @@ export default function App(){
       <div style={{maxWidth:1400,margin:"0 auto",padding:"0 32px",display:"flex",justifyContent:"space-between",alignItems:"center",height:48}}>
         <div style={{display:"flex",alignItems:"center",gap:16}}>
           <div style={{display:"flex",alignItems:"center",gap:8}}><div style={{width:22,height:22,borderRadius:5,background:C.ac,display:"flex",alignItems:"center",justifyContent:"center",fontSize:11,fontWeight:900,color:C.bg}}>a</div><span style={{...HD,fontSize:14,fontWeight:800,color:C.t1,letterSpacing:"-0.03em"}}>Listing Alpha</span></div>
-          <div style={{display:"flex",gap:1,background:"rgba(255,255,255,0.03)",borderRadius:6,padding:2}}>{periods.map(p=> <button key={p.k} onClick={()=>{setTab(p.k);setKpiIdx(null);setKpiSrc(null)}} style={{padding:"4px 14px",borderRadius:4,fontSize:12,fontWeight:600,color:tab===p.k&&!showKpiDetail?C.t1:C.t4,background:tab===p.k&&!showKpiDetail?"rgba(255,255,255,0.07)":"none",border:"none",cursor:"pointer",fontFamily:"'DM Sans',sans-serif",transition:"all 0.15s"}}>{p.l}</button>)}</div>
-          <button onClick={()=>{setTab("wl");setKpiIdx(null);setKpiSrc(null)}} style={{padding:"4px 14px",borderRadius:4,fontSize:12,fontWeight:600,color:tab==="wl"?C.t1:C.t4,background:tab==="wl"?"rgba(255,255,255,0.07)":"none",border:"1px solid "+(tab==="wl"?C.bm:"transparent"),cursor:"pointer",fontFamily:"'DM Sans'"}}>Watchlist</button>
+          <div style={{display:"flex",gap:1,background:"rgba(255,255,255,0.03)",borderRadius:6,padding:2}}>{periods.map(p=> <button key={p.k} onClick={()=>{setTab(p.k);setTlId(null);setKpiIdx(null);setKpiSrc(null)}} style={{padding:"4px 14px",borderRadius:4,fontSize:12,fontWeight:600,color:tab===p.k&&!showKpiDetail?C.t1:C.t4,background:tab===p.k&&!showKpiDetail?"rgba(255,255,255,0.07)":"none",border:"none",cursor:"pointer",fontFamily:"'DM Sans',sans-serif",transition:"all 0.15s"}}>{p.l}</button>)}</div>
+          <button onClick={()=>{setTab("wl");setTlId(null);setKpiIdx(null);setKpiSrc(null)}} style={{padding:"4px 14px",borderRadius:4,fontSize:12,fontWeight:600,color:tab==="wl"?C.t1:C.t4,background:tab==="wl"?"rgba(255,255,255,0.07)":"none",border:"1px solid "+(tab==="wl"?C.bm:"transparent"),cursor:"pointer",fontFamily:"'DM Sans'"}}>Watchlist</button>
         </div>
         <div style={{display:"flex",alignItems:"center",gap:12}}>
           {tab==="daily"&&!showKpiDetail&&<select value={dateIdx} onChange={e=>setDateIdx(Number(e.target.value))} style={SEL}>{dates.map((d,i)=> <option key={i} value={i} style={{background:C.bg2}}>{d}</option>)}</select>}
@@ -211,7 +251,8 @@ export default function App(){
       {!showKpiDetail&&tab==="daily"&&(loadingDay&&!D?<Loading/>:<PageDaily D={D}/>)}
       {!showKpiDetail&&tab==="weekly"&&<PageWeekly data={weekly} onKpi={i=>{setKpiIdx(i);setKpiSrc("wk");window.scrollTo(0,0)}}/>}
       {!showKpiDetail&&tab==="monthly"&&<PageMonthly data={monthly} onKpi={i=>{setKpiIdx(i);setKpiSrc("mo");window.scrollTo(0,0)}}/>}
-      {!showKpiDetail&&tab==="wl"&&<PageWL dailyIndex={dailyIndex} dates={dates}/>}
+      {!showKpiDetail&&tab==="wl"&&!tlId&&<PageWL wl={wl} onOpen={id=>setTlId(id)}/>}
+      {!showKpiDetail&&tab==="wl"&&tlItem&&<PageTL item={tlItem} onBack={()=>setTlId(null)}/>}
     </div>
   </div>)
 }

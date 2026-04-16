@@ -193,21 +193,216 @@
       ]
     }
   ],
-  "comp": [],
-  "kols": [
+  "comp": [
     {
-      "n": "test",
-      "v": "ok",
-      "s": "up"
+      "what": "Binance 上线 GENIUS",
+      "detail": "perp_usdt"
+    },
+    {
+      "what": "Bitget 上线 GENIUS",
+      "detail": "perp_usdt"
     }
   ],
-  "tg": [],
+  "kols": [],
+  "tg": [
+    {
+      "t": "BTC",
+      "c": 15
+    },
+    {
+      "t": "RENDER",
+      "c": 7
+    },
+    {
+      "t": "ETH",
+      "c": 6
+    },
+    {
+      "t": "HYPE",
+      "c": 6
+    },
+    {
+      "t": "WLD",
+      "c": 5
+    },
+    {
+      "t": "NEAR",
+      "c": 4
+    },
+    {
+      "t": "ADA",
+      "c": 4
+    },
+    {
+      "t": "RAVE",
+      "c": 4
+    },
+    {
+      "t": "LEOS",
+      "c": 2
+    },
+    {
+      "t": "DOT",
+      "c": 2
+    },
+    {
+      "t": "SILVER",
+      "c": 2
+    },
+    {
+      "t": "GOLD",
+      "c": 2
+    }
+  ],
   "st": {
-    "tg": 0,
-    "msgs": 0,
-    "cry": 0,
-    "kol": 1
+    "tg": 27,
+    "msgs": 2152,
+    "cry": 238,
+    "kol": 0
   },
-  "ex": [],
-  "stockGap": []
+  "ex": [
+    {
+      "n": "Binance",
+      "c": 1993,
+      "s": 1
+    },
+    {
+      "n": "Bybit",
+      "c": 1257,
+      "s": 14
+    },
+    {
+      "n": "Bitget",
+      "c": 1205,
+      "s": 47
+    },
+    {
+      "n": "Hyperliquid",
+      "c": 189,
+      "s": 1
+    },
+    {
+      "n": "Coinbase",
+      "c": 509,
+      "s": 2
+    },
+    {
+      "n": "Upbit",
+      "c": 707,
+      "s": 2
+    },
+    {
+      "n": "Kraken",
+      "c": 957,
+      "s": 12
+    },
+    {
+      "n": "OKX",
+      "c": 379,
+      "s": 4
+    }
+  ],
+  "stockGap": [
+    {
+      "token": "WMT",
+      "on": [
+        "Bitget(perp_usdt)",
+        "Coinbase(spot)",
+        "Kraken(spot)"
+      ],
+      "cnt": 3
+    },
+    {
+      "token": "MCD",
+      "on": [
+        "Bybit(spot)",
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 2
+    },
+    {
+      "token": "AMAT",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ARM",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ASML",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "AVGO",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BABA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "COST",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "CSCO",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "IBM",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "LI",
+      "on": [
+        "Kraken(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "MA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "RKLB",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    }
+  ]
 }
