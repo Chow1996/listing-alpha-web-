@@ -1,0 +1,515 @@
+{
+  "summary": "山寨反弹延续,ORDI 24h 涨 190% 触及 $10.7,HYPE 巨鲸 8h 加仓 59 万枚至 411 万(OKX 均已覆盖)。宏观端特朗普宣布与伊朗接近核协议致油价预期腰斩,北美矿企 Q1 抛售 3.2 万 BTC 创历史单季新高,贝莱德同步从 Coinbase 提 3899 BTC,机构端呈分化。新币面,Binance 上线 CHIPUSDT/GENIUSUSDT 永续(OKX 均无),并预告 4/20 追加 MSFT/AVGO/BABA 股票永续。KOL 端 @KelseyWeb3VC 轮入 CRCL(OKX 仅永续),@0xVeryBigOrange/@Web3Feng 多源警告 RAVE(FDV $3.68B,97% 筹码集中,OKX 已上永续)潜在风控风险。AI x Crypto 与 Pre-IPO RWA(Paimon/SpaceX)成新兴叙事。",
+  "topTk": [
+    "GENIUS",
+    "CHIP",
+    "RAVE",
+    "AVGO",
+    "BABA",
+    "ORDI",
+    "HYPE",
+    "CRCL",
+    "ROSE",
+    "PP"
+  ],
+  "L3": [
+    {
+      "name": "新币盲区: CHIP + GENIUS 被 Binance 抢先",
+      "tk": "CHIP",
+      "heat": 88,
+      "urg": "高",
+      "desc": "Binance 今日新上 CHIPUSDT 永续(pre-market)和 GENIUSUSDT 永续(MC ~$184M),OKX 均无现货和合约;GENIUS 市值非零,@bwenews 已广泛播报,需评估立项。",
+      "act": "上币组 24h 内对 GENIUS 完成初审(市值、团队、合约),CHIP 作为 meme 跟踪是否起量",
+      "comp": [
+        "Binance"
+      ],
+      "gap": [
+        "OKX无",
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "交易所API: Binance 新增 perp_usdt 两个 | KOL: @bwenews 多条播报"
+      ],
+      "tks": [
+        "CHIP",
+        "GENIUS"
+      ]
+    },
+    {
+      "name": "RAVE 风控预警: 多源警告庄家控盘",
+      "tk": "RAVE",
+      "heat": 86,
+      "urg": "高",
+      "desc": "@0xVeryBigOrange、@Web3Feng、@CryptoPainter 过去 48h 多次点名 RAVE 被单方控盘 97-98% 流通筹码、FDV $3.68B,现价任其拉升。OKX 已上永续(无现货),强平/穿仓风险需提前风控。",
+      "act": "风控组今日检视 RAVE 永续持仓集中度、强平梯度与杠杆上限;必要时临时下调最大杠杆",
+      "comp": [],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "KOL: @0xVeryBigOrange",
+        "@Web3Feng",
+        "@CryptoPainter 独立多源"
+      ],
+      "tks": [
+        "RAVE"
+      ]
+    },
+    {
+      "name": "股票代币永续对标: Binance 4/20 批量上线",
+      "tk": "AVGO",
+      "heat": 75,
+      "urg": "中高",
+      "desc": "@bwenews 披露 Binance 将于 4/20 新增 MSFTUSDT/AVGOUSDT/BABAUSDT 股票永续。OKX 已有 25 个股票永续(含 MSFT/AAPL/NVDA/TSLA 等),但 AVGO 和 BABA 仍完全缺失;Bitget 股票代币总量 47、Bybit 14。",
+      "act": "股票代币组本周内评估 AVGO/BABA 永续上线排期(对标 Binance 4/20),补齐 OKX 股票永续矩阵",
+      "comp": [
+        "Binance",
+        "Bybit",
+        "Bitget"
+      ],
+      "gap": [
+        "OKX无",
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "KOL: @bwenews 公告预告 | 交易所API: 竞对股票代币聚合(Bitget 47 / Bybit 14)"
+      ],
+      "tks": [
+        "AVGO",
+        "BABA",
+        "MSFT"
+      ]
+    },
+    {
+      "name": "BTCFi 产品线空白: Goldman 覆盖式看涨 ETF 上线",
+      "tk": "BTC",
+      "heat": 68,
+      "urg": "中",
+      "desc": "@jason_chen998 点评 Goldman Sachs 新推 BTC Premium Income ETF(covered call 策略)是合规 BTCFi 里程碑;同期 BNB 35 次季度销毁 157 万枚($1.02B)、Arthur Hayes 轮入 Gold+HYPE。BTCFi(期权、结构化收益)正在机构化。",
+      "act": "产品/期权组评估是否推出 BTC covered call 结构化理财产品,对标 Goldman",
+      "comp": [],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "KOL: @jason_chen998",
+        "@WuBlockchain | 新闻: 贝莱德提币 3899 BTC",
+        "北美矿企 Q1 抛售 3.2 万 BTC"
+      ],
+      "tks": [
+        "BTC"
+      ]
+    }
+  ],
+  "L2": [
+    {
+      "name": "ORDI 暴涨 190% 引爆 BRC20 + Runes 情绪",
+      "heat": 82,
+      "desc": "ORDI 24h 涨 190% 触及 $10.7,@jason_chen998 反向揶揄 ASTER 疲软。OKX 已有现货+永续,是首选交易场所。",
+      "tks": [
+        "ORDI"
+      ],
+      "sig": [
+        "新闻: BlockBeats 多条播报",
+        "TG: 8 次提及(top 5)"
+      ]
+    },
+    {
+      "name": "HYPE 巨鲸加仓 + Hayes 跟进",
+      "heat": 80,
+      "desc": "同一实体地址集群 6h 内加仓 59 万枚 HYPE(总持仓 411 万),另有新地址存 745 万 USDT 全买 HYPE。Arthur Hayes 持续增配 Gold + HYPE。OKX 已全覆盖。",
+      "tks": [
+        "HYPE"
+      ],
+      "sig": [
+        "新闻: 2 条链上巨鲸快讯",
+        "KOL: @WuBlockchain 引用 Hayes",
+        "TG: 10 次"
+      ]
+    },
+    {
+      "name": "机构 BTC 分化: 矿企抛售 vs 贝莱德提币",
+      "heat": 70,
+      "desc": "北美矿企 Q1 抛售 3.2 万 BTC(单季历史新高,>去年全年),但贝莱德 7h 前从 Coinbase 提 3899 BTC;@whale_alert 追踪 Cumberland→Coinbase Institutional 1834 BTC 大额流入。CryptoQuant 报 30 天鲸鱼累积 27 万 BTC。",
+      "tks": [
+        "BTC"
+      ],
+      "sig": [
+        "新闻: 多条巨鲸/矿企快讯",
+        "KOL: @whale_alert + @WuBlockchain + @based16z"
+      ]
+    },
+    {
+      "name": "Schwab 启动 BTC/ETH 现货交易(Paxos 驱动)",
+      "heat": 65,
+      "desc": "@WuBlockchain 报道 Charles Schwab 正式上线 Schwab Crypto(Paxos 托管),为美国零售导流新通道。对 BTC/ETH 现货长期利好。",
+      "tks": [
+        "BTC",
+        "ETH"
+      ],
+      "sig": [
+        "KOL: @WuBlockchain"
+      ]
+    },
+    {
+      "name": "宏观: 美伊接近核协议 + 以黎停火",
+      "heat": 60,
+      "desc": "特朗普称伊朗同意不拥核、归还核材料,下周末或再会;以色列同意 10 天停火。油价预期减半,风险资产受益,@krugermacro 维持看多风险资产。",
+      "tks": [],
+      "sig": [
+        "新闻: 8 条特朗普外交快讯",
+        "KOL: @krugermacro"
+      ]
+    },
+    {
+      "name": "隐私赛道轮动: ZEC/ZEN 退潮, CRCL 接力",
+      "heat": 55,
+      "desc": "@KelseyWeb3VC 从 ZEC/ZEN 轮入 CRCL 并加大仓位,判断隐私叙事动能减弱。OKX: ZEC/ZEN 已覆盖现货+永续, CRCL 仅永续(无现货)。",
+      "tks": [
+        "CRCL",
+        "ZEC",
+        "ZEN"
+      ],
+      "sig": [
+        "KOL: @KelseyWeb3VC 独家轮仓信号"
+      ]
+    }
+  ],
+  "L1": [
+    {
+      "name": "ROSE (OKX无)",
+      "desc": "TG 11 次提及(并列第一),近日 Oasis 生态活跃;OKX 无现货无永续,持续观察量能",
+      "sig": [
+        "TG"
+      ]
+    },
+    {
+      "name": "VFX / vBTC (OKX无)",
+      "desc": "VerifiedX 上线 Prism 隐私层,@WuBlockchain 报道,长尾隐私叙事候补",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "Paimon Finance $PP (OKX无)",
+      "desc": "Pre-IPO RWA 新叙事,SpaceX/Stripe/Anthropic 股权代币化,YZi Labs 背书,BNB Chain",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "edgeX (OKX无)",
+      "desc": "@yuyue_chris 点名 DEX 项目 ATH 后短机会,OKX 完全无",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "SIREN (OKX无)",
+      "desc": "24h 涨 140%,庄家疑似重控 93% 代币,观察但不宜上",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "BELIEF / PIGEON / XVG (OKX无)",
+      "desc": "TG 各 4 次提及,均为单源低热度弱信号,仅记录",
+      "sig": [
+        "TG"
+      ]
+    },
+    {
+      "name": "STO (OKX无)",
+      "desc": "@KelseyWeb3VC 警告 Binance 现货短挤空陷阱,反面警示",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "AI Skill/Agent 叙事",
+      "desc": "多 KOL(@0xchangan/@0xVeryBigOrange/@Web3Feng)自行封装 Claude Skills 做 KOL 方法论/交易 bot,关注后续代币化方向",
+      "sig": [
+        "KOL"
+      ]
+    }
+  ],
+  "comp": [
+    {
+      "what": "Binance 新上 CHIPUSDT 永续",
+      "detail": "pre-market 上市, OKX 无现货无合约, 即刻评估 meme 热度"
+    },
+    {
+      "what": "Binance 新上 GENIUSUSDT 永续",
+      "detail": "MC ~$184M, @bwenews 播报, OKX 完全缺失"
+    },
+    {
+      "what": "Binance 4/20 将上 MSFT/AVGO/BABA 股票永续",
+      "detail": "OKX 仅 MSFT 永续存在, AVGO/BABA 无"
+    },
+    {
+      "what": "股票/商品代币覆盖",
+      "detail": "Bitget 47, Bybit 14, Kraken 12, OKX ~29(25 股票永续 AAPL/NVDA/TSLA/MSFT 等 + 4 商品 BZ/CL/NG/XAUT)"
+    },
+    {
+      "what": "Schwab + Paxos 上线 BTC/ETH 现货",
+      "detail": "美国零售合规通道,对 OKX Wallet/美国策略参考"
+    },
+    {
+      "what": "Goldman 推 BTC Premium Income ETF",
+      "detail": "covered call 结构化, 对标 OKX 期权理财产品线"
+    }
+  ],
+  "kols": [
+    {
+      "n": "@KelseyWeb3VC",
+      "v": "从 ZEC/ZEN 轮仓至 CRCL;警告 STO Binance 短挤空陷阱",
+      "s": "n"
+    },
+    {
+      "n": "@0xVeryBigOrange",
+      "v": "持续警告 RAVE 97% 控盘, FDV $3.68B, 风控注意",
+      "s": "n"
+    },
+    {
+      "n": "@Web3Feng",
+      "v": "推广 Paimon Finance $PP(Pre-IPO RWA, YZi Labs 背书)",
+      "s": "n"
+    },
+    {
+      "n": "@WuBlockchain",
+      "v": "大量聚合: Schwab 上线 BTC/ETH, Tether $127.5M 救助 Drift, BNB 季度销毁",
+      "s": "n"
+    },
+    {
+      "n": "@jason_chen998",
+      "v": "看多 Goldman BTC covered call ETF; 揶揄 ASTER 疲软",
+      "s": "n"
+    },
+    {
+      "n": "@whale_alert",
+      "v": "Cumberland→Coinbase Institutional 1834 BTC, 机构累积信号",
+      "s": "n"
+    },
+    {
+      "n": "@based16z",
+      "v": "质疑 Kalshi 非体育成交量;反 Saylor 边际 BTC 买入增值论",
+      "s": "n"
+    },
+    {
+      "n": "@krugermacro",
+      "v": "看多风险资产,认为空头证伪",
+      "s": "n"
+    },
+    {
+      "n": "@yuyue_chris",
+      "v": "Token2049 前后警告大幅波动; edgeX ATH 后短机会",
+      "s": "n"
+    },
+    {
+      "n": "@bwenews",
+      "v": "披露 Binance 4/20 批量上 MSFT/AVGO/BABA 股票永续",
+      "s": "n"
+    }
+  ],
+  "tg": [
+    {
+      "t": "ROSE",
+      "c": 11
+    },
+    {
+      "t": "ETH",
+      "c": 11
+    },
+    {
+      "t": "BTC",
+      "c": 10
+    },
+    {
+      "t": "HYPE",
+      "c": 10
+    },
+    {
+      "t": "ORDI",
+      "c": 8
+    },
+    {
+      "t": "HMSTR",
+      "c": 8
+    },
+    {
+      "t": "BONK",
+      "c": 6
+    },
+    {
+      "t": "SOL",
+      "c": 5
+    },
+    {
+      "t": "EIGEN",
+      "c": 5
+    },
+    {
+      "t": "BELIEF",
+      "c": 4
+    },
+    {
+      "t": "PIGEON",
+      "c": 4
+    },
+    {
+      "t": "ALT",
+      "c": 4
+    }
+  ],
+  "st": {
+    "tg": 26,
+    "msgs": 2420,
+    "cry": 312,
+    "kol": 10
+  },
+  "ex": [
+    {
+      "n": "Binance",
+      "c": 1994,
+      "s": 1
+    },
+    {
+      "n": "Bybit",
+      "c": 1257,
+      "s": 14
+    },
+    {
+      "n": "Bitget",
+      "c": 1205,
+      "s": 47
+    },
+    {
+      "n": "Hyperliquid",
+      "c": 189,
+      "s": 1
+    },
+    {
+      "n": "Coinbase",
+      "c": 509,
+      "s": 2
+    },
+    {
+      "n": "Upbit",
+      "c": 707,
+      "s": 2
+    },
+    {
+      "n": "Kraken",
+      "c": 957,
+      "s": 12
+    },
+    {
+      "n": "OKX",
+      "c": 379,
+      "s": 27
+    }
+  ],
+  "stockGap": [
+    {
+      "token": "WMT",
+      "on": [
+        "Bitget(perp_usdt)",
+        "Coinbase(spot)",
+        "Kraken(spot)"
+      ],
+      "cnt": 3
+    },
+    {
+      "token": "MCD",
+      "on": [
+        "Bybit(spot)",
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 2
+    },
+    {
+      "token": "AMAT",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ARM",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ASML",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "AVGO",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BABA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "COST",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "CSCO",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "IBM",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "LI",
+      "on": [
+        "Kraken(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "MA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "RKLB",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    }
+  ]
+}
