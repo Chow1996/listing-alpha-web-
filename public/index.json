@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-04-17",
     "2026-04-16"
   ],
   "daily": {
@@ -128,33 +129,194 @@
       "cry": 238,
       "kolCount": 0,
       "tgGroups": 27
+    },
+    "2026-04-17": {
+      "summary": "山寨反弹延续,ORDI 24h 涨 190% 触及 $10.7,HYPE 巨鲸 8h 加仓 59 万枚至 411 万(OKX 均已覆盖)。宏观端特朗普宣布与伊朗接近核协议致油价预期腰斩,北美矿企 Q1 抛售 3.2 万 BTC 创历史单季新高,贝莱德同步从 Coinbase 提 3899 BTC,机构端呈分化。新币面,Binance 上线 CHIPUSDT/GENIUSUSDT 永续(OKX 均无",
+      "topTk": [
+        "GENIUS",
+        "CHIP",
+        "RAVE",
+        "AVGO",
+        "BABA",
+        "ORDI"
+      ],
+      "l3": [
+        {
+          "name": "新币盲区: CHIP + GENIUS 被 Binance 抢先",
+          "heat": 88,
+          "urg": "高",
+          "desc": "Binance 今日新上 CHIPUSDT 永续(pre-market)和 GENIUSUSDT 永续(MC ~$184M),OKX 均无现货和合约;GENIU",
+          "act": "上币组 24h 内对 GENIUS 完成初审(市值、团队、合约),CHIP 作为 meme 跟踪是否起量",
+          "tks": [
+            "CHIP",
+            "GENIUS"
+          ]
+        },
+        {
+          "name": "RAVE 风控预警: 多源警告庄家控盘",
+          "heat": 86,
+          "urg": "高",
+          "desc": "@0xVeryBigOrange、@Web3Feng、@CryptoPainter 过去 48h 多次点名 RAVE 被单方控盘 97-98% 流通筹码、FDV",
+          "act": "风控组今日检视 RAVE 永续持仓集中度、强平梯度与杠杆上限;必要时临时下调最大杠杆",
+          "tks": [
+            "RAVE"
+          ]
+        },
+        {
+          "name": "股票代币永续对标: Binance 4/20 批量上线",
+          "heat": 75,
+          "urg": "中高",
+          "desc": "@bwenews 披露 Binance 将于 4/20 新增 MSFTUSDT/AVGOUSDT/BABAUSDT 股票永续。OKX 已有 25 个股票永续(含",
+          "act": "股票代币组本周内评估 AVGO/BABA 永续上线排期(对标 Binance 4/20),补齐 OKX 股票永续矩阵",
+          "tks": [
+            "AVGO",
+            "BABA",
+            "MSFT"
+          ]
+        },
+        {
+          "name": "BTCFi 产品线空白: Goldman 覆盖式看涨 ETF 上线",
+          "heat": 68,
+          "urg": "中",
+          "desc": "@jason_chen998 点评 Goldman Sachs 新推 BTC Premium Income ETF(covered call 策略)是合规 BT",
+          "act": "产品/期权组评估是否推出 BTC covered call 结构化理财产品,对标 Goldman",
+          "tks": [
+            "BTC"
+          ]
+        }
+      ],
+      "l2": [
+        {
+          "name": "ORDI 暴涨 190% 引爆 BRC20 + Runes 情绪",
+          "heat": 82,
+          "desc": "ORDI 24h 涨 190% 触及 $10.7,@jason_chen998 反向揶揄 ASTER 疲软。OKX 已有",
+          "tks": [
+            "ORDI"
+          ]
+        },
+        {
+          "name": "HYPE 巨鲸加仓 + Hayes 跟进",
+          "heat": 80,
+          "desc": "同一实体地址集群 6h 内加仓 59 万枚 HYPE(总持仓 411 万),另有新地址存 745 万 USDT 全买 H",
+          "tks": [
+            "HYPE"
+          ]
+        },
+        {
+          "name": "机构 BTC 分化: 矿企抛售 vs 贝莱德提币",
+          "heat": 70,
+          "desc": "北美矿企 Q1 抛售 3.2 万 BTC(单季历史新高,>去年全年),但贝莱德 7h 前从 Coinbase 提 389",
+          "tks": [
+            "BTC"
+          ]
+        },
+        {
+          "name": "Schwab 启动 BTC/ETH 现货交易(Paxos 驱动)",
+          "heat": 65,
+          "desc": "@WuBlockchain 报道 Charles Schwab 正式上线 Schwab Crypto(Paxos 托管)",
+          "tks": [
+            "BTC",
+            "ETH"
+          ]
+        },
+        {
+          "name": "宏观: 美伊接近核协议 + 以黎停火",
+          "heat": 60,
+          "desc": "特朗普称伊朗同意不拥核、归还核材料,下周末或再会;以色列同意 10 天停火。油价预期减半,风险资产受益,@krugerm",
+          "tks": []
+        },
+        {
+          "name": "隐私赛道轮动: ZEC/ZEN 退潮, CRCL 接力",
+          "heat": 55,
+          "desc": "@KelseyWeb3VC 从 ZEC/ZEN 轮入 CRCL 并加大仓位,判断隐私叙事动能减弱。OKX: ZEC/ZE",
+          "tks": [
+            "CRCL",
+            "ZEC"
+          ]
+        }
+      ],
+      "l1": [
+        {
+          "name": "ROSE (OKX无)"
+        },
+        {
+          "name": "VFX / vBTC (OKX无)"
+        },
+        {
+          "name": "Paimon Finance $PP (OKX无)"
+        },
+        {
+          "name": "edgeX (OKX无)"
+        },
+        {
+          "name": "SIREN (OKX无)"
+        },
+        {
+          "name": "BELIEF / PIGEON / XVG (OKX无)"
+        },
+        {
+          "name": "STO (OKX无)"
+        },
+        {
+          "name": "AI Skill/Agent 叙事"
+        }
+      ],
+      "comp": [
+        {
+          "what": "Binance 新上 CHIPUSDT 永续",
+          "detail": "pre-market 上市, OKX 无现货无合约, 即刻评估 meme 热度"
+        },
+        {
+          "what": "Binance 新上 GENIUSUSDT 永续",
+          "detail": "MC ~$184M, @bwenews 播报, OKX 完全缺失"
+        },
+        {
+          "what": "Binance 4/20 将上 MSFT/AVGO/BABA 股票永续",
+          "detail": "OKX 仅 MSFT 永续存在, AVGO/BABA 无"
+        },
+        {
+          "what": "股票/商品代币覆盖",
+          "detail": "Bitget 47, Bybit 14, Kraken 12, OKX ~29(25 股票永续 AAPL/NVDA/TSLA/MSFT 等 + 4 商品 BZ/CL/NG/XAUT)"
+        },
+        {
+          "what": "Schwab + Paxos 上线 BTC/ETH 现货",
+          "detail": "美国零售合规通道,对 OKX Wallet/美国策略参考"
+        },
+        {
+          "what": "Goldman 推 BTC Premium Income ETF",
+          "detail": "covered call 结构化, 对标 OKX 期权理财产品线"
+        }
+      ],
+      "cry": 312,
+      "kolCount": 10,
+      "tgGroups": 26
     }
   },
   "weekly": {
-    "period": "2026-04-16",
+    "period": "2026-04-16 ~ 2026-04-17",
     "kpis": [
       {
         "label": "新增L3",
-        "val": 4,
-        "prev": 2,
+        "val": 8,
+        "prev": 4,
         "unit": ""
       },
       {
         "label": "竞对动作",
-        "val": 2,
-        "prev": 1,
+        "val": 8,
+        "prev": 4,
         "unit": "条"
       },
       {
         "label": "信号总数",
-        "val": 238,
-        "prev": 119,
+        "val": 560,
+        "prev": 280,
         "unit": "条"
       },
       {
         "label": "追踪叙事",
-        "val": 14,
-        "prev": 7,
+        "val": 32,
+        "prev": 16,
         "unit": "个"
       }
     ],
@@ -168,10 +330,34 @@
         "type": "stay"
       },
       {
+        "name": "新币盲区: CHIP + GENIUS 被 Binance 抢先",
+        "from": "L3",
+        "to": "L3",
+        "heat": 88,
+        "delta": "+0",
+        "type": "stay"
+      },
+      {
+        "name": "RAVE 风控预警: 多源警告庄家控盘",
+        "from": "L3",
+        "to": "L3",
+        "heat": 86,
+        "delta": "+0",
+        "type": "stay"
+      },
+      {
         "name": "GENIUS 永续合约缺失",
         "from": "L3",
         "to": "L3",
         "heat": 85,
+        "delta": "+0",
+        "type": "stay"
+      },
+      {
+        "name": "ORDI 暴涨 190% 引爆 BRC20 + Runes 情绪",
+        "from": "L2",
+        "to": "L2",
+        "heat": 82,
         "delta": "+0",
         "type": "stay"
       },
@@ -184,6 +370,22 @@
         "type": "stay"
       },
       {
+        "name": "HYPE 巨鲸加仓 + Hayes 跟进",
+        "from": "L2",
+        "to": "L2",
+        "heat": 80,
+        "delta": "+0",
+        "type": "stay"
+      },
+      {
+        "name": "股票代币永续对标: Binance 4/20 批量上线",
+        "from": "L3",
+        "to": "L3",
+        "heat": 75,
+        "delta": "+0",
+        "type": "stay"
+      },
+      {
         "name": "地缘政治风险 — 伊朗/霍尔木兹海峡",
         "from": "L2",
         "to": "L2",
@@ -192,55 +394,65 @@
         "type": "stay"
       },
       {
-        "name": "BLESS 项目方砸盘预警",
-        "from": "L3",
-        "to": "L3",
-        "heat": 65,
-        "delta": "+0",
-        "type": "stay"
-      },
-      {
-        "name": "Binance USD1/WLFI 生态布局",
-        "from": "L3",
-        "to": "L3",
-        "heat": 60,
-        "delta": "+0",
-        "type": "stay"
-      },
-      {
-        "name": "Meme 板块回温",
+        "name": "机构 BTC 分化: 矿企抛售 vs 贝莱德提币",
         "from": "L2",
         "to": "L2",
-        "heat": 60,
-        "delta": "+0",
-        "type": "stay"
-      },
-      {
-        "name": "RENDER / HYPE 持续活跃",
-        "from": "L2",
-        "to": "L2",
-        "heat": 55,
-        "delta": "+0",
-        "type": "stay"
-      },
-      {
-        "name": "AI x Crypto 动态",
-        "from": "L2",
-        "to": "L2",
-        "heat": 45,
-        "delta": "+0",
-        "type": "stay"
-      },
-      {
-        "name": "LISTA",
-        "from": "L1",
-        "to": "L1",
-        "heat": 0,
+        "heat": 70,
         "delta": "+0",
         "type": "stay"
       }
     ],
     "events": [
+      {
+        "date": "04-17",
+        "title": "上币组 24h 内对 GENIUS 完成初审(市值、团队、合约),CHIP 作为 meme 跟...",
+        "color": "#23F7DD"
+      },
+      {
+        "date": "04-17",
+        "title": "风控组今日检视 RAVE 永续持仓集中度、强平梯度与杠杆上限;必要时临时下调最大杠杆",
+        "color": "#23F7DD"
+      },
+      {
+        "date": "04-17",
+        "title": "股票代币组本周内评估 AVGO/BABA 永续上线排期(对标 Binance 4/20),补齐...",
+        "color": "#23F7DD"
+      },
+      {
+        "date": "04-17",
+        "title": "产品/期权组评估是否推出 BTC covered call 结构化理财产品,对标 Goldman",
+        "color": "#23F7DD"
+      },
+      {
+        "date": "04-17",
+        "title": "Binance 新上 CHIPUSDT 永续 — pre-market 上市, OKX 无现货...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-17",
+        "title": "Binance 新上 GENIUSUSDT 永续 — MC ~$184M, @bwenews ...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-17",
+        "title": "Binance 4/20 将上 MSFT/AVGO/BABA 股票永续 — OKX 仅 MSF...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-17",
+        "title": "股票/商品代币覆盖 — Bitget 47, Bybit 14, Kraken 12, OKX...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-17",
+        "title": "Schwab + Paxos 上线 BTC/ETH 现货 — 美国零售合规通道,对 OKX W...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-17",
+        "title": "Goldman 推 BTC Premium Income ETF — covered call...",
+        "color": "#FFB302"
+      },
       {
         "date": "04-16",
         "title": "紧急评估 GENIUS 项目，考虑跟进上线永续合约",
@@ -274,30 +486,30 @@
     ]
   },
   "monthly": {
-    "period": "2026-04-16",
+    "period": "2026-04-16 ~ 2026-04-17",
     "kpis": [
       {
         "label": "追踪叙事",
-        "val": 14,
-        "prev": 7,
+        "val": 32,
+        "prev": 16,
         "unit": "个"
       },
       {
         "label": "累计L3预警",
-        "val": 4,
-        "prev": 2,
+        "val": 8,
+        "prev": 4,
         "unit": "个"
       },
       {
         "label": "竞对动作",
-        "val": 2,
-        "prev": 1,
+        "val": 8,
+        "prev": 4,
         "unit": "条"
       },
       {
         "label": "信号总数",
-        "val": 238,
-        "prev": 119,
+        "val": 560,
+        "prev": 280,
         "unit": "条"
       }
     ],
@@ -305,84 +517,103 @@
     "misses": [],
     "lifecycle": [
       {
-        "name": "GENIUS 永续合约缺失",
+        "name": "新币盲区: CHIP + GENIUS 被 Binance 抢先",
         "days": 1,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
-          85
+          0,
+          88
         ]
       },
       {
-        "name": "RAVE 合约风控预警 + 产品线不完整",
+        "name": "RAVE 风控预警: 多源警告庄家控盘",
         "days": 1,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
-          90
+          0,
+          86
         ]
       },
       {
-        "name": "BLESS 项目方砸盘预警",
+        "name": "股票代币永续对标: Binance 4/20 批量上线",
+        "days": 1,
+        "level": "L3",
+        "phase": "爆发期",
+        "heat": [
+          0,
+          75
+        ]
+      },
+      {
+        "name": "BTCFi 产品线空白: Goldman 覆盖式看涨 ETF 上线",
         "days": 1,
         "level": "L3",
         "phase": "增长期",
         "heat": [
-          65
+          0,
+          68
         ]
       },
       {
-        "name": "Binance USD1/WLFI 生态布局",
-        "days": 1,
-        "level": "L3",
-        "phase": "增长期",
-        "heat": [
-          60
-        ]
-      },
-      {
-        "name": "BTC 积累阶段信号",
+        "name": "ORDI 暴涨 190% 引爆 BRC20 + Runes 情绪",
         "days": 1,
         "level": "L2",
         "phase": "爆发期",
         "heat": [
+          0,
+          82
+        ]
+      },
+      {
+        "name": "HYPE 巨鲸加仓 + Hayes 跟进",
+        "days": 1,
+        "level": "L2",
+        "phase": "爆发期",
+        "heat": [
+          0,
           80
         ]
       },
       {
-        "name": "地缘政治风险 — 伊朗/霍尔木兹海峡",
+        "name": "机构 BTC 分化: 矿企抛售 vs 贝莱德提币",
         "days": 1,
         "level": "L2",
         "phase": "爆发期",
         "heat": [
+          0,
           70
         ]
       },
       {
-        "name": "Meme 板块回温",
+        "name": "Schwab 启动 BTC/ETH 现货交易(Paxos 驱动)",
         "days": 1,
         "level": "L2",
         "phase": "增长期",
         "heat": [
+          0,
+          65
+        ]
+      },
+      {
+        "name": "宏观: 美伊接近核协议 + 以黎停火",
+        "days": 1,
+        "level": "L2",
+        "phase": "增长期",
+        "heat": [
+          0,
           60
         ]
       },
       {
-        "name": "RENDER / HYPE 持续活跃",
+        "name": "隐私赛道轮动: ZEC/ZEN 退潮, CRCL 接力",
         "days": 1,
         "level": "L2",
         "phase": "增长期",
         "heat": [
+          0,
           55
-        ]
-      },
-      {
-        "name": "AI x Crypto 动态",
-        "days": 1,
-        "level": "L2",
-        "phase": "增长期",
-        "heat": [
-          45
         ]
       }
     ]
