@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-04-18",
     "2026-04-17",
     "2026-04-16"
   ],
@@ -290,41 +291,226 @@
       "cry": 312,
       "kolCount": 10,
       "tgGroups": 26
+    },
+    "2026-04-18": {
+      "summary": "美伊局势大幅缓和，霍尔木兹海峡部分重新开放，风险资产普遍反弹：BTC 回到 7.7 万美元，标普纳指连续新高，纳斯达克 13 连涨。BTC 现货 ETF 昨日净流入 $6.64 亿、ETH 现货 ETF 净流入 $1.27 亿（7 日连阳）。市场风格呈现'抄底机器'的 risk-on 特征。Meme 行情升温（ASTEROID/RAVE/币安人生新高），但 RAVE 97% 控盘、爆仓额仅次于 B",
+      "topTk": [
+        "RAVE",
+        "GENIUS",
+        "AVGO",
+        "BABA",
+        "CHIP",
+        "STRC"
+      ],
+      "l3": [
+        {
+          "name": "RAVE 风控预警 — 97% 控盘、爆仓激增",
+          "heat": 92,
+          "urg": "立即",
+          "desc": "RAVE 创历史新高后 24h 爆仓额仅次于 BTC 和 ETH，持仓量骤减，多源 KOL（0xVeryBigOrange、jason_chen998、Web3",
+          "act": "合约风控：复核 RAVE 永续限仓与强平阶梯；评估是否临时上调保证金比例；监控 OI 异动与爆仓级联",
+          "tks": [
+            "RAVE"
+          ]
+        },
+        {
+          "name": "竞对股票/商品衍生品产品线加速扩张",
+          "heat": 80,
+          "urg": "4/20 前",
+          "desc": "Binance Futures 宣布 4/20 上线 MSFT/AVGO/BABA 股票永续，4/16 已上 CHIP（半导体指数）预市场与 GENIUS 永续",
+          "act": "产品/上币评估 AVGO/BABA 股票永续作为现有股票 Swap 产品线补齐；评估 GENIUS crypto 上币（",
+          "tks": [
+            "AVGO",
+            "BABA",
+            "CHIP"
+          ]
+        },
+        {
+          "name": "STRC（Strategy 半月分红产品）上币机会",
+          "heat": 65,
+          "urg": "6/8 前完成评估",
+          "desc": "Strategy（MSTR）提案将 STRC 分红频率由每月改为半月一次，6/8 投票。Pentosh1 与 WuBlockchain 均表示这对 Saylor",
+          "act": "产品评估 STRC 作为 MSTR 配套产品；若 6/8 投票通过将直接带来现金流预期改善",
+          "tks": [
+            "STRC",
+            "MSTR"
+          ]
+        }
+      ],
+      "l2": [
+        {
+          "name": "美伊缓和 / 霍尔木兹重开 → 全面 risk-on",
+          "heat": 90,
+          "desc": "霍尔木兹海峡部分重开，但伊朗议长仍表态不放弃控制权，市场呈条件性缓和。美军 21 艘船按指示掉头，美国数日内赴巴基斯坦与",
+          "tks": [
+            "BTC",
+            "ETH"
+          ]
+        },
+        {
+          "name": "BTC/ETH 现货 ETF 连续净流入",
+          "heat": 85,
+          "desc": "BTC ETF 昨日净流入 $6.64 亿、ETH ETF 净流入 $1.27 亿且 7 日连阳；BitMine 继续扩",
+          "tks": [
+            "BTC",
+            "ETH"
+          ]
+        },
+        {
+          "name": "Meme 行情升温：币安人生 / ASTEROID / ASTER / RAVE",
+          "heat": 75,
+          "desc": "'币安人生'突破 $0.54 创 ATH、控盘集群休眠 2 日后爆发；Moonshot 一夜上线三项目，meme 升温；",
+          "tks": [
+            "ASTER",
+            "ASTEROID"
+          ]
+        },
+        {
+          "name": "行业结构：Kraken 收购 Bitnomial ($550M)",
+          "heat": 55,
+          "desc": "Kraken 母公司 Payward 以 $550M 收购美国衍生品公司 Bitnomial，打通经纪/清算/交易所全栈",
+          "tks": []
+        },
+        {
+          "name": "预测市场作为 Alpha 来源",
+          "heat": 55,
+          "desc": "0xchangan、Web3Feng、0xVeryBigOrange 多位 CN KOL 讨论 Polymarket/D",
+          "tks": []
+        },
+        {
+          "name": "巨鲸 Aave 杠杆循环 / 稳定币供给扩张",
+          "heat": 55,
+          "desc": "Tether 向 Kraken 铸造 $150M USDT；Kraken → Aave $140M USDT；Bitfi",
+          "tks": [
+            "USDT",
+            "USDC"
+          ]
+        },
+        {
+          "name": "Coinbase Ventures 资本主题 / RWA & AI Agent",
+          "heat": 55,
+          "desc": "Coinbase Ventures 明确新赛道：代币化、交易基础设施、下一代 DeFi（资本效率+隐私）、AI Agen",
+          "tks": []
+        },
+        {
+          "name": "隐私币 / Zcash 安全硬化",
+          "heat": 40,
+          "desc": "Zcash 发布安全补丁 v6.12.1 与 Zebra 4.3.1，包含多项关键修复。隐私币在监管缓和预期下被重新关注",
+          "tks": [
+            "ZEC"
+          ]
+        }
+      ],
+      "l1": [
+        {
+          "name": "EDGEX"
+        },
+        {
+          "name": "Paimon Finance / SpaceX Pre-IPO"
+        },
+        {
+          "name": "DRIFT Tether 救助 $127.5M"
+        },
+        {
+          "name": "KAS / MOVR / XVG"
+        },
+        {
+          "name": "Canton CC / ZAMA Upbit 上币"
+        },
+        {
+          "name": "Zcash 节点升级 / 隐私币赛道"
+        },
+        {
+          "name": "SOON 现货机会"
+        },
+        {
+          "name": "AAOI 做空 (hexiecs 跟随 Citron)"
+        }
+      ],
+      "comp": [
+        {
+          "what": "Binance Futures 4/20 上线 MSFT/AVGO/BABA 股票永续",
+          "detail": "对标 OKX 股票 Swap 产品线；OKX 已有 MSFT，AVGO/BABA 缺失"
+        },
+        {
+          "what": "Binance Futures 4/16 上线 CHIP 预市场 + GENIUS 永续",
+          "detail": "CHIP 半导体指数、GENIUS $184M mcap，OKX 均无"
+        },
+        {
+          "what": "Upbit KRW 上线 SOON、ZAMA（叠加 BTC/USDT）、Canton CC（叠加 BTC/USDT）",
+          "detail": "SOON OKX 缺现货，CANTON 完全无，ZAMA 已全覆盖"
+        },
+        {
+          "what": "Kraken 母公司 Payward 以 $550M 收购 Bitnomial",
+          "detail": "打通经纪/清算/交易所全栈衍生品"
+        },
+        {
+          "what": "Deutsche Börse 向 Kraken 投资 $200M",
+          "detail": "传统交易所巨头入场加密衍生品"
+        },
+        {
+          "what": "Binance Alpha 宣布 UTK 退市并发放空投",
+          "detail": "Alpha 产品线调整信号"
+        },
+        {
+          "what": "bwenews（OKX）发布 Agent Trade Kit：KOL/媒体情绪雷达，覆盖 30k+ KOL",
+          "detail": "OKX 自身产品线更新"
+        }
+      ],
+      "cry": 264,
+      "kolCount": 11,
+      "tgGroups": 28
     }
   },
   "weekly": {
-    "period": "2026-04-16 ~ 2026-04-17",
+    "period": "2026-04-16 ~ 2026-04-18",
     "kpis": [
       {
         "label": "新增L3",
-        "val": 8,
-        "prev": 4,
+        "val": 11,
+        "prev": 5,
         "unit": ""
       },
       {
         "label": "竞对动作",
-        "val": 8,
-        "prev": 4,
+        "val": 15,
+        "prev": 7,
         "unit": "条"
       },
       {
         "label": "信号总数",
-        "val": 560,
-        "prev": 280,
+        "val": 835,
+        "prev": 417,
         "unit": "条"
       },
       {
         "label": "追踪叙事",
-        "val": 32,
-        "prev": 16,
+        "val": 51,
+        "prev": 25,
         "unit": "个"
       }
     ],
     "movers": [
       {
+        "name": "RAVE 风控预警 — 97% 控盘、爆仓激增",
+        "from": "L3",
+        "to": "L3",
+        "heat": 92,
+        "delta": "+0",
+        "type": "stay"
+      },
+      {
         "name": "RAVE 合约风控预警 + 产品线不完整",
         "from": "L3",
         "to": "L3",
+        "heat": 90,
+        "delta": "+0",
+        "type": "stay"
+      },
+      {
+        "name": "美伊缓和 / 霍尔木兹重开 → 全面 risk-on",
+        "from": "L2",
+        "to": "L2",
         "heat": 90,
         "delta": "+0",
         "type": "stay"
@@ -354,6 +540,14 @@
         "type": "stay"
       },
       {
+        "name": "BTC/ETH 现货 ETF 连续净流入",
+        "from": "L2",
+        "to": "L2",
+        "heat": 85,
+        "delta": "+0",
+        "type": "stay"
+      },
+      {
         "name": "ORDI 暴涨 190% 引爆 BRC20 + Runes 情绪",
         "from": "L2",
         "to": "L2",
@@ -376,33 +570,59 @@
         "heat": 80,
         "delta": "+0",
         "type": "stay"
-      },
-      {
-        "name": "股票代币永续对标: Binance 4/20 批量上线",
-        "from": "L3",
-        "to": "L3",
-        "heat": 75,
-        "delta": "+0",
-        "type": "stay"
-      },
-      {
-        "name": "地缘政治风险 — 伊朗/霍尔木兹海峡",
-        "from": "L2",
-        "to": "L2",
-        "heat": 70,
-        "delta": "+0",
-        "type": "stay"
-      },
-      {
-        "name": "机构 BTC 分化: 矿企抛售 vs 贝莱德提币",
-        "from": "L2",
-        "to": "L2",
-        "heat": 70,
-        "delta": "+0",
-        "type": "stay"
       }
     ],
     "events": [
+      {
+        "date": "04-18",
+        "title": "合约风控：复核 RAVE 永续限仓与强平阶梯；评估是否临时上调保证金比例；监控 OI 异动与爆仓级联",
+        "color": "#23F7DD"
+      },
+      {
+        "date": "04-18",
+        "title": "产品/上币评估 AVGO/BABA 股票永续作为现有股票 Swap 产品线补齐；评估 GENI...",
+        "color": "#23F7DD"
+      },
+      {
+        "date": "04-18",
+        "title": "产品评估 STRC 作为 MSTR 配套产品；若 6/8 投票通过将直接带来现金流预期改善",
+        "color": "#23F7DD"
+      },
+      {
+        "date": "04-18",
+        "title": "Binance Futures 4/20 上线 MSFT/AVGO/BABA 股票永续 — 对...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-18",
+        "title": "Binance Futures 4/16 上线 CHIP 预市场 + GENIUS 永续 — ...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-18",
+        "title": "Upbit KRW 上线 SOON、ZAMA（叠加 BTC/USDT）、Canton CC（叠...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-18",
+        "title": "Kraken 母公司 Payward 以 $550M 收购 Bitnomial — 打通经纪/...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-18",
+        "title": "Deutsche Börse 向 Kraken 投资 $200M — 传统交易所巨头入场加密衍生品",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-18",
+        "title": "Binance Alpha 宣布 UTK 退市并发放空投 — Alpha 产品线调整信号",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-18",
+        "title": "bwenews（OKX）发布 Agent Trade Kit：KOL/媒体情绪雷达，覆盖 30...",
+        "color": "#FFB302"
+      },
       {
         "date": "04-17",
         "title": "上币组 24h 内对 GENIUS 完成初审(市值、团队、合约),CHIP 作为 meme 跟...",
@@ -452,64 +672,34 @@
         "date": "04-17",
         "title": "Goldman 推 BTC Premium Income ETF — covered call...",
         "color": "#FFB302"
-      },
-      {
-        "date": "04-16",
-        "title": "紧急评估 GENIUS 项目，考虑跟进上线永续合约",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-16",
-        "title": "紧急：合约风控团队评估 RAVE 穿仓/ADL 风险；90%筹码集中3钱包，暂不建议开现货",
-        "color": "#E74C5A"
-      },
-      {
-        "date": "04-16",
-        "title": "确认无做市/投资关联风险；标记 BLESS 为高风险项目",
-        "color": "#23F7DD"
-      },
-      {
-        "date": "04-16",
-        "title": "关注 Binance USD1 生态运营力度，评估 OKX 是否需要跟进类似活动",
-        "color": "#23F7DD"
-      },
-      {
-        "date": "04-16",
-        "title": "Binance 上线 GENIUS — perp_usdt",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-16",
-        "title": "Bitget 上线 GENIUS — perp_usdt",
-        "color": "#FFB302"
       }
     ]
   },
   "monthly": {
-    "period": "2026-04-16 ~ 2026-04-17",
+    "period": "2026-04-16 ~ 2026-04-18",
     "kpis": [
       {
         "label": "追踪叙事",
-        "val": 32,
-        "prev": 16,
+        "val": 51,
+        "prev": 25,
         "unit": "个"
       },
       {
         "label": "累计L3预警",
-        "val": 8,
-        "prev": 4,
+        "val": 11,
+        "prev": 5,
         "unit": "个"
       },
       {
         "label": "竞对动作",
-        "val": 8,
-        "prev": 4,
+        "val": 15,
+        "prev": 7,
         "unit": "条"
       },
       {
         "label": "信号总数",
-        "val": 560,
-        "prev": 280,
+        "val": 835,
+        "prev": 417,
         "unit": "条"
       }
     ],
@@ -517,101 +707,111 @@
     "misses": [],
     "lifecycle": [
       {
-        "name": "新币盲区: CHIP + GENIUS 被 Binance 抢先",
+        "name": "RAVE 风控预警 — 97% 控盘、爆仓激增",
         "days": 1,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
           0,
-          88
+          0,
+          92
         ]
       },
       {
-        "name": "RAVE 风控预警: 多源警告庄家控盘",
+        "name": "竞对股票/商品衍生品产品线加速扩张",
         "days": 1,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
           0,
-          86
-        ]
-      },
-      {
-        "name": "股票代币永续对标: Binance 4/20 批量上线",
-        "days": 1,
-        "level": "L3",
-        "phase": "爆发期",
-        "heat": [
-          0,
-          75
-        ]
-      },
-      {
-        "name": "BTCFi 产品线空白: Goldman 覆盖式看涨 ETF 上线",
-        "days": 1,
-        "level": "L3",
-        "phase": "增长期",
-        "heat": [
-          0,
-          68
-        ]
-      },
-      {
-        "name": "ORDI 暴涨 190% 引爆 BRC20 + Runes 情绪",
-        "days": 1,
-        "level": "L2",
-        "phase": "爆发期",
-        "heat": [
-          0,
-          82
-        ]
-      },
-      {
-        "name": "HYPE 巨鲸加仓 + Hayes 跟进",
-        "days": 1,
-        "level": "L2",
-        "phase": "爆发期",
-        "heat": [
           0,
           80
         ]
       },
       {
-        "name": "机构 BTC 分化: 矿企抛售 vs 贝莱德提币",
+        "name": "STRC（Strategy 半月分红产品）上币机会",
         "days": 1,
-        "level": "L2",
-        "phase": "爆发期",
-        "heat": [
-          0,
-          70
-        ]
-      },
-      {
-        "name": "Schwab 启动 BTC/ETH 现货交易(Paxos 驱动)",
-        "days": 1,
-        "level": "L2",
+        "level": "L3",
         "phase": "增长期",
         "heat": [
+          0,
           0,
           65
         ]
       },
       {
-        "name": "宏观: 美伊接近核协议 + 以黎停火",
+        "name": "美伊缓和 / 霍尔木兹重开 → 全面 risk-on",
+        "days": 1,
+        "level": "L2",
+        "phase": "爆发期",
+        "heat": [
+          0,
+          0,
+          90
+        ]
+      },
+      {
+        "name": "BTC/ETH 现货 ETF 连续净流入",
+        "days": 1,
+        "level": "L2",
+        "phase": "爆发期",
+        "heat": [
+          0,
+          0,
+          85
+        ]
+      },
+      {
+        "name": "Meme 行情升温：币安人生 / ASTEROID / ASTER / RAVE",
+        "days": 1,
+        "level": "L2",
+        "phase": "爆发期",
+        "heat": [
+          0,
+          0,
+          75
+        ]
+      },
+      {
+        "name": "行业结构：Kraken 收购 Bitnomial ($550M)",
         "days": 1,
         "level": "L2",
         "phase": "增长期",
         "heat": [
           0,
-          60
+          0,
+          55
         ]
       },
       {
-        "name": "隐私赛道轮动: ZEC/ZEN 退潮, CRCL 接力",
+        "name": "预测市场作为 Alpha 来源",
         "days": 1,
         "level": "L2",
         "phase": "增长期",
         "heat": [
+          0,
+          0,
+          55
+        ]
+      },
+      {
+        "name": "巨鲸 Aave 杠杆循环 / 稳定币供给扩张",
+        "days": 1,
+        "level": "L2",
+        "phase": "增长期",
+        "heat": [
+          0,
+          0,
+          55
+        ]
+      },
+      {
+        "name": "Coinbase Ventures 资本主题 / RWA & AI Agent",
+        "days": 1,
+        "level": "L2",
+        "phase": "增长期",
+        "heat": [
+          0,
           0,
           55
         ]
