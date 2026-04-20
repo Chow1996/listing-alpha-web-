@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-04-20",
     "2026-04-18",
     "2026-04-17",
     "2026-04-16"
@@ -460,37 +461,235 @@
       "cry": 264,
       "kolCount": 11,
       "tgGroups": 28
+    },
+    "2026-04-20": {
+      "summary": "DeFi 系统性风险事件主导本日：KelpDAO rsETH 桥通过 LayerZero 单签被攻击 ~$293M，Aave 被迫冻结 rsETH 市场并累计流失 $84 亿 TVL（-30%+），Reserve 暂停 eUSD/USD3 铸造/再平衡，Fluid 推出 aWETH 赎回协议（初始容量 $10 亿）以降低系统性风险，Justin Sun 从 Aave 撤出 65,584 ETH（~",
+      "topTk": [
+        "rsETH",
+        "AAVE",
+        "ETHFI",
+        "RAVE",
+        "AVGO",
+        "BABA"
+      ],
+      "l3": [
+        {
+          "name": "KelpDAO rsETH + LayerZero 桥漏洞事件 — DeFi 系统性风险",
+          "heat": 95,
+          "urg": "立即",
+          "desc": "KelpDAO 官方桥因 LayerZero 单签配置被攻击，盗取 116,500 枚 rsETH（~$293M）。Aave V3/V4 紧急冻结 rsETH ",
+          "act": "合约风控：监控 AAVE 永续 OI 与强平阶梯、评估坏账事件冲击；关注 LRT 赛道整体风险；评估 FLUID 永续上",
+          "tks": [
+            "rsETH",
+            "KELP",
+            "ETHFI"
+          ]
+        },
+        {
+          "name": "RAVE 操纵事件升级 — 24h -88%、$23M 倾销、Binance/Bitget 官方调查",
+          "heat": 90,
+          "urg": "立即",
+          "desc": "承接 4/18 风控预警：RAVE 在 ZachXBT 公开调查后 24h 跌 -88%，爆仓 $43.68M；RaveDAO 关联初始分配地址向 Bitget",
+          "act": "合约风控：紧急复核 RAVE 永续限仓、保证金比例、强平阶梯；对齐 Binance/Bitget 调查结果；评估下架或暂",
+          "tks": [
+            "RAVE"
+          ]
+        },
+        {
+          "name": "ZachXBT 点名下一波操纵候选 — SIREN/MYX/COAI/M/PIPPIN/RIVER",
+          "heat": 82,
+          "urg": "立即",
+          "desc": "WuBlockchain 转述 ZachXBT 将 SIREN/MYX/COAI/M/PIPPIN/RIVER 6 个 token 列为下一批高度可疑的低流通操",
+          "act": "合约风控：对 COAI/PIPPIN/RIVER 执行与 RAVE 相同的预防检查；对 SIREN/MYX/M/ARIA",
+          "tks": [
+            "SIREN",
+            "MYX",
+            "COAI"
+          ]
+        },
+        {
+          "name": "竞对股票衍生品 4/20 正式上线 — OKX 产品线差距收窄窗口",
+          "heat": 78,
+          "urg": "本周内",
+          "desc": "Binance Futures 今日 (2026-04-20) 正式上线 MSFTUSDT / AVGOUSDT / BABAUSDT 股票永续（4/18 已预",
+          "act": "产品/上币加速评估 AVGO/BABA 股票永续；若 legal/清算路径不阻塞，建议 2 周内跟进",
+          "tks": [
+            "AVGO",
+            "BABA",
+            "CHIP"
+          ]
+        }
+      ],
+      "l2": [
+        {
+          "name": "美伊和谈破裂 / BTC 跌破 $7.4 万 — risk-off 反转",
+          "heat": 88,
+          "desc": "临时停火周三到期、伊媒称拒谈，霍尔木兹海峡当日无船只通行、月底前通航概率仅 30%。美军海军陆战队控制试图突破封锁的伊朗",
+          "tks": [
+            "BTC",
+            "ETH"
+          ]
+        },
+        {
+          "name": "稳定币巨鲸轮转 $1.5B+ — Aave 去杠杆 + CEX 流动性补充",
+          "heat": 75,
+          "desc": "24h 内 $1.5B+ 稳定币巨鲸流动：Tether 向 Kraken/Bitfinex 共铸造 $200M+ USD",
+          "tks": [
+            "USDT",
+            "USDC"
+          ]
+        },
+        {
+          "name": "LayerZero 桥单签风险公开列表 — 下一波潜在受害者",
+          "heat": 72,
+          "desc": "Kelp 事件暴露 LayerZero 1-of-1 配置桥单签风险。推文公开列出仍使用该配置的协议：Aave、Kelp",
+          "tks": [
+            "SWELL",
+            "VANA"
+          ]
+        },
+        {
+          "name": "Solana 稳定币借贷利率爆表 — Jupiter Lend USDC 99%",
+          "heat": 62,
+          "desc": "Jupiter Lend USDC 利用率飙升至 99%，Solana 生态稳定币借贷利率与利用率全面拉升，可能与 ET",
+          "tks": [
+            "JUP",
+            "USDC"
+          ]
+        },
+        {
+          "name": "Binance / Bybit / 监管格局变化",
+          "heat": 60,
+          "desc": "CZ 宣布很快在迪拜办'币安人生'首场签售会（币安人生持续高热度）；Sberbank（俄罗斯最大银行）准备加密交易业务；",
+          "tks": []
+        },
+        {
+          "name": "ASTER 结构性多头 — 不冻账户 + Binance 流动性",
+          "heat": 58,
+          "desc": "0xVeryBigOrange：ASTER 因不冻账户 + Binance 流动性，运行 3 日 CTA +5%；Hyp",
+          "tks": [
+            "ASTER",
+            "HYPE"
+          ]
+        },
+        {
+          "name": "AI / Vibe Coding 交易工具渗透深",
+          "heat": 50,
+          "desc": "Web3Feng、hexiecs、0xchangan、0xVeryBigOrange 均在讨论 Claude/Codex",
+          "tks": []
+        },
+        {
+          "name": "北朝鲜渗透 Web3 开发团队",
+          "heat": 45,
+          "desc": "WuBlockchain + fejau_inc 讨论 Ethereum Foundation 'Ketman' 事件（",
+          "tks": []
+        }
+      ],
+      "l1": [
+        {
+          "name": "MNT (Mantle) — TG 热榜 #2 OKX 无"
+        },
+        {
+          "name": "GRIFFAIN — TG 4 次 OKX 无"
+        },
+        {
+          "name": "CAT — TG 16 次 OKX 仅现货"
+        },
+        {
+          "name": "edgeX 持续关注"
+        },
+        {
+          "name": "Copper 大宗商品 (Bluntz_Capital)"
+        },
+        {
+          "name": "Orca 密钥轮换 (安全事件)"
+        },
+        {
+          "name": "XPL/ZRO/H 本周解锁"
+        },
+        {
+          "name": "BMNR (BitMine 永续 pref) 概念"
+        },
+        {
+          "name": "Sberbank 俄罗斯加密交易"
+        }
+      ],
+      "comp": [
+        {
+          "what": "Binance Futures 4/20 正式上线 MSFT / AVGO / BABA 股票永续",
+          "detail": "OKX 股票 Swap 已有 MSFT，缺 AVGO/BABA；4/16 已上 CHIP 预市场 + GENIUS 永续"
+        },
+        {
+          "what": "Aave V3/V4 冻结 rsETH 市场 + 多签守卫冻结 WETH 借贷",
+          "detail": "Kelp 事件响应；TVL -$84 亿 / -30%+"
+        },
+        {
+          "what": "Reserve 暂停 eUSD/USD3 铸造与再平衡，赎回正常",
+          "detail": "下游受 rsETH 事件波及"
+        },
+        {
+          "what": "Fluid 上线 aWETH 赎回协议 — 初始 $10 亿容量",
+          "detail": "降低 DeFi 系统性风险"
+        },
+        {
+          "what": "Binance/Bitget 启动 RAVE 操纵官方调查",
+          "detail": "配合 ZachXBT 公开线索"
+        },
+        {
+          "what": "Sberbank (俄罗斯) 准备加密交易业务",
+          "detail": "传统巨头入场信号"
+        },
+        {
+          "what": "HK 禁止预测市场 / Pakistan 解除加密禁令",
+          "detail": "监管面分化"
+        },
+        {
+          "what": "Jupiter Lend USDC 利用率飙至 99%",
+          "detail": "Solana 侧稳定币借贷热度"
+        }
+      ],
+      "cry": 302,
+      "kolCount": 14,
+      "tgGroups": 28
     }
   },
   "weekly": {
-    "period": "2026-04-16 ~ 2026-04-18",
+    "period": "2026-04-16 ~ 2026-04-20",
     "kpis": [
       {
         "label": "新增L3",
-        "val": 11,
-        "prev": 5,
+        "val": 15,
+        "prev": 7,
         "unit": ""
       },
       {
         "label": "竞对动作",
-        "val": 15,
-        "prev": 7,
+        "val": 23,
+        "prev": 11,
         "unit": "条"
       },
       {
         "label": "信号总数",
-        "val": 835,
-        "prev": 417,
+        "val": 1151,
+        "prev": 575,
         "unit": "条"
       },
       {
         "label": "追踪叙事",
-        "val": 51,
-        "prev": 25,
+        "val": 72,
+        "prev": 36,
         "unit": "个"
       }
     ],
     "movers": [
+      {
+        "name": "KelpDAO rsETH + LayerZero 桥漏洞事件 — DeFi 系统性风险",
+        "from": "L3",
+        "to": "L3",
+        "heat": 95,
+        "delta": "+0",
+        "type": "stay"
+      },
       {
         "name": "RAVE 风控预警 — 97% 控盘、爆仓激增",
         "from": "L3",
@@ -516,9 +715,25 @@
         "type": "stay"
       },
       {
+        "name": "RAVE 操纵事件升级 — 24h -88%、$23M 倾销、Binance/Bitget 官方调查",
+        "from": "L3",
+        "to": "L3",
+        "heat": 90,
+        "delta": "+0",
+        "type": "stay"
+      },
+      {
         "name": "新币盲区: CHIP + GENIUS 被 Binance 抢先",
         "from": "L3",
         "to": "L3",
+        "heat": 88,
+        "delta": "+0",
+        "type": "stay"
+      },
+      {
+        "name": "美伊和谈破裂 / BTC 跌破 $7.4 万 — risk-off 反转",
+        "from": "L2",
+        "to": "L2",
         "heat": 88,
         "delta": "+0",
         "type": "stay"
@@ -546,33 +761,69 @@
         "heat": 85,
         "delta": "+0",
         "type": "stay"
-      },
-      {
-        "name": "ORDI 暴涨 190% 引爆 BRC20 + Runes 情绪",
-        "from": "L2",
-        "to": "L2",
-        "heat": 82,
-        "delta": "+0",
-        "type": "stay"
-      },
-      {
-        "name": "BTC 积累阶段信号",
-        "from": "L2",
-        "to": "L2",
-        "heat": 80,
-        "delta": "+0",
-        "type": "stay"
-      },
-      {
-        "name": "HYPE 巨鲸加仓 + Hayes 跟进",
-        "from": "L2",
-        "to": "L2",
-        "heat": 80,
-        "delta": "+0",
-        "type": "stay"
       }
     ],
     "events": [
+      {
+        "date": "04-20",
+        "title": "合约风控：监控 AAVE 永续 OI 与强平阶梯、评估坏账事件冲击；关注 LRT 赛道整体风险...",
+        "color": "#23F7DD"
+      },
+      {
+        "date": "04-20",
+        "title": "合约风控：紧急复核 RAVE 永续限仓、保证金比例、强平阶梯；对齐 Binance/Bitge...",
+        "color": "#23F7DD"
+      },
+      {
+        "date": "04-20",
+        "title": "合约风控：对 COAI/PIPPIN/RIVER 执行与 RAVE 相同的预防检查；对 SIR...",
+        "color": "#23F7DD"
+      },
+      {
+        "date": "04-20",
+        "title": "产品/上币加速评估 AVGO/BABA 股票永续；若 legal/清算路径不阻塞，建议 2 周内跟进",
+        "color": "#23F7DD"
+      },
+      {
+        "date": "04-20",
+        "title": "Binance Futures 4/20 正式上线 MSFT / AVGO / BABA 股票...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-20",
+        "title": "Aave V3/V4 冻结 rsETH 市场 + 多签守卫冻结 WETH 借贷 — Kelp ...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-20",
+        "title": "Reserve 暂停 eUSD/USD3 铸造与再平衡，赎回正常 — 下游受 rsETH 事件波及",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-20",
+        "title": "Fluid 上线 aWETH 赎回协议 — 初始 $10 亿容量 — 降低 DeFi 系统性风险",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-20",
+        "title": "Binance/Bitget 启动 RAVE 操纵官方调查 — 配合 ZachXBT 公开线索",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-20",
+        "title": "Sberbank (俄罗斯) 准备加密交易业务 — 传统巨头入场信号",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-20",
+        "title": "HK 禁止预测市场 / Pakistan 解除加密禁令 — 监管面分化",
+        "color": "#FFB302"
+      },
+      {
+        "date": "04-20",
+        "title": "Jupiter Lend USDC 利用率飙至 99% — Solana 侧稳定币借贷热度",
+        "color": "#FFB302"
+      },
       {
         "date": "04-18",
         "title": "合约风控：复核 RAVE 永续限仓与强平阶梯；评估是否临时上调保证金比例；监控 OI 异动与爆仓级联",
@@ -612,94 +863,34 @@
         "date": "04-18",
         "title": "Deutsche Börse 向 Kraken 投资 $200M — 传统交易所巨头入场加密衍生品",
         "color": "#FFB302"
-      },
-      {
-        "date": "04-18",
-        "title": "Binance Alpha 宣布 UTK 退市并发放空投 — Alpha 产品线调整信号",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-18",
-        "title": "bwenews（OKX）发布 Agent Trade Kit：KOL/媒体情绪雷达，覆盖 30...",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-17",
-        "title": "上币组 24h 内对 GENIUS 完成初审(市值、团队、合约),CHIP 作为 meme 跟...",
-        "color": "#23F7DD"
-      },
-      {
-        "date": "04-17",
-        "title": "风控组今日检视 RAVE 永续持仓集中度、强平梯度与杠杆上限;必要时临时下调最大杠杆",
-        "color": "#23F7DD"
-      },
-      {
-        "date": "04-17",
-        "title": "股票代币组本周内评估 AVGO/BABA 永续上线排期(对标 Binance 4/20),补齐...",
-        "color": "#23F7DD"
-      },
-      {
-        "date": "04-17",
-        "title": "产品/期权组评估是否推出 BTC covered call 结构化理财产品,对标 Goldman",
-        "color": "#23F7DD"
-      },
-      {
-        "date": "04-17",
-        "title": "Binance 新上 CHIPUSDT 永续 — pre-market 上市, OKX 无现货...",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-17",
-        "title": "Binance 新上 GENIUSUSDT 永续 — MC ~$184M, @bwenews ...",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-17",
-        "title": "Binance 4/20 将上 MSFT/AVGO/BABA 股票永续 — OKX 仅 MSF...",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-17",
-        "title": "股票/商品代币覆盖 — Bitget 47, Bybit 14, Kraken 12, OKX...",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-17",
-        "title": "Schwab + Paxos 上线 BTC/ETH 现货 — 美国零售合规通道,对 OKX W...",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-17",
-        "title": "Goldman 推 BTC Premium Income ETF — covered call...",
-        "color": "#FFB302"
       }
     ]
   },
   "monthly": {
-    "period": "2026-04-16 ~ 2026-04-18",
+    "period": "2026-04-16 ~ 2026-04-20",
     "kpis": [
       {
         "label": "追踪叙事",
-        "val": 51,
-        "prev": 25,
+        "val": 72,
+        "prev": 36,
         "unit": "个"
       },
       {
         "label": "累计L3预警",
-        "val": 11,
-        "prev": 5,
+        "val": 15,
+        "prev": 7,
         "unit": "个"
       },
       {
         "label": "竞对动作",
-        "val": 15,
-        "prev": 7,
+        "val": 23,
+        "prev": 11,
         "unit": "条"
       },
       {
         "label": "信号总数",
-        "val": 835,
-        "prev": 417,
+        "val": 1151,
+        "prev": 575,
         "unit": "条"
       }
     ],
@@ -707,113 +898,123 @@
     "misses": [],
     "lifecycle": [
       {
-        "name": "RAVE 风控预警 — 97% 控盘、爆仓激增",
+        "name": "KelpDAO rsETH + LayerZero 桥漏洞事件 — DeFi 系统性风险",
         "days": 1,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
           0,
           0,
-          92
+          0,
+          95
         ]
       },
       {
-        "name": "竞对股票/商品衍生品产品线加速扩张",
+        "name": "RAVE 操纵事件升级 — 24h -88%、$23M 倾销、Binance/Bitget 官方调查",
         "days": 1,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
           0,
-          0,
-          80
-        ]
-      },
-      {
-        "name": "STRC（Strategy 半月分红产品）上币机会",
-        "days": 1,
-        "level": "L3",
-        "phase": "增长期",
-        "heat": [
-          0,
-          0,
-          65
-        ]
-      },
-      {
-        "name": "美伊缓和 / 霍尔木兹重开 → 全面 risk-on",
-        "days": 1,
-        "level": "L2",
-        "phase": "爆发期",
-        "heat": [
           0,
           0,
           90
         ]
       },
       {
-        "name": "BTC/ETH 现货 ETF 连续净流入",
+        "name": "ZachXBT 点名下一波操纵候选 — SIREN/MYX/COAI/M/PIPPIN/RIVER",
         "days": 1,
-        "level": "L2",
+        "level": "L3",
         "phase": "爆发期",
         "heat": [
           0,
           0,
-          85
+          0,
+          82
         ]
       },
       {
-        "name": "Meme 行情升温：币安人生 / ASTEROID / ASTER / RAVE",
+        "name": "竞对股票衍生品 4/20 正式上线 — OKX 产品线差距收窄窗口",
+        "days": 1,
+        "level": "L3",
+        "phase": "爆发期",
+        "heat": [
+          0,
+          0,
+          0,
+          78
+        ]
+      },
+      {
+        "name": "美伊和谈破裂 / BTC 跌破 $7.4 万 — risk-off 反转",
         "days": 1,
         "level": "L2",
         "phase": "爆发期",
         "heat": [
+          0,
+          0,
+          0,
+          88
+        ]
+      },
+      {
+        "name": "稳定币巨鲸轮转 $1.5B+ — Aave 去杠杆 + CEX 流动性补充",
+        "days": 1,
+        "level": "L2",
+        "phase": "爆发期",
+        "heat": [
+          0,
           0,
           0,
           75
         ]
       },
       {
-        "name": "行业结构：Kraken 收购 Bitnomial ($550M)",
+        "name": "LayerZero 桥单签风险公开列表 — 下一波潜在受害者",
         "days": 1,
         "level": "L2",
-        "phase": "增长期",
+        "phase": "爆发期",
         "heat": [
           0,
           0,
-          55
+          0,
+          72
         ]
       },
       {
-        "name": "预测市场作为 Alpha 来源",
+        "name": "Solana 稳定币借贷利率爆表 — Jupiter Lend USDC 99%",
         "days": 1,
         "level": "L2",
         "phase": "增长期",
         "heat": [
           0,
           0,
-          55
+          0,
+          62
         ]
       },
       {
-        "name": "巨鲸 Aave 杠杆循环 / 稳定币供给扩张",
+        "name": "Binance / Bybit / 监管格局变化",
         "days": 1,
         "level": "L2",
         "phase": "增长期",
         "heat": [
           0,
           0,
-          55
+          0,
+          60
         ]
       },
       {
-        "name": "Coinbase Ventures 资本主题 / RWA & AI Agent",
+        "name": "ASTER 结构性多头 — 不冻账户 + Binance 流动性",
         "days": 1,
         "level": "L2",
         "phase": "增长期",
         "heat": [
           0,
           0,
-          55
+          0,
+          58
         ]
       }
     ]
