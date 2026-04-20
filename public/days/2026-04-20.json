@@ -1,0 +1,574 @@
+{
+  "summary": "DeFi 系统性风险事件主导本日：KelpDAO rsETH 桥通过 LayerZero 单签被攻击 ~$293M，Aave 被迫冻结 rsETH 市场并累计流失 $84 亿 TVL（-30%+），Reserve 暂停 eUSD/USD3 铸造/再平衡，Fluid 推出 aWETH 赎回协议（初始容量 $10 亿）以降低系统性风险，Justin Sun 从 Aave 撤出 65,584 ETH（~$1.54 亿）。美伊和谈再度破裂，临时停火周三到期、伊媒称拒谈，BTC 跌破 $7.4 万，原油跳空高开、美股期货齐跌，风险情绪从前两日 risk-on 快速反转。RAVE 在 ZachXBT/Binance/Bitget 调查下 24h -88%、爆仓 $43.68M，RaveDAO 关联地址向 Bitget 倾销 $23M；ZachXBT 点名 SIREN/MYX/COAI/M/PIPPIN/RIVER 为下一批可疑操纵候选。Binance Futures 今日 (4/20) 如期上线 MSFT/AVGO/BABA 股票永续。稳定币侧 $1.5B+ 巨鲸轮转：Tether 铸造 $200M+ 至 Kraken/Bitfinex，Aave→Spark/HTX $485M USDT 明显去杠杆。",
+  "topTk": [
+    "rsETH",
+    "AAVE",
+    "ETHFI",
+    "RAVE",
+    "AVGO",
+    "BABA",
+    "SIREN",
+    "MNT",
+    "FLUID",
+    "JUP"
+  ],
+  "L3": [
+    {
+      "name": "KelpDAO rsETH + LayerZero 桥漏洞事件 — DeFi 系统性风险",
+      "tk": "rsETH",
+      "heat": 95,
+      "urg": "立即",
+      "desc": "KelpDAO 官方桥因 LayerZero 单签配置被攻击，盗取 116,500 枚 rsETH（~$293M）。Aave V3/V4 紧急冻结 rsETH 市场，TVL 流失 $84 亿（-30%+），100% 利用率下出现坏账风险。Reserve 暂停 eUSD/USD3 铸造与再平衡。Justin Sun 撤出 $154M ETH。Fluid 上线 aWETH 赎回协议（首日 $10 亿容量）缓解系统性压力。ETHFI、EtherFi 金库确认不受影响。based16z 预期本周将宣布投资者 backstop 覆盖损失。OKX 已有 ETHFI/AAVE/ETH 现货+永续，需评估：rsETH 相关敞口、LRT 衍生品风控、坏账事件对 AAVE 价格冲击路径。",
+      "act": "合约风控：监控 AAVE 永续 OI 与强平阶梯、评估坏账事件冲击；关注 LRT 赛道整体风险；评估 FLUID 永续上线（TVL 剧增）",
+      "comp": [],
+      "gap": [
+        "OKX无",
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "BlockBeats×4 条新闻",
+        "WuBlockchain",
+        "krugermacro",
+        "based16z",
+        "bwenews"
+      ],
+      "tks": [
+        "rsETH",
+        "KELP",
+        "ETHFI",
+        "AAVE",
+        "FLUID"
+      ]
+    },
+    {
+      "name": "RAVE 操纵事件升级 — 24h -88%、$23M 倾销、Binance/Bitget 官方调查",
+      "tk": "RAVE",
+      "heat": 90,
+      "urg": "立即",
+      "desc": "承接 4/18 风控预警：RAVE 在 ZachXBT 公开调查后 24h 跌 -88%，爆仓 $43.68M；RaveDAO 关联初始分配地址向 Bitget 倾销 2300 万枚 RAVE（价值 $23M）。Binance/Bitget 已启动调查，ZachXBT 悬赏 $10K 征集内部信息，krugermacro 要求 Heyi/Gracy 内部复查。CryptoPainter 警告'内部人控制 98%+ 流通、勿碰'。Ice_Frog 朋友 20 万 token 空投从 $600 万峰值跌至 $30 万。OKX 已有 RAVE 永续，需复盘 4/18 风控建议执行情况并强化。",
+      "act": "合约风控：紧急复核 RAVE 永续限仓、保证金比例、强平阶梯；对齐 Binance/Bitget 调查结果；评估下架或暂停新开仓",
+      "comp": [
+        "Binance",
+        "Bitget"
+      ],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "BlockBeats",
+        "WuBlockchain",
+        "krugermacro",
+        "CryptoPainter",
+        "3 位 CN KOL"
+      ],
+      "tks": [
+        "RAVE"
+      ]
+    },
+    {
+      "name": "ZachXBT 点名下一波操纵候选 — SIREN/MYX/COAI/M/PIPPIN/RIVER",
+      "tk": "SIREN",
+      "heat": 82,
+      "urg": "立即",
+      "desc": "WuBlockchain 转述 ZachXBT 将 SIREN/MYX/COAI/M/PIPPIN/RIVER 6 个 token 列为下一批高度可疑的低流通操纵候选。0xVeryBigOrange 将 ARIA/SIREN/RAVE 同列为'95%+ 集中度的 Alpha 项目'、任何 >1x 杠杆都会爆。OKX 覆盖：COAI/PIPPIN/RIVER 已有永续（需复核风控），SIREN/MYX/M/ARIA OKX 无。对已上线的 3 个要先行一步检查 OI、持仓集中度；对未上线的 4 个建立上币评估防火墙。",
+      "act": "合约风控：对 COAI/PIPPIN/RIVER 执行与 RAVE 相同的预防检查；对 SIREN/MYX/M/ARIA 将其标记为上币评估黑名单候选；复核相关代币持仓集中度",
+      "comp": [],
+      "gap": [
+        "OKX无",
+        "OKX无",
+        "OKX无",
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "WuBlockchain 转 ZachXBT",
+        "0xVeryBigOrange",
+        "yuyue_chris"
+      ],
+      "tks": [
+        "SIREN",
+        "MYX",
+        "COAI",
+        "M",
+        "PIPPIN",
+        "RIVER",
+        "ARIA"
+      ]
+    },
+    {
+      "name": "竞对股票衍生品 4/20 正式上线 — OKX 产品线差距收窄窗口",
+      "tk": "AVGO",
+      "heat": 78,
+      "urg": "本周内",
+      "desc": "Binance Futures 今日 (2026-04-20) 正式上线 MSFTUSDT / AVGOUSDT / BABAUSDT 股票永续（4/18 已预告）。OKX 当前股票 Swap 产品线已有 MSFT（与 Binance 重叠），但仍缺 AVGO / BABA 两个头部股票。同时 Binance 4/16 已上 CHIP 预市场与 GENIUS。此为 OKX 股票 Swap 产品线（已有 AAPL/AMZN/COIN/HOOD/NVDA/PLTR/TSLA 等 23 个）直接补位窗口，越晚越难抢用户心智。",
+      "act": "产品/上币加速评估 AVGO/BABA 股票永续；若 legal/清算路径不阻塞，建议 2 周内跟进",
+      "comp": [
+        "Binance"
+      ],
+      "gap": [
+        "OKX无",
+        "OKX无",
+        "OKX无",
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "bwenews 官方发布",
+        "Binance 公告"
+      ],
+      "tks": [
+        "AVGO",
+        "BABA",
+        "CHIP",
+        "GENIUS"
+      ]
+    }
+  ],
+  "L2": [
+    {
+      "name": "美伊和谈破裂 / BTC 跌破 $7.4 万 — risk-off 反转",
+      "heat": 88,
+      "desc": "临时停火周三到期、伊媒称拒谈，霍尔木兹海峡当日无船只通行、月底前通航概率仅 30%。美军海军陆战队控制试图突破封锁的伊朗船只，阿联酋称遭 2800+ 次袭击（90% 民用）。BTC 跌破 $7.4 万，原油跳空高开、美股期货齐跌。某巨鲸 3 倍做多原油 $750 万。风险情绪较 4/18 risk-on 快速反转。KOL 分歧：krugermacro 仍 'don't short'；CryptoPainter 准备 6 月 DCA 策略；Murphychen888 引矿工成本 $53-73k 认为 BTC $60k 已便宜。",
+      "tks": [
+        "BTC",
+        "ETH",
+        "BZ/CL"
+      ],
+      "sig": [
+        "BlockBeats 10+ 条 + Tier1 KOL×3"
+      ]
+    },
+    {
+      "name": "稳定币巨鲸轮转 $1.5B+ — Aave 去杠杆 + CEX 流动性补充",
+      "heat": 75,
+      "desc": "24h 内 $1.5B+ 稳定币巨鲸流动：Tether 向 Kraken/Bitfinex 共铸造 $200M+ USDT；Aave→Spark $285M USDT、Aave→HTX $200M USDT（合计 $485M 去杠杆）；Aave↔Unknown Whale 40 分钟 $103M USDC 借还循环；PYUSD 在 Solana 销毁 7500 万；Ethena USDe 在 Plasma 链 $300M 划转。某巨鲸重仓开多 $100M ETH @ $2,289。整体符合'DeFi 去杠杆 + CEX 流动性准备'结构。",
+      "tks": [
+        "USDT",
+        "USDC",
+        "USDE",
+        "PYUSD"
+      ],
+      "sig": [
+        "whale_alert 逐笔 + BlockBeats"
+      ]
+    },
+    {
+      "name": "LayerZero 桥单签风险公开列表 — 下一波潜在受害者",
+      "heat": 72,
+      "desc": "Kelp 事件暴露 LayerZero 1-of-1 配置桥单签风险。推文公开列出仍使用该配置的协议：Aave、Kelp（已中招）、Swell、Orderly、Aethir、Vana、Initia 等。based16z 表示'资金链上 R/R 恶化'、'黑客潮'持续（4 月总计 Drift $285M、Hyperbridge $2.5M、Rhea $18.4M、Grinex $15M、Kelp $293M，~$600M+）。对 OKX 有 spot/perp 的 SWELL/VANA 等需关注事件外溢。",
+      "tks": [
+        "SWELL",
+        "VANA",
+        "AETHIR",
+        "INITIA"
+      ],
+      "sig": [
+        "based16z + ByzGeneral + BlockBeats"
+      ]
+    },
+    {
+      "name": "Solana 稳定币借贷利率爆表 — Jupiter Lend USDC 99%",
+      "heat": 62,
+      "desc": "Jupiter Lend USDC 利用率飙升至 99%，Solana 生态稳定币借贷利率与利用率全面拉升，可能与 ETH 侧 DeFi 事件资金迁移、或 SOL 生态自身杠杆需求有关。JUP OKX 已有现货+永续。",
+      "tks": [
+        "JUP",
+        "USDC"
+      ],
+      "sig": [
+        "BlockBeats"
+      ]
+    },
+    {
+      "name": "Binance / Bybit / 监管格局变化",
+      "heat": 60,
+      "desc": "CZ 宣布很快在迪拜办'币安人生'首场签售会（币安人生持续高热度）；Sberbank（俄罗斯最大银行）准备加密交易业务；Pakistan 解除加密禁令；HK 禁预测市场；付鹏加入港股新火集团出任首席经济学家。行业边界持续推开，但 HK 预测市场禁令对 Polymarket 类项目不利。",
+      "tks": [],
+      "sig": [
+        "BlockBeats + WuBlockchain"
+      ]
+    },
+    {
+      "name": "ASTER 结构性多头 — 不冻账户 + Binance 流动性",
+      "heat": 58,
+      "desc": "0xVeryBigOrange：ASTER 因不冻账户 + Binance 流动性，运行 3 日 CTA +5%；Hyperliquid CTA 两周 +6%；评价 RAVE/SIREN/ARIA 是'骗局公园'。ASTER 已 OKX 现货+永续，可关注 OI 与 funding 结构性信号。",
+      "tks": [
+        "ASTER",
+        "HYPE"
+      ],
+      "sig": [
+        "0xVeryBigOrange + jason_chen998"
+      ]
+    },
+    {
+      "name": "AI / Vibe Coding 交易工具渗透深",
+      "heat": 50,
+      "desc": "Web3Feng、hexiecs、0xchangan、0xVeryBigOrange 均在讨论 Claude/Codex 写 CTA 策略、Polymarket 自动化脚本、HL/Aster 机器人交易。AI-工具-交易整合趋势明显。",
+      "tks": [],
+      "sig": [
+        "4 位 CN KOL"
+      ]
+    },
+    {
+      "name": "北朝鲜渗透 Web3 开发团队",
+      "heat": 45,
+      "desc": "WuBlockchain + fejau_inc 讨论 Ethereum Foundation 'Ketman' 事件（DPRK 长期渗透 Web3 开发团队）。OKX 安全合规视角值得留意但非紧急。",
+      "tks": [],
+      "sig": [
+        "WuBlockchain + fejau_inc"
+      ]
+    }
+  ],
+  "L1": [
+    {
+      "name": "MNT (Mantle) — TG 热榜 #2 OKX 无",
+      "desc": "TG 10 次提及，OKX 无 spot/perp。需 WebSearch/新闻验证。若持续两日上榜可升级 L2。",
+      "sig": [
+        "TG",
+        "新闻"
+      ]
+    },
+    {
+      "name": "GRIFFAIN — TG 4 次 OKX 无",
+      "desc": "AI Agent 赛道 token。TG 单源需继续观察。",
+      "sig": [
+        "TG"
+      ]
+    },
+    {
+      "name": "CAT — TG 16 次 OKX 仅现货",
+      "desc": "频率最高，但 OKX 已有现货。若成交量突出可考虑上线永续。",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "edgeX 持续关注",
+      "desc": "yuyue_chris 连续两日提及，staking+buyback 驱动，OKX 无。单源 KOL。",
+      "sig": [
+        "KOL"
+      ]
+    },
+    {
+      "name": "Copper 大宗商品 (Bluntz_Capital)",
+      "desc": "单源 KOL 看 4-6 月突破，类比 2025 银行情。OKX 商品产品线现有 BZ/CL/NG/XAUT，可观察 HG 添加可能性。",
+      "sig": [
+        "KOL",
+        "商品"
+      ]
+    },
+    {
+      "name": "Orca 密钥轮换 (安全事件)",
+      "desc": "Orca 确认轮换可能泄露密钥与部署凭证、资金未受影响。ORCA OKX 无，观察后续。",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "XPL/ZRO/H 本周解锁",
+      "desc": "XPL/ZRO/H 大额一次性解锁。OKX 均已有。作为风控参考。",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "BMNR (BitMine 永续 pref) 概念",
+      "desc": "Pentosh1 提出打趣 perpetual pref stock 思路。BMNR OKX 无，非紧急，但反映市场对 ETH 储库股衍生品的兴趣。",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "Sberbank 俄罗斯加密交易",
+      "desc": "WuBlockchain 转报。俄罗斯最大银行入场，长期性地缘与合规信号。",
+      "sig": [
+        "弱信号"
+      ]
+    }
+  ],
+  "comp": [
+    {
+      "what": "Binance Futures 4/20 正式上线 MSFT / AVGO / BABA 股票永续",
+      "detail": "OKX 股票 Swap 已有 MSFT，缺 AVGO/BABA；4/16 已上 CHIP 预市场 + GENIUS 永续"
+    },
+    {
+      "what": "Aave V3/V4 冻结 rsETH 市场 + 多签守卫冻结 WETH 借贷",
+      "detail": "Kelp 事件响应；TVL -$84 亿 / -30%+"
+    },
+    {
+      "what": "Reserve 暂停 eUSD/USD3 铸造与再平衡，赎回正常",
+      "detail": "下游受 rsETH 事件波及"
+    },
+    {
+      "what": "Fluid 上线 aWETH 赎回协议 — 初始 $10 亿容量",
+      "detail": "降低 DeFi 系统性风险"
+    },
+    {
+      "what": "Binance/Bitget 启动 RAVE 操纵官方调查",
+      "detail": "配合 ZachXBT 公开线索"
+    },
+    {
+      "what": "Sberbank (俄罗斯) 准备加密交易业务",
+      "detail": "传统巨头入场信号"
+    },
+    {
+      "what": "HK 禁止预测市场 / Pakistan 解除加密禁令",
+      "detail": "监管面分化"
+    },
+    {
+      "what": "Jupiter Lend USDC 利用率飙至 99%",
+      "detail": "Solana 侧稳定币借贷热度"
+    }
+  ],
+  "kols": [
+    {
+      "n": "WuBlockchain",
+      "v": "Kelp rsETH $293M 被盗 + Justin Sun 撤出 $154M ETH + ZachXBT 点名下一批操纵候选",
+      "s": "dn"
+    },
+    {
+      "n": "krugermacro",
+      "v": "RAVE 起于 Bitget/Binance/Gate，要求 Heyi/Gracy 内部复查；仍持 SPX 多方向",
+      "s": "n"
+    },
+    {
+      "n": "CryptoPainter",
+      "v": "BTC 破长期区间，准备 6 月 DCA；RAVE 勿碰（98%+ 内部控盘）",
+      "s": "dn"
+    },
+    {
+      "n": "based16z",
+      "v": "预期本周 LayerZero/Aave/Kelp 将宣布投资者 backstop；链上 R/R 恶化，系统性风险临近",
+      "s": "dn"
+    },
+    {
+      "n": "Pentosh1",
+      "v": "提 BMNR 永续 pref 结构玩笑；AI 光电头部过热不宜追",
+      "s": "n"
+    },
+    {
+      "n": "Bluntz_Capital",
+      "v": "Copper 重演 2025 白银剧本，4-6 月突破、翻倍",
+      "s": "up"
+    },
+    {
+      "n": "Murphychen888",
+      "v": "矿工成本 $53-73k，BTC $60k 已便宜",
+      "s": "up"
+    },
+    {
+      "n": "0xVeryBigOrange",
+      "v": "ASTER 结构性多头 (不冻账户 + Binance 流动性)；RAVE/SIREN/ARIA 是骗局公园",
+      "s": "up"
+    },
+    {
+      "n": "Ice_Frog666666",
+      "v": "朋友 20 万 RAVE 空投从 $600 万峰值跌至 $30 万（风险警示）",
+      "s": "dn"
+    },
+    {
+      "n": "yuyue_chris",
+      "v": "edgeX 新高做空/回踩做多；山寨末段不激进做空",
+      "s": "n"
+    },
+    {
+      "n": "Web3Feng",
+      "v": "Claude/Codex 写 CTA 策略渗透深；SOL meme 清算预警继续",
+      "s": "n"
+    },
+    {
+      "n": "hexiecs",
+      "v": "持 SPX 空 + NVDA 多对冲；AAOI 做空",
+      "s": "dn"
+    },
+    {
+      "n": "ByzGeneral",
+      "v": "4 月黑客潮 $600M+：Drift/Hyperbridge/Rhea/Grinex/Kelp",
+      "s": "dn"
+    },
+    {
+      "n": "fejau_inc",
+      "v": "战后重估；BTC/AI 算力仍看多",
+      "s": "n"
+    }
+  ],
+  "tg": [
+    {
+      "t": "CAT",
+      "c": 16
+    },
+    {
+      "t": "MNT",
+      "c": 10
+    },
+    {
+      "t": "BTC",
+      "c": 7
+    },
+    {
+      "t": "ETH",
+      "c": 7
+    },
+    {
+      "t": "ZEC",
+      "c": 6
+    },
+    {
+      "t": "SPACE",
+      "c": 5
+    },
+    {
+      "t": "FLOKI",
+      "c": 5
+    },
+    {
+      "t": "GRIFFAIN",
+      "c": 4
+    },
+    {
+      "t": "HYPE",
+      "c": 4
+    },
+    {
+      "t": "XAU",
+      "c": 4
+    },
+    {
+      "t": "LIT",
+      "c": 3
+    },
+    {
+      "t": "EURUSD",
+      "c": 3
+    }
+  ],
+  "st": {
+    "tg": 28,
+    "msgs": 1804,
+    "cry": 302,
+    "kol": 14
+  },
+  "ex": [
+    {
+      "n": "Binance",
+      "c": 1983,
+      "s": 1
+    },
+    {
+      "n": "Bybit",
+      "c": 1257,
+      "s": 14
+    },
+    {
+      "n": "Bitget",
+      "c": 1197,
+      "s": 44
+    },
+    {
+      "n": "Hyperliquid",
+      "c": 189,
+      "s": 1
+    },
+    {
+      "n": "Coinbase",
+      "c": 509,
+      "s": 2
+    },
+    {
+      "n": "Upbit",
+      "c": 708,
+      "s": 2
+    },
+    {
+      "n": "Kraken",
+      "c": 958,
+      "s": 12
+    },
+    {
+      "n": "OKX",
+      "c": 380,
+      "s": 27
+    }
+  ],
+  "stockGap": [
+    {
+      "token": "WMT",
+      "on": [
+        "Bitget(perp_usdt)",
+        "Coinbase(spot)",
+        "Kraken(spot)"
+      ],
+      "cnt": 3
+    },
+    {
+      "token": "MCD",
+      "on": [
+        "Bybit(spot)",
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 2
+    },
+    {
+      "token": "AMAT",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ARM",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ASML",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "AVGO",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BABA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "COST",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "LI",
+      "on": [
+        "Kraken(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "RKLB",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    }
+  ]
+}
