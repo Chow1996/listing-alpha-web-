@@ -1,0 +1,580 @@
+{
+  "summary": "Kelp rsETH / LayerZero $293M 事件进入 Day 2 高潮：Aave TVL 48 小时流失 $84.5 亿至 $179.5 亿，WETH 利用率 100%、AAVE 多签冻结 WETH 借贷、官方讨论两种坏账处理方案；DPRK Lazarus 嫌疑浮现，Kelp 正撰写把责任推向 LayerZero 的备忘录。Justin Sun 向 Spark 存入 $1.74 亿（占 Spark USDC 存款 1/4），Spark TVL 48h +17%，Kamino USDC 利用率飙至 100%——资金从 Aave 外溢至 Spark/Kamino 的轮转结构清晰。但机构侧买盘非常强：Strategy +34,164 BTC（$25.4 亿）、BitMine 上周 +101,627 ETH（ETH 流通 4.12%）、BTC 现货 ETF 连续 3 周净流入 $9.96 亿、ETH ETF $2.76 亿（今年以来最强）；BTC 跌破 $74k 后快速反弹、负资金费率 + 低 OI + 万斯周二赴巴基斯坦伊朗会谈给突破铺路。TG 热榜 #2 ASTEROID（11 次，OKX 无）+ 新闻报道巨鲸近 2 日买入 $114 万，多源信号充分。Coinbase 今日新上 CHIP 现货（Binance Futures 4/16 已上），OKX 仍无 CHIP。Upbit 上线 PIEVERSE（KRW/BTC/USDT 三对，MCap $2.68 亿，OKX 有永续无现货）。本周超大额解锁 >$330M（UDS/ZRO/H/XPL/KAITO/HYPER/MBG/LMTS/INIT/SOSO/MON 等）。",
+  "topTk": [
+    "AAVE",
+    "ASTEROID",
+    "CHIP",
+    "HYPE",
+    "rsETH",
+    "SPARK",
+    "ZRO",
+    "XPL",
+    "PIEVERSE",
+    "BTC"
+  ],
+  "L3": [
+    {
+      "name": "Kelp rsETH / LayerZero 事件 Day 2 — Aave TVL -$84.5 亿 + 坏账决策期",
+      "tk": "rsETH",
+      "heat": 95,
+      "urg": "立即",
+      "desc": "KelpDAO rsETH 桥被盗 $293M 后 48 小时，Aave TVL 从 $262 亿降至 $179.5 亿（-$84.5 亿 / -32%）；WETH 借贷池 100% 利用率，多签冻结 WETH、建议暂停 Umbrella 模块；Aave 官方正讨论两种坏账处理方案。DPRK Lazarus 嫌疑浮现，Kelp 正撰写把责任推给 LayerZero 的备忘录；based16z 继续预期本周宣布投资者 backstop。Lido 敞口 $21.6M；Aave 潜在坏账 $1.23-2.30 亿。Justin Sun 向 Spark 存入 $1.74 亿（占 Spark USDC 存款 1/4），Spark TVL 48h +17%。某 AAVE 持币 1+ 年鲸鱼将 $3.01M 转入 Binance（或亏损 $1.85M）。Kamino USDC 利用率 100%、零流动性 — 危机开始向 Solana 侧扩散。",
+      "act": "合约风控：AAVE 坏账方案公告前后的波动监控；预案 LRT 赛道 re-rating；评估 SPARK/KAMINO 上币及流动性观察（竞对尚未全线覆盖，窗口）",
+      "comp": [
+        "Binance"
+      ],
+      "gap": [
+        "OKX无",
+        "OKX无",
+        "OKX无",
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "BlockBeats×5 条新闻",
+        "WuBlockchain",
+        "0xVeryBigOrange",
+        "based16z",
+        "krugermacro",
+        "bwenews"
+      ],
+      "tks": [
+        "rsETH",
+        "KELP",
+        "AAVE",
+        "ETHFI",
+        "FLUID",
+        "SPARK",
+        "KAMINO"
+      ]
+    },
+    {
+      "name": "ASTEROID — TG 热榜 #2 + 鲸鱼 $114 万买入，OKX 无",
+      "tk": "ASTEROID",
+      "heat": 85,
+      "urg": "24h 内",
+      "desc": "TG 24h 排名 #2（11 次提及，仅次 BTC），新闻报道某鲸鱼近 2 日投入 $114 万买入 ASTEROID，另有 4/18 报道 Moonshot 一夜上线三项目带动 meme 升温。多源信号：TG + 新闻 + 链上鲸鱼。OKX 现货/永续均无；竞对覆盖情况需复核（Bitget/MEXC 等 Tier2 可能已有）。项目基本面需尽快调研。",
+      "act": "上币团队 24h 内完成 ASTEROID 项目调研：合约审计状态、代币分配、流动性深度；若通过可考虑抢先永续上线",
+      "comp": [
+        "Bitget"
+      ],
+      "gap": [
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "TG 热榜 11 次",
+        "BlockBeats 新闻×2",
+        "链上鲸鱼"
+      ],
+      "tks": [
+        "ASTEROID"
+      ]
+    },
+    {
+      "name": "CHIP — Coinbase 今日新上现货 + Binance Futures 已上预市场，OKX 完全缺失",
+      "tk": "CHIP",
+      "heat": 80,
+      "urg": "本周内",
+      "desc": "Coinbase 今日上线 CHIP/USD 现货（Tier1 交易所）；Binance Futures 4/16 已上 CHIPUSDT 预市场；两家 Tier1 都已布局，OKX 现货/永续均无。CHIP 为半导体指数类代币，属股票衍生品赛道延续（4/20 Binance 上 MSFT/AVGO/BABA 后又新增）。",
+      "act": "产品/上币紧急评估 CHIP 永续上线（股票 Swap 产品线补位，配合 AVGO/BABA 建议）",
+      "comp": [
+        "Binance",
+        "Coinbase"
+      ],
+      "gap": [
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "Coinbase 公告",
+        "bwenews 4/16 Binance 公告"
+      ],
+      "tks": [
+        "CHIP"
+      ]
+    },
+    {
+      "name": "本周超大额解锁预警 — $330M+ 一次性 + 多个日解锁 >$1M",
+      "tk": "ZRO",
+      "heat": 75,
+      "urg": "本周内",
+      "desc": "WuBlockchain 汇总本周解锁：一次性大额 >$5M 的代币包括 UDS、ZRO、H、XPL、MBG、HYPER、LMTS、INIT、KAITO、SOSO、MON，合计超 $330M；线性大解锁 >$1M/日：RAIN、SOL、CC、TRUMP、WLD、HYPE（已在 OKX）。OKX 已上的 ZRO / H / XPL / KAITO / SOL / HYPE / TRUMP / WLD / HYPER 面临抛压，需提前风控。Hyperliquid（HYPE）另有地址卖 20 万枚 @$40.77、Paradigm 解押 214 万枚 — HYPE 抛压叠加。",
+      "act": "合约风控：本周对 HYPE/ZRO/XPL/KAITO/WLD/TRUMP 永续 OI 与资金费率紧密监控；评估临时保证金上调",
+      "comp": [
+        "Hyperliquid"
+      ],
+      "gap": [
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "WuBlockchain 汇总",
+        "新闻",
+        "Paradigm 链上"
+      ],
+      "tks": [
+        "ZRO",
+        "XPL",
+        "KAITO",
+        "HYPE",
+        "SOL",
+        "WLD",
+        "TRUMP",
+        "UDS",
+        "H",
+        "MBG",
+        "HYPER",
+        "LMTS",
+        "INIT",
+        "SOSO",
+        "MON"
+      ]
+    }
+  ],
+  "L2": [
+    {
+      "name": "机构大买 BTC/ETH 持续 — Strategy +34k BTC / BitMine +101k ETH",
+      "heat": 85,
+      "desc": "Strategy（MSTR）新增 34,164 BTC 价值 $25.4 亿、均价 $74,395、总持仓 815,061 BTC；BitMine 上周新增 101,627 ETH（ETH 流通的 4.12%）。BTC 现货 ETF 连续 3 周净流入 $9.96 亿（CoinShares BTC 基金 $11.16 亿）、ETH ETF $2.76 亿（Jan 以来最强周）、SOL ETF $35.17M、XRP ETF $55.39M。摩根士丹利 ETF +215 BTC，BlackRock +3372 BTC。抄底鲸 Feb 投入 $5 亿的 cbBTC 现清仓最后 2000 枚。某鲸鱼从 Binance 提 1.83 万 ETH（1.2 万卖出）。",
+      "tks": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP",
+        "MSTR"
+      ],
+      "sig": [
+        "WuBlockchain + BlockBeats×3 + whale_alert"
+      ]
+    },
+    {
+      "name": "Hyperliquid ETF 推进 — 灰度修订申请 + HYPE 大量解押",
+      "heat": 70,
+      "desc": "灰度向 SEC 提交 Hyperliquid ETF 申请修订案，Anchorage 替换 Coinbase 担任托管方。市场侧：某地址卖 20 万 HYPE @ $40.77；Paradigm 解押 214 万 HYPE。HYPE OKX 已有现货+永续，关注 ETF 进展 + 解押抛压双向。",
+      "tks": [
+        "HYPE"
+      ],
+      "sig": [
+        "BlockBeats + WuBlockchain + whale_alert"
+      ]
+    },
+    {
+      "name": "Coinbase + Bybit 谈判代币化美股 + Pre-IPO",
+      "heat": 68,
+      "desc": "WuBlockchain：Coinbase 与 Bybit 正讨论合作代币化美股 + Pre-IPO 项目（托管/分发）。Polymarket 传 $15B 融资谈判。TradFi x Crypto 收敛持续。OKX 股票 Swap 产品线（含 AAPL/AMZN/COIN 等 23 个）面临 Tier1 联合对手。",
+      "tks": [],
+      "sig": [
+        "WuBlockchain"
+      ]
+    },
+    {
+      "name": "LayerZero 单签桥生态风险公开 — 近半 OApp 仍用高危配置",
+      "heat": 65,
+      "desc": "Dune 数据：近半 LayerZero OApp 仍采用易受单点攻击的高危配置（与 Kelp 相同）；LayerZero DVN 已开启运营，多 DVN 团队被建议尽快切换。潜在受害者列表（昨日已列）：Swell/Orderly/Aethir/Vana/Initia。4 月黑客总损失已 $600M+。",
+      "tks": [
+        "VANA"
+      ],
+      "sig": [
+        "Dune + based16z + bwenews"
+      ]
+    },
+    {
+      "name": "美伊停火到期 / 万斯周二赴巴谈判 / BTC 逆势",
+      "heat": 70,
+      "desc": "美伊临时停火即将到期、伊朗议长'已准备战场亮新牌'、伊朗仍不松口；万斯周二赴巴基斯坦进行伊朗会谈；美联储提名人沃什听证承诺利率独立性；Trump 今晚上 CNBC。ByzGeneral：BTC 突破区间 + 负资金费率 + 低 OI + 地缘事件催化，多头结构；BTC 短时回撤后逆势走强。Tom Lee：未来 18-24 个月散户助涨大牛市。",
+      "tks": [
+        "BTC",
+        "BZ/CL"
+      ],
+      "sig": [
+        "BlockBeats×6 + ByzGeneral"
+      ]
+    },
+    {
+      "name": "稳定币巨鲸轮转延续 — Tether 铸新 $200M / PYUSD 销毁 $301M",
+      "heat": 65,
+      "desc": "Tether 向 Bitfinex 铸造 $200M USDT（新增流动性）；Bitfinex↔Kraken $113M + $129M 稳定币轮转；PYUSD 销毁 $301M（赎回）；USDC 2x $150M 从 Paxos 转出未知（~$300M 合计）；XRP $107M 从 Ripple 流出、$50M 返回。大额 BTC 流向：8,769 BTC（$6.68 亿）至未知新钱包、4,000 BTC（$3.03 亿）未知→未知、多笔 1,303-1,521 BTC 流入 Coinbase Institutional。",
+      "tks": [
+        "USDT",
+        "USDC",
+        "PYUSD",
+        "XRP"
+      ],
+      "sig": [
+        "whale_alert 逐笔"
+      ]
+    },
+    {
+      "name": "Claude Desktop 后门警告（安全合规）",
+      "heat": 50,
+      "desc": "慢雾安全团队：Claude Desktop 被曝秘密写入浏览器后门文件。AI x Crypto 交易工具越来越多，此类供应链侧安全事件对使用 AI 写 CTA 的交易者（昨日 L2 话题）是警示。",
+      "tks": [],
+      "sig": [
+        "慢雾 + BlockBeats"
+      ]
+    },
+    {
+      "name": "RAVE 操纵事件延续 — OKX 已上永续",
+      "heat": 55,
+      "desc": "承接 4/20 RAVE 操纵事件：RaveDAO 相关地址 4/19 向 Bitget 倾销 $23M、现货 -30%；0xVeryBigOrange 继续批评'杀猪盘'、exchange 变'骗局公园'。TG 本日 3 次（下降），热度衰减但风控延续。",
+      "tks": [
+        "RAVE"
+      ],
+      "sig": [
+        "0xVeryBigOrange + bwenews + TG"
+      ]
+    },
+    {
+      "name": "LRT 赛道结构性 re-rating — 0xVeryBigOrange 称'半废'",
+      "heat": 52,
+      "desc": "0xVeryBigOrange：Kelp 事件后 LRT 赛道'半废'，市场将 LRT 视为信用资产、与 ETH 不等价；推 LST > LRT 结构。Aave 结构性声誉受损。",
+      "tks": [
+        "ETHFI",
+        "EIGEN",
+        "RSETH"
+      ],
+      "sig": [
+        "0xVeryBigOrange"
+      ]
+    }
+  ],
+  "L1": [
+    {
+      "name": "EDU — TG 热榜 #3 OKX 无",
+      "desc": "TG 24h 8 次提及，教育赛道代币，OKX 现货/永续均无。单源 TG，需新闻/KOL 二次验证后升级 L2。",
+      "sig": [
+        "TG",
+        "KOL",
+        "新闻"
+      ]
+    },
+    {
+      "name": "PIEVERSE — Upbit KRW/BTC/USDT 三盘口上线",
+      "desc": "Upbit 今日上线 3 对交易，MCap $2.68 亿，OKX 已有永续但无现货。上币窗口可评估现货补位。",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "CHIP 在 OKX 外多个交易所同日动作",
+      "desc": "Coinbase 现货 + Binance 预市场已覆盖，虽归 L3，但若 OKX 未及时跟进，本条作为次日提醒。",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "OPG — Coinbase 新上现货",
+      "desc": "Coinbase 今日上线 OPG/USD，OKX 完全无；单一交易所动作，观察 TG/KOL 是否跟进。",
+      "sig": [
+        "TG",
+        "KOL"
+      ]
+    },
+    {
+      "name": "APXUSD / QCAD — Kraken 新上",
+      "desc": "Kraken 新上 APXUSD/ZUSD 和 QCAD/ZUSD（法币挂钩类），OKX 无。法币稳定币赛道小信号。",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "SPARK / KAMINO — Aave 事件受益者",
+      "desc": "SPARK TVL +17% 接纳 Justin Sun $1.74 亿；Kamino USDC 利用率 100%。SPARK/KAMINO OKX 均无，可作上币观察。",
+      "sig": [
+        "链上"
+      ]
+    },
+    {
+      "name": "BMNR (BitMine) — 0xVeryBigOrange 喊 Binance 上永续",
+      "desc": "0xVeryBigOrange 呼吁 Binance 上 BMNR 永续（BMNR 为 ETH 储备类股票，对标 MSTR）。OKX 有 MSTR 永续、无 BMNR；若 Binance 上线，OKX 可跟进。",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "PENGU — TG 热榜 #4 OKX 已全覆盖",
+      "desc": "TG 8 次、OKX 已有现货+永续，仅作市场热度记录。",
+      "sig": [
+        "TG"
+      ]
+    },
+    {
+      "name": "Tom Lee 18-24 月大牛市论",
+      "desc": "Tom Lee：未来 18-24 个月'人生中最美好时期之一'，散户助涨。宏观情绪信号。",
+      "sig": [
+        "弱信号"
+      ]
+    }
+  ],
+  "comp": [
+    {
+      "what": "Coinbase 今日上线 CHIP/USD 现货 + OPG/USD 现货",
+      "detail": "CHIP Binance Futures 4/16 已上预市场，Coinbase 今日跟进；OKX 完全无，两家 Tier1 已先发"
+    },
+    {
+      "what": "Upbit 上线 PIEVERSE KRW/BTC/USDT 三对",
+      "detail": "PIEVERSE MCap $2.68 亿；OKX 有永续无现货"
+    },
+    {
+      "what": "Kraken 新上 APXUSD/ZUSD + QCAD/ZUSD 现货",
+      "detail": "法币挂钩类小市值代币；OKX 无"
+    },
+    {
+      "what": "Aave V3/V4 多签冻结 WETH 借贷 + 讨论两种坏账处理方案",
+      "detail": "Kelp 事件 Day 2 响应；TVL 48h -$84.5 亿"
+    },
+    {
+      "what": "Spark 协议 TVL 48h +17%，Justin Sun 存入 $1.74 亿占 USDC 池 1/4",
+      "detail": "Aave 资金向 Spark 迁移的代表性事件"
+    },
+    {
+      "what": "灰度向 SEC 提交 Hyperliquid ETF 修订申请",
+      "detail": "Anchorage 替换 Coinbase 担任托管方"
+    },
+    {
+      "what": "Coinbase 与 Bybit 谈判代币化美股 + Pre-IPO",
+      "detail": "托管/分发层合作，冲击 OKX 股票 Swap 产品线"
+    },
+    {
+      "what": "Binance / Bitget 启动 RAVE 操纵官方调查（Day 3）",
+      "detail": "0xVeryBigOrange 继续点名 exchange 'pig-butchering'"
+    },
+    {
+      "what": "LayerZero DVN 开启运营，近半 OApp 仍高危",
+      "detail": "多 DVN 团队被建议切换配置"
+    }
+  ],
+  "kols": [
+    {
+      "n": "WuBlockchain",
+      "v": "Kelp rsETH $293M / DPRK Lazarus 嫌疑 + Aave TVL -$84.5亿 + Strategy +34kBTC + BitMine +101kETH + Coinbase-Bybit 谈代币化美股",
+      "s": "dn"
+    },
+    {
+      "n": "0xVeryBigOrange",
+      "v": "LRT 赛道'半废'、LST > LRT；Aave 声誉永久受损；呼吁 Binance 上 BMNR 永续；RAVE/SIREN/ARIA 是骗局公园",
+      "s": "dn"
+    },
+    {
+      "n": "based16z",
+      "v": "预期本周 LayerZero/Aave/Kelp 宣布投资者 backstop；做空加密 vs Saylor/Tom Lee TWAP；对当前币市转疑",
+      "s": "dn"
+    },
+    {
+      "n": "ByzGeneral",
+      "v": "BTC 突破区间 + 负资金费率 + 低 OI + 伊朗会谈催化，多方结构成立",
+      "s": "up"
+    },
+    {
+      "n": "krugermacro",
+      "v": "转发 rsETH DeFi 事件解释 + AGI 就业辩论（无新方向指引）",
+      "s": "n"
+    },
+    {
+      "n": "fejau_inc",
+      "v": "Bloomberg 终端中断观察 + 对重新质押调侃",
+      "s": "n"
+    },
+    {
+      "n": "bwenews",
+      "v": "Upbit 上 PIEVERSE / Coinbase 上 CHIP+OPG / Strategy +34k BTC / Kelp 事件持续 / LayerZero DVN 运营",
+      "s": "n"
+    },
+    {
+      "n": "KelseyWeb3VC",
+      "v": "@star_okx 等 OKX 相关事件出席（内部信号，无具体 token 指引）",
+      "s": "n"
+    },
+    {
+      "n": "CryptoPainter",
+      "v": "非市场内容（水族馆、Kaito Kapybara）",
+      "s": "n"
+    },
+    {
+      "n": "jason_chen998",
+      "v": "NYC 零售锁货的宏观衰退轶事（非 crypto）",
+      "s": "n"
+    }
+  ],
+  "tg": [
+    {
+      "t": "BTC",
+      "c": 29
+    },
+    {
+      "t": "ASTEROID",
+      "c": 11
+    },
+    {
+      "t": "EDU",
+      "c": 8
+    },
+    {
+      "t": "PENGU",
+      "c": 8
+    },
+    {
+      "t": "SPX",
+      "c": 7
+    },
+    {
+      "t": "ETH",
+      "c": 6
+    },
+    {
+      "t": "AAVE",
+      "c": 6
+    },
+    {
+      "t": "ARB",
+      "c": 6
+    },
+    {
+      "t": "TAO",
+      "c": 5
+    },
+    {
+      "t": "SSV",
+      "c": 4
+    },
+    {
+      "t": "INJ",
+      "c": 4
+    },
+    {
+      "t": "RAVE",
+      "c": 3
+    }
+  ],
+  "st": {
+    "tg": 26,
+    "msgs": 1854,
+    "cry": 265,
+    "kol": 10
+  },
+  "ex": [
+    {
+      "n": "Binance",
+      "c": 1983,
+      "s": 1
+    },
+    {
+      "n": "Bybit",
+      "c": 1257,
+      "s": 14
+    },
+    {
+      "n": "Bitget",
+      "c": 1197,
+      "s": 44
+    },
+    {
+      "n": "Hyperliquid",
+      "c": 189,
+      "s": 1
+    },
+    {
+      "n": "Coinbase",
+      "c": 511,
+      "s": 2
+    },
+    {
+      "n": "Upbit",
+      "c": 711,
+      "s": 2
+    },
+    {
+      "n": "Kraken",
+      "c": 960,
+      "s": 12
+    },
+    {
+      "n": "OKX",
+      "c": 382,
+      "s": 27
+    }
+  ],
+  "stockGap": [
+    {
+      "token": "WMT",
+      "on": [
+        "Bitget(perp_usdt)",
+        "Coinbase(spot)",
+        "Kraken(spot)"
+      ],
+      "cnt": 3
+    },
+    {
+      "token": "MCD",
+      "on": [
+        "Bybit(spot)",
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 2
+    },
+    {
+      "token": "AMAT",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ARM",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ASML",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "AVGO",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BABA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "COST",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "LI",
+      "on": [
+        "Kraken(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "RKLB",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    }
+  ]
+}
