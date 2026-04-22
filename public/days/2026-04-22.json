@@ -1,0 +1,561 @@
+{
+  "summary": "CHIP 24h 内爆发式扩散：Binance 现货上 3 对（CHIP/USDT+USDC+TRY，带 Seed Tag）、Bybit 上 spot+perp、Bitget 上 perp、Upbit 上 3 对（BTC/USDT/KRW）、Bithumb 上 KRW 市场 —— 5 家 Tier1 交易所在同一天同时布局。OKX 仅有 perp，无 spot，是本日最紧迫的上币窗口。Kelp/rsETH/AAVE 事件进入 Day 3：LayerZero RPC breach 被正式归因，Justin Sun 在冻结公告后数分钟内 5 笔撤 $274M 价值资产；MEXC $347M aUSDT / CoinEx $151M / Kiln $165M 合计 ~$660M CEX 链上敞口被卡在 Aave；LlamaRisk 估算潜在坏账 $124-230M；Arbitrum Security Council 紧急冻结与 Kelp 相关的 30,766 ETH。WETH 利用率持续 100%、idle liquidity <$20。币安人生（CZ 社交 meme）今日新上 Binance 现货 2 对，OKX 完全无。RAVE 继续 TG 热榜 #2 和 0xVeryBigOrange 持续抨击（'CEX = 骗局公园'），0xVeryBigOrange 称'LRT 赛道基本死掉'、Aave 声誉被永久损伤。机构侧 Strategy +34k BTC、BitMine +101k ETH 数据延续，BTC 破区间 + 负资金费率 + 低 OI、ByzGeneral 看 upper-80s。Kalshi 据 The Information 将推加密永续，预测市场与 perps 边界模糊。",
+  "topTk": [
+    "CHIP",
+    "AAVE",
+    "rsETH",
+    "币安人生",
+    "ARB",
+    "GIGGLE",
+    "OPG",
+    "RAVE",
+    "BTC",
+    "ETH"
+  ],
+  "L3": [
+    {
+      "name": "CHIP 24h 爆发 — 5 家 Tier1 现货同时上，OKX 仅 perp、缺现货",
+      "tk": "CHIP",
+      "heat": 95,
+      "urg": "立即",
+      "desc": "24h 内 CHIP 爆发式扩散：Binance 上 CHIP/USDT + CHIP/USDC + CHIP/TRY 现货且带 Seed Tag；Bybit 上 CHIP 现货 + perp；Bitget 上 CHIPUSDT perp；Upbit 上 CHIP/BTC + CHIP/USDT + CHIP/KRW；Bithumb 上 KRW 市场。加上 4/21 Coinbase 的 CHIP/USD 现货，**5 家 Tier1（Binance、Coinbase、Upbit、Bithumb、Bybit）+ 2 家 Tier2（Bitget、Bybit perp）**都已在现货或衍生侧布局。OKX 当前有 CHIP 永续（之前已上），但缺现货 —— 用户在 OKX 无法买到现货 CHIP、只能去别家。这是一次 48h 内产生的覆盖断层，错过窗口越久用户心智越难抢回。",
+      "act": "上币团队今日内启动 CHIP 现货审核：合约代码、流通盘、做市深度；目标 1-2 日内完成现货上线",
+      "comp": [
+        "Binance",
+        "Bybit",
+        "Bitget",
+        "Coinbase",
+        "Upbit"
+      ],
+      "gap": [
+        "仅有永续，无现货"
+      ],
+      "kol": [],
+      "sig": [
+        "scan 新上币 × Binance/Bybit/Bitget/Upbit",
+        "bwenews 公告",
+        "4/21 Coinbase 公告"
+      ],
+      "tks": [
+        "CHIP"
+      ]
+    },
+    {
+      "name": "Kelp / rsETH / AAVE Day 3 — 坏账 $124-230M + $660M CEX 敞口卡住",
+      "tk": "rsETH",
+      "heat": 90,
+      "urg": "立即",
+      "desc": "LayerZero RPC breach 被 Kelp 官方正式归因为 $293M 被盗来源。Justin Sun/HTX 在 AAVE 冻结公告后数分钟内 5 笔撤 $274M 资产；MEXC $347M aUSDT、CoinEx $151M、Kiln $165M 卡在 AAVE 借贷池（合计 CEX 链上敞口 ~$660M）。WETH 利用率 100%、idle liquidity <$20。LlamaRisk 估算 AAVE 潜在坏账 $124M-$230M；Dragonfly Haseeb 称 AAVE 有资本吸收。Arbitrum Security Council 紧急冻结 30,766 ETH 与 Kelp 相关的合约。AAVE TVL 继续流失；SPARK TVL 延续 +17% 外溢；Kamino 100% 利用率。OKX 已有 AAVE 现货+永续，合约风控应跟踪坏账方案公告窗口。",
+      "act": "合约风控：AAVE 坏账公告前后波动监控；LRT re-rating 应对；评估 SPARK/KAMINO 上币（AAVE 资金外溢的承接方）",
+      "comp": [],
+      "gap": [
+        "OKX无",
+        "OKX无",
+        "OKX无",
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "WuBlockchain×8",
+        "krugermacro",
+        "0xVeryBigOrange",
+        "BlockBeats"
+      ],
+      "tks": [
+        "rsETH",
+        "KELP",
+        "AAVE",
+        "ETHFI",
+        "SPARK",
+        "KAMINO",
+        "ARB"
+      ]
+    },
+    {
+      "name": "币安人生（CZ 社交 meme）今日 Binance 现货 2 对上线，OKX 完全缺",
+      "tk": "币安人生",
+      "heat": 75,
+      "urg": "本周内",
+      "desc": "Binance 今日上线'币安人生'/U 和'币安人生'/USD1 两个现货对。此代币是 CZ 本人相关的 meme（'人生第一个币安账户'主题），有社交/CZ 代言效应。OKX 现货/永续全无。Tier1 单家上但市场有强情绪信号，属抢时机窗口。",
+      "act": "上币团队评估：合约审计、做市深度、风险披露；评估是否追加上线（CZ meme 性质，风险/情绪都高）",
+      "comp": [
+        "Binance"
+      ],
+      "gap": [
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "scan 新上币",
+        "exchange 公告"
+      ],
+      "tks": [
+        "币安人生"
+      ]
+    },
+    {
+      "name": "Arbitrum Security Council 紧急冻结黑客资金 — L2 信任重塑事件",
+      "tk": "ARB",
+      "heat": 70,
+      "urg": "本周内",
+      "desc": "Arbitrum Security Council 在 Kelp/LayerZero 事件中紧急冻结 30,766 ETH（价值约 $70M），链接到 Kelp exploit 黑客资金。0xVeryBigOrange 指出此举'违背去中心化精神、终究回到 main chain'，对 L2 叙事有负面影响。但从 CeFi 风控视角：这是少有的交易所 x L2 救助协作案例。对 OKX 已上的 ARB 现货+永续可能形成短期波动。",
+      "act": "合约风控：ARB 永续短期波动监控；政策讨论：关注后续是否有更多 L2 跟进类似操作",
+      "comp": [],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "WuBlockchain",
+        "0xVeryBigOrange"
+      ],
+      "tks": [
+        "ARB"
+      ]
+    }
+  ],
+  "L2": [
+    {
+      "name": "机构大买 BTC/ETH 继续 — Strategy +34k BTC / BitMine +101k ETH",
+      "heat": 85,
+      "desc": "Strategy 延续数据：+34,164 BTC（$25.4 亿、均价 $74,395、总 815,061 BTC）；BitMine 新增 101,627 ETH（ETH 流通的 4.12%、4 个月内最大周增持）。BTC 现货 ETF 连 3 周流入、ETH ETF Jan 以来最强。whale_alert 今日额外捕获 80,000 ETH（$184.8M）从 Binance 出金至未知钱包（潜在机构积累）。",
+      "tks": [
+        "BTC",
+        "ETH",
+        "MSTR",
+        "BMNR"
+      ],
+      "sig": [
+        "WuBlockchain + whale_alert + bwenews"
+      ]
+    },
+    {
+      "name": "RAVE 操纵事件 Day 4 — TG #2 热榜、'CEX 变骗局公园'",
+      "heat": 72,
+      "desc": "TG 24h 12 次提及（#2 热榜），0xVeryBigOrange 继续抨击 99% 供应集中和庄家操纵，称 CEX 越来越像'骗局公园'。Arbitrum 冻结的黑客资金中也有 RAVE 相关地址。OKX 已有 RAVE 永续，应延续前几日风控。",
+      "tks": [
+        "RAVE"
+      ],
+      "sig": [
+        "0xVeryBigOrange + TG 热榜 12 次"
+      ]
+    },
+    {
+      "name": "Kalshi 推加密永续 — 预测市场 / perps 边界模糊",
+      "heat": 65,
+      "desc": "The Information 报道 Kalshi 将推出加密交易（含永续合约）。这是预测市场与传统 crypto perps 的直接收敛信号，前几日话题延续。Coinbase-Bybit 代币化美股 + Pre-IPO 合作（前日）也是类似收敛。对 OKX 产品线有竞争影响。",
+      "tks": [],
+      "sig": [
+        "bwenews（The Information）"
+      ]
+    },
+    {
+      "name": "CEX 链上敞口曝光 — MEXC/CoinEx/Kiln 被卡 $660M",
+      "heat": 62,
+      "desc": "Kelp 事件副作用：MEXC $347M aUSDT、CoinEx $151M、Kiln $165M 被卡在 AAVE（合计 ~$660M）。Justin Sun/HTX 能数分钟内撤 $274M 是例外。CEX 管理储备在链上 DeFi 赚收益但面临流动性风险——对 OKX 国库/理财业务有参考价值。",
+      "tks": [
+        "USDT",
+        "AAVE"
+      ],
+      "sig": [
+        "WuBlockchain"
+      ]
+    },
+    {
+      "name": "LRT 赛道结构性 re-rating — 0xVeryBigOrange '基本死'",
+      "heat": 60,
+      "desc": "0xVeryBigOrange 延续前两日观点：Kelp 事件后 LRT 赛道'基本死'，市场将 LRT 按信用资产定价、不再与 ETH 等价。LSTs > LRTs 结构切换。AAVE 声誉'像 Dubai 一样永久受损，难恢复'。OKX 有 ETHFI 现货+永续，需关注 ETHFI 波动。",
+      "tks": [
+        "ETHFI",
+        "LDO",
+        "SSV"
+      ],
+      "sig": [
+        "0xVeryBigOrange + WuBlockchain"
+      ]
+    },
+    {
+      "name": "BTC 破区间 + 负资金费率 + 低 OI — ByzGeneral 看 upper-80s",
+      "heat": 65,
+      "desc": "BTC 24h 走势破区间、资金费率转负、OI 处低位 —— ByzGeneral 技术面 + 结构面综合看多，目标上看 80k 中高位。whale_alert 配合 4,000 BTC（$303M）单笔 + 1,521 BTC（$116M）流入 Coinbase Institutional，买盘支撑。Gold 出现下行趋势，风险情绪向 crypto 回流。",
+      "tks": [
+        "BTC"
+      ],
+      "sig": [
+        "ByzGeneral + whale_alert"
+      ]
+    },
+    {
+      "name": "稳定币巨鲸轮转延续 — Tether $200M / Paxos $300M USDC / XRP $107M",
+      "heat": 60,
+      "desc": "Tether 在 Bitfinex 铸造 $200M USDT；Paxos 两笔 $150M USDC（合计 $300M）转至未知钱包；XRP $107M 从 Ripple 流出；Bitfinex↔Kraken $113M+$129M 稳定币穿梭；80K ETH 出 Binance 至未知。总体稳定币侧 $1B+ 轮转延续。",
+      "tks": [
+        "USDT",
+        "USDC",
+        "XRP"
+      ],
+      "sig": [
+        "whale_alert 逐笔"
+      ]
+    },
+    {
+      "name": "Alt season 跟不上 — Russell 新高 vs alts 无法收复 ATH",
+      "heat": 50,
+      "desc": "CryptoPainter：Russell 2000 创新高，alts 却无法收复 ATH —— 相对强弱明显偏向 equities。based16z 警告 photonics/AI 基建有 Q1 2021 Archegos-like 泡沫动态；SpaceX 传 $50B+ 收购 Cursor，AI M&A 走热。",
+      "tks": [],
+      "sig": [
+        "CryptoPainter + based16z"
+      ]
+    }
+  ],
+  "L1": [
+    {
+      "name": "GIGGLE — Binance 新上现货，OKX 仅永续",
+      "desc": "Binance 今日上 GIGGLE/U 现货；OKX 有 GIGGLE 永续、无现货。单家 Tier1 上，作为次级补位机会观察。",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "OPG — 多家 Tier1/2 叠加上线",
+      "desc": "Coinbase 4/21 现货 + Bybit 4/22 现货 + bwenews TG 提及。OKX 完全无。TG 2 次 + 新上币叠加的多源信号。",
+      "sig": [
+        "TG"
+      ]
+    },
+    {
+      "name": "币安人生 — Meme 辐射",
+      "desc": "Binance 专属主题 meme 今日上。OKX 完全无，但已归入 L3，本条作为延续追踪。",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "DIEM — Coinbase 新上现货",
+      "desc": "Coinbase 今日上 DIEM/USD 现货；OKX 完全无。单家 Tier1 上，观察是否后续扩散。",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "BGBTC / PRESPAX — Bitget 新上小市值代币",
+      "desc": "Bitget 4/22 各上 1 对；OKX 无。单家 Tier2、小市值、观察。",
+      "sig": [
+        "TG"
+      ]
+    },
+    {
+      "name": "BABYFLORK / USDGO — TG 冷启动",
+      "desc": "TG 2 次提及，OKX 无。等待多源验证。",
+      "sig": [
+        "TG"
+      ]
+    },
+    {
+      "name": "ASTEROID — TG 热榜大幅降温（从 11 次 → 2 次）",
+      "desc": "上一日 L3 推荐（TG 11 次）；今日下降至 2 次，热度衰减。继续观察是否有二次爆发或快速消亡。",
+      "sig": [
+        "TG"
+      ]
+    },
+    {
+      "name": "EDU — TG 3 次（上日 8 次）",
+      "desc": "热度同样衰减，OKX 仍无。教育赛道弱信号。",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "BMNR 永续呼声",
+      "desc": "0xVeryBigOrange 延续前日呼吁 Binance 上 BMNR 永续（对标 MSTR）。OKX 有 MSTR 永续、无 BMNR。Binance 如先上，OKX 可跟进。",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "SpaceX 收购 Cursor $50B+ 传闻",
+      "desc": "based16z RT。AI x TradFi M&A 情绪信号，无直接 token 动作。",
+      "sig": [
+        "弱信号"
+      ]
+    },
+    {
+      "name": "USDC/INR + DIEM — Coinbase 印度/稳定币扩展",
+      "desc": "Coinbase 上 USDC/INR 和 DIEM/USD（美元稳定币新品）。观察对手 INR 稳定币市场进展。",
+      "sig": [
+        "弱信号"
+      ]
+    }
+  ],
+  "comp": [
+    {
+      "what": "CHIP 24h 爆发式上线 — 5 家 Tier1 同时布局现货，OKX 仅有 perp",
+      "detail": "Binance 3 对现货（Seed Tag）+ Bybit spot+perp + Bitget perp + Upbit 3 对 + Bithumb KRW；加 4/21 Coinbase 现货"
+    },
+    {
+      "what": "Binance 新上币安人生 2 对现货（CZ meme）",
+      "detail": "币安人生/U + 币安人生/USD1；OKX 完全无"
+    },
+    {
+      "what": "Binance 上 GIGGLE/U 现货",
+      "detail": "OKX 有永续、无现货"
+    },
+    {
+      "what": "Binance 恢复 ENJ/U + ORDI/U 现货（老币回归）",
+      "detail": "OKX 两者都已有现货+永续，无差距"
+    },
+    {
+      "what": "Bybit 上 CHIP 现货 + perp + OPG 现货",
+      "detail": "Tier2 跟进 CHIP 节奏；OPG OKX 无"
+    },
+    {
+      "what": "Bitget 上 BGBTC + PRESPAX + CHIP perp",
+      "detail": "Tier2 小市值项目 + CHIP perp"
+    },
+    {
+      "what": "Coinbase 上 DIEM/USD + USDC/INR 现货",
+      "detail": "稳定币新品 + 印度市场扩展"
+    },
+    {
+      "what": "Upbit 上 CHIP KRW/BTC/USDT + Bithumb CHIP KRW",
+      "detail": "韩国 Tier1 全覆盖 CHIP"
+    },
+    {
+      "what": "Arbitrum Security Council 紧急冻结 30,766 ETH 链接 Kelp exploit",
+      "detail": "L2 信任事件，0xVeryBigOrange 批评去中心化让步"
+    },
+    {
+      "what": "Kalshi 将推加密永续（The Information 报道）",
+      "detail": "预测市场 × perps 边界模糊"
+    },
+    {
+      "what": "AAVE 多签冻结 WETH 借贷 + 坏账方案决策期（Day 3）",
+      "detail": "LlamaRisk 估 $124-230M 坏账 + $660M CEX 敞口卡住"
+    }
+  ],
+  "kols": [
+    {
+      "n": "WuBlockchain",
+      "v": "LayerZero RPC breach 归因 Kelp $293M + AAVE 坏账 $124-230M + MEXC/CoinEx/Kiln 卡 $660M + Arbitrum 冻 30,766 ETH + Strategy +34k BTC + BitMine +101k ETH",
+      "s": "dn"
+    },
+    {
+      "n": "0xVeryBigOrange",
+      "v": "LRT 赛道基本死、LST > LRT；AAVE 声誉永久受损；CEX = 骗局公园；Arb 冻结 ≈ 去中心化让步；Hyperliquid CTA +6%（2周）",
+      "s": "dn"
+    },
+    {
+      "n": "based16z",
+      "v": "Photonics/AI 基建 Q1 2021 Archegos-like 泡沫警告；SpaceX 传 $50B 买 Cursor；看好 OpenAI/Codex 堆栈",
+      "s": "n"
+    },
+    {
+      "n": "ByzGeneral",
+      "v": "BTC 破区间 + 负资金费率 + 低 OI，看上升至 upper-80s；Gold 下行趋势；SPX/IXIC 多头",
+      "s": "up"
+    },
+    {
+      "n": "CryptoPainter",
+      "v": "Russell 新高 vs alts 无法收复 ATH，相对强弱偏 equities",
+      "s": "dn"
+    },
+    {
+      "n": "fejau_inc",
+      "v": "美国宏观经济再加速 thesis 在油价冲击后仍存活；Kevin Warsh 前瞻指引辩论",
+      "s": "up"
+    },
+    {
+      "n": "krugermacro",
+      "v": "转发 rsETH/Aave 事件总复盘 + AGI 就业辩论（无新方向）",
+      "s": "n"
+    },
+    {
+      "n": "bwenews",
+      "v": "Binance/Bybit/Bitget/Upbit/Bithumb 上 CHIP；Binance 上币安人生+GIGGLE+ENJ+ORDI；Coinbase 上 DIEM+USDC/INR；Kalshi 推加密永续；Strategy +34k BTC",
+      "s": "n"
+    },
+    {
+      "n": "whale_alert",
+      "v": "80K ETH ($184.8M) 出 Binance；Tether $200M 铸造；Paxos 2x$150M USDC；4K+ BTC 流入 Coinbase Institutional",
+      "s": "n"
+    }
+  ],
+  "tg": [
+    {
+      "t": "BTC",
+      "c": 20
+    },
+    {
+      "t": "RAVE",
+      "c": 12
+    },
+    {
+      "t": "LDO",
+      "c": 9
+    },
+    {
+      "t": "SSV",
+      "c": 8
+    },
+    {
+      "t": "PUMP",
+      "c": 5
+    },
+    {
+      "t": "FARTCOIN",
+      "c": 5
+    },
+    {
+      "t": "SPX",
+      "c": 5
+    },
+    {
+      "t": "ONDO",
+      "c": 4
+    },
+    {
+      "t": "PENGU",
+      "c": 3
+    },
+    {
+      "t": "EDU",
+      "c": 3
+    },
+    {
+      "t": "BABYFLORK",
+      "c": 2
+    },
+    {
+      "t": "OPG",
+      "c": 2
+    }
+  ],
+  "st": {
+    "tg": 28,
+    "msgs": 2070,
+    "cry": 305,
+    "kol": 9
+  },
+  "ex": [
+    {
+      "n": "Binance",
+      "c": 1988,
+      "s": 1
+    },
+    {
+      "n": "Bybit",
+      "c": 1260,
+      "s": 15
+    },
+    {
+      "n": "Bitget",
+      "c": 1199,
+      "s": 44
+    },
+    {
+      "n": "Hyperliquid",
+      "c": 189,
+      "s": 1
+    },
+    {
+      "n": "Coinbase",
+      "c": 513,
+      "s": 2
+    },
+    {
+      "n": "Upbit",
+      "c": 714,
+      "s": 2
+    },
+    {
+      "n": "Kraken",
+      "c": 960,
+      "s": 12
+    },
+    {
+      "n": "OKX",
+      "c": 384,
+      "s": 27
+    }
+  ],
+  "stockGap": [
+    {
+      "token": "WMT",
+      "on": [
+        "Bitget(perp_usdt)",
+        "Coinbase(spot)",
+        "Kraken(spot)"
+      ],
+      "cnt": 3
+    },
+    {
+      "token": "MCD",
+      "on": [
+        "Bybit(spot)",
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 2
+    },
+    {
+      "token": "AMAT",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ARM",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ASML",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "AVGO",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BABA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "COST",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "LI",
+      "on": [
+        "Kraken(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "RKLB",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    }
+  ]
+}
