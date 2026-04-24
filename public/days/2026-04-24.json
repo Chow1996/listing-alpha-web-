@@ -1,0 +1,472 @@
+{
+  "summary": "4/24 信号中性偏观望：KOL 普遍看顶或要求资金外流股市 — Murphychen BRS=0 顶部信号延续到第 8 天，hexiecs 建议 Long BTC/Short ETH 对冲，krugermacro 发图表确认资金从加密向股市轮动。链上层面 whale_alert 捕捉到 5656 BTC (~$440M) 涌入 Coinbase Institutional + Tether 铸 1B USDT + USDC Treasury 175M 入 CB Inst + 97k ETH 进 Beacon，流动性注入与潜在卖压并存。KELP/AAVE 危机进入 Day 5：Bybit 母公司 Mantle 向 Aave 治理论坛提议 30k ETH 坏账担保贷款 (bwenews) — MNT 被点名但 OKX 缺 token。竞对侧动作平淡，仅 8 个新币（OPG/UMXM/SPK/AMI/MEZO/REPPO 为主），Bitget 继续扩半导体股 perps。",
+  "topTk": [
+    "MNT",
+    "BTC",
+    "ARM",
+    "AMAT",
+    "AVGO",
+    "WMT",
+    "HYPE",
+    "AAVE",
+    "ETH",
+    "KAITO",
+    "MEGA"
+  ],
+  "L3": [
+    {
+      "name": "Kelp/Aave 坏账事件 Day 5 — Mantle 提议 30k ETH 救助贷款",
+      "tk": "AAVE",
+      "heat": 82,
+      "urg": "高",
+      "desc": "Bybit 母公司 Mantle 向 Aave 治理论坛提案：向 Aave 贷 30,000 ETH (~$73M) 担保坏账敞口 (bwenews 2026-04-24 00:10 UTC)。事件延续前 4 天 KELP/rsETH 坏账 → $660M CEX 敞口 → Fluid $400M 赎回的 LRT 风暴。MNT（Mantle 代币）被事件点名，在 Bybit/HL/Upbit/Kraken 4 家 Tier1/Tier2 均有现货+永续，但 OKX 缺失 — 事件催化若兑现流动性，OKX 主流 L2 名册存在空缺。",
+      "act": "Token 团队优先评估 MNT 上币可行性 — 连续 5 天事件叙事 + 市值 $80-100M 级别 + OKX 是唯一缺口的 Tier1 CEX。合约风控继续跟踪 Aave/rsETH 清算风险与 ETH 跨所转账。",
+      "comp": [
+        "Bybit",
+        "Upbit",
+        "Kraken"
+      ],
+      "gap": [
+        "OKX无（4家竞对覆盖）"
+      ],
+      "kol": [],
+      "sig": [
+        "bwenews (Twitter)",
+        "KELP cluster 延续 Day 4→5"
+      ],
+      "tks": [
+        "AAVE",
+        "MNT",
+        "ETH",
+        "KELP"
+      ],
+      "cluster_explicit": "KELP"
+    },
+    {
+      "name": "BTC 顶部信号多源共振 — Murphy BRS=0 Day 8 + CB Inst 流入 $440M + 资金轮动股市",
+      "tk": "BTC",
+      "heat": 78,
+      "urg": "中",
+      "desc": "顶部信号今日多源共振：(1) Murphychen 的 BRS 链上指标自 4/16 起卡零持续 8 天 — 他明确 '一旦脱离零即回调' (2026-04-23 06:53)；(2) whale_alert 记录 2026-04-23 下午 5656 BTC (~$440M) 单日涌入 Coinbase Institutional + 1000 BTC 进 Kraken；(3) krugermacro 推图并直言 '资金从加密向股市轮动的确凿证据'。叠加 based16z 把仓位切成 50% XLE + 50% cash + 小量 SPX puts，加密端 KOL 普遍转防御。",
+      "act": "合约风控关注 BTC 永续 OI / 大户仓位分布 + 监控 CB Institutional 净流向是否持续；建议做市端为可能的波动放大加保护垫。",
+      "comp": [
+        "Coinbase",
+        "Kraken"
+      ],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "Murphychen888",
+        "whale_alert",
+        "krugermacro",
+        "based16z（4 位 KOL 多源交叉验证）"
+      ],
+      "tks": [
+        "BTC",
+        "ETH"
+      ],
+      "cluster_explicit": "BTC_technical"
+    },
+    {
+      "name": "竞对股票衍生品 Day 4 — 半导体/AI 基建缺口扩大",
+      "tk": "ARM",
+      "heat": 75,
+      "urg": "中",
+      "desc": "Bitget 在半导体/AI 赛道继续扩股票 perps：AMAT、ASML、AVGO、ARM、BA、BABA、COST、RKLB 均 OKX 全缺（perp+spot 双缺）。与此同时 TG 群组热议 ARM (3 次)、INTC (7 次)，INTC 已有 OKX 永续但 ARM 缺位。Bitget 股票/商品盘口数 44（对比 OKX 27，缺口扩大到 17 个）。WMT 在 Bitget+CB+Kraken 三家均有 OKX 仍缺。",
+      "act": "股票衍生品团队排优先级评估：ARM/AMAT/ASML/AVGO（AI 半导体，与 OKX 已上的 NVDA/AMD/INTC/MU 同一赛道，补齐才完整）+ WMT（零售蓝筹多家覆盖）。",
+      "comp": [
+        "Bitget",
+        "Kraken"
+      ],
+      "gap": [
+        "OKX无（TG 3 次）",
+        "OKX无（半导体）",
+        "OKX无（半导体）",
+        "OKX无（AI 基建）",
+        "OKX无（3家竞对）"
+      ],
+      "kol": [],
+      "sig": [
+        "Bitget 盘口",
+        "TG 群组",
+        "OKX non_crypto 清单对比"
+      ],
+      "tks": [
+        "ARM",
+        "AMAT",
+        "ASML",
+        "AVGO",
+        "WMT"
+      ],
+      "cluster_explicit": "stock_derivatives"
+    }
+  ],
+  "L2": [
+    {
+      "name": "Hyperliquid 生态垄断叙事 + HYPE 技术性挤压",
+      "heat": 70,
+      "desc": "0xSisyphus 直言 'Lighter 或许能活，其余 perp DEX 是出生即死的公司 — Hyperliquid 在 RWA 端完全垄断'。ByzGeneral 同日指 HYPE 在 wedge 收敛中，突破方向会很暴力，但 OI 没跟上是警号。两者共振—— HYPE 叙事强但短期技术面不对称。",
+      "tks": [
+        "HYPE"
+      ],
+      "sig": [
+        "0xSisyphus + ByzGeneral"
+      ],
+      "cluster_explicit": "HYPE"
+    },
+    {
+      "name": "稳定币巨额铸造 Day 5 — 1B USDT + 175M USDC 单日",
+      "heat": 70,
+      "desc": "whale_alert 单日记录：Tether Treasury 铸 1,000,000,000 USDT，随后分流 299.9M USDT 进 Ethena、225M 进 Kraken、100M 进 Bitfinex；USDC Treasury 175M 进 Coinbase Institutional；97,200 ETH (~$225M) 进 Beacon Depositor（结构性 staking 锁仓）。流动性与潜在卖压并存。",
+      "tks": [
+        "USDT",
+        "USDC",
+        "ETH"
+      ],
+      "sig": [
+        "whale_alert + stablecoin_flow cluster Day 5"
+      ],
+      "cluster_explicit": "stablecoin_flow"
+    },
+    {
+      "name": "资金从加密转股市的轮动证据",
+      "heat": 68,
+      "desc": "krugermacro 发图表直言 '资金从加密转股市是确凿证据'；Pentosh1 担心后 COVID 动物精神会让 AI 板块陷入剧烈 boom/bust；based16z 50% XLE + 50% 现金 + SPX 6800 put 防御仓；hexiecs Long BTC/Short ETH + Long NVDA/Short TSLA 双永动机对冲。多位 KOL 共振看股票跑赢加密。",
+      "tks": [
+        "BTC",
+        "ETH",
+        "股票"
+      ],
+      "sig": [
+        "krugermacro + Pentosh1 + based16z + hexiecs"
+      ],
+      "cluster_explicit": "etf_flow"
+    },
+    {
+      "name": "Polymarket 内幕下注调查 — Trump 表态 'will look into it'",
+      "heat": 55,
+      "desc": "bwenews 记录 Trump 在被问及 Polymarket 运动员内幕下注指控时表态 '会看一下' (2026-04-24)。延续 prediction_market cluster 的监管边界模糊叙事，对预测市场/合约边界有合规影响。",
+      "tks": [
+        "Polymarket"
+      ],
+      "sig": [
+        "bwenews"
+      ],
+      "cluster_explicit": "prediction_market"
+    },
+    {
+      "name": "Kaito InfoFi B2B 转型 — 下轮周期基建候选",
+      "heat": 60,
+      "desc": "CryptoPainter 长文看 Kaito 从 InfoFi 转基建：AI + 数据引擎定位为 '下轮周期创业公司与项目方必选工具'。同时吐槽 crypto Twitter 被 Web2 流量号稀释、周期缺资金多寄生虫。KAITO OKX 已有现货+永续，观察后续价格跟进度。",
+      "tks": [
+        "KAITO"
+      ],
+      "sig": [
+        "CryptoPainter"
+      ],
+      "cluster_explicit": "KAITO"
+    }
+  ],
+  "L1": [
+    {
+      "name": "MEGA pre-launch 强势",
+      "desc": "ByzGeneral 2026-04-23 11:03 提 $MEGA pre-launch 看起来很强。OKX 无该 token，市值与链未明，记录观察是否进入上币窗口。",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "MEGA"
+    },
+    {
+      "name": "BIO 多月区间突破",
+      "desc": "ByzGeneral 指 $BIO 突破多月区间 — OKX 已有现货+永续，跟踪后续价格动能。",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "BIO"
+    },
+    {
+      "name": "OPG Day 4 — Binance/Bybit/Bitget 均已上 perp",
+      "desc": "Bybit + Bitget 今日补上 OPG perp，OKX 仍为 perp-only 缺现货。市值 ~$80M，延续昨日叙事。",
+      "sig": [
+        "TG"
+      ],
+      "cluster_explicit": "OPG"
+    },
+    {
+      "name": "交易所信任叙事 — Bybit CN 客服缺口",
+      "desc": "jason_chen 指 Bybit 在微信群几乎无员工可触达，Binance/OKX/Bitget 则覆盖良好 — CN 用户信任差异化叙事。",
+      "sig": [
+        "TG"
+      ],
+      "cluster_explicit": "regulation"
+    },
+    {
+      "name": "RAVE 操纵事件 Day 6 — 静默期",
+      "desc": "RAVE 事件今日 KOL/TG 无新信号，观察是否彻底退出热度。",
+      "sig": [
+        "TG",
+        "KOL"
+      ],
+      "cluster_explicit": "RAVE"
+    }
+  ],
+  "comp": [
+    {
+      "what": "Bitget 继续扩股票 perps — 半导体/AI 基建赛道",
+      "detail": "AMAT/ASML/AVGO/ARM/BA/BABA/COST/RKLB 等 OKX 全缺"
+    },
+    {
+      "what": "Bybit+Bitget 同步补 OPG perp",
+      "detail": "Binance 已有，OKX 已有 perp 缺现货（Day 4）"
+    },
+    {
+      "what": "Upbit 上线 SPK/KRW 现货",
+      "detail": "OKX 已有现货+永续"
+    },
+    {
+      "what": "Kraken 扩 AMI/MEZO/REPPO 现货",
+      "detail": "OKX 全缺（小市值）"
+    },
+    {
+      "what": "Bitget 新增 UMXM/USDT 现货",
+      "detail": "Kraken 同步上 ZUSD，OKX 全缺"
+    }
+  ],
+  "kols": [
+    {
+      "n": "@Murphychen888",
+      "v": "BRS=0 顶部信号延续 8 天，一旦脱离零即回调",
+      "s": "dn"
+    },
+    {
+      "n": "@hexiecs",
+      "v": "Long BTC/Short ETH + Long NVDA/Short TSLA 双永动机对冲",
+      "s": "n"
+    },
+    {
+      "n": "@krugermacro",
+      "v": "资金从加密向股市轮动的确凿证据",
+      "s": "dn"
+    },
+    {
+      "n": "@0xSisyphus",
+      "v": "Hyperliquid 完全垄断 RWA，其他 perp DEX 是出生即死",
+      "s": "up"
+    },
+    {
+      "n": "@ByzGeneral",
+      "v": "HYPE wedge 收敛待突破 OI 没跟上警号；MEGA pre-launch 很强；BIO 突破多月区间",
+      "s": "up"
+    },
+    {
+      "n": "@bwenews",
+      "v": "Bybit's Mantle 向 Aave 治理论坛提议 30k ETH 救助贷款",
+      "s": "n"
+    },
+    {
+      "n": "@CryptoPainter",
+      "v": "Kaito InfoFi → AI 基建必选工具转型",
+      "s": "up"
+    },
+    {
+      "n": "@whale_alert",
+      "v": "24h 5656 BTC (~$440M) 涌入 CB Institutional + 1B USDT 铸币 + 97k ETH 进 Beacon",
+      "s": "dn"
+    },
+    {
+      "n": "@Pentosh1",
+      "v": "BTC 数字黄金纯洁度 vs MSTR/equity；AI boom/bust 波动率上行",
+      "s": "up"
+    },
+    {
+      "n": "@based16z",
+      "v": "50% XLE + 50% 现金 + SPX 6800 put 防御仓 — 加密吐槽 pvping asteroid coin",
+      "s": "dn"
+    },
+    {
+      "n": "@jason_chen998",
+      "v": "Bybit CN 微信群几乎无员工触达，Binance/OKX/Bitget 覆盖好",
+      "s": "n"
+    }
+  ],
+  "tg": [
+    {
+      "t": "BTC",
+      "c": 41
+    },
+    {
+      "t": "ETH",
+      "c": 18
+    },
+    {
+      "t": "INTC",
+      "c": 7
+    },
+    {
+      "t": "AERO",
+      "c": 6
+    },
+    {
+      "t": "XAU",
+      "c": 5
+    },
+    {
+      "t": "HYPE",
+      "c": 5
+    },
+    {
+      "t": "USELESS",
+      "c": 5
+    },
+    {
+      "t": "SUI",
+      "c": 4
+    },
+    {
+      "t": "AVAX",
+      "c": 4
+    },
+    {
+      "t": "DOT",
+      "c": 4
+    },
+    {
+      "t": "GOLD",
+      "c": 3
+    },
+    {
+      "t": "ARM",
+      "c": 3
+    }
+  ],
+  "st": {
+    "tg": 30,
+    "msgs": 2129,
+    "cry": 311,
+    "kol": 11
+  },
+  "ex": [
+    {
+      "n": "Binance",
+      "c": 1981,
+      "s": 1
+    },
+    {
+      "n": "Bybit",
+      "c": 1261,
+      "s": 18
+    },
+    {
+      "n": "Bitget",
+      "c": 1204,
+      "s": 44
+    },
+    {
+      "n": "Hyperliquid",
+      "c": 190,
+      "s": 1
+    },
+    {
+      "n": "Coinbase",
+      "c": 515,
+      "s": 2
+    },
+    {
+      "n": "Upbit",
+      "c": 715,
+      "s": 2
+    },
+    {
+      "n": "Kraken",
+      "c": 964,
+      "s": 12
+    },
+    {
+      "n": "OKX",
+      "c": 385,
+      "s": 27
+    }
+  ],
+  "stockGap": [
+    {
+      "token": "WMT",
+      "on": [
+        "Bitget(perp_usdt)",
+        "Coinbase(spot)",
+        "Kraken(spot)"
+      ],
+      "cnt": 3
+    },
+    {
+      "token": "MCD",
+      "on": [
+        "Bybit(spot)",
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 2
+    },
+    {
+      "token": "AMAT",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ARM",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ASML",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "AVGO",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BABA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "COST",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "LI",
+      "on": [
+        "Kraken(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "RKLB",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    }
+  ]
+}
