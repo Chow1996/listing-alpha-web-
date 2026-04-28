@@ -1,0 +1,604 @@
+{
+  "summary": "今日竞对零新上 crypto/股票永续，但行业事件密集：Aave + EtherFi + Kelp + LayerZero + Compound 联合提交 Arbitrum DAO 解冻 ETH 提案，Solana 基金会借 USDT 给 Aave 救坏账并计划把 AAVE 部署到 Solana — KELP 救助进入跨链生态化阶段。Morgan Stanley 推出 Stablecoin Reserves Portfolio (MSNXX, GENIUS Act 合规)，$1.9T 资管巨头切入稳定币储备业务。波兰 Zondacrypto 近破产 + CEO 跑路以色列，$100M+ 客户资金危机；Litecoin MWEB 零日漏洞触发链重组。TG 端 POLY 异常飙至 24 次第一位（Polymarket 链迁移 + 平台升级 + Polymarket USD 1:1 USDC 即将推出）。Coinbase Sonar 平台 4/28 开打 SpaceX-类 Pre-IPO，FDV 50M / 单号 20k u / Echo KYC，CN KOL 双源共振。Tier1 KOL 7/13 静默，市场进入低信号事件主导期。",
+  "topTk": [
+    "POLY",
+    "BLEND",
+    "SPCX",
+    "MEGAETH",
+    "AAVE",
+    "SOL",
+    "rsETH",
+    "KELP",
+    "MNT",
+    "ZEC",
+    "APE",
+    "BNB",
+    "USDC",
+    "FLOCK"
+  ],
+  "L3": [
+    {
+      "name": "Kelp/Aave 救助 Day 7 — 跨链 DAO 联合提案 + Solana 基金会介入",
+      "tk": "AAVE",
+      "heat": 82,
+      "urg": "高",
+      "desc": "Aave + EtherFi + Kelp + LayerZero + Compound 联合提交 Arbitrum DAO 提案以释放被冻结的 ETH（WuBlockchain）。Solana Foundation 直接借 USDT 给 Aave 帮助坏账修复，并计划把 AAVE 部署到 Solana — KELP 事件从单链清算危机演变为跨链 DeFi 生态格局事件。rsETH/KELP 仍未上线 OKX，AAVE/SOL 双双面临生态新闻驱动的波动放大。",
+      "act": "AAVE/SOL 永续临时调高波动保证金，密切监控 Arbitrum DAO 投票节点；评估 OKX 是否需要应急上 rsETH/KELP/MNT 接住情绪反弹流量。SOL 部署 AAVE 是 SOL 生态级利好，可顺势准备 SOL 生态 token 二轮拉升预案。",
+      "comp": [],
+      "gap": [
+        "OKX无",
+        "OKX无",
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "WuBlockchain (Arbitrum DAO 联合提案",
+        "SOL Foundation 借款",
+        "AAVE 上 Solana 计划)",
+        "历史 cluster KELP Day 6 延续"
+      ],
+      "tks": [
+        "AAVE",
+        "SOL",
+        "rsETH",
+        "KELP",
+        "MNT",
+        "LDO",
+        "ETHFI"
+      ],
+      "cluster_explicit": "KELP"
+    },
+    {
+      "name": "Morgan Stanley 推 Stablecoin Reserves Portfolio (MSNXX) — TradFi 抢稳定币储备业务",
+      "tk": "USDC",
+      "heat": 80,
+      "urg": "高",
+      "desc": "Morgan Stanley Investment Management ($1.9T AUM) 4/24 推出 Stablecoin Reserves Portfolio，专为 GENIUS Act 合规稳定币发行方设计：投美国国债 (≤93 天到期) + 隔夜逆回购，维持 $1.00 稳定 NAV，发行方可一站式获得收益+合规储备。这是大型 TradFi 直接切入稳定币基础设施的标志性事件，意味稳定币竞争从'谁发币'转向'谁管储备'。",
+      "act": "评估 OKX 自营/合规稳定币产品对 GENIUS Act 储备方案的对接路径；若 OKX 上 USDG 等合规币，可借这波事件给予更高曝光。Morgan Stanley 入场是机构稳定币流量增加的前奏，需提前规划稳定币现货深度池。",
+      "comp": [],
+      "gap": [
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "Coindesk",
+        "BusinessWire (Morgan Stanley IM 公告)",
+        "Cryptobriefing (GENIUS Act 合规)"
+      ],
+      "tks": [
+        "USDC",
+        "USDT",
+        "USDG"
+      ],
+      "cluster_explicit": "GENIUS_ACT"
+    },
+    {
+      "name": "Zondacrypto (波兰) 近破产 + CEO 跑路以色列 — 交易所信任叙事重提",
+      "tk": "",
+      "heat": 78,
+      "urg": "中",
+      "desc": "WuBlockchain: 波兰交易所 Zondacrypto CEO Przemysław Kral 已跑路以色列，平台面临 $100M+ 客户资金缺口，临近破产。推文 18.5 万阅读量，欧洲监管机构和用户社群高度关注。事件叠加昨日 Wisconsin 起诉 Coinbase/Crypto.com/Kalshi 等，行业进入'交易所信任审视'高敏期。",
+      "act": "借势在外部传播渠道强化 OKX 储备证明 (PoR) 与冷热钱包透明度，避免被动卷入信任危机；同时关注是否有 Zondacrypto 用户资金外迁需求 (用户/做市商) 可承接。",
+      "comp": [
+        "Coinbase"
+      ],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "WuBlockchain (Zondacrypto 详情)",
+        "延续 regulation cluster"
+      ],
+      "tks": [],
+      "cluster_explicit": "regulation"
+    },
+    {
+      "name": "POLY 异常爆发 Day 5 — TG 24次 Top1 + 链迁移 + Polymarket USD 即将推出",
+      "tk": "POLY",
+      "heat": 75,
+      "urg": "高",
+      "desc": "TG hot tokens 中 POLY 飙至 24 次第一位（昨日仅 2 次），与 Polymarket 平台升级（链迁移）+ Polymarket USD（1:1 USDC 抵押稳定币）即将推出 + Brazil 封禁余波共振。POLY token 仍未官方发行（Polymarket CMO 10 月确认计划但未 TGE）。若 POLY 进入实际 TGE 倒计时，OKX 处于完全无现货/永续状态，是潜在重大首发机会。",
+      "act": "立即建立 POLY TGE 监控（社媒/治理论坛/链上发币地址），若 TGE 启动 24 小时内首发现货+永续；同步评估 Polymarket USD（PMUSD）作为新合规稳定币的上币优先级。",
+      "comp": [],
+      "gap": [
+        "OKX无 (未 TGE)"
+      ],
+      "kol": [],
+      "sig": [
+        "TG hot_tokens (POLY 24次 Top1)",
+        "WuBlockchain (Polymarket 链迁移)",
+        "Web 搜索 (Polymarket USD 上线计划)",
+        "昨日 prediction_market cluster"
+      ],
+      "tks": [
+        "POLY",
+        "USDC"
+      ],
+      "cluster_explicit": "prediction_market"
+    },
+    {
+      "name": "Coinbase Sonar 4/28 SpaceX 类 Pre-IPO 打新 — CN KOL 双源共振",
+      "tk": "SPCX",
+      "heat": 72,
+      "urg": "高",
+      "desc": "yuyue_chris 详细解构 Coinbase Sonar (= Plasma 同平台) 4/28 北京时间 20:00 开打 SpaceX-类 Pre-IPO：Pre-sale FDV 50M / TGE 100% 解锁 / 盘前 FDV 100M+ / 单号上限 20k u / 需 Echo KYC，'本金有一定安全保障'。chaomeigu_com 同日跟评 '打新 SpaceX'，CN 圈层共振。延续昨日 IPO cluster (Coinbase + Bybit 谈代币化美股 Pre-IPO)。",
+      "act": "OKX launchpad / Jumpstart 团队评估能否在 4/28 当天对标推出 Pre-IPO 类打新 (RWA 框架内)；若 Coinbase Sonar 标的 4/28 后流动性外溢，OKX 可作为接盘场所首发上线（提前 list 流程）。",
+      "comp": [
+        "Bybit",
+        "Coinbase"
+      ],
+      "gap": [
+        "OKX无 (未 TGE)"
+      ],
+      "kol": [],
+      "sig": [
+        "yuyue_chris (4/28 Coinbase Sonar 详情)",
+        "chaomeigu_com (回声)",
+        "延续 IPO cluster"
+      ],
+      "tks": [
+        "SPCX",
+        "ASPECTA"
+      ],
+      "cluster_explicit": "IPO"
+    }
+  ],
+  "L2": [
+    {
+      "name": "BTC ETF 9 连续日净流入 + ETH 反转 + Grayscale/Bitmine $500M ETH 质押",
+      "heat": 70,
+      "desc": "BTC 现货 ETF 4/24 +$14.45M，第 9 个连续净流入日，过去 8 日累计破 $2B (WuBlockchain)。ETH 现货 ETF 4/24 +$23.38M 反转上一周 -$75.94M 跌势。Grayscale + Bitmine 4/25 联手质押近 $500M ETH —— ETH 结构性吸筹再次确认。BTC 仍在 $77-80k 区间盘整，破 $80.5k 看 $85k；跌穿 $76.5k 看深度回调。",
+      "tks": [
+        "BTC",
+        "ETH"
+      ],
+      "sig": [
+        "WuBlockchain (ETF 9连流入 + ETH 反转) + Web 搜索 (Grayscale+Bitmine $500M staking)"
+      ],
+      "cluster_explicit": "etf_flow"
+    },
+    {
+      "name": "BIP-361 量子迁移争议升级 — Adam Back 推优选升级 vs 强制冻结",
+      "heat": 68,
+      "desc": "BIP-361 三阶段 soft fork 计划：Phase A 三年内禁止向遗留地址类型转账；Phase B 两年后失效遗留签名（共识层冻结所有未迁移币）；Phase C ZK proof 恢复机制研究中。Google 早 2026 年研究: 足够强量子机 ~10 分钟可破 ECDSA。34% BTC 已暴露公钥。Adam Back 公开反对强制冻结，主张可选升级 — 社区分裂加剧，反对意见上升至主流声量。",
+      "tks": [
+        "BTC"
+      ],
+      "sig": [
+        "Coindesk/Cointelegraph (BIP-361 三阶段 + Adam Back) + 延续昨日 BTC_technical cluster"
+      ],
+      "cluster_explicit": "BTC_technical"
+    },
+    {
+      "name": "Litecoin MWEB 零日漏洞触发链重组 — LTC 安全事件",
+      "heat": 65,
+      "desc": "WuBlockchain: Litecoin MimbleWimble Extension Block (MWEB) 出现零日漏洞，链上执行了重组以撤销无效 pegouts。LTC 是 OKX 已有现货+永续+交割的主流币，链重组事件需要交易所风控团队评估存款/取款延迟与潜在双花风险。",
+      "tks": [
+        "LTC"
+      ],
+      "sig": [
+        "WuBlockchain (LTC MWEB 零日 + 链重组)"
+      ],
+      "cluster_explicit": "LTC_security"
+    },
+    {
+      "name": "ZEC 隐私币突破延续 Day 6 — ByzGeneral 看多 + ETH ETF 资金分流",
+      "heat": 62,
+      "desc": "@ByzGeneral 公开图表认为 ZEC 已 ready for next expansion（突破已成立）。TG 端 ZEC 本日落到第 8 位（昨日 8 次今日未在 top 10 出现），但价格层面累涨 50%+。Robinhood 已上 + Grayscale ETF 申请 + SEC 1/15 结案三重利好仍是结构性多头逻辑。",
+      "tks": [
+        "ZEC",
+        "XMR"
+      ],
+      "sig": [
+        "ByzGeneral (ZEC 突破图) + 延续 privacy_coins cluster Day 5"
+      ],
+      "cluster_explicit": "privacy_coins"
+    },
+    {
+      "name": "APE 新 CEO + BAYC NFT 复兴 — ByzGeneral 双信号看多",
+      "heat": 58,
+      "desc": "ByzGeneral: APE 新 CEO 任命引发看多反应；BAYC NFT 'reviving — very interesting'。NFT 蓝筹复兴叙事可能带动 ApeChain 生态，APE 作为治理币首批受益。OKX 已有现货+永续，叙事归 L2 关注。",
+      "tks": [
+        "APE"
+      ],
+      "sig": [
+        "ByzGeneral (APE 新 CEO + BAYC 复兴)"
+      ],
+      "cluster_explicit": "APE_NFT"
+    },
+    {
+      "name": "Ethereum 5 north stars / 7 forks roadmap 公布",
+      "heat": 55,
+      "desc": "ETH 提议未来约 7 次网络分叉，围绕 5 大 'north stars'：缩短出块时间、L1 吞吐扩到 ~10,000 TPS、L2 扩展、用户体验改进、机构合规等。对 ETH 长期叙事是结构性利好，但短期主要影响 ETH 衍生品定价模型。",
+      "tks": [
+        "ETH"
+      ],
+      "sig": [
+        "Web 搜索 (ETH 路线图) + Coinmarketcap AI 摘要"
+      ],
+      "cluster_explicit": "ETH_roadmap"
+    },
+    {
+      "name": "Tron $344M USDT 冻结余波 + Whale Alert: Ceffu 168M USDT 出走",
+      "heat": 55,
+      "desc": "WuBlockchain: 美国国务院与 Tether 协助冻结 Tron 链 $344M USDT (与伊朗政权关联，CNN 报道)。@whale_alert: 168.3M USDT 从 Ceffu 转至未知钱包；1,146 BTC 从 OKEX 转至未知钱包；663 BTC 由未知转入 Coinbase。稳定币链流量监测 + 大额 BTC 跨所迁移信号。",
+      "tks": [
+        "USDT",
+        "USDC",
+        "BTC"
+      ],
+      "sig": [
+        "WuBlockchain (Tron 冻结) + whale_alert (Ceffu/OKEX/Coinbase 大额转账)"
+      ],
+      "cluster_explicit": "stablecoin_flow"
+    }
+  ],
+  "L1": [
+    {
+      "name": "MegaETH TGE 月底 + Base 首次独立网络升级 + MetaMask Finlay 离职",
+      "desc": "WuBlockchain 周报: MegaETH 月底 TGE，Base 首次独立网络升级（脱离原 OP Stack 节奏），MetaMask 联创 Dan Finlay 离开 Consensys。多个 L2/钱包生态事件叠加，需关注 MegaETH 是否成为下一个首发机会。",
+      "sig": [
+        "TG"
+      ],
+      "cluster_explicit": "MegaETH"
+    },
+    {
+      "name": "BNB/BTC pair 收复 1011 插针 — 0xVeryBigOrange 看多",
+      "desc": "0xVeryBigOrange: '1011 时候 BNBBTC 最低插到 0.0083，现在已经把那根针完全吞没了' — BNB 相对 BTC 强势确认，OKX 已有 BNB 现货+永续。",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "BMNR"
+    },
+    {
+      "name": "美印太司令 Paparo 参议院: BTC = 国家利益",
+      "desc": "WuBlockchain: 美印太司令上将 Paparo 在参议院听证会表态 BTC 是国家利益事项 — BTC 监管/战略储备叙事再添政府高级背书。",
+      "sig": [
+        "监管"
+      ],
+      "cluster_explicit": "geopolitics"
+    },
+    {
+      "name": "Believe 创始人 Ben Pasternak 在纽约被捕 — memecoin 监管事件",
+      "desc": "WuBlockchain: Believe 创始人 Ben Pasternak 被捕。memecoin 平台运营方监管打压，需关注后续具体罪名是否扩散到其他 launchpad。",
+      "sig": [
+        "监管"
+      ],
+      "cluster_explicit": "regulation"
+    },
+    {
+      "name": "法国 88 人因 12 起 crypto 绑架案被起诉",
+      "desc": "WuBlockchain: 法国共 88 人在 12 起加密货币绑架案中被起诉，Durov 把现实案件归因于税务数据泄露 — OPSEC/物理安全叙事再次抬头。",
+      "sig": [
+        "监管"
+      ],
+      "cluster_explicit": "regulation"
+    },
+    {
+      "name": "BIRB (Moonbirds) TG 4 次延续 — 单源信号",
+      "desc": "TG 4 次出现，OKX 无。Moonbirds 1/28 launch 后讨论延续，单源 KOL 未确认，仅作观察。",
+      "sig": [
+        "TG",
+        "KOL"
+      ],
+      "cluster_explicit": "BIRB"
+    },
+    {
+      "name": "FLOCK / AI Agent 半玩笑提及 — Web3Feng",
+      "desc": "Web3Feng: '让 AI 帮我把资金翻十倍' (FLOCK)。半玩笑意味，但 AI Agent 投资类叙事仍在 CN KOL 圈持续被提及，待载体明确。",
+      "sig": [
+        "KOL"
+      ],
+      "cluster_explicit": "ai_crypto"
+    },
+    {
+      "name": "Whale Alert: 1,146 BTC OKEX 出 + 663 BTC 入 Coinbase",
+      "desc": "@whale_alert 显示 24h 内 1,146 BTC 从 OKEX 流向未知钱包（~$89M），663 BTC 入 Coinbase（~$51M）。BTC 跨所迁移监控信号。",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "etf_flow"
+    },
+    {
+      "name": "TG 新 token: COLE/KAROLINE/IMMORTAL/SHOW/FIGHT/VVV — 全 OKX 无",
+      "desc": "TG 端 3 次以下出现的小币 (COLE 3 / KAROLINE 3 / IMMORTAL 2 / SHOW 2 / FIGHT 2 / VVV 2)，多为低市值 meme，单源信号未通过 KOL/新闻验证，先入候补观察。",
+      "sig": [
+        "TG",
+        "KOL",
+        "新闻"
+      ],
+      "cluster_explicit": "meme"
+    }
+  ],
+  "comp": [
+    {
+      "what": "Aave + EtherFi + Kelp + LayerZero + Compound 联合 Arbitrum DAO 提案解冻 ETH",
+      "detail": "WuBlockchain: KELP 救助进入跨协议 DAO 协调阶段"
+    },
+    {
+      "what": "Solana 基金会借 USDT 给 Aave 救坏账 + 计划把 AAVE 部署到 Solana",
+      "detail": "SOL 生态级利好；AAVE 跨链扩展"
+    },
+    {
+      "what": "Morgan Stanley IM 推 Stablecoin Reserves Portfolio (MSNXX)",
+      "detail": "$1.9T AUM 巨头切入 GENIUS Act 合规稳定币储备业务"
+    },
+    {
+      "what": "Zondacrypto (波兰) 近破产 + CEO 跑路以色列",
+      "detail": "$100M+ 客户资金缺口；交易所信任危机"
+    },
+    {
+      "what": "Litecoin MWEB 零日漏洞 + 链重组撤销无效 pegouts",
+      "detail": "LTC 安全事件，需评估存取款风控"
+    },
+    {
+      "what": "Polymarket 链迁移 + Polymarket USD (1:1 USDC) 即将推出",
+      "detail": "TG POLY 飙至 Top1 (24 次)；POLY 仍未 TGE"
+    },
+    {
+      "what": "Coinbase Sonar 4/28 SpaceX-类 Pre-IPO 打新",
+      "detail": "FDV 50M / TGE 100% / 单号 20k u / Echo KYC"
+    },
+    {
+      "what": "BIP-361 三阶段量子迁移 + Adam Back 反对强制冻结",
+      "detail": "34% BTC 暴露公钥；社区分裂"
+    },
+    {
+      "what": "Believe 创始人 Ben Pasternak 在纽约被捕",
+      "detail": "memecoin launchpad 监管打压"
+    },
+    {
+      "what": "MegaETH 月底 TGE + Base 首次独立网络升级 + MetaMask Finlay 离职",
+      "detail": "L2/钱包生态多事件叠加"
+    },
+    {
+      "what": "美印太司令 Paparo 参议院: BTC = 国家利益",
+      "detail": "BTC 战略储备/国家利益叙事"
+    },
+    {
+      "what": "Brazil 全面封禁 Kalshi + Polymarket (延续)",
+      "detail": "预测市场监管再加码"
+    }
+  ],
+  "kols": [
+    {
+      "n": "@WuBlockchain",
+      "v": "Zondacrypto 波兰交易所 CEO 跑路以色列 $100M+ 缺口；Aave + EtherFi/Kelp/LayerZero/Compound 联合 Arbitrum DAO 解冻提案；SOL Foundation 借 USDT + 计划上 AAVE；LTC MWEB 零日 + 链重组；BTC ETF +$14.45M 第 9 连流入；ETH ETF +$23.38M 反转；US Indo-Pacific Cmdr Paparo: BTC=国家利益；Believe 创始人 Pasternak 被捕；MegaETH 月底 TGE + Base 首次独立升级 + MetaMask Finlay 离职",
+      "s": "n"
+    },
+    {
+      "n": "@ByzGeneral",
+      "v": "ZEC 已 ready for next expansion（看多突破）；APE 新 CEO 看多 + BAYC NFT 复兴 'very interesting'",
+      "s": "n"
+    },
+    {
+      "n": "@whale_alert",
+      "v": "24h: 1,146 BTC 出 OKEX (~$89M) → 未知；663 BTC → Coinbase；168M USDT 出 Ceffu",
+      "s": "n"
+    },
+    {
+      "n": "@yuyue_chris",
+      "v": "Coinbase Sonar 4/28 北京 20:00 开打 SpaceX-类 Pre-IPO，FDV 50M / TGE 100% / 单号 20k u / Echo KYC",
+      "s": "n"
+    },
+    {
+      "n": "@chaomeigu_com",
+      "v": "回声 yuyue：'打新 SpaceX' — Coinbase Sonar 平台 4/28",
+      "s": "n"
+    },
+    {
+      "n": "@0xVeryBigOrange",
+      "v": "BNB/BTC 收复 1011 插针 (0.0083 已被吞没)；驳斥 BTC $35k 看空 'BTC 35k 这辈子都到不了，看到 35w 概率比 35k 大'",
+      "s": "n"
+    },
+    {
+      "n": "@hexiecs",
+      "v": "X 选 flork 替代 doge 作 meme logo，叙事仍在 (低强度)",
+      "s": "n"
+    },
+    {
+      "n": "@Web3Feng",
+      "v": "FLOCK AI Agent 半玩笑 '让 AI 帮我把资金翻十倍'；评 Musk 画饼 + Grok 直言",
+      "s": "n"
+    },
+    {
+      "n": "@krugermacro",
+      "v": "stocks 不需要叙事只需强财报，叙事是 crypto 的事 (相对看空 crypto narrative trade)",
+      "s": "n"
+    },
+    {
+      "n": "@CryptoPainter",
+      "v": "GP 因子树量化引擎更新；继续吐槽 AI/quant 营销 (无 token call)",
+      "s": "n"
+    },
+    {
+      "n": "@Pentosh1",
+      "v": "宏观/税收 rant，无具体 token 方向",
+      "s": "n"
+    },
+    {
+      "n": "@fejau_inc",
+      "v": "'I personally think it\\'s 2026' — 隐含周期顶点 / 主升浪在 2026 (中性偏多)",
+      "s": "n"
+    }
+  ],
+  "tg": [
+    {
+      "t": "POLY",
+      "c": 24
+    },
+    {
+      "t": "IMX",
+      "c": 19
+    },
+    {
+      "t": "BTC",
+      "c": 7
+    },
+    {
+      "t": "ALGO",
+      "c": 6
+    },
+    {
+      "t": "ATOM",
+      "c": 4
+    },
+    {
+      "t": "INJ",
+      "c": 4
+    },
+    {
+      "t": "BIRB",
+      "c": 4
+    },
+    {
+      "t": "ZAMA",
+      "c": 4
+    },
+    {
+      "t": "COLE",
+      "c": 3
+    },
+    {
+      "t": "KAROLINE",
+      "c": 3
+    },
+    {
+      "t": "ETH",
+      "c": 3
+    },
+    {
+      "t": "IMMORTAL",
+      "c": 2
+    }
+  ],
+  "st": {
+    "tg": 27,
+    "msgs": 1366,
+    "cry": 212,
+    "kol": 12
+  },
+  "ex": [
+    {
+      "n": "Binance",
+      "c": 1978,
+      "s": 1
+    },
+    {
+      "n": "Bybit",
+      "c": 1259,
+      "s": 18
+    },
+    {
+      "n": "Bitget",
+      "c": 1195,
+      "s": 44
+    },
+    {
+      "n": "Hyperliquid",
+      "c": 190,
+      "s": 1
+    },
+    {
+      "n": "Coinbase",
+      "c": 515,
+      "s": 2
+    },
+    {
+      "n": "Upbit",
+      "c": 715,
+      "s": 2
+    },
+    {
+      "n": "Kraken",
+      "c": 961,
+      "s": 12
+    },
+    {
+      "n": "OKX",
+      "c": 385,
+      "s": 27
+    }
+  ],
+  "stockGap": [
+    {
+      "token": "WMT",
+      "on": [
+        "Bitget(perp_usdt)",
+        "Coinbase(spot)",
+        "Kraken(spot)"
+      ],
+      "cnt": 3
+    },
+    {
+      "token": "MCD",
+      "on": [
+        "Bybit(spot)",
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 2
+    },
+    {
+      "token": "AMAT",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ARM",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ASML",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "AVGO",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BABA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "COST",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "LI",
+      "on": [
+        "Kraken(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "RKLB",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    }
+  ]
+}

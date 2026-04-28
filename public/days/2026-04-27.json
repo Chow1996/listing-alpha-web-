@@ -1,0 +1,475 @@
+{
+  "summary": "周日低密度信号日：TG 25 个群组共 232 条 crypto 相关消息；新闻抓取异常（律动 API parser 报错，0 条）。两件需要立即行动：(1) **LTC MWEB 漏洞 + 13 块深度回滚** — PoW 主链史上首次人为协调深度重组，攻击者 38 小时前已通过 Binance 预备资金（明显蓄谋），共识补丁早在公开披露前 4 周内部分发但未广播或强制矿池升级→ 风控/上币立即复核 OKX 的 LTC 充提与节点版本要求。(2) **KELP/AAVE Day 8** — Aave TVL 撤出约 $6B，AAVE 回购自 4/19 暂停至今，Circle 提议提高 USDC 借款利率遭社区反对；@ByzGeneral 指出 AAVE 永续 OI 走高但 funding 持平→ 空头拥挤、挤空风险升温。KOL 信号密度偏薄：Tier1 / CN / EN 三组合计 24h 内沉默 23/38。宏观顺风延续：Arthur Hayes（Wu 转述）$15T 信用扩张推 BTC 至 $1M；Novogratz CLARITY Act 5 月定稿、6 月签署。",
+  "topTk": [
+    "LTC",
+    "AAVE",
+    "BTC",
+    "ETH",
+    "ASML"
+  ],
+  "L3": [
+    {
+      "name": "LTC MWEB exploit + 13-block reorg — Day 2",
+      "tk": "LTC",
+      "heat": 92,
+      "urg": "critical",
+      "desc": "First-ever coordinated 13-block reorg on a major PoW chain. Attacker exploited an MWEB privacy-layer bug to mint invalid pegged-out LTC, paired with a DoS targeting patched mining pools so unpatched nodes formed the canonical chain. Pre-funded wallet via Binance 38h before the event with destination address pre-configured to swap LTC→ETH on a DEX (premeditation). Coordination crisis: consensus patch was privately distributed Mar 19–26 but never broadcast or required to mining pools — ~4-week delay.",
+      "act": "立即由风控/上币团队评估：(a) OKX LTC 充提是否已暂停或加白名单，至少要求 v0.21.4 patched 节点；(b) MWEB 类资产风险敞口复核（其他隐私扩展层资产）；(c) 与币安沟通该攻击者地址是否已封禁",
+      "comp": [
+        "Binance"
+      ],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "CN KOL @jason_chen998 (53k views)",
+        "Coindesk",
+        "The Block",
+        "Cryptopolitan",
+        "AMBCrypto"
+      ],
+      "tks": [
+        "LTC",
+        "ETH"
+      ],
+      "cluster_explicit": "LTC_MWEB"
+    },
+    {
+      "name": "KELP / Aave / rsETH 救助 Day 8 — TVL 出血 + 治理裂变",
+      "tk": "AAVE",
+      "heat": 86,
+      "urg": "high",
+      "desc": "Aave 自 4/19 暂停 AAVE 回购至今未恢复；该事件后约 $6B TVL 撤出。Circle 经济学家 Gordon Liao 提议 USDC 借款利率上调以引入流动性，社区反对（恐加速对压力借款人的清算）。@ByzGeneral 当日观察：AAVE OI 在 drama 中显著上行但 funding 持平 → 空头拥挤、挤空风险上升。坏账规模区间 $123–230M（视 Kelp DAO 分摊方案）。",
+      "act": "(1) 风控：监控 OKX AAVE 永续 OI / funding 与外盘背离，若挤空启动严密价差监控；(2) 上币：维持 rsETH/eETH 等 LRT 资产暂缓决策直到 Kelp 损失分摊方案落定；(3) 产品：评估是否在策略产品中提示 Aave 策略风险",
+      "comp": [],
+      "gap": [
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "EN KOL @ByzGeneral",
+        "Coindesk",
+        "governance.aave.com",
+        "The Block",
+        "历史 KELP 集群 Day 1–7"
+      ],
+      "tks": [
+        "AAVE",
+        "rsETH",
+        "ETHFI",
+        "USDC"
+      ],
+      "cluster_explicit": "KELP"
+    },
+    {
+      "name": "竞对股票永续 Day 6 — 半导体 + 中概 gap 持续扩大",
+      "tk": "ASML",
+      "heat": 78,
+      "urg": "medium",
+      "desc": "今日扫描确认 Bitget 上线 ASML / AMAT / AVGO / ARM / BABA / BA / COST / RKLB 永续；Coinbase/Kraken 增 WMT/MCD/LI 现货。OKX 现有 AAPL/AMD/AMZN/COIN/GOOGL/HOOD/INTC/META/MSFT/MSTR/MU/NFLX/NVDA/ORCL/PLTR/SNDK/TSLA/TSM 共 18 支美股 SWAP，缺 ASML（EUV 龙头）、AMAT、AVGO、ARM 四支半导体高权重股及零售龙头 WMT/COST。",
+      "act": "上币优先级建议：第一批 ASML + AVGO + AMAT（半导体设备/AI 资本支出敞口完整化）；第二批 BABA（中概旗舰，配合中国题材轮动）；第三批 WMT + COST（零售防御性）",
+      "comp": [
+        "Bitget",
+        "Coinbase",
+        "Kraken"
+      ],
+      "gap": [
+        "OKX无",
+        "OKX无",
+        "OKX无",
+        "OKX无",
+        "OKX无",
+        "OKX无",
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "竞对 API: Bitget(8 支永续)",
+        "Coinbase",
+        "Kraken",
+        "历史集群 Day 1–5"
+      ],
+      "tks": [
+        "ASML",
+        "AMAT",
+        "AVGO",
+        "ARM",
+        "BABA",
+        "WMT",
+        "COST"
+      ],
+      "cluster_explicit": "stock_derivatives"
+    },
+    {
+      "name": "Coinbase Sonar SpaceX-类 Pre-IPO 4/28 倒计时",
+      "tk": "SpaceX(类)",
+      "heat": 75,
+      "urg": "medium",
+      "desc": "Coinbase Sonar 4/28 SpaceX 类 Pre-IPO 打新窗口将在 1 天内开启（cluster 自 4/26 延续）。CN KOL 和新闻双源关注；OKX 暂无类似 Pre-IPO 一级产品，竞对在 Web3+TradFi 接缝处持续抢跑。",
+      "act": "产品组评估是否在 Web3 一级市场打新做对标功能；上币组监控 Pre-IPO 类衍生代币化是否在外盘出现",
+      "comp": [
+        "Coinbase"
+      ],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "历史 IPO 集群 Day 1–2",
+        "4/26 CN KOL",
+        "新闻双源"
+      ],
+      "tks": [
+        "SpaceX",
+        "Coinbase"
+      ],
+      "cluster_explicit": "IPO"
+    }
+  ],
+  "L2": [
+    {
+      "name": "BTC 宏观看多续延 — Hayes $1M 目标 via $15T 信用扩张",
+      "heat": 70,
+      "desc": "Arthur Hayes 在 Korea Blockchain Week 重申：未来 $15T 信用扩张推动 BTC 至 $1M；Wu 转发后中文圈广泛传播。BMNR 集群第 8 天，配合 BNB/BTC pair 1011 插针收复延续。0xVeryBigOrange 重申 ETH 长线超预期。",
+      "tks": [
+        "BTC",
+        "ETH"
+      ],
+      "sig": [
+        "@WuBlockchain（Hayes 转述）+ @0xVeryBigOrange（49.7k views）+ 历史 BMNR 集群"
+      ],
+      "cluster_explicit": "BMNR"
+    },
+    {
+      "name": "US CLARITY Act May 通过 / June 签署预期",
+      "heat": 68,
+      "desc": "Galaxy CEO Mike Novogratz 在 Wu 节目中明确 CLARITY Act 5 月定稿、6 月签署的时间表；Q2 末为美国交易所合规拐点。并存 APAC 监管放松：新加坡放开公链资产规则、泰国开放数字资产衍生品、乌兹别克挖矿区、俄罗斯推法案、菲律宾警告无照平台。",
+      "tks": [
+        "—（监管层面）"
+      ],
+      "sig": [
+        "@WuBlockchain（Novogratz 转述）+ APAC 多国监管动态汇总"
+      ],
+      "cluster_explicit": "regulation"
+    },
+    {
+      "name": "隐私币 + PoW 安全叙事重燃 — XMR / ZEC / LTC 联动",
+      "heat": 65,
+      "desc": "TG 24h 热榜：XMR 6 次 + POW 5 次。LTC MWEB 事件直接利好硬隐私（XMR）、利空软隐私扩展层（ZEC 历史 Day 6 + LTC）。ByzGeneral 此前看多 ZEC 突破（隐私 cluster Day 6）。OKX XMR/ZEC 暂无（XMR 全面下架是历史决策）。",
+      "tks": [
+        "XMR",
+        "ZEC",
+        "LTC"
+      ],
+      "sig": [
+        "TG 热榜 + 历史 privacy_coins 集群 + LTC_MWEB 联动"
+      ],
+      "cluster_explicit": "privacy_coins"
+    },
+    {
+      "name": "AI / DeepSeek 叙事降温 + Agent-Trading 主导论",
+      "heat": 62,
+      "desc": "@NintendoDoomed: DeepSeek V4 在 lmarena 排名回落至中游 → 中国 AI 题材热度回落。@yuyue_chris: 周末 5+ 个 alt-coin radar 工具同质化，Agent-Trading 将主导小币交易，低频手动 alt 交易已负 EV；alt 市场进一步 meme 化 + 流动性收缩。@0xVeryBigOrange: 自建 Agent 'lobster' 空投打新亏损 $100，验证当前 Agent 盈利不稳。",
+      "tks": [
+        "（AI"
+      ],
+      "sig": [
+        "@NintendoDoomed + @yuyue_chris + @0xVeryBigOrange + TG 5+ radar 工具"
+      ],
+      "cluster_explicit": "ai_crypto"
+    },
+    {
+      "name": "Uranium / 核能复兴叙事 — Bluntz 高确信多年牛市",
+      "heat": 60,
+      "desc": "@Bluntz_Capital 多条推：铀供需缺口结构性、即使所有 greenfield 上线仍至 2040 年代供给紧张；推荐 ETF 入场：URA / URNM / URNJ。这是少数 Tier1 KOL 当日高确信宏观/股票题材。OKX 现有商品 SWAP（BZ/CL/NG/XAUT）但无 URA/URNM/URNJ。",
+      "tks": [
+        "URA",
+        "URNM",
+        "URNJ"
+      ],
+      "sig": [
+        "@Bluntz_Capital 高确信多条推"
+      ],
+      "cluster_explicit": "stock_derivatives"
+    }
+  ],
+  "L1": [
+    {
+      "name": "$CARDS — Bluntz 罕见高确信 alt 仓位（单源）",
+      "desc": "Bluntz 描述 6 个月区间累积 + 'breath of fresh air'，但搜索未确认项目细节，单源信号，待复核",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "CARDS"
+    },
+    {
+      "name": "HENRY (TG 8 次) — TG 第三热但来源未明",
+      "desc": "TG 24h 第 3 高频，但跨群组分布与项目身份待确认；OKX 无；标记观察",
+      "sig": [
+        "TG"
+      ],
+      "cluster_explicit": "meme"
+    },
+    {
+      "name": "BIRB (Moonbirds) Day 3 — 单源 TG 6 次延续",
+      "desc": "BIRB 集群延续，无新信号源；观察是否多源化",
+      "sig": [
+        "TG"
+      ],
+      "cluster_explicit": "BIRB"
+    },
+    {
+      "name": "Agent-Trading 主导论 — yuyue_chris",
+      "desc": "结构性观点：alt 市场未来由 $100 retail agent 主导；产品组可参考",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "ai_crypto"
+    },
+    {
+      "name": "BTC 国家安全叙事余温",
+      "desc": "美印太司令 BTC = 国家利益（4/26 历史信号），24h 内无新增",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "geopolitics"
+    }
+  ],
+  "comp": [
+    {
+      "what": "Bitget 上线 8 支美股永续",
+      "detail": "ASML / AMAT / AVGO / ARM / BABA / BA / COST / RKLB（半导体 + 中概 + 零售）"
+    },
+    {
+      "what": "Coinbase 上线 LI / WMT / MCD 现货",
+      "detail": "中概车企 + 零售龙头"
+    },
+    {
+      "what": "Coinbase Sonar Pre-IPO 4/28 开启",
+      "detail": "SpaceX 类 Pre-IPO 打新（Web3+TradFi 接缝产品）"
+    },
+    {
+      "what": "Bitget 持续在股票永续抢位",
+      "detail": "总 44 支股票/商品 vs OKX 28 支，gap=11"
+    }
+  ],
+  "kols": [
+    {
+      "n": "ByzGeneral",
+      "v": "AAVE OI 在 KELP drama 中明显上行但 funding 持平 → 空头拥挤、挤空风险上升",
+      "s": "n"
+    },
+    {
+      "n": "jason_chen998",
+      "v": "LTC 首次人为协调 13 块深度回滚，MWEB 漏洞 + 攻击者 38h 前 Binance 预备资金",
+      "s": "n"
+    },
+    {
+      "n": "0xVeryBigOrange",
+      "v": "ETH 长线上涨空间超大多数人想象（49.7k views）",
+      "s": "n"
+    },
+    {
+      "n": "Bluntz_Capital",
+      "v": "铀供需结构性缺口持续到 2040s；推 URA/URNM/URNJ；$CARDS 累积仓位高确信",
+      "s": "n"
+    },
+    {
+      "n": "WuBlockchain (Hayes 转述)",
+      "v": "$15T 信用扩张推 BTC 至 $1M",
+      "s": "n"
+    },
+    {
+      "n": "WuBlockchain (Novogratz 转述)",
+      "v": "CLARITY Act 5 月定稿、6 月签署 — Q2 末美国合规拐点",
+      "s": "n"
+    },
+    {
+      "n": "yuyue_chris",
+      "v": "Agent-Trading 将主导 alt；低频手动 alt 已负 EV；流动性进一步收缩 + meme 化",
+      "s": "n"
+    },
+    {
+      "n": "NintendoDoomed",
+      "v": "DeepSeek V4 lmarena 排名回落 → 中国 AI 叙事降温",
+      "s": "n"
+    }
+  ],
+  "tg": [
+    {
+      "t": "INJ",
+      "c": 16
+    },
+    {
+      "t": "BTC",
+      "c": 15
+    },
+    {
+      "t": "HENRY",
+      "c": 8
+    },
+    {
+      "t": "SPACE",
+      "c": 7
+    },
+    {
+      "t": "BIRB",
+      "c": 6
+    },
+    {
+      "t": "XMR",
+      "c": 6
+    },
+    {
+      "t": "POW",
+      "c": 5
+    },
+    {
+      "t": "TRUTH",
+      "c": 5
+    },
+    {
+      "t": "BLUR",
+      "c": 5
+    },
+    {
+      "t": "TIME",
+      "c": 4
+    },
+    {
+      "t": "AERO",
+      "c": 4
+    },
+    {
+      "t": "IMX",
+      "c": 4
+    }
+  ],
+  "st": {
+    "tg": 25,
+    "msgs": 1468,
+    "cry": 232,
+    "kol": 8
+  },
+  "ex": [
+    {
+      "n": "Binance",
+      "c": 1978,
+      "s": 1
+    },
+    {
+      "n": "Bybit",
+      "c": 1259,
+      "s": 18
+    },
+    {
+      "n": "Bitget",
+      "c": 1195,
+      "s": 44
+    },
+    {
+      "n": "Hyperliquid",
+      "c": 190,
+      "s": 1
+    },
+    {
+      "n": "Coinbase",
+      "c": 515,
+      "s": 2
+    },
+    {
+      "n": "Upbit",
+      "c": 715,
+      "s": 2
+    },
+    {
+      "n": "Kraken",
+      "c": 961,
+      "s": 12
+    },
+    {
+      "n": "OKX",
+      "c": 385,
+      "s": 27
+    }
+  ],
+  "stockGap": [
+    {
+      "token": "WMT",
+      "on": [
+        "Bitget(perp_usdt)",
+        "Coinbase(spot)",
+        "Kraken(spot)"
+      ],
+      "cnt": 3
+    },
+    {
+      "token": "MCD",
+      "on": [
+        "Bybit(spot)",
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 2
+    },
+    {
+      "token": "AMAT",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ARM",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ASML",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "AVGO",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BABA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "COST",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "LI",
+      "on": [
+        "Kraken(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "RKLB",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    }
+  ]
+}

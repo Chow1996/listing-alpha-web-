@@ -1,0 +1,510 @@
+{
+  "summary": "BTC 在 77-80k 陷入分歧：链上 24h 内 4 笔大额 BTC 流入 Coinbase Institutional（$167M+$80M+$50M+$386M from Kraken），MicroStrategy 再加仓 3,273 BTC（均价 $77,906），但 @yuyue_chris、@ByzGeneral 反映现货卖压把 80k 当作上沿、资金费率深负。Upbit + Bithumb 同日上线 PRL（Pearl, ~$39M MC, KRW/USDT/BTC）和 XCN（Onyxcoin, ~$179M MC, KRW/USDT），OKX 双双缺位 — 今日最直接的上币行动信号。KELP / rsETH 救助 Day 9：Consensys/Lubin 承诺注入 30,000 ETH，Circle Ventures 出手买 AAVE，LRT 板块结构性救援延续。稳定币侧：Western Union 宣布在 Solana 发行 USDPT，OKX 自家 USDG 4.1% 年化口碑（@jason_chen998）继续；本周大额解锁清单 >$330M（SUI/JUP/SIGN/EIGEN/OMNI/GUN）需要合约风控盘点。",
+  "topTk": [
+    "PRL",
+    "XCN",
+    "USELESS",
+    "AAVE",
+    "PENGU",
+    "BTC",
+    "ETH",
+    "SOL",
+    "OMNI",
+    "GUN"
+  ],
+  "L3": [
+    {
+      "name": "Upbit + Bithumb 同日上 PRL & XCN — 双 Tier1 韩交所联动 OKX 缺位",
+      "tk": "PRL",
+      "heat": 80,
+      "urg": "high",
+      "desc": "Upbit 当日同时上 PRL（Pearl，~$39M MC，KRW/USDT/BTC 三对）和 XCN（Onyxcoin，~$179M MC，KRW/USDT 两对），Bithumb 同步上 PRL/KRW。@bwenews 速报，TG 提及 PRL 4 次。两个 token OKX 现货+永续完全缺位。Upbit + Bithumb 双击通常会带 1-3 天韩资行情窗口，是当日最值得快速跟进的上币信号。",
+      "act": "评估 PRL / XCN 现货 + 永续上线可行性；Upbit + Bithumb 同步上线通常带 1-3 天韩资买盘窗口，速度优先；若链上深度不足，先评估 perp_usdt 合约",
+      "comp": [
+        "Upbit"
+      ],
+      "gap": [
+        "OKX无",
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "Upbit/Bithumb 公告",
+        "@bwenews",
+        "TG hot_tokens (PRL 4 次)"
+      ],
+      "tks": [
+        "PRL",
+        "XCN"
+      ],
+      "cluster_explicit": "PRL_XCN"
+    },
+    {
+      "name": "USELESS 续热但 OKX 仅永续无现货 — 现货补位机会",
+      "tk": "USELESS",
+      "heat": 70,
+      "urg": "medium",
+      "desc": "USELESS 在 TG 热榜第三（8 次），多家 Tier1/2 竞对（Binance / Bybit / Bitget）已有现货+永续，OKX 仅永续，缺现货。Meme 类延续 PENGU/PEPE 的'独立行情'特征，现货缺位会让 OKX 错过手续费收入与韩资买盘。永续已运营，链上深度已可直接调取。",
+      "act": "评估 USELESS 现货上线（永续已运营，市场深度数据可直接复用）",
+      "comp": [
+        "Binance",
+        "Bybit",
+        "Bitget"
+      ],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "TG hot_tokens 8 次",
+        "竞对 Binance/Bybit/Bitget 现货均已上"
+      ],
+      "tks": [
+        "USELESS"
+      ],
+      "cluster_explicit": "meme"
+    },
+    {
+      "name": "KELP / rsETH / AAVE 救助 Day 9 — Consensys 30K ETH + Circle Ventures 买 AAVE",
+      "tk": "AAVE",
+      "heat": 84,
+      "urg": "high",
+      "desc": "@WuBlockchain 速报：Joe Lubin / Consensys 承诺向 rsETH 救助注入 30,000 ETH；同时 Circle Ventures 出手买入 AAVE。事件由清算延伸到机构 / 财团接盘救援层面，LRT 板块结构性重估继续，AAVE 短期叙事强化。OKX 已上 AAVE 现货+永续，无新增上币动作；但永续 OI、清算风险、rsETH 衍生品（如 wstETH 类）需要风控持续跟踪。",
+      "act": "(1) 风控：盯 AAVE / ETHFI 永续 OI 与外盘背离，挤空若启动加密价差监控；(2) 上币：rsETH 是否在救援协议明朗后窗口开放；(3) 产品：策略 / 借贷类提示 Aave 头寸风险",
+      "comp": [],
+      "gap": [
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "@WuBlockchain",
+        "链上数据",
+        "历史 KELP cluster (Day 8 → Day 9)"
+      ],
+      "tks": [
+        "AAVE",
+        "ETHFI",
+        "rsETH"
+      ],
+      "cluster_explicit": "KELP"
+    }
+  ],
+  "L2": [
+    {
+      "name": "PENGU 独立突破 — Pudgy Penguins 品牌行情延续",
+      "heat": 72,
+      "desc": "@ByzGeneral 直言 PENGU 是当前最强 NFT 品牌，独立于 BTC 走出突破；@Bluntz_Capital 也在隐性推 Pudgy（@pudgypenguins）。OKX 已上 PENGU 现货+永续，无上币动作，但作为 meme 板块领涨标的，需要监控波动率与 funding。",
+      "tks": [
+        "PENGU"
+      ],
+      "sig": [
+        "@ByzGeneral + @Bluntz_Capital + TG hot_tokens 6 次"
+      ],
+      "cluster_explicit": "meme"
+    },
+    {
+      "name": "BTC 机构吸筹 vs 80k 上沿 — Whale + MicroStrategy + 韩资反差",
+      "heat": 68,
+      "desc": "@whale_alert 24h 跟踪 4 笔大额 BTC 流入 Coinbase Institutional（~$167M+$80M+$50M+$386M from Kraken）；MicroStrategy 再买 3,273 BTC（均价 $77,906）。但 @yuyue_chris、@ByzGeneral 看到现货卖压在 80k 形成顶部，资金费率深负，方向分歧明显。OKX BTC 全覆盖（现货+永续+交割），关注合约 OI 与盘前结构。",
+      "tks": [
+        "BTC"
+      ],
+      "sig": [
+        "@whale_alert + @WuBlockchain (Strategy 公告) + @yuyue_chris + @ByzGeneral + TG 25 次"
+      ],
+      "cluster_explicit": "BMNR"
+    },
+    {
+      "name": "Western Union 在 Solana 发 USDPT + OKX USDG 4.1% Earn 口碑延续",
+      "heat": 60,
+      "desc": "@WuBlockchain：Western Union 宣布将在 Solana 链上发行稳定币 USDPT（传统跨境支付巨头入场）。@jason_chen998 推 OKX 自家 USDG（取消 1:1 后 4.1% 年化），称'闲置 U 理财首选'。稳定币赛道：传统金融 + 交易所自营双线推进，SOL 生态产品布局提速。",
+      "tks": [
+        "USDPT",
+        "USDG",
+        "SOL"
+      ],
+      "sig": [
+        "@WuBlockchain + @jason_chen998 + 历史 stablecoin_flow cluster"
+      ],
+      "cluster_explicit": "stablecoin_flow"
+    },
+    {
+      "name": "本周大额解锁 >$330M — SUI / JUP / SIGN / EIGEN / OMNI / GUN",
+      "heat": 65,
+      "desc": "@WuBlockchain 列出本周大额解锁清单（SUI、JUP、SIGN、EIGEN、OMNI、GUN），合计 >$330M。OKX 主流币种已现货+永续覆盖（SUI/JUP/EIGEN 全覆盖；SIGN 仅永续；OMNI / GUN 缺位），合约风控团队应预先 OI / 单边持仓盘点。",
+      "tks": [
+        "SUI",
+        "JUP",
+        "EIGEN",
+        "SIGN",
+        "OMNI",
+        "GUN"
+      ],
+      "sig": [
+        "@WuBlockchain + 链上解锁日历 + 历史 ZRO cluster"
+      ],
+      "cluster_explicit": "ZRO"
+    },
+    {
+      "name": "Gemini Agentic Trading via MCP + Manus 估值 -90%",
+      "heat": 58,
+      "desc": "@WuBlockchain：Gemini 上线 AI Agentic Trading（基于 Anthropic MCP 标准）— 交易所 + AI Agent 集成的产品方向。@Web3Feng：Manus（AI Agent 应用）在 Meta 收购审查 + Openclaw / Hermes 客户端冲击下，估值跌 90%。AI x Crypto：基础设施（MCP 标准 + Agent 交易）和应用（Manus）冷热反转。",
+      "tks": [
+        "RENDER",
+        "Manus"
+      ],
+      "sig": [
+        "@WuBlockchain + @Web3Feng + @CryptoPainter (Gemini 3.1 Pro)"
+      ],
+      "cluster_explicit": "ai_crypto"
+    },
+    {
+      "name": "Bybit 上线 GOOGL / META / MSFT 股票永续 — OKX 已全覆盖",
+      "heat": 55,
+      "desc": "Bybit 当日上线 GOOGL / META / MSFT 三只美股 perp_usdt，OKX 三只 stock perp 早已运营。竞对在缩小 OKX 股票代币 gap，但 OKX 商品/股票 perp 体系（含 BZ/CL/NG/XAUT 等 30+ 标的）整体仍领先。",
+      "tks": [
+        "GOOGL",
+        "META",
+        "MSFT"
+      ],
+      "sig": [
+        "Exchange API instrument scan"
+      ],
+      "cluster_explicit": "stock_derivatives"
+    },
+    {
+      "name": "数字资产周流入 $1.2B — BTC +$933M / ETH +$192M (CoinShares)",
+      "heat": 60,
+      "desc": "@WuBlockchain 转 CoinShares：本周数字资产产品流入 $1.2B，其中 BTC $933M、ETH $192M。Bitmine ETH 财库累计 5.08M ETH，与 BMNR cluster 机构吸筹叙事同步延续。",
+      "tks": [
+        "BTC",
+        "ETH"
+      ],
+      "sig": [
+        "CoinShares + @WuBlockchain + 历史 etf_flow cluster"
+      ],
+      "cluster_explicit": "etf_flow"
+    }
+  ],
+  "L1": [
+    {
+      "name": "Solana 采用 Falcon 后量子签名 — 量子叙事延伸到 SOL",
+      "desc": "@WuBlockchain：SOL 引入 Falcon 后量子签名，继 BTC 量子叙事后主流 L1 公开布局抗量子。",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "BTC_technical"
+    },
+    {
+      "name": "billions_ntwk Public Sale TGE 规则变更争议",
+      "desc": "@CryptoPainter 评论 @KaitoAI 旗下 @billions_ntwk public-sale 团队临时调整 TGE 规则触发市场质疑，被认为是供需管理而非贪婪信号。",
+      "sig": [
+        "TG"
+      ],
+      "cluster_explicit": "KAITO"
+    },
+    {
+      "name": "ZetaChain GatewayEVM exploit — 仅团队钱包受影响",
+      "desc": "@WuBlockchain：ZetaChain GatewayEVM 模块出现 exploit，影响范围限于团队钱包，用户资金未受波及。",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "exchange_hack"
+    },
+    {
+      "name": "WPOL TG 热度 3 次 — Polygon 升级后 OKX 仍无 WPOL",
+      "desc": "TG 提到 WPOL 3 次，OKX 现货+永续均无 WPOL（仅有原 MATIC 体系）。Polygon 升级后命名漂移仍未在 OKX 同步。",
+      "sig": [
+        "TG"
+      ],
+      "cluster_explicit": "POL"
+    },
+    {
+      "name": "IREN（Iris Energy 矿企）TG 热度 3 次 — OKX 无 stock perp",
+      "desc": "TG 提到 IREN（Iris Energy）3 次，OKX 商品/股票 perp 暂无 IREN（多数主流矿股已覆盖：MSTR/COIN）。可考虑矿股 perp 板块补位。",
+      "sig": [
+        "TG",
+        "商品"
+      ],
+      "cluster_explicit": "stock_derivatives"
+    },
+    {
+      "name": "PARANOID / SCAM / HENRY meme 单源延续",
+      "desc": "TG 提及 PARANOID 2 次、SCAM 4 次、HENRY 单源出现，OKX 全无上币。低优先级跟踪，确认链上交易体量。",
+      "sig": [
+        "TG",
+        "链上"
+      ],
+      "cluster_explicit": "meme"
+    }
+  ],
+  "comp": [
+    {
+      "what": "Upbit + Bithumb 同日上 PRL",
+      "detail": "Upbit (KRW/USDT/BTC 三对) + Bithumb (KRW)；Pearl ~$39M MC；OKX 双双缺位"
+    },
+    {
+      "what": "Upbit 上 XCN",
+      "detail": "Upbit KRW + USDT 双对；Onyxcoin ~$179M MC；OKX 缺位"
+    },
+    {
+      "what": "Bybit 上 GOOGL/META/MSFT 股票永续",
+      "detail": "三只美股 perp_usdt；OKX 三只均已自营 SWAP，gap 同步收敛"
+    },
+    {
+      "what": "Gemini 上线 AI Agentic Trading",
+      "detail": "基于 Anthropic MCP 标准；交易所 + AI Agent 集成方向"
+    },
+    {
+      "what": "Circle Ventures 出手买 AAVE",
+      "detail": "USDC 发行方 VC 部门入场，与 KELP/rsETH 救助叙事联动"
+    },
+    {
+      "what": "Consensys/Lubin 承诺 30K ETH 救 rsETH",
+      "detail": "LRT 板块结构性救援，影响 ETHFI/REZ/PUFFER 同族"
+    }
+  ],
+  "kols": [
+    {
+      "n": "Pentosh1",
+      "v": "宏观偏多：全球股市可能 3-5 倍今年；GLP-1 药物长尾风险（甲状腺/胰腺/胆囊/肝）。",
+      "s": "n"
+    },
+    {
+      "n": "Bluntz_Capital",
+      "v": "推自营资金 + Pudgy Penguins ($PENGU)；暗示长一只 9 月解锁前有团队回购的 token。",
+      "s": "n"
+    },
+    {
+      "n": "CryptoPainter",
+      "v": "批 @billions_ntwk (Kaito 系) public-sale TGE 临时调规则；推 OKX 安全助手；提 Gemini 3.1 Pro 上腾讯云。",
+      "s": "n"
+    },
+    {
+      "n": "WuBlockchain",
+      "v": "新闻流：SOL 采 Falcon 抗量子；ZetaChain exploit；Gemini Agentic Trading via MCP；Circle Ventures 买 $AAVE；Consensys 30K ETH 救 rsETH；Strategy +3,273 BTC；WU 在 SOL 发 USDPT；CoinShares $1.2B 流入；本周大额解锁 >$330M。",
+      "s": "n"
+    },
+    {
+      "n": "fejau_inc",
+      "v": "宏观空：质疑 T-bill 抵押品地位、USD 关税以来贬值 10%、利息支出本身造赤字。",
+      "s": "n"
+    },
+    {
+      "n": "krugermacro",
+      "v": "怀旧 FF tag 一众 OG，无市场信号。",
+      "s": "n"
+    },
+    {
+      "n": "Murphychen888",
+      "v": "BTC 链上 STH-RP 突破信号；赞 MSTR 在恐慌期消化抛压；下限抬高的震荡。",
+      "s": "n"
+    },
+    {
+      "n": "hexiecs",
+      "v": "做空两个'缺基本面'对冲；港股加仓曦智科技 (01879.HK) 国产光算力龙头。",
+      "s": "n"
+    },
+    {
+      "n": "bwenews",
+      "v": "Upbit 上 $PRL（KRW/BTC/USDT 三对）+ Bithumb $PRL/KRW；Upbit 上 $XCN（KRW/USDT）。",
+      "s": "n"
+    },
+    {
+      "n": "jason_chen998",
+      "v": "OKX $USDG 取消 1:1 刚兑后流动性仍好，4.1% 年化适合闲置 U 理财。",
+      "s": "n"
+    },
+    {
+      "n": "yuyue_chris",
+      "v": "BTC 79k 难判真假突破、资金费率深负，个人偏不看涨；山寨除妖币难普涨；提 $WLFI。",
+      "s": "n"
+    },
+    {
+      "n": "Web3Feng",
+      "v": "$Manus 因 Meta 收购审查 + Openclaw/Hermes 客户端崛起估值跌 90%。",
+      "s": "n"
+    },
+    {
+      "n": "whale_alert",
+      "v": "24h 大额：4 笔 BTC 入 Coinbase Institutional（~$167M+$80M+$50M+$386M from Kraken）；2× 250M USDC 在 Solana 铸；99.99M USDT Binance 流出；多笔 23-25K ETH 进 Beacon Depositor。",
+      "s": "n"
+    },
+    {
+      "n": "ByzGeneral",
+      "v": "看多 $PENGU 独立突破；BTC 80k 现货卖压封顶。",
+      "s": "n"
+    }
+  ],
+  "tg": [
+    {
+      "t": "BTC",
+      "c": 25
+    },
+    {
+      "t": "ETH",
+      "c": 12
+    },
+    {
+      "t": "USELESS",
+      "c": 8
+    },
+    {
+      "t": "PENGU",
+      "c": 6
+    },
+    {
+      "t": "PEPE",
+      "c": 6
+    },
+    {
+      "t": "WIF",
+      "c": 6
+    },
+    {
+      "t": "SCAM",
+      "c": 4
+    },
+    {
+      "t": "LAB",
+      "c": 4
+    },
+    {
+      "t": "INJ",
+      "c": 4
+    },
+    {
+      "t": "UNI",
+      "c": 4
+    },
+    {
+      "t": "RENDER",
+      "c": 4
+    },
+    {
+      "t": "AMZN",
+      "c": 4
+    }
+  ],
+  "st": {
+    "tg": 31,
+    "msgs": 2329,
+    "cry": 340,
+    "kol": 14
+  },
+  "ex": [
+    {
+      "n": "Binance",
+      "c": 1978,
+      "s": 1
+    },
+    {
+      "n": "Bybit",
+      "c": 1259,
+      "s": 21
+    },
+    {
+      "n": "Bitget",
+      "c": 1193,
+      "s": 44
+    },
+    {
+      "n": "Hyperliquid",
+      "c": 190,
+      "s": 1
+    },
+    {
+      "n": "Coinbase",
+      "c": 515,
+      "s": 2
+    },
+    {
+      "n": "Upbit",
+      "c": 720,
+      "s": 2
+    },
+    {
+      "n": "Kraken",
+      "c": 961,
+      "s": 12
+    },
+    {
+      "n": "OKX",
+      "c": 390,
+      "s": 29
+    }
+  ],
+  "stockGap": [
+    {
+      "token": "WMT",
+      "on": [
+        "Bitget(perp_usdt)",
+        "Coinbase(spot)",
+        "Kraken(spot)"
+      ],
+      "cnt": 3
+    },
+    {
+      "token": "MCD",
+      "on": [
+        "Bybit(spot)",
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 2
+    },
+    {
+      "token": "AMAT",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ARM",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ASML",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "AVGO",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BABA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "LI",
+      "on": [
+        "Kraken(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "RKLB",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    }
+  ]
+}
