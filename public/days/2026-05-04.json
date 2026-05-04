@@ -1,0 +1,498 @@
+{
+  "summary": "市场进入熊牛转化早期信号(Murphy 链上模型蓝色信号首次出现)但宏观对冲意味浓——Buffett 现金创纪录 $3,970 亿、Fed 转中性观望、Iran 战停反复;LAB 闪崩超 80%、24h 合约爆仓全网第一,暴露山寨齐拉升后的尾部风险;Hyperliquid HIP-4 二元预测市场首日成交 $238 万对标 Polymarket;Arbitrum 朝鲜冻结资金被纽约联邦法院判赔,ARB 法律不确定性升温;BlackRock + NYSE 双线推进代币化储备/证券,RWA 叙事强化。",
+  "topTk": [
+    "LAB",
+    "HYPE",
+    "ARB",
+    "ETH",
+    "BTC",
+    "ZEC",
+    "USELESS",
+    "FOMM"
+  ],
+  "L3": [
+    {
+      "name": "LAB 闪崩 -80% Day 2 — 合约爆仓全网第一",
+      "tk": "LAB",
+      "heat": 88,
+      "urg": "critical",
+      "desc": "LAB 24h 合约爆仓额位列全网第一;山寨齐拉升后突然闪崩超 80%,OKX 已上永续但无现货,高杠杆爆仓集中。",
+      "act": "风控立即评估 LAB 永续杠杆/限仓上限;现货上线评估暂缓直至波动率收敛",
+      "comp": [],
+      "gap": [
+        "仅有永续，无现货"
+      ],
+      "kol": [],
+      "sig": [
+        "TG 3次",
+        "律动新闻",
+        "山寨拉升新闻"
+      ],
+      "tks": [
+        "LAB"
+      ],
+      "cluster_explicit": "LAB"
+    },
+    {
+      "name": "Hyperliquid HIP-4 二元预测市场首日 $238 万",
+      "tk": "HYPE",
+      "heat": 82,
+      "urg": "high",
+      "desc": "Hyperliquid 上线首个 HIP-4 二元预测市场合约,首日交易额超 $238 万,硬核对标 Polymarket 与 Kalshi;预测市场赛道竞对率先落地。",
+      "act": "产品评估 OKX 是否跟进预测市场/二元期权;同步监控 HIP-4 流动性与 OI 增长",
+      "comp": [
+        "Hyperliquid"
+      ],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "律动新闻 (头条)",
+        "a16z 反对各州预测市场打压(衔接 5/3 信号)"
+      ],
+      "tks": [
+        "HYPE"
+      ],
+      "cluster_explicit": "HYPE"
+    },
+    {
+      "name": "Arbitrum 朝鲜冻结资金被纽约联邦法院判赔",
+      "tk": "ARB",
+      "heat": 72,
+      "urg": "high",
+      "desc": "美国纽约联邦法院裁定 Arbitrum 须将曾冻结的朝鲜黑客资金赔付给受朝鲜迫害的美国原告群体;法律执行不确定性可能引发 ARB 持仓抛压。",
+      "act": "ARB 风控/合规告警,关注法院执行命令落地节奏与持币地址异动",
+      "comp": [],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "@jason_chen998 (KOL)"
+      ],
+      "tks": [
+        "ARB"
+      ],
+      "cluster_explicit": "ARB_legal"
+    }
+  ],
+  "L2": [
+    {
+      "name": "BTC 熊牛转化早期信号 + 多空对撞延续",
+      "heat": 75,
+      "desc": "Murphy 综合评估模型:红色信号(供应分布趋势)持续 7 天 + 蓝色信号(盈利能力恢复)昨日首次出现;站上 STH-RP 才确认趋势启动。@based16z 同步短 BTC TP $65k 反向头寸;Saylor 本周不增持下周恢复;CryptoQuant 警告 4 月上涨主要由投机推动。",
+      "tks": [
+        "BTC"
+      ],
+      "sig": [
+        "@Murphychen888 + @based16z + 律动新闻"
+      ],
+      "cluster_explicit": "BTC_technical"
+    },
+    {
+      "name": "ETH Glamsterdam 升级 gas 60M→200M",
+      "heat": 68,
+      "desc": "Glamsterdam 升级将 L1 gas 上限从 60M 提至 200M(3x 容量),Saylor 同步推 RWA + Cambrian Explosion 叙事;ETH L1 扩容预期重燃。",
+      "tks": [
+        "ETH"
+      ],
+      "sig": [
+        "@WuBlockchain"
+      ],
+      "cluster_explicit": "ETH_glamsterdam"
+    },
+    {
+      "name": "BlackRock + NYSE 双线推进代币化证券",
+      "heat": 72,
+      "desc": "BlackRock 呼吁 OCC 放弃对代币化储备资产上限设定;NYSE 已在 DTC 三年试点下向 SEC 提交规则变更允许代币化证券交易,RWA 制度化加速。",
+      "tks": [],
+      "sig": [
+        "律动新闻 + @WuBlockchain"
+      ],
+      "cluster_explicit": "tokenized_securities"
+    },
+    {
+      "name": "Buffett 股东大会 — 现金 $3,970 亿创纪录",
+      "heat": 70,
+      "desc": "伯克希尔现金储备 $3,970 亿创历史新高,巴菲特定调'目前不是理想投放环境';拒绝跟风 AI 但点名数据中心利好公用事业;阿贝尔强调'持有现金放弃次优机会、择时重仓'。",
+      "tks": [],
+      "sig": [
+        "律动新闻"
+      ],
+      "cluster_explicit": "buffett_cash"
+    },
+    {
+      "name": "Iran 战停反复 + 霍尔木兹引导船只",
+      "heat": 65,
+      "desc": "Trump 周一引导被困船只驶出霍尔木兹海峡;同时表示有可能重启对伊朗空袭;伊朗提出 14 点'结束战争'谈判提议,BTC 冲高回落。",
+      "tks": [
+        "BTC"
+      ],
+      "sig": [
+        "律动新闻"
+      ],
+      "cluster_explicit": "geopolitics"
+    },
+    {
+      "name": "Fed 转中性观望 + Kashkari 警告加息可能",
+      "heat": 65,
+      "desc": "美联储传声筒指利率路径迎来关键转折,从释放降息信号'部分迈入中性观望';Kashkari 警告若战争持续推升通胀'可能需要加息',下周非农数据成关键。",
+      "tks": [],
+      "sig": [
+        "律动新闻"
+      ],
+      "cluster_explicit": "regulation"
+    },
+    {
+      "name": "TG 高频山寨齐拉升 + LAB/UB/B/Freedom 领涨",
+      "heat": 68,
+      "desc": "TG 24h 高频 ZEC(6) USELESS(6) FOMM(4) SPX(4) THETA(4) HYPE(4) FET(4) MOVE(3) LAB(3);律动报道山寨齐拉升 LAB/UB/B/Freedom of Money 领涨。FOMM/SATO/STJUDE 仍为 OKX 缺位。",
+      "tks": [
+        "ZEC",
+        "USELESS",
+        "FOMM",
+        "SPX",
+        "FET",
+        "SATO"
+      ],
+      "sig": [
+        "TG + 律动新闻"
+      ],
+      "cluster_explicit": "meme"
+    },
+    {
+      "name": "ETH DeFi TVL 腰斩 — 大资金离场",
+      "heat": 58,
+      "desc": "@Web3Feng 反映以太坊 DeFi TVL 从高峰腰斩,身边大资金基本退出链上 DeFi;链上活跃度走弱与 Glamsterdam 升级叙事形成对冲。",
+      "tks": [
+        "ETH"
+      ],
+      "sig": [
+        "@Web3Feng"
+      ],
+      "cluster_explicit": "DeFi_tvl"
+    },
+    {
+      "name": "OKEX 大额 USDT 净流出 ~$334M",
+      "heat": 55,
+      "desc": "@whale_alert 监控:OKEX 出 452M USDT、入 117M USDT,净流出约 $334M;Kraken 入 331M USDT(unknown wallet)+ 145M USDT 转 Bitfinex,疑似 OTC 结算资金腾挪。",
+      "tks": [],
+      "sig": [
+        "@whale_alert"
+      ],
+      "cluster_explicit": "stablecoin_flow"
+    }
+  ],
+  "L1": [
+    {
+      "name": "POLITICO 民调:多数美国人对 AI 与加密仍持怀疑",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "regulation"
+    },
+    {
+      "name": "Japan 加密 ETF 最早明年获批 — Wu 报道",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "regulation"
+    },
+    {
+      "name": "130+ 国家推进 CBDC,Russia 出台加密个税",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "regulation"
+    },
+    {
+      "name": "Founders Fund 关闭 $6B 新基金 — AI/科技配置",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "ai_crypto"
+    },
+    {
+      "name": "量子风险讨论 — Toly / Adam Back / Galaxy 论 Satoshi P2PK",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "privacy_coins"
+    },
+    {
+      "name": "@Rewkang 看好机器人/AI 行业指数级机会",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "ai_crypto"
+    },
+    {
+      "name": "BSC Meme 圈研究 — 刀盾/比比/拉布 (@Web3Feng)",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "meme"
+    },
+    {
+      "name": "Saylor 推 $3.5T 私人信贷 RWA + Cambrian 叙事",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "stablecoin_flow"
+    }
+  ],
+  "comp": [
+    {
+      "what": "Hyperliquid HIP-4 二元预测市场上线",
+      "detail": "首日合约交易额超 $238 万,对标 Polymarket/Kalshi"
+    },
+    {
+      "what": "NYSE 推进代币化证券",
+      "detail": "在 DTC 三年试点框架下向 SEC 提交规则变更"
+    },
+    {
+      "what": "BlackRock 呼吁 OCC 解禁",
+      "detail": "代币化储备资产取消上限设定"
+    }
+  ],
+  "kols": [
+    {
+      "n": "@Pentosh1",
+      "v": "嘲讽 Sunday-night peace deal pump 第14周延续,机会仍多",
+      "s": "n"
+    },
+    {
+      "n": "@Bluntz_Capital",
+      "v": "聚焦漫画/收藏品作为另类资产(One Piece/Demon Slayer/JJK)",
+      "s": "n"
+    },
+    {
+      "n": "@CryptoPainter",
+      "v": "AI 自演化交易 agent $1k→$15k, 问 Grok BTC DCA 时机",
+      "s": "n"
+    },
+    {
+      "n": "@WuBlockchain",
+      "v": "NYSE/DTC 代币化证券 + ETH Glamsterdam gas 200M + Saylor RWA Cambrian",
+      "s": "up"
+    },
+    {
+      "n": "@fejau_inc",
+      "v": "持续看多美股,podcast 教育向不发交易信号",
+      "s": "up"
+    },
+    {
+      "n": "@KelseyWeb3VC",
+      "v": "BTC 月线只是反弹,需 SOL 创新低再确认机会;股票偏好 NVDA/INTC/SNDK/CRCL",
+      "s": "dn"
+    },
+    {
+      "n": "@Murphychen888",
+      "v": "BTC 链上熊牛转化模型蓝色信号首次出现,仓位仍以 U 为主",
+      "s": "up"
+    },
+    {
+      "n": "@Rewkang",
+      "v": "看多机器人行业 4B→44B 指数级机会",
+      "s": "up"
+    },
+    {
+      "n": "@jason_chen998",
+      "v": "纽约联邦法院判 Arbitrum 赔付朝鲜冻结资金给受害者",
+      "s": "dn"
+    },
+    {
+      "n": "@Web3Feng",
+      "v": "ETH DeFi TVL 腰斩,大资金离场;USD1 活动收益尚可;研究 BSC meme",
+      "s": "dn"
+    },
+    {
+      "n": "@based16z",
+      "v": "短 BTC TP $65k / 失效 $126k(对冲 breakout)",
+      "s": "dn"
+    },
+    {
+      "n": "@whale_alert",
+      "v": "OKEX 净 USDT -$334M;Kraken 入 $331M;Kraken→Bitfinex $145M",
+      "s": "n"
+    }
+  ],
+  "tg": [
+    {
+      "t": "BTC",
+      "c": 8
+    },
+    {
+      "t": "ZEC",
+      "c": 6
+    },
+    {
+      "t": "USELESS",
+      "c": 6
+    },
+    {
+      "t": "FOMM",
+      "c": 4
+    },
+    {
+      "t": "SPX",
+      "c": 4
+    },
+    {
+      "t": "THETA",
+      "c": 4
+    },
+    {
+      "t": "HYPE",
+      "c": 4
+    },
+    {
+      "t": "FET",
+      "c": 4
+    },
+    {
+      "t": "MOVE",
+      "c": 3
+    },
+    {
+      "t": "LAB",
+      "c": 3
+    },
+    {
+      "t": "SATO",
+      "c": 2
+    },
+    {
+      "t": "STJUDE",
+      "c": 2
+    }
+  ],
+  "st": {
+    "tg": 24,
+    "msgs": 1141,
+    "cry": 175,
+    "kol": 12
+  },
+  "ex": [
+    {
+      "n": "Binance",
+      "c": 1969,
+      "s": 1
+    },
+    {
+      "n": "Bybit",
+      "c": 1256,
+      "s": 27
+    },
+    {
+      "n": "Bitget",
+      "c": 1176,
+      "s": 45
+    },
+    {
+      "n": "Hyperliquid",
+      "c": 190,
+      "s": 1
+    },
+    {
+      "n": "Coinbase",
+      "c": 519,
+      "s": 3
+    },
+    {
+      "n": "Upbit",
+      "c": 726,
+      "s": 2
+    },
+    {
+      "n": "Kraken",
+      "c": 958,
+      "s": 12
+    },
+    {
+      "n": "OKX",
+      "c": 397,
+      "s": 31
+    }
+  ],
+  "stockGap": [
+    {
+      "token": "WMT",
+      "on": [
+        "Bitget(perp_usdt)",
+        "Coinbase(spot)",
+        "Kraken(spot)"
+      ],
+      "cnt": 3
+    },
+    {
+      "token": "MCD",
+      "on": [
+        "Bybit(spot)",
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 2
+    },
+    {
+      "token": "AMAT",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ASML",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BABA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BILL",
+      "on": [
+        "Coinbase(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "KLAC",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "LI",
+      "on": [
+        "Kraken(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "RKLB",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    }
+  ]
+}

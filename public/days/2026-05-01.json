@@ -1,0 +1,501 @@
+{
+  "summary": "BTC 短线突破 $77K 后回踩 $75.5K，Murphy 链上 BRS 离开零轴 + BSS 0.68→0.36 + 交易所潜在购买力 $34B 接近 5 年 $30–40B 反弹天花板，提示阶段性顶部信号；ByzGeneral 同步发现近期 BTC 拉升 OI 不跟，动能衰竭；whale_alert 巨鲸 Coinbase Institutional 同时出现 4 笔 $50–57M 出金 + 1 笔 $302M 入金，机构混合多空。 竞对动作回到 MEGA — Binance Seed Tag + Bithumb / Upbit (3 对) 同日扩张，FDV $2B TGE，Yuyue 称『近期最硬 presale』，OKX 昨日 L3 已落地现货+永续，今日开盘最高 $0.375 现 $0.205 走出 -45% 回撤；AIGENSYN Day 2 由 Bybit 加 perp，OKX 三线仍全空。 🚨 风控级警报：CN KOL 三源联动 (@Ice_Frog666666 / @yuyue_chris / @Web3Feng) 曝光 SPACE 项目方上线后丢仓 95%，presale 买家未拿到 token，Kraken/KuCoin/MEXC 被点名为帮凶——而 OKX 已上 SPACE 现货+永续，存在显著合规/风控暴露。 支付/稳定币赛道再加速：Visa 扩稳定币试点至 9 链 (新增 BASE/POL/CANTON/TEMPO/ARC)、Shinhan Card 启动 Solana 测试网试点、PayPal 重组将 Payments & Crypto 拉为核心 segment；Saturn / STRC / sUSDat (MSTR-linked DeFi) 2 周 TVL 突破 $100M。 宏观侧 6月 Fed 利率不动概率 94.9%，欧 / 英央行齐按兵不动，3 月核心 PCE 3.2% 符合预期；Binance 推 Agent Wallet (AI agent 私钥-less) 反追 OKX 上的 AI Agent x AWS 支付叙事；CoinGecko 报告 RWA 市值已达 $19.3B (+256.7% / 15 个月，占稳定币 6.4%)。",
+  "topTk": [
+    "SPACE",
+    "AIGENSYN",
+    "MEGA",
+    "BTC",
+    "ETH",
+    "MSTR",
+    "BNB",
+    "USDG",
+    "ASTEROID"
+  ],
+  "L3": [
+    {
+      "name": "🚨 SPACE 风控紧急预警 — OKX 已上现货+永续，CN KOL 三源联动指控项目方丢仓 95%",
+      "tk": "SPACE",
+      "heat": 88,
+      "urg": "立即（4h 内）",
+      "desc": "@Ice_Frog666666 / @yuyue_chris / @Web3Feng 24h 内三源联动曝光：SPACE 项目方上线后丢仓 95%，presale 买家未拿到 token，Kraken / KuCoin / MEXC 三家被点名为帮凶，Yuyue 计算 $10K presale 现仅余 ~$700 token 价值 (~93% 损失)。OKX 已上 SPACE 现货+永续 (Step 1 验证)，构成既有的合规/风控暴露——本次未在『SPACE Day-1 上币阶段』识别风险，需立即流程审查。@Ice_Frog666666 同时点名 Kraken CEO Arjun Sethi，并警告『下一个 BP 可能是 Kraken』，反映社区对 SPACE 的舆论已极端化。",
+      "act": "1) 风控组立即核查 SPACE 链上数据（项目方钱包流出、流动性池、持仓集中度）；2) 上币组复盘 SPACE 当时尽调流程，找定决策依据是否完整；3) 评估暂停交易 / 下架 / 加监控标签三档预案；4) 法务 / 合规组关注潜在用户索赔风险（参考 MEXC/KuCoin 被点名先例）。",
+      "comp": [
+        "Kraken"
+      ],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "@Ice_Frog666666",
+        "@yuyue_chris",
+        "@Web3Feng (CN KOL 24h, 三源联动)",
+        "bwenews 同步"
+      ],
+      "tks": [
+        "SPACE"
+      ],
+      "cluster_explicit": "SPACE"
+    },
+    {
+      "name": "AIGENSYN Day 2 — Bybit 加 perp，Tier1+Tier2 沉淀完毕，OKX 三线仍全空",
+      "tk": "AIGENSYN",
+      "heat": 75,
+      "urg": "高（24h 内）",
+      "desc": "AIGENSYN (Gensyn AI) 进入第 2 天：昨日 Binance Futures + Bitget 现货/永续齐发，今日 Bybit 加 USDT 永续——Tier 1 + 2 家 Tier 2 全部覆盖现货+永续，OKX 现货/永续/交割三线仍全空。AI x Crypto 题材叠加 Day 2 OI/Price 沉淀风险——再延后会陷入与 yesterday's MEGA 相同的『竞对完成主升后跟进』被动局面。",
+      "act": "立即评估永续上线；现货跟进取决于流动性。AI 题材 + Day 2 是关键决策窗口。",
+      "comp": [
+        "Binance",
+        "Bybit",
+        "Bitget"
+      ],
+      "gap": [
+        "OKX无（全空）"
+      ],
+      "kol": [],
+      "sig": [
+        "Step 1 new_listings (Bybit AIGENSYNUSDT Perp)",
+        "4/30 历史 cluster 延续"
+      ],
+      "tks": [
+        "AIGENSYN"
+      ],
+      "cluster_explicit": "AIGENSYN"
+    },
+    {
+      "name": "MEGA Day 2 — 5 家齐扩 + 韩国 Tier1 双交所跟进，OKX 已上响应正确，需关注高波动",
+      "tk": "MEGA",
+      "heat": 80,
+      "urg": "中（监控）",
+      "desc": "MEGA 进入第 2 天：Binance 现货 (USDT/USDC/TRY) + Seed Tag、Bybit 现货 + USDT 永续、Bitget USDT、Kraken EUR、Upbit (USDT/BTC/KRW)、Bithumb KRW，FDV $2B TGE，Yuyue 称『近期最硬 presale』，ICO 买家 2x、Rabbit SBT 持有者赚 ~$5K/人。OKX 昨日 L3 已落地现货+永续，今日链上开盘最高 $0.375、现 $0.205（-45% 回撤），ByzGeneral 描述为『Mad Max 式市场』。需关注：1) 现货/永续流动性是否稳定承接；2) 风控关注剧烈波动期的爆仓事件；3) 监控竞对是否有进一步衍生品 / 期权扩张。",
+      "act": "复盘昨日 L3→上币决策的执行链路（响应时间、做市深度）；监控未来 24h 流动性 + 价格曲线，评估是否上线交割合约或期权。",
+      "comp": [
+        "Binance",
+        "Bybit",
+        "Bitget",
+        "Upbit",
+        "Kraken"
+      ],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "Step 1 new_listings (Binance/Bybit/Bitget/Upbit/Kraken)",
+        "bwenews",
+        "yuyue_chris",
+        "ByzGeneral",
+        "WuBlockchain"
+      ],
+      "tks": [
+        "MEGA"
+      ],
+      "cluster_explicit": "MEGA"
+    }
+  ],
+  "L2": [
+    {
+      "name": "BTC 顶部多重信号叠加 + 巨鲸混合流向 + IV 历史低位",
+      "heat": 80,
+      "desc": "Murphy: BRS 指标离开零轴 (现 6) + BSS 0.68→0.36 + 交易所潜在购买力 $34B 接近 5 年 $30–40B 反弹天花板（历史 80%+ 准确率的阶段性顶部信号）。ByzGeneral: 近期 BTC 拉升 OI 不跟进，市场『tired』，动能衰竭。whale_alert 24h: Coinbase Institutional 出 4 笔 BTC（672/729/672/750 BTC，~$50–57M / 笔）+ 1 笔 3,954 BTC ($302M) 入金，机构方向混合。0xVeryBigOrange: Binance BTC 期权 IV 处历史低位，看多者可低成本布局长期 calls。BTC 价格区间：突破 $77K 后回踩 $75.5K，巨鲸『先定 10 个大目标』止损平仓多单亏 $651 万。",
+      "tks": [
+        "BTC",
+        "ETH"
+      ],
+      "sig": [
+        "Murphychen888 + ByzGeneral + whale_alert + 0xVeryBigOrange + WuBlockchain (Twitter 24h) + BlockBeats"
+      ],
+      "cluster_explicit": "BTC_technical"
+    },
+    {
+      "name": "稳定币/支付基础设施齐扩 — Visa+5 链 / Shinhan-SOL / PayPal 重组 / OKX USDG",
+      "heat": 75,
+      "desc": "Visa 扩稳定币试点至 9 链，新增 Base / Polygon / Canton / Tempo / Arc。Shinhan Card 启动 Solana 测试网试点（韩国传统金融对 SOL 表态）。PayPal 公司重组：Payments & Crypto 升为核心 segment。whale_alert: 250M USDC Solana 增发 + 500M USDT (Tron) + 300M USDT (HTX) — 流动性大规模扩张。@KelseyWeb3VC 推 OKX USDG 4.1% APY（无锁定 vs USDC/USDT 收益），OKX 内部产品被外部 KOL 主动种草。",
+      "tks": [
+        "USDC",
+        "USDT",
+        "USDG",
+        "SOL"
+      ],
+      "sig": [
+        "WuBlockchain + KelseyWeb3VC + whale_alert (24h)"
+      ],
+      "cluster_explicit": "stablecoin_flow"
+    },
+    {
+      "name": "Saturn / STRC / sUSDat — MSTR-linked DeFi 收益率新原语 + AIMCo $219M MSTR 持仓披露",
+      "heat": 72,
+      "desc": "@Web3Feng 详解：Saturn 协议 2 周内 TVL 突破 $100M；PT-USDat 8% APY（T-bill 风险）、PT-sUSDat 12% APY（STRC 风险，杠杆不建议）。STRC = MSTR 借贷的优先股工具，把 MicroStrategy 的 BTC 资产负债表通过 DeFi 流动化。WuBlockchain: 加拿大主权基金 AIMCo 披露 1.38M MSTR 股权（~$219M），机构持续增配 BTC 代理资产。Saylor on quantum threat: 『more BTC we buy, the better』。",
+      "tks": [
+        "MSTR",
+        "STRC",
+        "USDat",
+        "SATURN"
+      ],
+      "sig": [
+        "Web3Feng + WuBlockchain (24h)"
+      ],
+      "cluster_explicit": "BMNR"
+    },
+    {
+      "name": "Fed 6月不动 94.9% + 欧英央行齐按兵 + 核心 PCE 3.2% 符合预期 + Powell 留任叙事",
+      "heat": 70,
+      "desc": "美联储 6 月维持利率不变概率现报 94.9%（CME FedWatch / BlockBeats）。美国 3 月核心 PCE 物价指数年率 3.2%，符合预期。欧洲央行如期按兵不动；英国央行如期维持利率不变。Powell 留任评论：Trump 称『其他地方没人要他』；@fejau_inc 表达 dovish-Fed pivot 偏好。美国财长公告查获近 $5亿 伊朗加密资产；加密市场结构法案 5 月中旬推进。",
+      "tks": [
+        "BTC",
+        "USD"
+      ],
+      "sig": [
+        "BlockBeats news.important × 4 + fejau_inc (Twitter 24h) + WuBlockchain"
+      ],
+      "cluster_explicit": "regulation"
+    },
+    {
+      "name": "AI x Crypto — Binance Agent Wallet 反追 OKX，CryptoPainter 双线评论",
+      "heat": 70,
+      "desc": "@CryptoPainter: Binance 发布 Agent Wallet (AI agent 私钥-less 钱包)，使 AI 自主链上交易自动化变得可行；他评论『首动者得以利用空投抛压』。这是对 OKX 此前『AI Agent 用交易 P&L 直接付 AWS』产品的直接竞品反击。Anthropic 考虑新一轮融资估值超 $9000 亿（反超 OpenAI）—— AI 资本周期持续。xAI 上线 Grok 4.3 API + Claude Security 公测（AI 漏洞扫描）—— AI 工具产品化加速。",
+      "tks": [
+        "BNB",
+        "ETH"
+      ],
+      "sig": [
+        "CryptoPainter (Twitter 24h) + BlockBeats news"
+      ],
+      "cluster_explicit": "ai_crypto"
+    },
+    {
+      "name": "RWA 市值 $19.3B (+256.7% / 15 个月) — CoinGecko 2026 报告",
+      "heat": 68,
+      "desc": "WuBlockchain 引 CoinGecko RWA Report 2026：tokenized RWA 总市值 $19.3B，15 个月 +256.7%，已达稳定币市值的 6.4%。Securitize / Computershare（昨日）+ AIMCo MSTR（今日）+ Visa 多链试点形成 RWA + 支付双线叙事。",
+      "tks": [
+        "MSTR"
+      ],
+      "sig": [
+        "WuBlockchain (24h, CoinGecko 报告)"
+      ],
+      "cluster_explicit": "stock_derivatives"
+    },
+    {
+      "name": "BTC/ETH ETF 同日双流出 + 5月历史季节性看涨 + Drift 朝鲜社工 $285M",
+      "heat": 65,
+      "desc": "BlockBeats: 美国现货 BTC ETF 4/29 净流出 $138M，ETH ETF 同日净流出 $87.7M。5 月历史规律：ETH 表现明显优于 BTC（季节性看涨）。Drift 协议遭朝鲜黑客 $285M 社工攻击（数月线下接触员工，导致严重损失）—— DeFi 协议合规/HR 安全风险样本。Arbitrum DAO 已开始就释放冻结的 ETH 投票；Arbitrum SC 冻结 $72M 朝鲜黑客资金。",
+      "tks": [
+        "BTC",
+        "DRIFT",
+        "ARB"
+      ],
+      "sig": [
+        "WuBlockchain + BlockBeats news.important × 3"
+      ],
+      "cluster_explicit": "etf_flow"
+    },
+    {
+      "name": "Binance Monitoring Tag 扩列 — NFP/NOM/POND/QUICK/VIC 退市风险",
+      "heat": 60,
+      "desc": "@bwenews: Binance 4/30 将 NFP / NOM / POND / QUICK / VIC 加入 Monitoring Tag，退市风险显著提升。OKX 这 5 个 token 全部未上线（验证：均为『OKX 无』）→ 无产品暴露，但需警惕用户从 Binance 资金外溢到其他次级交易所的市场行为。",
+      "tks": [
+        "NFP"
+      ],
+      "sig": [
+        "bwenews (CN KOL 24h)"
+      ],
+      "cluster_explicit": "monitoring_tag"
+    }
+  ],
+  "L1": [
+    {
+      "name": "TG 高频小币 + 新 meme 涌现 — GOBLIN/ARTEMIS/DAI/FARTCOIN/ASTEROID/SCRIBBLI/SIMULATOR",
+      "desc": "TG 24h 高频：GOBLIN(4) / ARTEMIS(4) / DAI(4 多源 gap+tg) / FARTCOIN(4 OKX 已永续) / ENSO(4 OKX 已永续) / APT(4 OKX 已全)；新闻侧：ASTEROID 24h +30% 市值升至 $164M (新 meme), MEGA 链上开盘剧烈波动；其余 SCRIBBLI / SIMULATOR / KAT / PENGU / PRINTR 单源观察。Binance Alpha 项目 BSB 深夜急跌 60%（疑团队抛售）、麻吉一夜爆仓周亏 ~$400 万 — 反映小币高波动周期。",
+      "sig": [
+        "TG",
+        "新闻",
+        "链上"
+      ],
+      "cluster_explicit": "meme"
+    },
+    {
+      "name": "INTC — 美国政府成第一大股东 (10%, $8.9B 入 → +$26.5B 浮盈)",
+      "desc": "@jason_chen998: 美政府现持 INTC 10%（成本 $8.9B → 现值 $36B，6 个月浮盈 $26.5B）；Trump 在 INTC 底部入仓，成为公司最大股东。OKX 已有 INTC 永续（swap）。Google A 日内 +8% 创历史新高（AI / 算力受益）。",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "AI_semis"
+    },
+    {
+      "name": "Arbitrum 治理双向 + 加密市场结构法案 5 月中旬推进 + Trump 退休储蓄行政命令",
+      "desc": "Arbitrum DAO 已开始就释放冻结的 ETH 投票（社区治理事件）；Arbitrum SC 冻结 $72M 朝鲜黑客资金（合规协作）；美国加密市场结构法案 5 月中旬推进（监管节点）；Trump 将签署行政命令扩大民众参与退休储蓄计划渠道（潜在间接利好被动配置）。",
+      "sig": [
+        "监管"
+      ],
+      "cluster_explicit": "regulation"
+    }
+  ],
+  "comp": [
+    {
+      "what": "Binance 现货上 MEGA (USDT/USDC/TRY) + Seed Tag",
+      "detail": "MegaETH FDV $2B TGE，链上开盘 $0.375 → $0.205 (-45%)"
+    },
+    {
+      "what": "Bybit 上 MEGA 现货 (USDT) + USDT 永续",
+      "detail": "Tier 2 同日补完 spot+perp 闭环"
+    },
+    {
+      "what": "Upbit + Bithumb 同日上 MEGA (KRW/USDT/BTC)",
+      "detail": "韩国双 Tier 1 跟进"
+    },
+    {
+      "what": "Bitget 上 MEGA + HPP + SKYAI 现货",
+      "detail": "HPP / SKYAI OKX 全无（单源观察，AI 题材）"
+    },
+    {
+      "what": "Bybit 上 AIGENSYNUSDT Perp",
+      "detail": "Day 2，AI x Crypto 题材，OKX 仍全无"
+    },
+    {
+      "what": "Kraken 上 ASSET + MEGA 现货",
+      "detail": "ASSET OKX 全无（单源），MEGA 跟进"
+    },
+    {
+      "what": "Binance Monitoring Tag 新增 NFP/NOM/POND/QUICK/VIC",
+      "detail": "退市风险，OKX 这 5 个全部未上线（无暴露）"
+    },
+    {
+      "what": "Binance 推出 Agent Wallet (AI agent 私钥-less)",
+      "detail": "对应 OKX AI Agent x AWS，竞品反追"
+    }
+  ],
+  "kols": [
+    {
+      "n": "Ice_Frog666666 + yuyue_chris + Web3Feng",
+      "v": "🚨 SPACE 项目方丢仓 95%，Kraken/KuCoin/MEXC 上线被点名（OKX 已上 SPACE → 风控暴露）",
+      "s": "dn"
+    },
+    {
+      "n": "Murphychen888",
+      "v": "BTC 顶部多重信号 — BRS 离零轴 + BSS 0.68→0.36 + 交易所购买力 $34B 接近 5 年 $30-40B 反弹天花板",
+      "s": "dn"
+    },
+    {
+      "n": "ByzGeneral",
+      "v": "BTC 拉升 OI 不跟进，市场动能衰竭；MEGA launch 是『Mad Max』",
+      "s": "dn"
+    },
+    {
+      "n": "0xVeryBigOrange",
+      "v": "Binance BTC 期权 IV 历史低位，long-dated calls 低成本布局机会",
+      "s": "up"
+    },
+    {
+      "n": "WuBlockchain",
+      "v": "Visa 扩稳定币至 9 链 (BASE/POL/CANTON/TEMPO/ARC)；CoinGecko RWA $19.3B (+256.7%)；AIMCo 1.38M MSTR 披露",
+      "s": "up"
+    },
+    {
+      "n": "CryptoPainter",
+      "v": "Binance Agent Wallet (AI agent 私钥-less) 是 autonomous-agent 关键突破",
+      "s": "up"
+    },
+    {
+      "n": "KelseyWeb3VC",
+      "v": "OKX USDG 4.1% APY 无锁定 vs USDC/USDT；外部 KOL 主动种草 OKX 内部产品",
+      "s": "up"
+    },
+    {
+      "n": "bwenews",
+      "v": "Binance Seed Tag MEGA + Monitoring Tag NFP/NOM/POND/QUICK/VIC（OKX 这 5 个全无→ 无暴露）",
+      "s": "n"
+    },
+    {
+      "n": "yuyue_chris",
+      "v": "MEGA TGE FDV $2B『近期最硬 presale』，ICO 买家 2x；SPACE/PRINTR 警示",
+      "s": "up"
+    },
+    {
+      "n": "Web3Feng",
+      "v": "Saturn 协议 2 周 TVL $100M；MSTR-linked DeFi (STRC/sUSDat) 收益率新原语",
+      "s": "up"
+    },
+    {
+      "n": "jason_chen998",
+      "v": "美政府成 INTC 第一大股东（10%, $8.9B 入 → +$26.5B 浮盈）",
+      "s": "up"
+    },
+    {
+      "n": "Bluntz_Capital",
+      "v": "Escape to hard assets — 风险偏离 / 看多硬资产 / 看空法币",
+      "s": "up"
+    },
+    {
+      "n": "fejau_inc",
+      "v": "FOMC dovish-Fed pivot 偏好；prediction-market 主题持续受关注",
+      "s": "up"
+    },
+    {
+      "n": "whale_alert",
+      "v": "Coinbase Inst 4 笔出 + 1 笔 $302M 入；250M USDC Solana 增发；500M+300M USDT 流",
+      "s": "n"
+    }
+  ],
+  "tg": [
+    {
+      "t": "BTC",
+      "c": 10
+    },
+    {
+      "t": "ETH",
+      "c": 8
+    },
+    {
+      "t": "DOGE",
+      "c": 5
+    },
+    {
+      "t": "GOBLIN",
+      "c": 4
+    },
+    {
+      "t": "ARTEMIS",
+      "c": 4
+    },
+    {
+      "t": "ENSO",
+      "c": 4
+    },
+    {
+      "t": "APT",
+      "c": 4
+    },
+    {
+      "t": "FARTCOIN",
+      "c": 4
+    },
+    {
+      "t": "DAI",
+      "c": 4
+    },
+    {
+      "t": "SIMULATOR",
+      "c": 3
+    },
+    {
+      "t": "PENGU",
+      "c": 3
+    },
+    {
+      "t": "SCRIBBLI",
+      "c": 2
+    }
+  ],
+  "st": {
+    "tg": 27,
+    "msgs": 1830,
+    "cry": 224,
+    "kol": 14
+  },
+  "ex": [
+    {
+      "n": "Binance",
+      "c": 1969,
+      "s": 1
+    },
+    {
+      "n": "Bybit",
+      "c": 1256,
+      "s": 27
+    },
+    {
+      "n": "Bitget",
+      "c": 1177,
+      "s": 45
+    },
+    {
+      "n": "Hyperliquid",
+      "c": 190,
+      "s": 1
+    },
+    {
+      "n": "Coinbase",
+      "c": 519,
+      "s": 2
+    },
+    {
+      "n": "Upbit",
+      "c": 726,
+      "s": 2
+    },
+    {
+      "n": "Kraken",
+      "c": 964,
+      "s": 12
+    },
+    {
+      "n": "OKX",
+      "c": 397,
+      "s": 31
+    }
+  ],
+  "stockGap": [
+    {
+      "token": "WMT",
+      "on": [
+        "Bitget(perp_usdt)",
+        "Coinbase(spot)",
+        "Kraken(spot)"
+      ],
+      "cnt": 3
+    },
+    {
+      "token": "MCD",
+      "on": [
+        "Bybit(spot)",
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 2
+    },
+    {
+      "token": "AMAT",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ASML",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BABA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "KLAC",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "LI",
+      "on": [
+        "Kraken(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "RKLB",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    }
+  ]
+}

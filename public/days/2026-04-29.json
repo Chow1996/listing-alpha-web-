@@ -1,0 +1,492 @@
+{
+  "summary": "BTC 在 80k 上沿震荡，Pentoshi 标 84-86k 为决胜位；STH-RP 见底信号显现但 BTC 现货 ETF 单日流出 $263M 终结 9 天连续流入。Hyperliquid 主导叙事被 0xSisyphus 强力放大，CHIP/USD.AI 进 Binance HODLer Airdrop，PUMP 36% 供应燃烧 + 50% 收入回购引发结构性关注。稳定币层面 $1B USDT 自 Binance 流出 + Solana 增发 $500M USDC，资金流活跃。Bitget 在 24h 内集中上线 OKLO/MP/CRDO/APLD/CRWV/KLAC 一组美股 perp 衍生品，对应 AI/能源/半导体主题，OKX 多数缺位。Polymarket 推 CFTC 美国主交易所重返；KOL 共识资本流向 AI + 能源 + 制造业，crypto altcoin 流动性被 HK 港股进一步抽离。",
+  "topTk": [
+    "PROS",
+    "OKLO",
+    "PUMP",
+    "HYPE",
+    "CHIP",
+    "POLY",
+    "BTC",
+    "USDG"
+  ],
+  "L3": [
+    {
+      "name": "PROS 三家同期上线现货 — OKX 仅有 perp 缺现货",
+      "tk": "PROS",
+      "heat": 72,
+      "urg": "high",
+      "desc": "Bitget/Coinbase/Kraken 24h 内同步上线 PROS 现货（PROS/USDT、PROS/USD、PROS/ZEUR），覆盖美/欧多市场。OKX 当前只有 PROS perp，缺现货环节，存在产品线断层。",
+      "act": "评估 PROS 现货上线，补齐产品线",
+      "comp": [
+        "Bitget",
+        "Coinbase",
+        "Kraken"
+      ],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "新上市3家(Bitget+Coinbase+Kraken) | exchange_gap | 24h内同期"
+      ],
+      "tks": [
+        "PROS"
+      ],
+      "cluster_explicit": "PROS"
+    },
+    {
+      "name": "Bitget 美股 perp 矩阵扩张 — OKLO/MP/CRDO/APLD/KLAC 5 个新品",
+      "tk": "OKLO",
+      "heat": 75,
+      "urg": "high",
+      "desc": "Bitget 在 24h 内集中上线 OKLO（核能 SMR）/MP（稀土 Materials）/CRDO（Credo 半导体）/APLD（Applied Digital AI 数据中心）/KLAC（KLA 半导体），全部为 USDT perp。Bybit 同期补 AAPL/AMZN/SNDK，对应 KOL 反复提及的 AI + 能源资本主题（Pentoshi: 'allocation 全在 AI 能源'）。OKX 仅 CRWV 已有，KLAC/OKLO/MP/CRDO/APLD 全缺。",
+      "act": "评估 AI/能源/半导体主题美股 perp 批量上线（特别是 OKLO、APLD、MP）",
+      "comp": [
+        "Bybit",
+        "Bitget"
+      ],
+      "gap": [
+        "OKX无（核能 SMR）",
+        "OKX无（稀土）",
+        "OKX无（半导体）",
+        "OKX无（AI 数据中心）",
+        "OKX无（半导体）"
+      ],
+      "kol": [],
+      "sig": [
+        "Bitget 新上(5+1) | Bybit 新上(AAPL/AMZN/SNDK) | KOL Pentoshi/fejau 共振 AI+能源主题"
+      ],
+      "tks": [
+        "OKLO",
+        "MP",
+        "CRDO",
+        "APLD",
+        "KLAC",
+        "CRWV"
+      ],
+      "cluster_explicit": "stock_derivatives"
+    },
+    {
+      "name": "PUMP 36% 流通供应燃烧 + 50% 收入回购承诺",
+      "tk": "PUMP",
+      "heat": 80,
+      "urg": "high",
+      "desc": "Pump.fun 公布累计回购的 PUMP 全部销毁，价值约 $370M、占流通供应 ~36%；同时承诺未来 1 年 50% 收入用于 buyback+burn 程序化执行（bwenews+WuBlockchain 双源）。Pentoshi 同期警示 VC/早期投资人解锁压力，认为 buyback 难以抵消 2x 解锁供应——多空叙事对峙。OKX 已有现货+永续+交割完整产品线，但需要风控关注供应结构剧变。",
+      "act": "合约风控关注 PUMP 供应结构变化与解锁节点对冲；评估调整保证金参数",
+      "comp": [],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "bwenews 实时新闻",
+        "WuBlockchain 引述",
+        "Pentoshi(KOL) 反向警示"
+      ],
+      "tks": [
+        "PUMP"
+      ],
+      "cluster_explicit": "PUMP"
+    }
+  ],
+  "L2": [
+    {
+      "name": "Hyperliquid 垄断叙事再升级 — 0xSisyphus 力推",
+      "heat": 70,
+      "desc": "0xSisyphus 重申 Hyperliquid <2% mcap 应吃掉其余 98% altcoin 价值，定义为传统券商未来白标的对象。TG 提及 2 次延续。",
+      "tks": [
+        "HYPE"
+      ],
+      "sig": [
+        "0xSisyphus(KOL) + TG(2 次)"
+      ],
+      "cluster_explicit": "HYPE"
+    },
+    {
+      "name": "BTC 80k 上沿震荡 / Pentoshi 84-86k 决胜位 + ETF 流入断档",
+      "heat": 72,
+      "desc": "Pentoshi 标 84-86k HTF 为多头确认位；Murphy 看 STH-RP 加速下行但 STH 负溢价峰值开始减弱（投降阶段尾声）；ByzGeneral 隐性看空。BTC 现货 ETF 4/27 净流出 $263M 终结 9 天连续流入；ETH ETF 同步 -$50.48M。",
+      "tks": [
+        "BTC"
+      ],
+      "sig": [
+        "Pentoshi/Murphy/ByzGeneral(KOL) + WuBlockchain(news) + TG 13 次首位"
+      ],
+      "cluster_explicit": "BTC_technical"
+    },
+    {
+      "name": "Polymarket 推 CFTC 美国主交易所回归",
+      "heat": 65,
+      "desc": "bwenews + WuBlockchain 同步引述 Bloomberg：Polymarket 申请 CFTC 批准在美开放主站交易。延续 prediction_market cluster Day 5。POLY 代币 OKX 缺位。",
+      "tks": [
+        "POLY"
+      ],
+      "sig": [
+        "bwenews + WuBlockchain(news) + 延续 Day 5"
+      ],
+      "cluster_explicit": "prediction_market"
+    },
+    {
+      "name": "CHIP / USD.AI Binance HODLer Airdrop 上线",
+      "heat": 65,
+      "desc": "bwenews 报：Binance 通过 BNB Simple Earn 追溯订阅向用户发放 CHIP 空投，市值约 $145M。CHIP 是 USD.AI 项目代币。OKX 已有现货+永续，跟进观察 Day 6 表现。",
+      "tks": [
+        "CHIP"
+      ],
+      "sig": [
+        "bwenews + Binance HODLer Airdrop + 延续 cluster Day 6"
+      ],
+      "cluster_explicit": "CHIP"
+    },
+    {
+      "name": "稳定币大流动 — $1B USDT 流出 Binance + $500M USDC Solana 增发",
+      "heat": 62,
+      "desc": "whale_alert 24h：1B USDT Binance→未知钱包；250M+250M 两笔 USDC Solana 链上铸造；近 200M USDC 自 USDC Treasury / Coinbase Inst 转出；Coinbase Institutional 累计 ~5000 BTC ($380M) 流入。USDG 4.1% Earn 在 OKX 持续口碑发酵（jason_chen998 提及）。",
+      "tks": [
+        "USDT",
+        "USDC",
+        "USDG"
+      ],
+      "sig": [
+        "whale_alert(KOL) + jason_chen998 + cluster 延续"
+      ],
+      "cluster_explicit": "stablecoin_flow"
+    },
+    {
+      "name": "BTC/ETH 现货 ETF 转向流出",
+      "heat": 60,
+      "desc": "Apr 27 BTC 现货 ETF 净流出 $263M（终结 9 天连续流入），ETH 现货 ETF 同步流出 $50.48M。Galaxy Digital Q1 净亏损 $216M（数字资产价格下跌 ~20%）反映机构端压力。",
+      "tks": [
+        "BTC",
+        "ETH",
+        "GLXY"
+      ],
+      "sig": [
+        "WuBlockchain(news) + 延续 cluster"
+      ],
+      "cluster_explicit": "etf_flow"
+    }
+  ],
+  "L1": [
+    {
+      "name": "AI + 能源 + 半导体资本虹吸 crypto",
+      "desc": "Pentoshi/fejau_inc/based16z 共振：crypto altcoin 弱势源于资金集中流向 AI 能源 manufacturing；ByzGeneral 看空黄金 4400 反衬资金重分配。",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "AI_semis"
+    },
+    {
+      "name": "HK 港股抽离 crypto 流动性",
+      "desc": "yuyue_chris 警示 CN crypto KOL 大举进入港股 H 股（曦智、群核），与 24 年 10 月一波类似——alt 流动性被进一步压制。",
+      "sig": [
+        "TG",
+        "KOL"
+      ],
+      "cluster_explicit": "macro_rotation"
+    },
+    {
+      "name": "Mad Lads / SOL NFT 复苏叙事看空",
+      "desc": "Web3Feng 看空 NFT 复苏：Mad Lads floor 8 SOL（vs ~120 SOL 峰值）。",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "meme"
+    },
+    {
+      "name": "TG 小币热度 RISE/SWARMS/INIT/VELODROME",
+      "desc": "TG 24h hot tokens 单源延续：RISE 9次/EWON 5次/SWARMS+INIT+VELODROME 4次。RISE/EWON/SWARMS/AGENTIC/ALIENS OKX 均无；INIT 已有永续；VELODROME 已有现货。AI agent + meme 主题。",
+      "sig": [
+        "TG"
+      ],
+      "cluster_explicit": "meme"
+    },
+    {
+      "name": "based16z 提 AI coding tools 周期",
+      "desc": "based16z 调侃 Cursor → Codex → Claude Code → Codex 切换；ARR=non-recurring。AI infra moat 隐性看空。",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "ai_crypto"
+    },
+    {
+      "name": "Robinhood Q1 crypto rev -47%",
+      "desc": "WuBlockchain：RH Q1 总营收 +15% 但 crypto rev -47%；prediction-market 占 ~1/4（based16z）。",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "regulation"
+    }
+  ],
+  "comp": [
+    {
+      "what": "Bitget 美股 perp 批量上新",
+      "detail": "OKLO（核能）/MP（稀土）/CRDO/APLD/KLAC + CRWV 6 个 USDT perp 24h 内集中上线，OKX 仅 CRWV 已有"
+    },
+    {
+      "what": "Bybit 美股 perp 补齐 AAPL/AMZN/SNDK",
+      "detail": "Bybit 新增 3 只科技股 perp（OKX 已有这 3 只 perp）"
+    },
+    {
+      "what": "Bitget+Coinbase+Kraken 同期上线 PROS 现货",
+      "detail": "三家 Tier1/2 24h 内同步 PROS 现货，OKX 仅有 perp 缺现货"
+    },
+    {
+      "what": "Binance HODLer Airdrop CHIP/USD.AI",
+      "detail": "通过 BNB Simple Earn 追溯订阅发放，市值 ~$145M"
+    },
+    {
+      "what": "Coinbase 上线 VIRTUAL/USD 现货",
+      "detail": "OKX 已有完整产品线"
+    }
+  ],
+  "kols": [
+    {
+      "n": "Pentoshi",
+      "v": "BTC 84-86k 是 HTF 决胜位；warns PUMP VC 解锁；altcoin 弱因资金都在 AI+能源",
+      "s": "n"
+    },
+    {
+      "n": "0xSisyphus",
+      "v": "Hyperliquid <2% mcap 应吞掉 98% altcoin；HYPE 长牛",
+      "s": "up"
+    },
+    {
+      "n": "Murphy",
+      "v": "BTC STH-RP 加速下行但负溢价峰值减弱，投降尾声；ETF 流入仍可",
+      "s": "n"
+    },
+    {
+      "n": "ByzGeneral",
+      "v": "BTC 结构性谨慎；GOLD 看 4400",
+      "s": "dn"
+    },
+    {
+      "n": "bwenews",
+      "v": "PUMP 销毁 $370M(36% 供应)+50% 收入回购；CHIP Binance HODLer；Polymarket 申请 CFTC",
+      "s": "n"
+    },
+    {
+      "n": "WuBlockchain",
+      "v": "BTC ETF 4/27 -$263M 终结 9 连流入；ETH ETF -$50M；GLXY Q1 -$216M；OKX PoR42 BTC -11.93%",
+      "s": "dn"
+    },
+    {
+      "n": "yuyue_chris",
+      "v": "CN KOL 大举入港股 H 股，crypto alt 流动性被抽离",
+      "s": "dn"
+    },
+    {
+      "n": "Web3Feng",
+      "v": "Mad Lads NFT 复苏是 cope；short oil on UAE-OPEC 谣言",
+      "s": "dn"
+    },
+    {
+      "n": "based16z",
+      "v": "Robinhood ~1/4 收入来自 prediction markets sports; AI coding tools 切换循环 ARR 不持久",
+      "s": "dn"
+    },
+    {
+      "n": "fejau_inc",
+      "v": "macro 最大变量是 Powell 任期末是否辞职；manufacturing boom 配置",
+      "s": "n"
+    },
+    {
+      "n": "whale_alert",
+      "v": "24h: $1B USDT Binance 流出 + $500M USDC Solana 增发 + 73K ETH 进 Binance + $380M BTC 进 Coinbase Institutional",
+      "s": "n"
+    },
+    {
+      "n": "Murphychen888",
+      "v": "BTC ETF 仍有不错流入；STH-RP 信号待回升上 1",
+      "s": "n"
+    },
+    {
+      "n": "Bluntz_Capital",
+      "v": "看多铜结构性供给紧张",
+      "s": "up"
+    },
+    {
+      "n": "CryptoPainter",
+      "v": "做空 NVDA 代理 ASR 半导体（小仓位 1u）",
+      "s": "dn"
+    }
+  ],
+  "tg": [
+    {
+      "t": "BTC",
+      "c": 13
+    },
+    {
+      "t": "RISE",
+      "c": 9
+    },
+    {
+      "t": "EWON",
+      "c": 5
+    },
+    {
+      "t": "INIT",
+      "c": 4
+    },
+    {
+      "t": "SWARMS",
+      "c": 4
+    },
+    {
+      "t": "VELODROME",
+      "c": 4
+    },
+    {
+      "t": "AGENTIC",
+      "c": 2
+    },
+    {
+      "t": "ALIENS",
+      "c": 2
+    },
+    {
+      "t": "PENDLE",
+      "c": 2
+    },
+    {
+      "t": "POPCAT",
+      "c": 2
+    },
+    {
+      "t": "EURUSD",
+      "c": 2
+    },
+    {
+      "t": "ENA",
+      "c": 2
+    }
+  ],
+  "st": {
+    "tg": 29,
+    "msgs": 1997,
+    "cry": 275,
+    "kol": 14
+  },
+  "ex": [
+    {
+      "n": "Binance",
+      "c": 1975,
+      "s": 1
+    },
+    {
+      "n": "Bybit",
+      "c": 1256,
+      "s": 24
+    },
+    {
+      "n": "Bitget",
+      "c": 1191,
+      "s": 45
+    },
+    {
+      "n": "Hyperliquid",
+      "c": 190,
+      "s": 1
+    },
+    {
+      "n": "Coinbase",
+      "c": 516,
+      "s": 2
+    },
+    {
+      "n": "Upbit",
+      "c": 720,
+      "s": 2
+    },
+    {
+      "n": "Kraken",
+      "c": 962,
+      "s": 12
+    },
+    {
+      "n": "OKX",
+      "c": 392,
+      "s": 29
+    }
+  ],
+  "stockGap": [
+    {
+      "token": "WMT",
+      "on": [
+        "Bitget(perp_usdt)",
+        "Coinbase(spot)",
+        "Kraken(spot)"
+      ],
+      "cnt": 3
+    },
+    {
+      "token": "MCD",
+      "on": [
+        "Bybit(spot)",
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 2
+    },
+    {
+      "token": "AMAT",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ARM",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ASML",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "AVGO",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BABA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "KLAC",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "LI",
+      "on": [
+        "Kraken(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "RKLB",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    }
+  ]
+}

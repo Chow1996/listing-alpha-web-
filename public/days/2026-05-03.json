@@ -1,0 +1,504 @@
+{
+  "summary": "今日竞对完全无新上币（5/2 数据延续），焦点全部转向宏观/政策/产品方向：Hyperliquid 正式上线首个 HIP-4 二元预测市场合约（首日交易额 >$2.38M），叠加 Polymarket 4 月手续费创纪录 $43.36M（年化 ~$520M）+ a16z 公开支持 CFTC 反对各州打压预测市场——预测市场赛道进入制度+产品双线突破时刻。 BTC 多空对撞加剧：Hayes 看多 EOY $125K（$4T 信用扩张 + AI/军费 capex 驱动）；based16z RT 短 BTC TP $65K invalidation $126K；CryptoQuant 4 月由投机推动有回调风险；Murphy 链上 BRS 再钉零轴指仍处下行；BTC ETF 反弹日 +$629.8M / ETH ETF +$101.2M（昨日双流出今日双反转）。 巴菲特股东大会重磅信号：伯克希尔现金创纪录 $3,970 亿，拒绝 AI 跟风投资，阿贝尔强调『持现金放弃次优机会择时重仓』；伯克希尔同步看好『大规模数据中心建设给公用事业带来巨大增长』——经典价值派对比 AI 投机性溢价的强烈信号。 KOL 信号 Bluntz_Capital 持续推 collectibles 超级周期（CARDS / Beezie / Courtyard 4 月 $165M vol / $85M rev）+ PaikCapital 旁证『onchain meta = cards + DeSci/peptide』+ Orange 提 Cards NFT 赚 500 SOL；CryptoPainter 推 Billions Network 5% stablecoin bonus = 7.5% APY；TG 山寨齐拉升 LAB / UB / B / Freedom of Money 领涨，LAB TG 13 次高频 + OKX 已永续缺现货。 AI 产业：Manus 被叫停后月之暗面 / 阶跃星辰考虑拆红筹回国；AI 算力短缺导致 Apple Mac Mini 提价 $799；fejau 力挺『AI 不是 dotcom，infra picks-and-shovels ROIC 故事』。",
+  "topTk": [
+    "LAB",
+    "CARDS",
+    "HYPE",
+    "BTC",
+    "ETH",
+    "POLY",
+    "MSTR",
+    "USDT",
+    "MNT"
+  ],
+  "L3": [
+    {
+      "name": "LAB Day 1 — TG 13 次高频 + 山寨齐拉升领涨，OKX 已永续无现货",
+      "tk": "LAB",
+      "heat": 75,
+      "urg": "高（24h 内）",
+      "desc": "BlockBeats: 部分山寨代币大幅拉升，LAB / UB / B / Freedom of Money 领涨市场。TG 24h LAB 提及 13 次（Top 1）、UB 也在多源；OKX 已有 LAB 永续合约但无现货——典型『有永续无现货』产品线缺位。无 Tier 1 KOL 在 24h 窗口内直接推 LAB（弱点），但 TG 高频 + 多 token 联动『山寨齐拉升』是新一轮 alt 主升萌芽信号。",
+      "act": "1) 上币组立即评估 LAB 现货上线（永续已有，补现货是确定性最高路径）；2) 流动性 / 项目方背景核查（TG 高频但 KOL 缺位，需链上数据+做市方背书）；3) UB 同步关注，作为后续候补。",
+      "comp": [],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "BlockBeats news.important（山寨齐拉升 LAB 领涨）+ TG hot_tokens 13 次 Top 1"
+      ],
+      "tks": [
+        "LAB",
+        "UB"
+      ],
+      "cluster_explicit": "LAB"
+    },
+    {
+      "name": "CARDS Day 2 — Bluntz 持续推 + 多源验证 collectibles 超级周期",
+      "tk": "CARDS",
+      "heat": 78,
+      "urg": "高（24-48h 内）",
+      "desc": "Day 2: Bluntz_Capital 再次发推强调 collectibles 超级周期（$CARDS / Beezie / Courtyard），披露 4 月 $165M 成交量 / $85M 协议收入数据（vs 昨日 $82M April rev / $26M mcap，量级一致）。@PaikCapital 旁证『onchain meta = cards + DeSci / peptide coins』；@0xVeryBigOrange 提到一年前买 Cards NFT 现已赚 500 SOL（小爆款体感）。Bluntz 也继续推 Goldin Demon Slayer 拍卖等 graded manga 方向 (RWA-NFT)。OKX 现货 / 永续 / 交割三线仍全无 CARDS。",
+      "act": "立即推进 CARDS 上币尽调（昨日 L3 延续）：核实 4 月 revenue 数据真实性 + 团队/合规 + 链上集中度；若通过 → 现货+永续同步上线；CARDS 兼具 RWA-NFT + Solana 生态 + 真实 revenue 三重叙事。",
+      "comp": [],
+      "gap": [
+        "OKX无（全空）",
+        "OKX无",
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "Bluntz_Capital",
+        "PaikCapital",
+        "0xVeryBigOrange (Tier1",
+        "EN trader 24h, 三源验证)"
+      ],
+      "tks": [
+        "CARDS",
+        "BEEZIE",
+        "COURTYARD"
+      ],
+      "cluster_explicit": "CARDS"
+    },
+    {
+      "name": "Hyperliquid HIP-4 二元预测市场上线 + Polymarket fees ATH + a16z 反对各州 — 预测市场赛道制度突破",
+      "tk": "HYPE",
+      "heat": 78,
+      "urg": "中-高（产品方向决策）",
+      "desc": "BlockBeats 重点：Hyperliquid 上线首个 HIP-4 二元预测市场合约，首日交易额已超 $2.38M，硬核对标 Polymarket / Kalshi。@0xSisyphus: 『Prediction market with top class execution has finally arrived — Hyperliquid』强力背书。WuBlockchain: Polymarket 4 月手续费创纪录 $43.36M（年化 ~$520M），龙头收入暴涨。BlockBeats: a16z 公开支持美 CFTC 反对各州针对预测市场的打压行动（联邦 vs 州政策博弈）。OKX 已有 HYPE 现货+永续（Hyperliquid 平台币），但 OKX 自身仍缺独立 prediction market 产品形态——competitor (Hyperliquid + Polymarket) 在该赛道高速扩张。",
+      "act": "1) 产品组评估 OKX 是否需推出原生 prediction market 产品形态（Polymarket + Hyperliquid 双对标）；2) 若已有 POLY 上币计划，加速推进（OKX 缺位）；3) HYPE 持仓监控 + Hyperliquid 生态衍生品扩张窗口（HIP-5 等）跟进。",
+      "comp": [
+        "Hyperliquid"
+      ],
+      "gap": [
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "BlockBeats news.important × 3",
+        "0xSisyphus (Tier1 KOL 24h)",
+        "WuBlockchain"
+      ],
+      "tks": [
+        "HYPE",
+        "POLY"
+      ],
+      "cluster_explicit": "HYPE"
+    }
+  ],
+  "L2": [
+    {
+      "name": "BTC 多空对撞 — Hayes $125K EOY vs based16z TP $65K + Murphy BRS 钉零轴 + CryptoQuant 投机回调",
+      "heat": 80,
+      "desc": "WuBlockchain: Arthur Hayes 看多 BTC EOY $125K，逻辑是 $4T 信用扩张（新银行杠杆规则）+ AI / 军费 capex 周期。@based16z RT @MylesGinvest 短 BTC TP $65K invalidation $126K — 中段空头开始建仓。BlockBeats CryptoQuant: BTC 4 月上涨主要由『投机』推动，存在回调风险。@Murphychen888: 链上 BRS 指标再被钉零轴 — BTC 可能仍处下行趋势而非筑顶。BlockBeats: 伊朗 14 点结束战争提议 + Trump 重启空袭言论，BTC 冲高回落。",
+      "tks": [
+        "BTC",
+        "ETH"
+      ],
+      "sig": [
+        "WuBlockchain (Hayes) + based16z + CryptoQuant + Murphychen888 + BlockBeats news.important"
+      ],
+      "cluster_explicit": "BTC_technical"
+    },
+    {
+      "name": "ETF 单日反转 — BTC ETF +$629.8M / ETH ETF +$101.2M（昨日双流出今日双反转）",
+      "heat": 72,
+      "desc": "BlockBeats: 昨日（5/1）美 BTC 现货 ETF 净流入 $6.298 亿，ETH 现货 ETF 净流入 $1.012 亿。对比 4/29 数据（BTC ETF -$138M / ETH ETF -$87.7M）—— 单日完成双反转，机构资金重新启动配置。WuBlockchain: PUMP burn buybacks 进行中；Ondo proxy voting tokenized stocks 正式上线。",
+      "tks": [
+        "BTC",
+        "PUMP",
+        "ONDO"
+      ],
+      "sig": [
+        "BlockBeats news.important + WuBlockchain (24h)"
+      ],
+      "cluster_explicit": "etf_flow"
+    },
+    {
+      "name": "巴菲特股东大会 — 伯克希尔现金 $3,970 亿创纪录 + 拒绝 AI + 数据中心利好公用事业",
+      "heat": 75,
+      "desc": "BlockBeats: 巴菲特『从未见过人们像现在这样如此具有赌博心态』；当前不是伯克希尔理想资金投放环境。伯克希尔现金储备创纪录 $3,970 亿（美股估值同期进入历史极高区间）。伯克希尔拒绝跟风投资 AI，谨慎推进三大应用原则。CEO 阿贝尔: 快速技术变革中需保持耐心，持有现金放弃次优机会并择时重仓。同时伯克希尔看好『大规模数据中心建设给公用事业行业巨大增长』 — 不是 AI，是 AI 衍生的电力 / picks-and-shovels。经典价值派对 AI 投机溢价的明确警告 + 与 fejau 等 KOL 的 picks-and-shovels 派形成共振。",
+      "tks": [
+        "BTC",
+        "MSTR"
+      ],
+      "sig": [
+        "BlockBeats news.important × 5（巴菲特 / 阿贝尔 / 伯克希尔 / 现金储备 / 数据中心）"
+      ],
+      "cluster_explicit": "buffett_cash"
+    },
+    {
+      "name": "SEC Atkins 现框架不适用 crypto + Taiwan BTC reserve + Paradigm PACTs 量子抗性 + 美联储中性观望",
+      "heat": 75,
+      "desc": "WuBlockchain: SEC Chair Atkins 明确表示现有法律框架不能适应 crypto（监管框架重写预期）。BlockBeats: 美联储传声筒 — 利率路径迎来关键转折，从释放降息信号部分迈入中性观望。WuBlockchain: Taiwan 立法者推动从外汇储备购入 BTC（主权 BTC 储备叙事再扩散）。WuBlockchain: Paradigm 提出 PACTs (Proof of Asset & Custody) 用于 BTC 量子抗性所有权证明。@CryptoPainter 推 Billions Network ($BILLIONS) 5% stablecoin bonus → 8 月锁仓等效 7.5% APY。",
+      "tks": [
+        "BTC",
+        "USDC",
+        "BILLIONS"
+      ],
+      "sig": [
+        "WuBlockchain × 4 + BlockBeats news.important + CryptoPainter (24h)"
+      ],
+      "cluster_explicit": "GENIUS_ACT"
+    },
+    {
+      "name": "Manus 被叫停 → 月之暗面/阶跃星辰拆红筹回国 + Apple Mac Mini 提价 $799 + Binance Agentic AI",
+      "heat": 70,
+      "desc": "BlockBeats / The Information: Manus 被叫停后引发连锁反应，月之暗面、阶跃星辰考虑拆红筹回国内（中美 AI 资本通道收紧）。BlockBeats: AI 热潮导致供应短缺，Apple 公司将 Mac Mini 起售价提高至 $799（实物侧 AI 算力溢价显现）。@0xVeryBigOrange: 体验 Binance Agentic AI 接入工作流（Binance Agent Wallet 持续发酵）。@CryptoPainter: 测试 OKX Hermes Agent + Agent Trade Kit（昨日延续）。@fejau_inc: 力挺 AI 不是 dotcom，picks-and-shovels infra ROIC story；Anthropic $9000亿估值 (4/30 起)；Manus 暴雷。",
+      "tks": [
+        "BNB",
+        "ETH"
+      ],
+      "sig": [
+        "BlockBeats news.important + 0xVeryBigOrange + fejau_inc (24h)"
+      ],
+      "cluster_explicit": "ai_crypto"
+    },
+    {
+      "name": "WLFI 5.9B 卖出延续 + rsETH 恢复计划 + Ondo proxy voting 启动 + 跨市场 NVDA/MSTR 跑赢 BTC",
+      "heat": 68,
+      "desc": "WuBlockchain: WLFI 卖出 5.9B token 延续；rsETH 恢复计划公布；Ondo proxy voting tokenized stocks 启动。@yuyue_chris: 4 月初做反弹买 NVDA / MSTR，跑赢 BTC 10%+，强调『玩强势板块龙头』，跨市场切换需选强。BlockBeats: 英特尔市值突破 $5000亿，特朗普政府持股不足一年已翻近 5x（昨日延续）。",
+      "tks": [
+        "WLFI",
+        "ONDO",
+        "rsETH",
+        "MSTR"
+      ],
+      "sig": [
+        "WuBlockchain + yuyue_chris (CN KOL 24h) + BlockBeats news"
+      ],
+      "cluster_explicit": "BMNR"
+    },
+    {
+      "name": "Iran 战停反复 + Trump 重启空袭可能 + BTC 冲高回落",
+      "heat": 65,
+      "desc": "BlockBeats: Trump 称『有可能重启对伊朗空袭』；伊朗递交 14 点聚焦『结束战争』谈判提议；BTC 冲高回落。美媒：伊朗放宽与美国恢复和谈条件；Trump 称对伊朗最新提案不满意。OFAC 警告：通过数字资产支付霍尔木兹海峡通行费有制裁风险（昨日已记录，今日延续）。BlockBeats: 部分山寨代币大幅拉升 — 风险偏好回归短期。",
+      "tks": [
+        "BTC",
+        "USDT"
+      ],
+      "sig": [
+        "BlockBeats news.important × 5（Iran 战停 / 谈判 / Trump / 山寨拉升）"
+      ],
+      "cluster_explicit": "geopolitics"
+    },
+    {
+      "name": "500+ 休眠 ETH 钱包被 drain $800K — 钱包安全危机 Day 2",
+      "heat": 65,
+      "desc": "WuBlockchain: 500+ 长期休眠 ETH 钱包被 drained 约 $800K。对昨日 BlockBeats『数百 ETH 长期休眠地址被盗』提供确切规模数字（500+ 钱包 / $800K）。Paradigm 同步推 PACTs 量子抗性 BTC 所有权证明 — 安全 / 量子双线技术叙事强化。",
+      "tks": [
+        "ETH"
+      ],
+      "sig": [
+        "WuBlockchain (Tier1 KOL 24h) + 4/30 BlockBeats 延续"
+      ],
+      "cluster_explicit": "ETH_dormant_hack"
+    }
+  ],
+  "L1": [
+    {
+      "name": "TG 24h 高频 — LAB(13)/INJ(8)/ZEC(6)/ONDO(6)/ORDI(5)/MOVE(5)/AAVE(4)/USELESS(4)/PIEVERSE(2)",
+      "desc": "TG 高频且 OKX 已上：INJ(8) / ZEC(6) / ONDO(6) / ORDI(5) / MOVE(5) / AAVE(4) / RENDER(2) / ATOM(2) / HYPE(2) / PIEVERSE(2) / USELESS(4) — 已全覆盖。TG 高频 OKX 缺现货：LAB(13, 已升 L3)、UB(2, 已永续)、Freedom of Money(单源)。GENIUS(1次, 多源 gap+tg) 仍属弱信号。USELESS / PIEVERSE 等奇葩名 meme 持续，反映 alt 风险偏好回归。",
+      "sig": [
+        "TG"
+      ],
+      "cluster_explicit": "meme"
+    },
+    {
+      "name": "AI 算力短缺 → Apple Mac Mini 提价 $799 + Berkshire 重仓数据中心利好公用事业",
+      "desc": "BlockBeats: AI 热潮导致 Mac Mini 起售价从 $599 → $799（DRAM/SSD 涨价传导）。Berkshire CEO: 大规模数据中心建设将使公用事业行业迎来巨大增长机会。电力 / DRAM / SSD / 半导体 picks-and-shovels 链条全部加杠杆，crypto 端 TAO / IO / RNDR / DePIN 受关注。",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "AI_semis"
+    },
+    {
+      "name": "美联储中性观望 + a16z 反对各州预测市场打压 + USDT/USDC 大额铸造与回笼",
+      "desc": "美联储传声筒：利率路径迎来关键转折，部分迈入中性观望（5月 FOMC 前定调）。a16z 公开支持美 CFTC 反对各州针对预测市场的一系列打压行动（联邦/州监管博弈）。@whale_alert: 149.5M USDT → OKEX (异常大额); 300M USDT Bitfinex → Tether Treasury (赎回); 1,053 BTC → Kraken。",
+      "sig": [
+        "监管"
+      ],
+      "cluster_explicit": "regulation"
+    }
+  ],
+  "comp": [
+    {
+      "what": "Hyperliquid 上线首个 HIP-4 二元预测市场合约",
+      "detail": "首日 vol >$2.38M，对标 Polymarket/Kalshi"
+    },
+    {
+      "what": "Polymarket 4 月手续费创纪录 $43.36M",
+      "detail": "年化 ~$520M，预测市场赛道商业模式跑通"
+    },
+    {
+      "what": "a16z 支持 CFTC 反对各州预测市场打压",
+      "detail": "联邦 vs 州监管博弈"
+    },
+    {
+      "what": "SEC Chair Atkins: 现法律框架不适用 crypto",
+      "detail": "监管框架重写预期"
+    },
+    {
+      "what": "美联储进入中性观望 + 6月不动 94.9% 概率",
+      "detail": "5月 FOMC 前定调"
+    },
+    {
+      "what": "BTC ETF +$629.8M / ETH ETF +$101.2M (反转)",
+      "detail": "5/1 数据，昨日双流出今日双反转"
+    },
+    {
+      "what": "Apple Mac Mini 起售价提价至 $799",
+      "detail": "AI 算力短缺传导至消费硬件"
+    },
+    {
+      "what": "Manus 叫停 → 月之暗面/阶跃星辰考虑拆红筹回国",
+      "detail": "中美 AI 资本通道收紧"
+    },
+    {
+      "what": "Taiwan 立法者推 BTC 国家储备",
+      "detail": "主权 BTC reserve 叙事扩散"
+    },
+    {
+      "what": "Berkshire 现金 $3970亿 创纪录 + 拒绝 AI",
+      "detail": "经典价值派对 AI 溢价警告"
+    }
+  ],
+  "kols": [
+    {
+      "n": "Bluntz_Capital",
+      "v": "🔥 Day 2: collectibles 超级周期 — CARDS/Beezie/Courtyard 4月 $165M vol/$85M rev；graded manga RWA-NFT",
+      "s": "up"
+    },
+    {
+      "n": "0xSisyphus",
+      "v": "HYPE/Hyperliquid 是 prediction market top class venue",
+      "s": "up"
+    },
+    {
+      "n": "WuBlockchain",
+      "v": "Hayes BTC $125K EOY ($4T 信用扩张 + AI/军费 capex)；SEC Atkins 现框架不适用 crypto；Polymarket 4月 fees $43.36M",
+      "s": "up"
+    },
+    {
+      "n": "based16z",
+      "v": "🔴 短 BTC TP $65K invalidation $126K (RT MylesGinvest)",
+      "s": "dn"
+    },
+    {
+      "n": "Murphychen888",
+      "v": "🔴 链上 BRS 再钉零轴，BTC 仍下行趋势非筑顶",
+      "s": "dn"
+    },
+    {
+      "n": "CryptoQuant",
+      "v": "🔴 BTC 4月由投机推动，回调风险",
+      "s": "dn"
+    },
+    {
+      "n": "fejau_inc",
+      "v": "AI 不是 dotcom，picks-and-shovels infra ROIC 故事",
+      "s": "up"
+    },
+    {
+      "n": "PaikCapital",
+      "v": "onchain meta = cards + DeSci/peptide coins",
+      "s": "up"
+    },
+    {
+      "n": "0xVeryBigOrange",
+      "v": "Cards NFT 1年前买入赚 500 SOL；Binance Agentic AI 实测",
+      "s": "up"
+    },
+    {
+      "n": "yuyue_chris",
+      "v": "4月做反弹 NVDA/MSTR 跑赢 BTC 10%+，选强势板块龙头",
+      "s": "up"
+    },
+    {
+      "n": "CryptoPainter",
+      "v": "Billions Network 5% stablecoin bonus = 7.5% APY 8月锁仓",
+      "s": "up"
+    },
+    {
+      "n": "whale_alert",
+      "v": "149.5M USDT → OKEX (异常)；300M USDT Bitfinex → Tether 赎回；1,053 BTC → Kraken",
+      "s": "n"
+    },
+    {
+      "n": "巴菲特/阿贝尔",
+      "v": "现金 $3970亿创纪录，赌博心态前所未见，拒绝 AI；耐心持现金择时重仓",
+      "s": "dn"
+    }
+  ],
+  "tg": [
+    {
+      "t": "LAB",
+      "c": 13
+    },
+    {
+      "t": "BTC",
+      "c": 10
+    },
+    {
+      "t": "INJ",
+      "c": 8
+    },
+    {
+      "t": "ZEC",
+      "c": 6
+    },
+    {
+      "t": "ONDO",
+      "c": 6
+    },
+    {
+      "t": "ORDI",
+      "c": 5
+    },
+    {
+      "t": "MOVE",
+      "c": 5
+    },
+    {
+      "t": "AAVE",
+      "c": 4
+    },
+    {
+      "t": "USELESS",
+      "c": 4
+    },
+    {
+      "t": "RENDER",
+      "c": 2
+    },
+    {
+      "t": "ATOM",
+      "c": 2
+    },
+    {
+      "t": "HYPE",
+      "c": 2
+    }
+  ],
+  "st": {
+    "tg": 26,
+    "msgs": 1316,
+    "cry": 173,
+    "kol": 13
+  },
+  "ex": [
+    {
+      "n": "Binance",
+      "c": 1969,
+      "s": 1
+    },
+    {
+      "n": "Bybit",
+      "c": 1256,
+      "s": 27
+    },
+    {
+      "n": "Bitget",
+      "c": 1176,
+      "s": 45
+    },
+    {
+      "n": "Hyperliquid",
+      "c": 190,
+      "s": 1
+    },
+    {
+      "n": "Coinbase",
+      "c": 519,
+      "s": 3
+    },
+    {
+      "n": "Upbit",
+      "c": 726,
+      "s": 2
+    },
+    {
+      "n": "Kraken",
+      "c": 958,
+      "s": 12
+    },
+    {
+      "n": "OKX",
+      "c": 397,
+      "s": 31
+    }
+  ],
+  "stockGap": [
+    {
+      "token": "WMT",
+      "on": [
+        "Bitget(perp_usdt)",
+        "Coinbase(spot)",
+        "Kraken(spot)"
+      ],
+      "cnt": 3
+    },
+    {
+      "token": "MCD",
+      "on": [
+        "Bybit(spot)",
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 2
+    },
+    {
+      "token": "AMAT",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ASML",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BABA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BILL",
+      "on": [
+        "Coinbase(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "KLAC",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "LI",
+      "on": [
+        "Kraken(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "RKLB",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    }
+  ]
+}
