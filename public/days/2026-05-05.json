@@ -1,0 +1,592 @@
+{
+  "summary": "BTC 站稳 $80k 上方,Coinbase premium 强(Saylor 持续买盘)+ Murphy 链上趋势通道上轨;Hyperliquid HIP-4 day1 成交 $6M(较昨日 $238 万增长 ~31x),Pentosh1 标 HYPE 为最佳 alt risk/reward;Aave 紧急动议要求撤销对 Arbitrum DAO 资产冻结通知,ARB_legal Day 2 法律僵局加剧;Telegram/Durov 将取代 TON Foundation 成最大 validator + 手续费降至 1/6;Binance Futures 明日(5/6)上 AMD/QCOM/USAR 永续 + Kraken 完成 Bitnomial 收购进美国衍生品 — 竞对衍生品/股票永续双线扩张;ETH 大额 staking inflow + Bitmine 加 101,745 ETH($13.1B AUM)。",
+  "topTk": [
+    "HYPE",
+    "TON",
+    "ARB",
+    "ETH",
+    "BTC",
+    "CARDS",
+    "QCOM",
+    "AAVE"
+  ],
+  "L3": [
+    {
+      "name": "Aave 紧急动议要求撤销对 Arbitrum DAO 资产冻结通知 (Day 2)",
+      "tk": "ARB",
+      "heat": 84,
+      "urg": "critical",
+      "desc": "继昨日纽约联邦法院判 Arbitrum 赔付朝鲜冻结资金后,Aave 提交紧急动议要求撤销该冻结通知;ARB/AAVE 双重法律风险升级,DeFi 主流协议被卷入主权法律冲突。",
+      "act": "ARB + AAVE 风控/合规联动告警,跟踪法院对 Aave 动议的裁决节奏与抛压",
+      "comp": [],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "律动新闻 (头条延续)"
+      ],
+      "tks": [
+        "ARB",
+        "AAVE"
+      ],
+      "cluster_explicit": "ARB_legal"
+    },
+    {
+      "name": "Hyperliquid HIP-4 Day 2 — 首日 $6M (vs 昨日 $238 万 +31x)",
+      "tk": "HYPE",
+      "heat": 86,
+      "urg": "high",
+      "desc": "HIP-4 二元预测市场首日成交 $6M,较 5/4 公告的 $238 万增长约 31x;@Pentosh1 力推 HYPE 为今年唯一 alt 仓位、看 ATHs >$50;@WuBlockchain 同步追踪。",
+      "act": "产品决策窗口 — 评估 OKX 上预测市场/二元期权的可行性并加速;同步监控 HIP-4 OI 与日成交曲线",
+      "comp": [],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "@Pentosh1",
+        "@WuBlockchain",
+        "律动新闻"
+      ],
+      "tks": [
+        "HYPE"
+      ],
+      "cluster_explicit": "HYPE"
+    },
+    {
+      "name": "Telegram/Durov 接管 TON 最大 validator + 手续费降 1/6",
+      "tk": "TON",
+      "heat": 80,
+      "urg": "high",
+      "desc": "Pavel Durov 宣布 Telegram 将取代 TON Foundation 成 TON 最大 validator;TON 手续费降至原 1/6;2-3 周内推开发工具与性能升级。TG 24h TON 提及 10 次跃居高频第二,链上活跃度回暖。",
+      "act": "评估 TON 现货+永续流动性是否需要扩容;关注 TON 生态 token (NOT/Hamster/STON) 上币机会",
+      "comp": [],
+      "gap": [],
+      "kol": [],
+      "sig": [
+        "@bwenews",
+        "@WuBlockchain",
+        "TG 10 次"
+      ],
+      "tks": [
+        "TON"
+      ],
+      "cluster_explicit": "TON_telegram"
+    },
+    {
+      "name": "Binance Futures 5/6 上 AMD/QCOM/USAR + Kraken 完成 Bitnomial 收购",
+      "tk": "AMD",
+      "heat": 75,
+      "urg": "high",
+      "desc": "Binance Futures 2026-05-06 上线 AMDUSDT、QCOMUSDT、USARUSDT 永续;Kraken 母公司完成收购 Bitnomial 正式打通美国加密衍生品业务;但斌同步建仓 Circle。竞对在股票 perp + 美国衍生品双线扩张。",
+      "act": "QCOM perp 上线评估 — Binance 明日跟进, OKX 缺位;Bitnomial 模式可参考用于美国持牌衍生品",
+      "comp": [
+        "Binance",
+        "Kraken"
+      ],
+      "gap": [
+        "OKX无"
+      ],
+      "kol": [],
+      "sig": [
+        "@bwenews",
+        "律动新闻"
+      ],
+      "tks": [
+        "AMD",
+        "QCOM",
+        "USAR"
+      ],
+      "cluster_explicit": "stock_derivatives"
+    }
+  ],
+  "L2": [
+    {
+      "name": "BTC > $80k 持续 + Coinbase premium + Murphy 趋势通道上轨",
+      "heat": 78,
+      "desc": "@ByzGeneral 标 Coinbase premium = Saylor 在买;@0xSisyphus 称 Saylor 完全主导价格;@Murphychen888 指 BTC 站上趋势通道上轨,未来 2-3 根 K 线决定真假突破;@CryptoPainter 反向看 $50-55k bear case + 10% short;BlackRock 欧洲 IB1T BTC ETP AUM 突破 $1.1B(~14,200 BTC)。",
+      "tks": [
+        "BTC"
+      ],
+      "sig": [
+        "@ByzGeneral + @0xSisyphus + @Murphychen888 + @CryptoPainter + 律动新闻"
+      ],
+      "cluster_explicit": "BTC_technical"
+    },
+    {
+      "name": "ETH 大额 staking inflow + Bitmine 加 101,745 ETH",
+      "heat": 75,
+      "desc": "@whale_alert 监控多笔 21.6K / 39.6K / 48.6K / 28.8K ETH(~$50M-$115M)从 unknown 转入 Beacon Depositor;Bitmine 增持 101,745 ETH 至 5.18M total($13.1B AUM);ETH 现货 + staking 双重需求支撑,与 Glamsterdam 升级叙事衔接。",
+      "tks": [
+        "ETH"
+      ],
+      "sig": [
+        "@whale_alert + @WuBlockchain"
+      ],
+      "cluster_explicit": "ETH_staking_surge"
+    },
+    {
+      "name": "DTCC 7月代币化证券试点 + Western Union USDPT (Day 2)",
+      "heat": 75,
+      "desc": "DTCC 推出代币化证券 7月试点(BlackRock/JPM/GS/Nasdaq/Ondo/Payward);Western Union 在 Solana 发 USDPT 稳定币;延续昨日 BlackRock + NYSE 推进信号,RWA 制度化加速。",
+      "tks": [],
+      "sig": [
+        "@WuBlockchain + 律动新闻"
+      ],
+      "cluster_explicit": "tokenized_securities"
+    },
+    {
+      "name": "CARDS Day 4 — Bluntz +165% 突破多月积累",
+      "heat": 72,
+      "desc": "@Bluntz_Capital 持续推 CARDS,称'+165% 突破多月积累,期待 ATH';@0xVeryBigOrange 反映 CARDS 最近'涨疯了';collectibles 超级周期叙事延续,OKX 仍缺位。",
+      "tks": [
+        "CARDS"
+      ],
+      "sig": [
+        "@Bluntz_Capital + @0xVeryBigOrange"
+      ],
+      "cluster_explicit": "CARDS"
+    },
+    {
+      "name": "CLARITY Act 稳定币收益规则敲定 — based16z 标 'Go Time'",
+      "heat": 72,
+      "desc": "@based16z 指 CLARITY Act 稳定币收益规则正式敲定,'hyperbubble is near';defi yield narrative 弱于 Saylor 的 11.5% MSTR 模式;美元监管框架松动 + 稳定币正向利息合法化。",
+      "tks": [],
+      "sig": [
+        "@based16z + 律动新闻"
+      ],
+      "cluster_explicit": "regulation"
+    },
+    {
+      "name": "WLFI 起诉孙宇晨 + ZachXBT 宣战 imToken/Tokenlon",
+      "heat": 68,
+      "desc": "WLFI 起诉孙宇晨,文件指 Tron 总部位置可能让孙'踢到铁板';同时 ZachXBT 公开指控 imToken 和 Tokenlon 大量交易量来自杀猪盘/诈骗;Tokenlon LON 近 1.5 年下跌 75%。CN 加密生态法律/合规风险升温。",
+      "tks": [],
+      "sig": [
+        "@bwenews + @jason_chen998 + 律动新闻"
+      ],
+      "cluster_explicit": "WLFI_TRX"
+    },
+    {
+      "name": "Iran 战争或持续 2-3 周 + 美军舰被导弹击中传闻",
+      "heat": 70,
+      "desc": "Trump 称伊朗战争可能持续 2-3 周,拒绝确认美伊停火协议是否仍有效;伊媒称两枚导弹击中美国军舰、美方否认;UAE 防空系统正应对来自伊朗的导弹威胁;BTC 延续强势,Circle 大涨 20%。",
+      "tks": [
+        "BTC"
+      ],
+      "sig": [
+        "律动新闻"
+      ],
+      "cluster_explicit": "geopolitics"
+    },
+    {
+      "name": "USDC/USDT 大额铸造移动 + Western Union USDPT",
+      "heat": 60,
+      "desc": "@whale_alert 监控 $250M*3 USDC 在 Solana 铸造 + 500M USDT Tether/Binance 移动 + $200M USDT 进 Binance;Western Union 在 Solana 发 USDPT 稳定币;新一轮稳定币流动性注入。",
+      "tks": [],
+      "sig": [
+        "@whale_alert + @WuBlockchain"
+      ],
+      "cluster_explicit": "stablecoin_flow"
+    },
+    {
+      "name": "TG 高频 TON/ZEC/ONDO + 山寨涨疯",
+      "heat": 68,
+      "desc": "TG 24h 高频 TON(10) ZEC(8) ONDO(8) HYPE/FIL/NEAR/FARTCOIN/GIGGLE/ARB(4) ETH/USELESS(3);@0xVeryBigOrange 称山寨开始暴涨, @hexiecs 看好港股曦智科技 + GME + BSC 共建;FARTCOIN/GIGGLE 仅永续无现货。",
+      "tks": [
+        "TON",
+        "ZEC",
+        "ONDO",
+        "FARTCOIN",
+        "GIGGLE"
+      ],
+      "sig": [
+        "TG + @0xVeryBigOrange + @hexiecs"
+      ],
+      "cluster_explicit": "meme"
+    },
+    {
+      "name": "Pentosh1 UUUU/AI 多年 boom + KWM 5亿 BTC 转 AI infra",
+      "heat": 65,
+      "desc": "@Pentosh1 长期推 UUUU(Energy Fuels rare earths/uranium 给 AI 数据中心),称 AI 是多年 boom-bust 周期;@yuyue_chris 力捧 OKX Agent Payments(APP)赛道;KWM(Nasdaq)将原 5 亿美元 BTC 财库融资改投 AI 基础设施 → BTC 短期减少买盘。",
+      "tks": [],
+      "sig": [
+        "@Pentosh1 + @yuyue_chris + @jason_chen998"
+      ],
+      "cluster_explicit": "ai_crypto"
+    }
+  ],
+  "L1": [
+    {
+      "name": "Bitget 首发 Billions Network ($BILL) — OKX 缺位",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "AIGENSYN"
+    },
+    {
+      "name": "本周大额解锁 >$229M(HYPE/ENA/SXT/RED/OPN; SOL/RAIN 线性)",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "ZRO"
+    },
+    {
+      "name": "Aave 紧急动议要求撤销 Arbitrum 资产冻结(已并入 ARB_legal L3)",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "regulation"
+    },
+    {
+      "name": "Burry 抛 GameStop + 但斌建仓 Circle",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "stock_derivatives"
+    },
+    {
+      "name": "X 用户通过 Grok 从 Bankr 盗 $17.5 万后归还跑路 — AI agent 信任危机",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "ai_crypto"
+    },
+    {
+      "name": "@CryptoPainter BTC bear case $50-55k + 10% short 已锁定",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "BTC_technical"
+    },
+    {
+      "name": "@hexiecs 港股曦智科技 + GME + BSC '共建' 小盘 meme 联动",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "meme"
+    },
+    {
+      "name": "@Web3Feng SATO LP 区间被拉爆 + Polymarket vs Binance CL/BZ funding -$8k",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "meme"
+    },
+    {
+      "name": "LAB 闪崩 Day 2 — 无新信号,延续静默期",
+      "desc": "",
+      "sig": [
+        "弱信号"
+      ],
+      "cluster_explicit": "LAB"
+    }
+  ],
+  "comp": [
+    {
+      "what": "Binance Futures 5/6 上线 AMD/QCOM/USAR 永续",
+      "detail": "AMDUSDT/QCOMUSDT/USARUSDT 三个 U 本位永续, OKX QCOM 缺位"
+    },
+    {
+      "what": "Kraken 完成收购 Bitnomial",
+      "detail": "正式打通美国加密衍生品业务, 持牌渠道推进"
+    },
+    {
+      "what": "Bitget 首发 Billions Network ($BILL)",
+      "detail": "OKX 缺位; @CryptoPainter 报告空投获 1M BILL tokens(~$30k)"
+    },
+    {
+      "what": "DTCC 7月代币化证券试点",
+      "detail": "BlackRock/JPM/GS/Nasdaq/Ondo/Payward 参与, RWA 制度化加速"
+    },
+    {
+      "what": "Hyperliquid HIP-4 day1 $6M",
+      "detail": "二元预测市场首日成交较 5/4 增长 ~31x"
+    },
+    {
+      "what": "Telegram/Durov 接管 TON validator",
+      "detail": "TON 手续费降 1/6 + 2-3 周推开发工具/性能升级"
+    },
+    {
+      "what": "Western Union 在 Solana 发 USDPT",
+      "detail": "新稳定币入场, RWA/支付双重背书"
+    },
+    {
+      "what": "Binance 推 Withdraw Protection 锁定功能",
+      "detail": "新风控产品, 减少黑客盗币影响"
+    }
+  ],
+  "kols": [
+    {
+      "n": "@Pentosh1",
+      "v": "HYPE 唯一今年 alt 仓位,看 ATHs >$50;长期推 UUUU(rare earths/uranium for AI)",
+      "s": "up"
+    },
+    {
+      "n": "@Bluntz_Capital",
+      "v": "CARDS +165% 突破多月积累,期待 ATH;graded manga/Tankobon 持续推",
+      "s": "up"
+    },
+    {
+      "n": "@CryptoPainter",
+      "v": "BTC bear case $50-55k,+10% on shorts;BILL 空投 1M tokens(~$30k)+ 锁仓至 10/31",
+      "s": "dn"
+    },
+    {
+      "n": "@WuBlockchain",
+      "v": "DTCC 7月代币化证券试点 + WU USDPT + HIP-4 day1 $6M + Bitmine +101,745 ETH + WLFI sue Sun",
+      "s": "up"
+    },
+    {
+      "n": "@0xSisyphus",
+      "v": "Saylor 完全主导 BTC 价格,宏观/利率与他无关",
+      "s": "up"
+    },
+    {
+      "n": "@fejau_inc",
+      "v": "BTC > $80k 庆祝;群聊在炒 HK 股小票,资本继续流入股市",
+      "s": "up"
+    },
+    {
+      "n": "@KelseyWeb3VC",
+      "v": "BTC 突破 $80k 确认;PLTR $146 建仓军方 AI 财报前;NVDA 持仓不动",
+      "s": "up"
+    },
+    {
+      "n": "@Murphychen888",
+      "v": "BTC 3日 K 站上趋势通道上轨,未来 2-3 根 K 线决定真假突破;链上熊市复苏初信号",
+      "s": "up"
+    },
+    {
+      "n": "@hexiecs",
+      "v": "港股买曦智科技(炒光概念,5亿U流通);美股 GME;BSC '共建'",
+      "s": "up"
+    },
+    {
+      "n": "@0xVeryBigOrange",
+      "v": "山寨开始暴涨'龙虾'被忽略;CARDS 最近涨疯;'臭臭' +11%",
+      "s": "up"
+    },
+    {
+      "n": "@bwenews",
+      "v": "Binance 5/6 上 AMD/QCOM/USAR perp;Bitget 首发 BILL;Telegram 接管 TON validator",
+      "s": "up"
+    },
+    {
+      "n": "@jason_chen998",
+      "v": "WLFI 起诉孙宇晨;KWM 把 5 亿 BTC 财库融资改投 AI infra,BTC 缺乏强势买盘",
+      "s": "dn"
+    },
+    {
+      "n": "@yuyue_chris",
+      "v": "力捧 OKX Agent Payments 赛道;链上活跃度明显高于前几月",
+      "s": "up"
+    },
+    {
+      "n": "@Web3Feng",
+      "v": "SATO LP 区间被拉爆;Polymarket 对冲原油被 Binance CL/BZ funding 干掉 $8k 利润",
+      "s": "dn"
+    },
+    {
+      "n": "@ByzGeneral",
+      "v": "Real Coinbase premium = Saylor 在按买入键",
+      "s": "up"
+    },
+    {
+      "n": "@PaikCapital",
+      "v": "当前是'第三浪进入分配'",
+      "s": "dn"
+    },
+    {
+      "n": "@based16z",
+      "v": "CLARITY Act 稳定币收益规则敲定 = Go Time;hyperbubble is near;BTC calls 加仓 >$80.5",
+      "s": "up"
+    },
+    {
+      "n": "@whale_alert",
+      "v": "ETH staking surge: 多笔 21.6K-48.6K ETH 进 Beacon Deposit;1B+ USDC mints on Solana;200M USDT to Binance",
+      "s": "up"
+    }
+  ],
+  "tg": [
+    {
+      "t": "BTC",
+      "c": 33
+    },
+    {
+      "t": "TON",
+      "c": 10
+    },
+    {
+      "t": "ZEC",
+      "c": 8
+    },
+    {
+      "t": "ONDO",
+      "c": 8
+    },
+    {
+      "t": "HYPE",
+      "c": 4
+    },
+    {
+      "t": "FIL",
+      "c": 4
+    },
+    {
+      "t": "NEAR",
+      "c": 4
+    },
+    {
+      "t": "FARTCOIN",
+      "c": 4
+    },
+    {
+      "t": "GIGGLE",
+      "c": 4
+    },
+    {
+      "t": "ARB",
+      "c": 4
+    },
+    {
+      "t": "ETH",
+      "c": 3
+    },
+    {
+      "t": "USELESS",
+      "c": 3
+    }
+  ],
+  "st": {
+    "tg": 28,
+    "msgs": 1966,
+    "cry": 309,
+    "kol": 18
+  },
+  "ex": [
+    {
+      "n": "Binance",
+      "c": 1970,
+      "s": 1
+    },
+    {
+      "n": "Bybit",
+      "c": 1256,
+      "s": 28
+    },
+    {
+      "n": "Bitget",
+      "c": 1176,
+      "s": 46
+    },
+    {
+      "n": "Hyperliquid",
+      "c": 190,
+      "s": 1
+    },
+    {
+      "n": "Coinbase",
+      "c": 518,
+      "s": 3
+    },
+    {
+      "n": "Upbit",
+      "c": 726,
+      "s": 2
+    },
+    {
+      "n": "Kraken",
+      "c": 958,
+      "s": 13
+    },
+    {
+      "n": "OKX",
+      "c": 397,
+      "s": 31
+    }
+  ],
+  "stockGap": [
+    {
+      "token": "BILL",
+      "on": [
+        "Bybit(spot)",
+        "Bitget(spot)",
+        "Coinbase(spot)",
+        "Kraken(spot)"
+      ],
+      "cnt": 4
+    },
+    {
+      "token": "WMT",
+      "on": [
+        "Bitget(perp_usdt)",
+        "Coinbase(spot)",
+        "Kraken(spot)"
+      ],
+      "cnt": 3
+    },
+    {
+      "token": "MCD",
+      "on": [
+        "Bybit(spot)",
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 2
+    },
+    {
+      "token": "AMAT",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "ASML",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "BABA",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "KLAC",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "LI",
+      "on": [
+        "Kraken(spot)"
+      ],
+      "cnt": 1
+    },
+    {
+      "token": "RKLB",
+      "on": [
+        "Bitget(perp_usdt)"
+      ],
+      "cnt": 1
+    }
+  ]
+}
