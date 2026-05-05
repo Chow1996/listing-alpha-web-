@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-05-05",
     "2026-05-04",
     "2026-05-03",
     "2026-05-02",
@@ -3322,33 +3323,251 @@
       "cry": 175,
       "kolCount": 12,
       "tgGroups": 24
+    },
+    "2026-05-05": {
+      "summary": "BTC 站稳 $80k 上方,Coinbase premium 强(Saylor 持续买盘)+ Murphy 链上趋势通道上轨;Hyperliquid HIP-4 day1 成交 $6M(较昨日 $238 万增长 ~31x),Pentosh1 标 HYPE 为最佳 alt risk/reward;Aave 紧急动议要求撤销对 Arbitrum DAO 资产冻结通知,ARB_legal Day 2 ",
+      "topTk": [
+        "HYPE",
+        "TON",
+        "ARB",
+        "ETH",
+        "BTC",
+        "CARDS"
+      ],
+      "l3": [
+        {
+          "name": "Aave 紧急动议要求撤销对 Arbitrum DAO 资产冻结通知 (Day 2)",
+          "heat": 84,
+          "urg": "critical",
+          "desc": "继昨日纽约联邦法院判 Arbitrum 赔付朝鲜冻结资金后,Aave 提交紧急动议要求撤销该冻结通知;ARB/AAVE 双重法律风险升级,DeFi 主流协议被卷",
+          "act": "ARB + AAVE 风控/合规联动告警,跟踪法院对 Aave 动议的裁决节奏与抛压",
+          "tks": [
+            "ARB",
+            "AAVE"
+          ],
+          "cluster": "ARB_legal"
+        },
+        {
+          "name": "Hyperliquid HIP-4 Day 2 — 首日 $6M (vs 昨日 $238 万 +31x)",
+          "heat": 86,
+          "urg": "high",
+          "desc": "HIP-4 二元预测市场首日成交 $6M,较 5/4 公告的 $238 万增长约 31x;@Pentosh1 力推 HYPE 为今年唯一 alt 仓位、看 AT",
+          "act": "产品决策窗口 — 评估 OKX 上预测市场/二元期权的可行性并加速;同步监控 HIP-4 OI 与日成交曲线",
+          "tks": [
+            "HYPE"
+          ],
+          "cluster": "HYPE"
+        },
+        {
+          "name": "Telegram/Durov 接管 TON 最大 validator + 手续费降 1/6",
+          "heat": 80,
+          "urg": "high",
+          "desc": "Pavel Durov 宣布 Telegram 将取代 TON Foundation 成 TON 最大 validator;TON 手续费降至原 1/6;2-3",
+          "act": "评估 TON 现货+永续流动性是否需要扩容;关注 TON 生态 token (NOT/Hamster/STON) 上币机",
+          "tks": [
+            "TON"
+          ],
+          "cluster": "TON_telegram"
+        },
+        {
+          "name": "Binance Futures 5/6 上 AMD/QCOM/USAR + Kraken 完成 Bitnomial 收购",
+          "heat": 75,
+          "urg": "high",
+          "desc": "Binance Futures 2026-05-06 上线 AMDUSDT、QCOMUSDT、USARUSDT 永续;Kraken 母公司完成收购 Bitnom",
+          "act": "QCOM perp 上线评估 — Binance 明日跟进, OKX 缺位;Bitnomial 模式可参考用于美国持牌衍",
+          "tks": [
+            "AMD",
+            "QCOM",
+            "USAR"
+          ],
+          "cluster": "stock_derivatives"
+        }
+      ],
+      "l2": [
+        {
+          "name": "BTC > $80k 持续 + Coinbase premium + Murphy 趋势通道上轨",
+          "heat": 78,
+          "desc": "@ByzGeneral 标 Coinbase premium = Saylor 在买;@0xSisyphus 称 Say",
+          "tks": [
+            "BTC"
+          ],
+          "cluster": "BTC_technical"
+        },
+        {
+          "name": "ETH 大额 staking inflow + Bitmine 加 101,745 ETH",
+          "heat": 75,
+          "desc": "@whale_alert 监控多笔 21.6K / 39.6K / 48.6K / 28.8K ETH(~$50M-$1",
+          "tks": [
+            "ETH"
+          ],
+          "cluster": "ETH_staking_surge"
+        },
+        {
+          "name": "DTCC 7月代币化证券试点 + Western Union USDPT (Day 2)",
+          "heat": 75,
+          "desc": "DTCC 推出代币化证券 7月试点(BlackRock/JPM/GS/Nasdaq/Ondo/Payward);West",
+          "tks": [],
+          "cluster": "tokenized_securities"
+        },
+        {
+          "name": "CARDS Day 4 — Bluntz +165% 突破多月积累",
+          "heat": 72,
+          "desc": "@Bluntz_Capital 持续推 CARDS,称'+165% 突破多月积累,期待 ATH';@0xVeryBigO",
+          "tks": [
+            "CARDS"
+          ],
+          "cluster": "CARDS"
+        },
+        {
+          "name": "CLARITY Act 稳定币收益规则敲定 — based16z 标 'Go Time'",
+          "heat": 72,
+          "desc": "@based16z 指 CLARITY Act 稳定币收益规则正式敲定,'hyperbubble is near';de",
+          "tks": [],
+          "cluster": "regulation"
+        },
+        {
+          "name": "WLFI 起诉孙宇晨 + ZachXBT 宣战 imToken/Tokenlon",
+          "heat": 68,
+          "desc": "WLFI 起诉孙宇晨,文件指 Tron 总部位置可能让孙'踢到铁板';同时 ZachXBT 公开指控 imToken 和",
+          "tks": [],
+          "cluster": "WLFI_TRX"
+        },
+        {
+          "name": "Iran 战争或持续 2-3 周 + 美军舰被导弹击中传闻",
+          "heat": 70,
+          "desc": "Trump 称伊朗战争可能持续 2-3 周,拒绝确认美伊停火协议是否仍有效;伊媒称两枚导弹击中美国军舰、美方否认;UAE",
+          "tks": [
+            "BTC"
+          ],
+          "cluster": "geopolitics"
+        },
+        {
+          "name": "USDC/USDT 大额铸造移动 + Western Union USDPT",
+          "heat": 60,
+          "desc": "@whale_alert 监控 $250M*3 USDC 在 Solana 铸造 + 500M USDT Tether/",
+          "tks": [],
+          "cluster": "stablecoin_flow"
+        },
+        {
+          "name": "TG 高频 TON/ZEC/ONDO + 山寨涨疯",
+          "heat": 68,
+          "desc": "TG 24h 高频 TON(10) ZEC(8) ONDO(8) HYPE/FIL/NEAR/FARTCOIN/GIGG",
+          "tks": [
+            "TON",
+            "ZEC"
+          ],
+          "cluster": "meme"
+        },
+        {
+          "name": "Pentosh1 UUUU/AI 多年 boom + KWM 5亿 BTC 转 AI infra",
+          "heat": 65,
+          "desc": "@Pentosh1 长期推 UUUU(Energy Fuels rare earths/uranium 给 AI 数据中",
+          "tks": [],
+          "cluster": "ai_crypto"
+        }
+      ],
+      "l1": [
+        {
+          "name": "Bitget 首发 Billions Network ($BILL) — OKX 缺位",
+          "cluster": "AIGENSYN"
+        },
+        {
+          "name": "本周大额解锁 >$229M(HYPE/ENA/SXT/RED/OPN; SOL/RAIN 线性)",
+          "cluster": "ZRO"
+        },
+        {
+          "name": "Aave 紧急动议要求撤销 Arbitrum 资产冻结(已并入 ARB_legal L3)",
+          "cluster": "regulation"
+        },
+        {
+          "name": "Burry 抛 GameStop + 但斌建仓 Circle",
+          "cluster": "stock_derivatives"
+        },
+        {
+          "name": "X 用户通过 Grok 从 Bankr 盗 $17.5 万后归还跑路 — AI agent 信任危机",
+          "cluster": "ai_crypto"
+        },
+        {
+          "name": "@CryptoPainter BTC bear case $50-55k + 10% short 已锁定",
+          "cluster": "BTC_technical"
+        },
+        {
+          "name": "@hexiecs 港股曦智科技 + GME + BSC '共建' 小盘 meme 联动",
+          "cluster": "meme"
+        },
+        {
+          "name": "@Web3Feng SATO LP 区间被拉爆 + Polymarket vs Binance CL/BZ funding -$8k",
+          "cluster": "meme"
+        },
+        {
+          "name": "LAB 闪崩 Day 2 — 无新信号,延续静默期",
+          "cluster": "LAB"
+        }
+      ],
+      "comp": [
+        {
+          "what": "Binance Futures 5/6 上线 AMD/QCOM/USAR 永续",
+          "detail": "AMDUSDT/QCOMUSDT/USARUSDT 三个 U 本位永续, OKX QCOM 缺位"
+        },
+        {
+          "what": "Kraken 完成收购 Bitnomial",
+          "detail": "正式打通美国加密衍生品业务, 持牌渠道推进"
+        },
+        {
+          "what": "Bitget 首发 Billions Network ($BILL)",
+          "detail": "OKX 缺位; @CryptoPainter 报告空投获 1M BILL tokens(~$30k)"
+        },
+        {
+          "what": "DTCC 7月代币化证券试点",
+          "detail": "BlackRock/JPM/GS/Nasdaq/Ondo/Payward 参与, RWA 制度化加速"
+        },
+        {
+          "what": "Hyperliquid HIP-4 day1 $6M",
+          "detail": "二元预测市场首日成交较 5/4 增长 ~31x"
+        },
+        {
+          "what": "Telegram/Durov 接管 TON validator",
+          "detail": "TON 手续费降 1/6 + 2-3 周推开发工具/性能升级"
+        },
+        {
+          "what": "Western Union 在 Solana 发 USDPT",
+          "detail": "新稳定币入场, RWA/支付双重背书"
+        },
+        {
+          "what": "Binance 推 Withdraw Protection 锁定功能",
+          "detail": "新风控产品, 减少黑客盗币影响"
+        }
+      ],
+      "cry": 309,
+      "kolCount": 18,
+      "tgGroups": 28
     }
   },
   "weekly": {
-    "period": "2026-04-28 ~ 2026-05-04",
+    "period": "2026-04-29 ~ 2026-05-05",
     "kpis": [
       {
         "label": "新增L3",
-        "val": 15,
-        "prev": 27,
+        "val": 13,
+        "prev": 26,
         "unit": ""
       },
       {
         "label": "竞对动作",
-        "val": 47,
-        "prev": 57,
+        "val": 49,
+        "prev": 54,
         "unit": "条"
       },
       {
         "label": "信号总数",
-        "val": 1795,
-        "prev": 1996,
+        "val": 1768,
+        "prev": 2075,
         "unit": "条"
       },
       {
         "label": "追踪叙事",
-        "val": 38,
-        "prev": 57,
+        "val": 36,
+        "prev": 55,
         "unit": "个"
       }
     ],
@@ -3368,39 +3587,43 @@
         "cluster": "LAB",
         "name": "LAB 闪崩 -80% Day 2 — 合约爆仓全网第一",
         "aliases": [
-          "LAB Day 1 — TG 13 次高频 + 山寨齐拉升领涨，OKX 已永续无现货"
+          "LAB Day 1 — TG 13 次高频 + 山寨齐拉升领涨，OKX 已永续无现货",
+          "LAB 闪崩 Day 2 — 无新信号,延续静默期"
         ],
         "from": "L3",
         "to": "L3",
         "heat": 88,
         "delta": "+13",
         "type": "stay",
-        "appearances": 2
-      },
-      {
-        "cluster": "KELP",
-        "name": "KELP / rsETH / AAVE 救助 Day 9 — Consensys 30K ETH + Circle Ventures 买 AAVE",
-        "aliases": [],
-        "from": "L3",
-        "to": "L3",
-        "heat": 84,
-        "delta": "+0",
-        "type": "stay",
-        "appearances": 1
+        "appearances": 3
       },
       {
         "cluster": "HYPE",
-        "name": "Hyperliquid HIP-4 二元预测市场首日 $238 万",
+        "name": "Hyperliquid HIP-4 Day 2 — 首日 $6M (vs 昨日 $238 万 +31x)",
         "aliases": [
           "Hyperliquid 垄断叙事再升级 — 0xSisyphus 力推",
-          "Hyperliquid HIP-4 二元预测市场上线 + Polymarket fees ATH + a16z 反对各州 — 预测市场赛道制度突破"
+          "Hyperliquid HIP-4 二元预测市场上线 + Polymarket fees ATH + a16z 反对各州 — 预测市场赛道制度突破",
+          "Hyperliquid HIP-4 二元预测市场首日 $238 万"
         ],
         "from": "L2",
         "to": "L3",
-        "heat": 82,
-        "delta": "+12",
+        "heat": 86,
+        "delta": "+16",
         "type": "up",
-        "appearances": 3
+        "appearances": 4
+      },
+      {
+        "cluster": "ARB_legal",
+        "name": "Aave 紧急动议要求撤销对 Arbitrum DAO 资产冻结通知 (Day 2)",
+        "aliases": [
+          "Arbitrum 朝鲜冻结资金被纽约联邦法院判赔"
+        ],
+        "from": "L3",
+        "to": "L3",
+        "heat": 84,
+        "delta": "+12",
+        "type": "stay",
+        "appearances": 2
       },
       {
         "cluster": "BLEND",
@@ -3409,17 +3632,6 @@
         "from": "L3",
         "to": "L3",
         "heat": 82,
-        "delta": "+0",
-        "type": "stay",
-        "appearances": 1
-      },
-      {
-        "cluster": "PRL_XCN",
-        "name": "Upbit + Bithumb 同日上 PRL & XCN — 双 Tier1 韩交所联动 OKX 缺位",
-        "aliases": [],
-        "from": "L3",
-        "to": "L3",
-        "heat": 80,
         "delta": "+0",
         "type": "stay",
         "appearances": 1
@@ -3449,51 +3661,64 @@
         "appearances": 2
       },
       {
+        "cluster": "TON_telegram",
+        "name": "Telegram/Durov 接管 TON 最大 validator + 手续费降 1/6",
+        "aliases": [],
+        "from": "L3",
+        "to": "L3",
+        "heat": 80,
+        "delta": "+0",
+        "type": "stay",
+        "appearances": 1
+      },
+      {
+        "cluster": "BTC_technical",
+        "name": "BTC > $80k 持续 + Coinbase premium + Murphy 趋势通道上轨",
+        "aliases": [
+          "BTC 80k 上沿震荡 / Pentoshi 84-86k 决胜位 + ETF 流入断档",
+          "BTC $80K 上沿 + 30 日交易所流入新高 + 巨鲸 Coinbase Institutional 鳄吞",
+          "BTC 顶部多重信号叠加 + 巨鲸混合流向 + IV 历史低位",
+          "BTC 多空叙事激烈对撞 — $160K 月线目标 vs OI 阻力 fade + 巨鲸混合流向",
+          "BTC 多空对撞 — Hayes $125K EOY vs based16z TP $65K + Murphy BRS 钉零轴 + CryptoQuant 投机回调",
+          "BTC 熊牛转化早期信号 + 多空对撞延续",
+          "@CryptoPainter BTC bear case $50-55k + 10% short 已锁定"
+        ],
+        "from": "L2",
+        "to": "L2",
+        "heat": 78,
+        "delta": "+6",
+        "type": "stay",
+        "appearances": 8
+      },
+      {
         "cluster": "CARDS",
         "name": "CARDS Day 2 — Bluntz 持续推 + 多源验证 collectibles 超级周期",
         "aliases": [
-          "CARDS (Collector Crypt) — Bluntz 重仓推荐：$82M April revenue / $26M mcap，OKX 全无"
+          "CARDS (Collector Crypt) — Bluntz 重仓推荐：$82M April revenue / $26M mcap，OKX 全无",
+          "CARDS Day 4 — Bluntz +165% 突破多月积累"
         ],
         "from": "L3",
         "to": "L3",
         "heat": 78,
         "delta": "+3",
         "type": "stay",
-        "appearances": 2
+        "appearances": 3
       },
       {
         "cluster": "stock_derivatives",
-        "name": "Bitget 美股 perp 矩阵扩张 — OKLO/MP/CRDO/APLD/KLAC 5 个新品",
+        "name": "Binance Futures 5/6 上 AMD/QCOM/USAR + Kraken 完成 Bitnomial 收购",
         "aliases": [
-          "Bybit 上线 GOOGL / META / MSFT 股票永续 — OKX 已全覆盖",
-          "IREN（Iris Energy 矿企）TG 热度 3 次 — OKX 无 stock perp",
+          "Bitget 美股 perp 矩阵扩张 — OKLO/MP/CRDO/APLD/KLAC 5 个新品",
           "RWA 25K 美股代币化 + Bybit 新增 COIN/MSTR/PLTR perp",
-          "RWA 市值 $19.3B (+256.7% / 15 个月) — CoinGecko 2026 报告"
+          "RWA 市值 $19.3B (+256.7% / 15 个月) — CoinGecko 2026 报告",
+          "Burry 抛 GameStop + 但斌建仓 Circle"
         ],
-        "from": "L2",
+        "from": "L3",
         "to": "L3",
         "heat": 75,
-        "delta": "+20",
-        "type": "up",
+        "delta": "+0",
+        "type": "stay",
         "appearances": 5
-      },
-      {
-        "cluster": "BTC_technical",
-        "name": "BTC 熊牛转化早期信号 + 多空对撞延续",
-        "aliases": [
-          "Solana 采用 Falcon 后量子签名 — 量子叙事延伸到 SOL",
-          "BTC 80k 上沿震荡 / Pentoshi 84-86k 决胜位 + ETF 流入断档",
-          "BTC $80K 上沿 + 30 日交易所流入新高 + 巨鲸 Coinbase Institutional 鳄吞",
-          "BTC 顶部多重信号叠加 + 巨鲸混合流向 + IV 历史低位",
-          "BTC 多空叙事激烈对撞 — $160K 月线目标 vs OI 阻力 fade + 巨鲸混合流向",
-          "BTC 多空对撞 — Hayes $125K EOY vs based16z TP $65K + Murphy BRS 钉零轴 + CryptoQuant 投机回调"
-        ],
-        "from": "L1",
-        "to": "L2",
-        "heat": 75,
-        "delta": "+75",
-        "type": "up",
-        "appearances": 7
       },
       {
         "cluster": "GENIUS_ACT",
@@ -3509,10 +3734,33 @@
         "appearances": 2
       },
       {
+        "cluster": "tokenized_securities",
+        "name": "DTCC 7月代币化证券试点 + Western Union USDPT (Day 2)",
+        "aliases": [
+          "BlackRock + NYSE 双线推进代币化证券"
+        ],
+        "from": "L2",
+        "to": "L2",
+        "heat": 75,
+        "delta": "+3",
+        "type": "stay",
+        "appearances": 2
+      },
+      {
+        "cluster": "ETH_staking_surge",
+        "name": "ETH 大额 staking inflow + Bitmine 加 101,745 ETH",
+        "aliases": [],
+        "from": "L2",
+        "to": "L2",
+        "heat": 75,
+        "delta": "+0",
+        "type": "stay",
+        "appearances": 1
+      },
+      {
         "cluster": "etf_flow",
         "name": "ETF 单日反转 — BTC ETF +$629.8M / ETH ETF +$101.2M（昨日双流出今日双反转）",
         "aliases": [
-          "数字资产周流入 $1.2B — BTC +$933M / ETH +$192M (CoinShares)",
           "BTC/ETH 现货 ETF 转向流出",
           "BTC/ETH ETF 同日双流出 + 5月历史季节性看涨 + Drift 朝鲜社工 $285M"
         ],
@@ -3521,71 +3769,31 @@
         "heat": 72,
         "delta": "+12",
         "type": "stay",
-        "appearances": 4
+        "appearances": 3
       },
       {
-        "cluster": "ARB_legal",
-        "name": "Arbitrum 朝鲜冻结资金被纽约联邦法院判赔",
-        "aliases": [],
-        "from": "L3",
-        "to": "L3",
-        "heat": 72,
-        "delta": "+0",
-        "type": "stay",
-        "appearances": 1
-      },
-      {
-        "cluster": "tokenized_securities",
-        "name": "BlackRock + NYSE 双线推进代币化证券",
-        "aliases": [],
-        "from": "L2",
+        "cluster": "regulation",
+        "name": "CLARITY Act 稳定币收益规则敲定 — based16z 标 'Go Time'",
+        "aliases": [
+          "Robinhood Q1 crypto rev -47%",
+          "Powell 末次 FOMC + Warsh 接班 — Fed 制度过渡周",
+          "Fed 6月不动 94.9% + 欧英央行齐按兵 + 核心 PCE 3.2% 符合预期 + Powell 留任叙事",
+          "Arbitrum 治理双向 + 加密市场结构法案 5 月中旬推进 + Trump 退休储蓄行政命令",
+          "WLFI 卖 5.9B + 80% 早期持仓仍锁 + Pharos 利好出货争议 + Brazil 禁 crypto eFX vs JPX 2027 ETF",
+          "特朗普枪击案监控视频公布 + Trump 退休储蓄行政命令（潜在间接利好被动配置）",
+          "美联储中性观望 + a16z 反对各州预测市场打压 + USDT/USDC 大额铸造与回笼",
+          "Fed 转中性观望 + Kashkari 警告加息可能",
+          "POLITICO 民调:多数美国人对 AI 与加密仍持怀疑",
+          "Japan 加密 ETF 最早明年获批 — Wu 报道",
+          "130+ 国家推进 CBDC,Russia 出台加密个税",
+          "Aave 紧急动议要求撤销 Arbitrum 资产冻结(已并入 ARB_legal L3)"
+        ],
+        "from": "L1",
         "to": "L2",
         "heat": 72,
-        "delta": "+0",
-        "type": "stay",
-        "appearances": 1
-      },
-      {
-        "cluster": "meme",
-        "name": "USELESS 续热但 OKX 仅永续无现货 — 现货补位机会",
-        "aliases": [
-          "PENGU 独立突破 — Pudgy Penguins 品牌行情延续",
-          "PARANOID / SCAM / HENRY meme 单源延续",
-          "Mad Lads / SOL NFT 复苏叙事看空",
-          "TG 小币热度 RISE/SWARMS/INIT/VELODROME",
-          "TG 高频小币 — FORM / WISH / QCOM / BEACHBALLS / HOPPY / GOBLIN / RC（OKX 全无）",
-          "TG 高频小币 + 新 meme 涌现 — GOBLIN/ARTEMIS/DAI/FARTCOIN/ASTEROID/SCRIBBLI/SIMULATOR",
-          "TG 24h 高频 — DAI(6,多源) / BWOYS(4) / FLYYQ(3) / HALFTRUMP / ANIMALS / GOBLIN / SLOPNALD / SKR(2,多源)",
-          "TG 24h 高频 — LAB(13)/INJ(8)/ZEC(6)/ONDO(6)/ORDI(5)/MOVE(5)/AAVE(4)/USELESS(4)/PIEVERSE(2)",
-          "TG 高频山寨齐拉升 + LAB/UB/B/Freedom 领涨",
-          "BSC Meme 圈研究 — 刀盾/比比/拉布 (@Web3Feng)"
-        ],
-        "from": "L3",
-        "to": "L3",
-        "heat": 70,
-        "delta": "+0",
-        "type": "stay",
-        "appearances": 11
-      },
-      {
-        "cluster": "ai_crypto",
-        "name": "Manus 被叫停 → 月之暗面/阶跃星辰拆红筹回国 + Apple Mac Mini 提价 $799 + Binance Agentic AI",
-        "aliases": [
-          "Gemini Agentic Trading via MCP + Manus 估值 -90%",
-          "based16z 提 AI coding tools 周期",
-          "AI x Crypto 双线 — Vitalik via OKX 推 ETH 接 AI + AI Agent 用交易盈余付 AWS",
-          "AIGENSYN 单源延续观察 + AI 题材其他外溢",
-          "AI x Crypto — Binance Agent Wallet 反追 OKX，CryptoPainter 双线评论",
-          "OKX Hermes Agent / Agent Trade Kit — KOL 公开实测 + Musk vs OpenAI 调查可能开门",
-          "Founders Fund 关闭 $6B 新基金 — AI/科技配置",
-          "@Rewkang 看好机器人/AI 行业指数级机会"
-        ],
-        "from": "L2",
-        "to": "L2",
-        "heat": 70,
-        "delta": "+12",
-        "type": "stay",
-        "appearances": 9
+        "delta": "+72",
+        "type": "up",
+        "appearances": 13
       },
       {
         "cluster": "MNT",
@@ -3597,6 +3805,21 @@
         "delta": "+0",
         "type": "stay",
         "appearances": 1
+      },
+      {
+        "cluster": "geopolitics",
+        "name": "Iran 战争或持续 2-3 周 + 美军舰被导弹击中传闻",
+        "aliases": [
+          "Iran 战停 + OFAC 制裁警告 + 原油跌金银涨 — 地缘缓和阶段",
+          "Iran 战停反复 + Trump 重启空袭可能 + BTC 冲高回落",
+          "Iran 战停反复 + 霍尔木兹引导船只"
+        ],
+        "from": "L2",
+        "to": "L2",
+        "heat": 70,
+        "delta": "+0",
+        "type": "stay",
+        "appearances": 4
       },
       {
         "cluster": "buffett_cash",
@@ -3612,22 +3835,6 @@
         "appearances": 2
       },
       {
-        "cluster": "BMNR",
-        "name": "WLFI 5.9B 卖出延续 + rsETH 恢复计划 + Ondo proxy voting 启动 + 跨市场 NVDA/MSTR 跑赢 BTC",
-        "aliases": [
-          "BTC 机构吸筹 vs 80k 上沿 — Whale + MicroStrategy + 韩资反差",
-          "MicroStrategy $44.1B 弹药 + STRC RWA 化提议 + Saylor 量子论",
-          "Saturn / STRC / sUSDat — MSTR-linked DeFi 收益率新原语 + AIMCo $219M MSTR 持仓披露",
-          "ETH Foundation 卖 10K ETH @$2,292 给 BitMine + Bitmine 4M+ ETH staked $508M + DeFi United $314.57M ETH"
-        ],
-        "from": "L2",
-        "to": "L2",
-        "heat": 68,
-        "delta": "+0",
-        "type": "stay",
-        "appearances": 5
-      },
-      {
         "cluster": "PROS",
         "name": "PROS Day 2 — Bitget 现货 + 三家现货已上，OKX 仅永续无现货",
         "aliases": [
@@ -3641,6 +3848,43 @@
         "appearances": 2
       },
       {
+        "cluster": "meme",
+        "name": "TG 高频 TON/ZEC/ONDO + 山寨涨疯",
+        "aliases": [
+          "Mad Lads / SOL NFT 复苏叙事看空",
+          "TG 小币热度 RISE/SWARMS/INIT/VELODROME",
+          "TG 高频小币 — FORM / WISH / QCOM / BEACHBALLS / HOPPY / GOBLIN / RC（OKX 全无）",
+          "TG 高频小币 + 新 meme 涌现 — GOBLIN/ARTEMIS/DAI/FARTCOIN/ASTEROID/SCRIBBLI/SIMULATOR",
+          "TG 24h 高频 — DAI(6,多源) / BWOYS(4) / FLYYQ(3) / HALFTRUMP / ANIMALS / GOBLIN / SLOPNALD / SKR(2,多源)",
+          "TG 24h 高频 — LAB(13)/INJ(8)/ZEC(6)/ONDO(6)/ORDI(5)/MOVE(5)/AAVE(4)/USELESS(4)/PIEVERSE(2)",
+          "TG 高频山寨齐拉升 + LAB/UB/B/Freedom 领涨",
+          "BSC Meme 圈研究 — 刀盾/比比/拉布 (@Web3Feng)",
+          "@hexiecs 港股曦智科技 + GME + BSC '共建' 小盘 meme 联动",
+          "@Web3Feng SATO LP 区间被拉爆 + Polymarket vs Binance CL/BZ funding -$8k"
+        ],
+        "from": "L1",
+        "to": "L2",
+        "heat": 68,
+        "delta": "+68",
+        "type": "up",
+        "appearances": 11
+      },
+      {
+        "cluster": "BMNR",
+        "name": "WLFI 5.9B 卖出延续 + rsETH 恢复计划 + Ondo proxy voting 启动 + 跨市场 NVDA/MSTR 跑赢 BTC",
+        "aliases": [
+          "MicroStrategy $44.1B 弹药 + STRC RWA 化提议 + Saylor 量子论",
+          "Saturn / STRC / sUSDat — MSTR-linked DeFi 收益率新原语 + AIMCo $219M MSTR 持仓披露",
+          "ETH Foundation 卖 10K ETH @$2,292 给 BitMine + Bitmine 4M+ ETH staked $508M + DeFi United $314.57M ETH"
+        ],
+        "from": "L2",
+        "to": "L2",
+        "heat": 68,
+        "delta": "+3",
+        "type": "stay",
+        "appearances": 4
+      },
+      {
         "cluster": "ETH_glamsterdam",
         "name": "ETH Glamsterdam 升级 gas 60M→200M",
         "aliases": [],
@@ -3652,12 +3896,12 @@
         "appearances": 1
       },
       {
-        "cluster": "ZRO",
-        "name": "本周大额解锁 >$330M — SUI / JUP / SIGN / EIGEN / OMNI / GUN",
+        "cluster": "WLFI_TRX",
+        "name": "WLFI 起诉孙宇晨 + ZachXBT 宣战 imToken/Tokenlon",
         "aliases": [],
         "from": "L2",
         "to": "L2",
-        "heat": 65,
+        "heat": 68,
         "delta": "+0",
         "type": "stay",
         "appearances": 1
@@ -3674,40 +3918,40 @@
         "appearances": 1
       },
       {
-        "cluster": "regulation",
-        "name": "Fed 转中性观望 + Kashkari 警告加息可能",
+        "cluster": "ai_crypto",
+        "name": "Pentosh1 UUUU/AI 多年 boom + KWM 5亿 BTC 转 AI infra",
         "aliases": [
-          "Robinhood Q1 crypto rev -47%",
-          "Powell 末次 FOMC + Warsh 接班 — Fed 制度过渡周",
-          "Fed 6月不动 94.9% + 欧英央行齐按兵 + 核心 PCE 3.2% 符合预期 + Powell 留任叙事",
-          "Arbitrum 治理双向 + 加密市场结构法案 5 月中旬推进 + Trump 退休储蓄行政命令",
-          "WLFI 卖 5.9B + 80% 早期持仓仍锁 + Pharos 利好出货争议 + Brazil 禁 crypto eFX vs JPX 2027 ETF",
-          "特朗普枪击案监控视频公布 + Trump 退休储蓄行政命令（潜在间接利好被动配置）",
-          "美联储中性观望 + a16z 反对各州预测市场打压 + USDT/USDC 大额铸造与回笼",
-          "POLITICO 民调:多数美国人对 AI 与加密仍持怀疑",
-          "Japan 加密 ETF 最早明年获批 — Wu 报道",
-          "130+ 国家推进 CBDC,Russia 出台加密个税"
+          "based16z 提 AI coding tools 周期",
+          "AI x Crypto 双线 — Vitalik via OKX 推 ETH 接 AI + AI Agent 用交易盈余付 AWS",
+          "AIGENSYN 单源延续观察 + AI 题材其他外溢",
+          "AI x Crypto — Binance Agent Wallet 反追 OKX，CryptoPainter 双线评论",
+          "OKX Hermes Agent / Agent Trade Kit — KOL 公开实测 + Musk vs OpenAI 调查可能开门",
+          "Manus 被叫停 → 月之暗面/阶跃星辰拆红筹回国 + Apple Mac Mini 提价 $799 + Binance Agentic AI",
+          "Founders Fund 关闭 $6B 新基金 — AI/科技配置",
+          "@Rewkang 看好机器人/AI 行业指数级机会",
+          "X 用户通过 Grok 从 Bankr 盗 $17.5 万后归还跑路 — AI agent 信任危机"
         ],
         "from": "L1",
         "to": "L2",
         "heat": 65,
         "delta": "+65",
         "type": "up",
-        "appearances": 11
+        "appearances": 10
       },
       {
         "cluster": "AIGENSYN",
         "name": "AIGENSYN Day 3 — 无 KOL 新增信号，但 OKX 仍未行动，决策窗口收窄",
         "aliases": [
           "AIGENSYN Day 1 — Binance Futures + Bitget 现货/永续同日齐发，OKX 全无",
-          "AIGENSYN Day 2 — Bybit 加 perp，Tier1+Tier2 沉淀完毕，OKX 三线仍全空"
+          "AIGENSYN Day 2 — Bybit 加 perp，Tier1+Tier2 沉淀完毕，OKX 三线仍全空",
+          "Bitget 首发 Billions Network ($BILL) — OKX 缺位"
         ],
         "from": "L3",
         "to": "L3",
         "heat": 65,
         "delta": "-7",
         "type": "stay",
-        "appearances": 3
+        "appearances": 4
       },
       {
         "cluster": "ETH_dormant_hack",
@@ -3723,20 +3967,6 @@
         "appearances": 2
       },
       {
-        "cluster": "geopolitics",
-        "name": "Iran 战停反复 + 霍尔木兹引导船只",
-        "aliases": [
-          "Iran 战停 + OFAC 制裁警告 + 原油跌金银涨 — 地缘缓和阶段",
-          "Iran 战停反复 + Trump 重启空袭可能 + BTC 冲高回落"
-        ],
-        "from": "L2",
-        "to": "L2",
-        "heat": 65,
-        "delta": "-5",
-        "type": "stay",
-        "appearances": 3
-      },
-      {
         "cluster": "prediction_market",
         "name": "首批 Prediction Market ETF 5/5 启动 (Roundhill)",
         "aliases": [
@@ -3748,6 +3978,24 @@
         "delta": "-5",
         "type": "stay",
         "appearances": 2
+      },
+      {
+        "cluster": "stablecoin_flow",
+        "name": "USDC/USDT 大额铸造移动 + Western Union USDPT",
+        "aliases": [
+          "稳定币大流动 — $1B USDT 流出 Binance + $500M USDC Solana 增发",
+          "Meta USDC 创作者支付 LATAM/PH + 250M USDC Solana 增发 + Tether/Circle 信誉对峙",
+          "稳定币/支付基础设施齐扩 — Visa+5 链 / Shinhan-SOL / PayPal 重组 / OKX USDG",
+          "Tether Q1 $10.4B 盈利 + 储备 $82.32B 创纪录 + 24h $750M USDC + $631M USDT 流入 HTX/Bitfinex",
+          "OKEX 大额 USDT 净流出 ~$334M",
+          "Saylor 推 $3.5T 私人信贷 RWA + Cambrian 叙事"
+        ],
+        "from": "L2",
+        "to": "L2",
+        "heat": 60,
+        "delta": "-2",
+        "type": "stay",
+        "appearances": 7
       },
       {
         "cluster": "monitoring_tag",
@@ -3767,57 +4015,6 @@
         "from": "L2",
         "to": "L2",
         "heat": 58,
-        "delta": "+0",
-        "type": "stay",
-        "appearances": 1
-      },
-      {
-        "cluster": "stablecoin_flow",
-        "name": "OKEX 大额 USDT 净流出 ~$334M",
-        "aliases": [
-          "Western Union 在 Solana 发 USDPT + OKX USDG 4.1% Earn 口碑延续",
-          "稳定币大流动 — $1B USDT 流出 Binance + $500M USDC Solana 增发",
-          "Meta USDC 创作者支付 LATAM/PH + 250M USDC Solana 增发 + Tether/Circle 信誉对峙",
-          "稳定币/支付基础设施齐扩 — Visa+5 链 / Shinhan-SOL / PayPal 重组 / OKX USDG",
-          "Tether Q1 $10.4B 盈利 + 储备 $82.32B 创纪录 + 24h $750M USDC + $631M USDT 流入 HTX/Bitfinex",
-          "Saylor 推 $3.5T 私人信贷 RWA + Cambrian 叙事"
-        ],
-        "from": "L2",
-        "to": "L2",
-        "heat": 55,
-        "delta": "-5",
-        "type": "stay",
-        "appearances": 7
-      },
-      {
-        "cluster": "KAITO",
-        "name": "billions_ntwk Public Sale TGE 规则变更争议",
-        "aliases": [],
-        "from": "L1",
-        "to": "L1",
-        "heat": 0,
-        "delta": "+0",
-        "type": "stay",
-        "appearances": 1
-      },
-      {
-        "cluster": "exchange_hack",
-        "name": "ZetaChain GatewayEVM exploit — 仅团队钱包受影响",
-        "aliases": [],
-        "from": "L1",
-        "to": "L1",
-        "heat": 0,
-        "delta": "+0",
-        "type": "stay",
-        "appearances": 1
-      },
-      {
-        "cluster": "POL",
-        "name": "WPOL TG 热度 3 次 — Polygon 升级后 OKX 仍无 WPOL",
-        "aliases": [],
-        "from": "L1",
-        "to": "L1",
-        "heat": 0,
         "delta": "+0",
         "type": "stay",
         "appearances": 1
@@ -3859,9 +4056,80 @@
         "delta": "+0",
         "type": "stay",
         "appearances": 1
+      },
+      {
+        "cluster": "ZRO",
+        "name": "本周大额解锁 >$229M(HYPE/ENA/SXT/RED/OPN; SOL/RAIN 线性)",
+        "aliases": [],
+        "from": "L1",
+        "to": "L1",
+        "heat": 0,
+        "delta": "+0",
+        "type": "stay",
+        "appearances": 1
       }
     ],
     "events": [
+      {
+        "date": "05-05",
+        "title": "ARB + AAVE 风控/合规联动告警,跟踪法院对 Aave 动议的裁决节奏与抛压",
+        "color": "#E74C5A"
+      },
+      {
+        "date": "05-05",
+        "title": "产品决策窗口 — 评估 OKX 上预测市场/二元期权的可行性并加速;同步监控 HIP-4 OI...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "05-05",
+        "title": "评估 TON 现货+永续流动性是否需要扩容;关注 TON 生态 token (NOT/Hams...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "05-05",
+        "title": "QCOM perp 上线评估 — Binance 明日跟进, OKX 缺位;Bitnomial...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "05-05",
+        "title": "Binance Futures 5/6 上线 AMD/QCOM/USAR 永续 — AMDUS...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "05-05",
+        "title": "Kraken 完成收购 Bitnomial — 正式打通美国加密衍生品业务, 持牌渠道推进",
+        "color": "#FFB302"
+      },
+      {
+        "date": "05-05",
+        "title": "Bitget 首发 Billions Network ($BILL) — OKX 缺位; @C...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "05-05",
+        "title": "DTCC 7月代币化证券试点 — BlackRock/JPM/GS/Nasdaq/Ondo/P...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "05-05",
+        "title": "Hyperliquid HIP-4 day1 $6M — 二元预测市场首日成交较 5/4 增长...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "05-05",
+        "title": "Telegram/Durov 接管 TON validator — TON 手续费降 1/6 ...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "05-05",
+        "title": "Western Union 在 Solana 发 USDPT — 新稳定币入场, RWA/支付...",
+        "color": "#FFB302"
+      },
+      {
+        "date": "05-05",
+        "title": "Binance 推 Withdraw Protection 锁定功能 — 新风控产品, 减少黑...",
+        "color": "#FFB302"
+      },
       {
         "date": "05-04",
         "title": "风控立即评估 LAB 永续杠杆/限仓上限;现货上线评估暂缓直至波动率收敛",
@@ -4161,79 +4429,34 @@
         "date": "04-29",
         "title": "Coinbase 上线 VIRTUAL/USD 现货 — OKX 已有完整产品线",
         "color": "#FFB302"
-      },
-      {
-        "date": "04-28",
-        "title": "评估 PRL / XCN 现货 + 永续上线可行性；Upbit + Bithumb 同步上线通...",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-28",
-        "title": "评估 USELESS 现货上线（永续已运营，市场深度数据可直接复用）",
-        "color": "#23F7DD"
-      },
-      {
-        "date": "04-28",
-        "title": "(1) 风控：盯 AAVE / ETHFI 永续 OI 与外盘背离，挤空若启动加密价差监控；(...",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-28",
-        "title": "Upbit + Bithumb 同日上 PRL — Upbit (KRW/USDT/BTC 三...",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-28",
-        "title": "Upbit 上 XCN — Upbit KRW + USDT 双对；Onyxcoin ~$17...",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-28",
-        "title": "Bybit 上 GOOGL/META/MSFT 股票永续 — 三只美股 perp_usdt；O...",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-28",
-        "title": "Gemini 上线 AI Agentic Trading — 基于 Anthropic MCP...",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-28",
-        "title": "Circle Ventures 出手买 AAVE — USDC 发行方 VC 部门入场，与 K...",
-        "color": "#FFB302"
-      },
-      {
-        "date": "04-28",
-        "title": "Consensys/Lubin 承诺 30K ETH 救 rsETH — LRT 板块结构性救...",
-        "color": "#FFB302"
       }
     ]
   },
   "monthly": {
-    "period": "2026-04-16 ~ 2026-05-04",
+    "period": "2026-04-16 ~ 2026-05-05",
     "kpis": [
       {
         "label": "追踪叙事",
-        "val": 121,
-        "prev": 60,
+        "val": 124,
+        "prev": 62,
         "unit": "个"
       },
       {
         "label": "累计L3预警",
-        "val": 33,
-        "prev": 16,
+        "val": 34,
+        "prev": 17,
         "unit": "个"
       },
       {
         "label": "竞对动作",
-        "val": 127,
-        "prev": 63,
+        "val": 135,
+        "prev": 67,
         "unit": "条"
       },
       {
         "label": "信号总数",
-        "val": 4942,
-        "prev": 2471,
+        "val": 5269,
+        "prev": 2634,
         "unit": "条"
       }
     ],
@@ -4241,10 +4464,36 @@
     "misses": [],
     "lifecycle": [
       {
-        "cluster": "LAB",
-        "name": "LAB 闪崩 -80% Day 2 — 合约爆仓全网第一",
+        "cluster": "HYPE",
+        "name": "Hyperliquid HIP-4 Day 2 — 首日 $6M (vs 昨日 $238 万 +31x)",
         "aliases": [
-          "LAB Day 1 — TG 13 次高频 + 山寨齐拉升领涨，OKX 已永续无现货"
+          "HYPE 巨鲸加仓 + Hayes 跟进",
+          "Hyperliquid ETF 推进 — 灰度修订申请 + HYPE 大量解押",
+          "Hyperliquid 生态垄断叙事 + HYPE 技术性挤压",
+          "Hyperliquid 垄断叙事再升级 — 0xSisyphus 力推",
+          "Hyperliquid HIP-4 二元预测市场上线 + Polymarket fees ATH + a16z 反对各州 — 预测市场赛道制度突破",
+          "Hyperliquid HIP-4 二元预测市场首日 $238 万"
+        ],
+        "days": 19,
+        "level": "L3",
+        "phase": "爆发期",
+        "heat": [
+          0,
+          0,
+          70,
+          0,
+          0,
+          0,
+          78,
+          82,
+          86
+        ]
+      },
+      {
+        "cluster": "ARB_legal",
+        "name": "Aave 紧急动议要求撤销对 Arbitrum DAO 资产冻结通知 (Day 2)",
+        "aliases": [
+          "Arbitrum 朝鲜冻结资金被纽约联邦法院判赔"
         ],
         "days": 2,
         "level": "L3",
@@ -4257,33 +4506,27 @@
           0,
           0,
           0,
-          75,
-          88
+          72,
+          84
         ]
       },
       {
-        "cluster": "HYPE",
-        "name": "Hyperliquid HIP-4 二元预测市场首日 $238 万",
-        "aliases": [
-          "HYPE 巨鲸加仓 + Hayes 跟进",
-          "Hyperliquid ETF 推进 — 灰度修订申请 + HYPE 大量解押",
-          "Hyperliquid 生态垄断叙事 + HYPE 技术性挤压",
-          "Hyperliquid 垄断叙事再升级 — 0xSisyphus 力推",
-          "Hyperliquid HIP-4 二元预测市场上线 + Polymarket fees ATH + a16z 反对各州 — 预测市场赛道制度突破"
-        ],
-        "days": 18,
+        "cluster": "TON_telegram",
+        "name": "Telegram/Durov 接管 TON 最大 validator + 手续费降 1/6",
+        "aliases": [],
+        "days": 1,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
           0,
           0,
           0,
-          70,
           0,
           0,
           0,
-          78,
-          82
+          0,
+          0,
+          80
         ]
       },
       {
@@ -4300,13 +4543,14 @@
           "BTC 顶部多重信号叠加 + 巨鲸混合流向 + IV 历史低位",
           "BTC 多空叙事激烈对撞 — $160K 月线目标 vs OI 阻力 fade + 巨鲸混合流向",
           "BTC 多空对撞 — Hayes $125K EOY vs based16z TP $65K + Murphy BRS 钉零轴 + CryptoQuant 投机回调",
-          "BTC 熊牛转化早期信号 + 多空对撞延续"
+          "BTC 熊牛转化早期信号 + 多空对撞延续",
+          "BTC > $80k 持续 + Coinbase premium + Murphy 趋势通道上轨",
+          "@CryptoPainter BTC bear case $50-55k + 10% short 已锁定"
         ],
-        "days": 12,
+        "days": 13,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
-          68,
           0,
           0,
           72,
@@ -4314,52 +4558,48 @@
           80,
           82,
           80,
+          75,
+          78
+        ]
+      },
+      {
+        "cluster": "stock_derivatives",
+        "name": "Binance Futures 5/6 上 AMD/QCOM/USAR + Kraken 完成 Bitnomial 收购",
+        "aliases": [
+          "竞对股票/商品衍生品产品线加速扩张",
+          "竞对股票衍生品 4/20 正式上线 — OKX 产品线差距收窄窗口",
+          "竞对股票衍生品继续扩张 — Bitget 5 只 AI/半导体小盘股 + Bybit 补 HOOD/INTC/TSM",
+          "竞对股票衍生品 Day 4 — 半导体/AI 基建缺口扩大",
+          "竞对股票永续 Day 5 — 半导体设备 + 中概股 gap 扩大",
+          "竞对股票永续 Day 6 — 半导体 + 中概 gap 持续扩大",
+          "Uranium / 核能复兴叙事 — Bluntz 高确信多年牛市",
+          "Bybit 上线 GOOGL / META / MSFT 股票永续 — OKX 已全覆盖",
+          "IREN（Iris Energy 矿企）TG 热度 3 次 — OKX 无 stock perp",
+          "Bitget 美股 perp 矩阵扩张 — OKLO/MP/CRDO/APLD/KLAC 5 个新品",
+          "RWA 25K 美股代币化 + Bybit 新增 COIN/MSTR/PLTR perp",
+          "RWA 市值 $19.3B (+256.7% / 15 个月) — CoinGecko 2026 报告",
+          "Burry 抛 GameStop + 但斌建仓 Circle"
+        ],
+        "days": 18,
+        "level": "L3",
+        "phase": "爆发期",
+        "heat": [
+          78,
+          55,
+          75,
+          64,
+          68,
+          0,
+          0,
+          0,
           75
         ]
       },
       {
-        "cluster": "ARB_legal",
-        "name": "Arbitrum 朝鲜冻结资金被纽约联邦法院判赔",
-        "aliases": [],
-        "days": 1,
-        "level": "L3",
-        "phase": "爆发期",
-        "heat": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          72
-        ]
-      },
-      {
         "cluster": "tokenized_securities",
-        "name": "BlackRock + NYSE 双线推进代币化证券",
-        "aliases": [],
-        "days": 1,
-        "level": "L2",
-        "phase": "爆发期",
-        "heat": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          72
-        ]
-      },
-      {
-        "cluster": "buffett_cash",
-        "name": "Buffett 股东大会 — 现金 $3,970 亿创纪录",
+        "name": "DTCC 7月代币化证券试点 + Western Union USDPT (Day 2)",
         "aliases": [
-          "巴菲特股东大会 — 伯克希尔现金 $3,970 亿创纪录 + 拒绝 AI + 数据中心利好公用事业"
+          "BlackRock + NYSE 双线推进代币化证券"
         ],
         "days": 2,
         "level": "L2",
@@ -4372,92 +4612,27 @@
           0,
           0,
           0,
-          75,
-          70
+          72,
+          75
         ]
       },
       {
-        "cluster": "meme",
-        "name": "USELESS 续热但 OKX 仅永续无现货 — 现货补位机会",
-        "aliases": [
-          "Meme 行情升温：币安人生 / ASTEROID / ASTER / RAVE",
-          "币安人生（CZ 社交 meme）今日 Binance 现货 2 对上线，OKX 完全缺",
-          "币安人生 — Meme 辐射",
-          "OPENCLAW (Lobster) 热度消退",
-          "TG 新 token: COLE/KAROLINE/IMMORTAL/SHOW/FIGHT/VVV — 全 OKX 无",
-          "HENRY (TG 8 次) — TG 第三热但来源未明",
-          "PENGU 独立突破 — Pudgy Penguins 品牌行情延续",
-          "PARANOID / SCAM / HENRY meme 单源延续",
-          "Mad Lads / SOL NFT 复苏叙事看空",
-          "TG 小币热度 RISE/SWARMS/INIT/VELODROME",
-          "TG 高频小币 — FORM / WISH / QCOM / BEACHBALLS / HOPPY / GOBLIN / RC（OKX 全无）",
-          "TG 高频小币 + 新 meme 涌现 — GOBLIN/ARTEMIS/DAI/FARTCOIN/ASTEROID/SCRIBBLI/SIMULATOR",
-          "TG 24h 高频 — DAI(6,多源) / BWOYS(4) / FLYYQ(3) / HALFTRUMP / ANIMALS / GOBLIN / SLOPNALD / SKR(2,多源)",
-          "TG 24h 高频 — LAB(13)/INJ(8)/ZEC(6)/ONDO(6)/ORDI(5)/MOVE(5)/AAVE(4)/USELESS(4)/PIEVERSE(2)",
-          "TG 高频山寨齐拉升 + LAB/UB/B/Freedom 领涨",
-          "BSC Meme 圈研究 — 刀盾/比比/拉布 (@Web3Feng)"
-        ],
-        "days": 17,
-        "level": "L3",
+        "cluster": "ETH_staking_surge",
+        "name": "ETH 大额 staking inflow + Bitmine 加 101,745 ETH",
+        "aliases": [],
+        "days": 1,
+        "level": "L2",
         "phase": "爆发期",
         "heat": [
           0,
           0,
-          72,
-          0,
-          0,
-          0,
-          0,
-          0,
-          68
-        ]
-      },
-      {
-        "cluster": "ETH_glamsterdam",
-        "name": "ETH Glamsterdam 升级 gas 60M→200M",
-        "aliases": [],
-        "days": 1,
-        "level": "L2",
-        "phase": "增长期",
-        "heat": [
           0,
           0,
           0,
           0,
           0,
           0,
-          0,
-          0,
-          68
-        ]
-      },
-      {
-        "cluster": "geopolitics",
-        "name": "Iran 战停反复 + 霍尔木兹引导船只",
-        "aliases": [
-          "地缘政治风险 — 伊朗/霍尔木兹海峡",
-          "宏观: 美伊接近核协议 + 以黎停火",
-          "美伊缓和 / 霍尔木兹重开 → 全面 risk-on",
-          "美伊和谈破裂 / BTC 跌破 $7.4 万 — risk-off 反转",
-          "美伊停火到期 / 万斯周二赴巴谈判 / BTC 逆势",
-          "美印太司令 Paparo 参议院: BTC = 国家利益",
-          "BTC 国家安全叙事余温",
-          "Iran 战停 + OFAC 制裁警告 + 原油跌金银涨 — 地缘缓和阶段",
-          "Iran 战停反复 + Trump 重启空袭可能 + BTC 冲高回落"
-        ],
-        "days": 19,
-        "level": "L2",
-        "phase": "增长期",
-        "heat": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          70,
-          65,
-          65
+          75
         ]
       },
       {
@@ -4483,13 +4658,14 @@
           "Fed 转中性观望 + Kashkari 警告加息可能",
           "POLITICO 民调:多数美国人对 AI 与加密仍持怀疑",
           "Japan 加密 ETF 最早明年获批 — Wu 报道",
-          "130+ 国家推进 CBDC,Russia 出台加密个税"
+          "130+ 国家推进 CBDC,Russia 出台加密个税",
+          "CLARITY Act 稳定币收益规则敲定 — based16z 标 'Go Time'",
+          "Aave 紧急动议要求撤销 Arbitrum 资产冻结(已并入 ARB_legal L3)"
         ],
-        "days": 19,
+        "days": 20,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
-          78,
           68,
           0,
           0,
@@ -4497,12 +4673,105 @@
           70,
           65,
           0,
-          65
+          65,
+          72
         ]
       },
       {
-        "cluster": "DeFi_tvl",
-        "name": "ETH DeFi TVL 腰斩 — 大资金离场",
+        "cluster": "CARDS",
+        "name": "CARDS Day 2 — Bluntz 持续推 + 多源验证 collectibles 超级周期",
+        "aliases": [
+          "$CARDS — Bluntz 罕见高确信 alt 仓位（单源）",
+          "CARDS (Collector Crypt) — Bluntz 重仓推荐：$82M April revenue / $26M mcap，OKX 全无",
+          "CARDS Day 4 — Bluntz +165% 突破多月积累"
+        ],
+        "days": 9,
+        "level": "L3",
+        "phase": "爆发期",
+        "heat": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          75,
+          78,
+          0,
+          72
+        ]
+      },
+      {
+        "cluster": "geopolitics",
+        "name": "Iran 战争或持续 2-3 周 + 美军舰被导弹击中传闻",
+        "aliases": [
+          "地缘政治风险 — 伊朗/霍尔木兹海峡",
+          "宏观: 美伊接近核协议 + 以黎停火",
+          "美伊缓和 / 霍尔木兹重开 → 全面 risk-on",
+          "美伊和谈破裂 / BTC 跌破 $7.4 万 — risk-off 反转",
+          "美伊停火到期 / 万斯周二赴巴谈判 / BTC 逆势",
+          "美印太司令 Paparo 参议院: BTC = 国家利益",
+          "BTC 国家安全叙事余温",
+          "Iran 战停 + OFAC 制裁警告 + 原油跌金银涨 — 地缘缓和阶段",
+          "Iran 战停反复 + Trump 重启空袭可能 + BTC 冲高回落",
+          "Iran 战停反复 + 霍尔木兹引导船只"
+        ],
+        "days": 20,
+        "level": "L2",
+        "phase": "爆发期",
+        "heat": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          70,
+          65,
+          65,
+          70
+        ]
+      },
+      {
+        "cluster": "meme",
+        "name": "USELESS 续热但 OKX 仅永续无现货 — 现货补位机会",
+        "aliases": [
+          "Meme 行情升温：币安人生 / ASTEROID / ASTER / RAVE",
+          "币安人生（CZ 社交 meme）今日 Binance 现货 2 对上线，OKX 完全缺",
+          "币安人生 — Meme 辐射",
+          "OPENCLAW (Lobster) 热度消退",
+          "TG 新 token: COLE/KAROLINE/IMMORTAL/SHOW/FIGHT/VVV — 全 OKX 无",
+          "HENRY (TG 8 次) — TG 第三热但来源未明",
+          "PENGU 独立突破 — Pudgy Penguins 品牌行情延续",
+          "PARANOID / SCAM / HENRY meme 单源延续",
+          "Mad Lads / SOL NFT 复苏叙事看空",
+          "TG 小币热度 RISE/SWARMS/INIT/VELODROME",
+          "TG 高频小币 — FORM / WISH / QCOM / BEACHBALLS / HOPPY / GOBLIN / RC（OKX 全无）",
+          "TG 高频小币 + 新 meme 涌现 — GOBLIN/ARTEMIS/DAI/FARTCOIN/ASTEROID/SCRIBBLI/SIMULATOR",
+          "TG 24h 高频 — DAI(6,多源) / BWOYS(4) / FLYYQ(3) / HALFTRUMP / ANIMALS / GOBLIN / SLOPNALD / SKR(2,多源)",
+          "TG 24h 高频 — LAB(13)/INJ(8)/ZEC(6)/ONDO(6)/ORDI(5)/MOVE(5)/AAVE(4)/USELESS(4)/PIEVERSE(2)",
+          "TG 高频山寨齐拉升 + LAB/UB/B/Freedom 领涨",
+          "BSC Meme 圈研究 — 刀盾/比比/拉布 (@Web3Feng)",
+          "TG 高频 TON/ZEC/ONDO + 山寨涨疯",
+          "@hexiecs 港股曦智科技 + GME + BSC '共建' 小盘 meme 联动",
+          "@Web3Feng SATO LP 区间被拉爆 + Polymarket vs Binance CL/BZ funding -$8k"
+        ],
+        "days": 18,
+        "level": "L3",
+        "phase": "爆发期",
+        "heat": [
+          0,
+          72,
+          0,
+          0,
+          0,
+          0,
+          0,
+          68,
+          68
+        ]
+      },
+      {
+        "cluster": "WLFI_TRX",
+        "name": "WLFI 起诉孙宇晨 + ZachXBT 宣战 imToken/Tokenlon",
         "aliases": [],
         "days": 1,
         "level": "L2",
@@ -4516,12 +4785,46 @@
           0,
           0,
           0,
-          58
+          68
+        ]
+      },
+      {
+        "cluster": "ai_crypto",
+        "name": "Pentosh1 UUUU/AI 多年 boom + KWM 5亿 BTC 转 AI infra",
+        "aliases": [
+          "AI x 信任危机 — GPT-Image-2 + '去中心化真实信息网络'设想",
+          "FLOCK / AI Agent 半玩笑提及 — Web3Feng",
+          "AI / DeepSeek 叙事降温 + Agent-Trading 主导论",
+          "Agent-Trading 主导论 — yuyue_chris",
+          "Gemini Agentic Trading via MCP + Manus 估值 -90%",
+          "based16z 提 AI coding tools 周期",
+          "AI x Crypto 双线 — Vitalik via OKX 推 ETH 接 AI + AI Agent 用交易盈余付 AWS",
+          "AIGENSYN 单源延续观察 + AI 题材其他外溢",
+          "AI x Crypto — Binance Agent Wallet 反追 OKX，CryptoPainter 双线评论",
+          "OKX Hermes Agent / Agent Trade Kit — KOL 公开实测 + Musk vs OpenAI 调查可能开门",
+          "Manus 被叫停 → 月之暗面/阶跃星辰拆红筹回国 + Apple Mac Mini 提价 $799 + Binance Agentic AI",
+          "Founders Fund 关闭 $6B 新基金 — AI/科技配置",
+          "@Rewkang 看好机器人/AI 行业指数级机会",
+          "X 用户通过 Grok 从 Bankr 盗 $17.5 万后归还跑路 — AI agent 信任危机"
+        ],
+        "days": 11,
+        "level": "L2",
+        "phase": "增长期",
+        "heat": [
+          62,
+          58,
+          0,
+          70,
+          70,
+          70,
+          70,
+          0,
+          65
         ]
       },
       {
         "cluster": "stablecoin_flow",
-        "name": "OKEX 大额 USDT 净流出 ~$334M",
+        "name": "USDC/USDT 大额铸造移动 + Western Union USDPT",
         "aliases": [
           "稳定币巨鲸轮转 $1.5B+ — Aave 去杠杆 + CEX 流动性补充",
           "稳定币巨鲸轮转延续 — Tether 铸新 $200M / PYUSD 销毁 $301M",
@@ -4535,13 +4838,13 @@
           "Meta USDC 创作者支付 LATAM/PH + 250M USDC Solana 增发 + Tether/Circle 信誉对峙",
           "稳定币/支付基础设施齐扩 — Visa+5 链 / Shinhan-SOL / PayPal 重组 / OKX USDG",
           "Tether Q1 $10.4B 盈利 + 储备 $82.32B 创纪录 + 24h $750M USDC + $631M USDT 流入 HTX/Bitfinex",
+          "OKEX 大额 USDT 净流出 ~$334M",
           "Saylor 推 $3.5T 私人信贷 RWA + Cambrian 叙事"
         ],
-        "days": 15,
+        "days": 16,
         "level": "L2",
         "phase": "增长期",
         "heat": [
-          55,
           0,
           60,
           62,
@@ -4549,14 +4852,15 @@
           75,
           75,
           0,
-          55
+          55,
+          60
         ]
       },
       {
         "cluster": "GENIUS",
         "name": "GENIUS 永续合约缺失",
         "aliases": [],
-        "days": 19,
+        "days": 20,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
@@ -4583,7 +4887,7 @@
           "RAVE 操纵事件 Day 5 — 20 万枚代币市值 600 万 → 30 万美金",
           "RAVE 操纵事件 Day 6 — 静默期"
         ],
-        "days": 19,
+        "days": 20,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
@@ -4602,7 +4906,7 @@
         "cluster": "BLESS",
         "name": "BLESS 项目方砸盘预警",
         "aliases": [],
-        "days": 19,
+        "days": 20,
         "level": "L3",
         "phase": "增长期",
         "heat": [
@@ -4621,7 +4925,7 @@
         "cluster": "USD1",
         "name": "Binance USD1/WLFI 生态布局",
         "aliases": [],
-        "days": 19,
+        "days": 20,
         "level": "L3",
         "phase": "增长期",
         "heat": [
@@ -4640,7 +4944,7 @@
         "cluster": "btc积累阶段信号",
         "name": "BTC 积累阶段信号",
         "aliases": [],
-        "days": 19,
+        "days": 20,
         "level": "L2",
         "phase": "爆发期",
         "heat": [
@@ -4659,7 +4963,7 @@
         "cluster": "UNC",
         "name": "Meme 板块回温",
         "aliases": [],
-        "days": 19,
+        "days": 20,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -4678,7 +4982,7 @@
         "cluster": "RENDER",
         "name": "RENDER / HYPE 持续活跃",
         "aliases": [],
-        "days": 19,
+        "days": 20,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -4697,7 +5001,7 @@
         "cluster": "aixcrypto动态",
         "name": "AI x Crypto 动态",
         "aliases": [],
-        "days": 19,
+        "days": 20,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -4722,14 +5026,14 @@
           "CHIP 24h 爆发 — 5 家 Tier1 现货同时上，OKX 仅 perp、缺现货",
           "CHIP / USD.AI Binance HODLer Airdrop 上线"
         ],
-        "days": 18,
+        "days": 19,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
           0,
           0,
-          0,
           65,
+          0,
           0,
           0,
           0,
@@ -4741,7 +5045,7 @@
         "cluster": "AVGO",
         "name": "股票代币永续对标: Binance 4/20 批量上线",
         "aliases": [],
-        "days": 18,
+        "days": 19,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
@@ -4760,7 +5064,7 @@
         "cluster": "btcfi产品线空白goldman覆盖式看涨et",
         "name": "BTCFi 产品线空白: Goldman 覆盖式看涨 ETF 上线",
         "aliases": [],
-        "days": 18,
+        "days": 19,
         "level": "L3",
         "phase": "增长期",
         "heat": [
@@ -4779,7 +5083,7 @@
         "cluster": "ORDI",
         "name": "ORDI 暴涨 190% 引爆 BRC20 + Runes 情绪",
         "aliases": [],
-        "days": 18,
+        "days": 19,
         "level": "L2",
         "phase": "爆发期",
         "heat": [
@@ -4798,7 +5102,7 @@
         "cluster": "机构btc分化矿企抛售vs贝莱德提币",
         "name": "机构 BTC 分化: 矿企抛售 vs 贝莱德提币",
         "aliases": [],
-        "days": 18,
+        "days": 19,
         "level": "L2",
         "phase": "爆发期",
         "heat": [
@@ -4817,7 +5121,7 @@
         "cluster": "schwab启动btceth现货交易paxos驱",
         "name": "Schwab 启动 BTC/ETH 现货交易(Paxos 驱动)",
         "aliases": [],
-        "days": 18,
+        "days": 19,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -4836,7 +5140,7 @@
         "cluster": "ZEC",
         "name": "隐私赛道轮动: ZEC/ZEN 退潮, CRCL 接力",
         "aliases": [],
-        "days": 18,
+        "days": 19,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -4857,7 +5161,7 @@
         "aliases": [
           "SIREN (OKX无)"
         ],
-        "days": 18,
+        "days": 19,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
@@ -4867,37 +5171,6 @@
           0,
           0,
           0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "cluster": "stock_derivatives",
-        "name": "Bitget 美股 perp 矩阵扩张 — OKLO/MP/CRDO/APLD/KLAC 5 个新品",
-        "aliases": [
-          "竞对股票/商品衍生品产品线加速扩张",
-          "竞对股票衍生品 4/20 正式上线 — OKX 产品线差距收窄窗口",
-          "竞对股票衍生品继续扩张 — Bitget 5 只 AI/半导体小盘股 + Bybit 补 HOOD/INTC/TSM",
-          "竞对股票衍生品 Day 4 — 半导体/AI 基建缺口扩大",
-          "竞对股票永续 Day 5 — 半导体设备 + 中概股 gap 扩大",
-          "竞对股票永续 Day 6 — 半导体 + 中概 gap 持续扩大",
-          "Uranium / 核能复兴叙事 — Bluntz 高确信多年牛市",
-          "Bybit 上线 GOOGL / META / MSFT 股票永续 — OKX 已全覆盖",
-          "IREN（Iris Energy 矿企）TG 热度 3 次 — OKX 无 stock perp",
-          "RWA 25K 美股代币化 + Bybit 新增 COIN/MSTR/PLTR perp",
-          "RWA 市值 $19.3B (+256.7% / 15 个月) — CoinGecko 2026 报告"
-        ],
-        "days": 17,
-        "level": "L3",
-        "phase": "爆发期",
-        "heat": [
-          0,
-          78,
-          55,
-          75,
-          64,
-          68,
           0,
           0,
           0
@@ -4907,7 +5180,7 @@
         "cluster": "STRC",
         "name": "STRC（Strategy 半月分红产品）上币机会",
         "aliases": [],
-        "days": 17,
+        "days": 18,
         "level": "L3",
         "phase": "增长期",
         "heat": [
@@ -4936,11 +5209,10 @@
           "BTC/ETH 现货 ETF 转向流出",
           "BTC/ETH ETF 同日双流出 + 5月历史季节性看涨 + Drift 朝鲜社工 $285M"
         ],
-        "days": 17,
+        "days": 18,
         "level": "L2",
         "phase": "爆发期",
         "heat": [
-          70,
           0,
           60,
           60,
@@ -4948,6 +5220,7 @@
           65,
           0,
           72,
+          0,
           0
         ]
       },
@@ -4955,7 +5228,7 @@
         "cluster": "行业结构kraken收购bitnomial550",
         "name": "行业结构：Kraken 收购 Bitnomial ($550M)",
         "aliases": [],
-        "days": 17,
+        "days": 18,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -4981,15 +5254,15 @@
           "Polymarket 推 CFTC 美国主交易所回归",
           "首批 Prediction Market ETF 5/5 启动 (Roundhill)"
         ],
-        "days": 17,
+        "days": 18,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
-          75,
           0,
           0,
           65,
           60,
+          0,
           0,
           0,
           0,
@@ -5000,7 +5273,7 @@
         "cluster": "AAVE",
         "name": "巨鲸 Aave 杠杆循环 / 稳定币供给扩张",
         "aliases": [],
-        "days": 17,
+        "days": 18,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5019,7 +5292,7 @@
         "cluster": "coinbaseventures资本主题rwaa",
         "name": "Coinbase Ventures 资本主题 / RWA & AI Agent",
         "aliases": [],
-        "days": 17,
+        "days": 18,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5044,12 +5317,12 @@
           "ZEC 隐私币突破延续 Day 6 — ByzGeneral 看多 + ETH ETF 资金分流",
           "量子风险讨论 — Toly / Adam Back / Galaxy 论 Satoshi P2PK"
         ],
-        "days": 17,
+        "days": 18,
         "level": "L2",
         "phase": "增长期",
         "heat": [
-          62,
           65,
+          0,
           0,
           0,
           0,
@@ -5067,12 +5340,12 @@
           "Coinbase + Bybit 谈判代币化美股 + Pre-IPO",
           "Coinbase Sonar 4/28 SpaceX 类 Pre-IPO 打新 — CN KOL 双源共振"
         ],
-        "days": 17,
+        "days": 18,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
-          72,
           75,
+          0,
           0,
           0,
           0,
@@ -5095,13 +5368,13 @@
           "Kelp/Aave 救助 Day 7 — 跨链 DAO 联合提案 + Solana 基金会介入",
           "KELP / Aave / rsETH 救助 Day 8 — TVL 出血 + 治理裂变"
         ],
-        "days": 15,
+        "days": 16,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
-          82,
           86,
           84,
+          0,
           0,
           0,
           0,
@@ -5114,7 +5387,7 @@
         "cluster": "layerzero_risk",
         "name": "LayerZero 桥单签风险公开列表 — 下一波潜在受害者",
         "aliases": [],
-        "days": 15,
+        "days": 16,
         "level": "L2",
         "phase": "爆发期",
         "heat": [
@@ -5133,7 +5406,7 @@
         "cluster": "JUP",
         "name": "Solana 稳定币借贷利率爆表 — Jupiter Lend USDC 99%",
         "aliases": [],
-        "days": 15,
+        "days": 16,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5152,7 +5425,7 @@
         "cluster": "ASTER",
         "name": "ASTER 结构性多头 — 不冻账户 + Binance 流动性",
         "aliases": [],
-        "days": 15,
+        "days": 16,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5171,7 +5444,7 @@
         "cluster": "ai_trading_tools",
         "name": "AI / Vibe Coding 交易工具渗透深",
         "aliases": [],
-        "days": 15,
+        "days": 16,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5190,7 +5463,7 @@
         "cluster": "dprk_risk",
         "name": "北朝鲜渗透 Web3 开发团队",
         "aliases": [],
-        "days": 15,
+        "days": 16,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5211,7 +5484,7 @@
         "aliases": [
           "MNT (Mantle) — TG 热榜 #2 OKX 无"
         ],
-        "days": 15,
+        "days": 16,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
@@ -5220,8 +5493,8 @@
           0,
           0,
           0,
-          0,
           70,
+          0,
           0,
           0
         ]
@@ -5243,11 +5516,10 @@
           "Saturn / STRC / sUSDat — MSTR-linked DeFi 收益率新原语 + AIMCo $219M MSTR 持仓披露",
           "ETH Foundation 卖 10K ETH @$2,292 给 BitMine + Bitmine 4M+ ETH staked $508M + DeFi United $314.57M ETH"
         ],
-        "days": 15,
+        "days": 16,
         "level": "L2",
         "phase": "增长期",
         "heat": [
-          0,
           70,
           68,
           0,
@@ -5255,6 +5527,7 @@
           72,
           72,
           68,
+          0,
           0
         ]
       },
@@ -5264,7 +5537,7 @@
         "aliases": [
           "ASTEROID — TG 热榜大幅降温（从 11 次 → 2 次）"
         ],
-        "days": 14,
+        "days": 15,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
@@ -5283,15 +5556,16 @@
         "cluster": "ZRO",
         "name": "本周超大额解锁预警 — $330M+ 一次性 + 多个日解锁 >$1M",
         "aliases": [
-          "本周大额解锁 >$330M — SUI / JUP / SIGN / EIGEN / OMNI / GUN"
+          "本周大额解锁 >$330M — SUI / JUP / SIGN / EIGEN / OMNI / GUN",
+          "本周大额解锁 >$229M(HYPE/ENA/SXT/RED/OPN; SOL/RAIN 线性)"
         ],
-        "days": 14,
+        "days": 15,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
           0,
-          0,
           65,
+          0,
           0,
           0,
           0,
@@ -5304,7 +5578,7 @@
         "cluster": "LAYERZERO",
         "name": "LayerZero 单签桥生态风险公开 — 近半 OApp 仍用高危配置",
         "aliases": [],
-        "days": 14,
+        "days": 15,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5326,7 +5600,7 @@
           "LRT 赛道结构性 re-rating — 0xVeryBigOrange 称'半废'",
           "LRT 赛道结构性 re-rating — 0xVeryBigOrange '基本死'"
         ],
-        "days": 14,
+        "days": 15,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5347,7 +5621,7 @@
         "aliases": [
           "SPARK / KAMINO — Aave 事件受益者"
         ],
-        "days": 14,
+        "days": 15,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5366,7 +5640,7 @@
         "cluster": "ARB",
         "name": "Arbitrum Security Council 紧急冻结黑客资金 — L2 信任重塑事件",
         "aliases": [],
-        "days": 13,
+        "days": 14,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
@@ -5385,7 +5659,7 @@
         "cluster": "MEXC",
         "name": "CEX 链上敞口曝光 — MEXC/CoinEx/Kiln 被卡 $660M",
         "aliases": [],
-        "days": 13,
+        "days": 14,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5404,7 +5678,7 @@
         "cluster": "btc破区间负资金费率低oibyzgeneral",
         "name": "BTC 破区间 + 负资金费率 + 低 OI — ByzGeneral 看 upper-80s",
         "aliases": [],
-        "days": 13,
+        "days": 14,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5423,7 +5697,7 @@
         "cluster": "altseason跟不上russell新高vsa",
         "name": "Alt season 跟不上 — Russell 新高 vs alts 无法收复 ATH",
         "aliases": [],
-        "days": 13,
+        "days": 14,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5442,7 +5716,7 @@
         "cluster": "HK_stablecoin",
         "name": "香港发放首两张稳定币牌照（新事件）",
         "aliases": [],
-        "days": 12,
+        "days": 13,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5467,7 +5741,7 @@
           "INTC 市值破 $5000亿 + Trump 政府持股 6 月翻近 5x + Strategy +3.2%",
           "AI 算力短缺 → Apple Mac Mini 提价 $799 + Berkshire 重仓数据中心利好公用事业"
         ],
-        "days": 12,
+        "days": 13,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5488,7 +5762,7 @@
         "aliases": [
           "billions_ntwk Public Sale TGE 规则变更争议"
         ],
-        "days": 11,
+        "days": 12,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5510,16 +5784,16 @@
           "MEGA pre-launch 强势",
           "MegaETH (MEGA) 主网今日上线 + Coinbase 现货首发 — OKX 完全缺位"
         ],
-        "days": 11,
+        "days": 12,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
           0,
           0,
           0,
-          0,
           88,
           80,
+          0,
           0,
           0,
           0
@@ -5531,15 +5805,15 @@
         "aliases": [
           "Fluent (BLEND) 四家竞对同步首发 — OKX 完全缺位"
         ],
-        "days": 10,
+        "days": 11,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
           0,
           0,
           0,
-          0,
           82,
+          0,
           0,
           0,
           0,
@@ -5550,7 +5824,7 @@
         "cluster": "perp_dex",
         "name": "Perp DEX + Pre-IPO RWA 三方叙事抬头",
         "aliases": [],
-        "days": 10,
+        "days": 11,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5562,38 +5836,6 @@
           0,
           0,
           0,
-          0
-        ]
-      },
-      {
-        "cluster": "ai_crypto",
-        "name": "Manus 被叫停 → 月之暗面/阶跃星辰拆红筹回国 + Apple Mac Mini 提价 $799 + Binance Agentic AI",
-        "aliases": [
-          "AI x 信任危机 — GPT-Image-2 + '去中心化真实信息网络'设想",
-          "FLOCK / AI Agent 半玩笑提及 — Web3Feng",
-          "AI / DeepSeek 叙事降温 + Agent-Trading 主导论",
-          "Agent-Trading 主导论 — yuyue_chris",
-          "Gemini Agentic Trading via MCP + Manus 估值 -90%",
-          "based16z 提 AI coding tools 周期",
-          "AI x Crypto 双线 — Vitalik via OKX 推 ETH 接 AI + AI Agent 用交易盈余付 AWS",
-          "AIGENSYN 单源延续观察 + AI 题材其他外溢",
-          "AI x Crypto — Binance Agent Wallet 反追 OKX，CryptoPainter 双线评论",
-          "OKX Hermes Agent / Agent Trade Kit — KOL 公开实测 + Musk vs OpenAI 调查可能开门",
-          "Founders Fund 关闭 $6B 新基金 — AI/科技配置",
-          "@Rewkang 看好机器人/AI 行业指数级机会"
-        ],
-        "days": 10,
-        "level": "L2",
-        "phase": "爆发期",
-        "heat": [
-          0,
-          62,
-          58,
-          0,
-          70,
-          70,
-          70,
-          70,
           0
         ]
       },
@@ -5604,11 +5846,10 @@
           "CLARITY 法案稳定币收益规则进入『启动阶段』 + CFTC 公告 true perps 美国合法化在即",
           "SEC Atkins 现框架不适用 crypto + Taiwan BTC reserve + Paradigm PACTs 量子抗性 + 美联储中性观望"
         ],
-        "days": 9,
+        "days": 10,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
-          80,
           0,
           0,
           0,
@@ -5616,6 +5857,7 @@
           0,
           78,
           75,
+          0,
           0
         ]
       },
@@ -5623,11 +5865,11 @@
         "cluster": "LTC_security",
         "name": "Litecoin MWEB 零日漏洞触发链重组 — LTC 安全事件",
         "aliases": [],
-        "days": 9,
+        "days": 10,
         "level": "L2",
         "phase": "增长期",
         "heat": [
-          65,
+          0,
           0,
           0,
           0,
@@ -5642,11 +5884,11 @@
         "cluster": "APE_NFT",
         "name": "APE 新 CEO + BAYC NFT 复兴 — ByzGeneral 双信号看多",
         "aliases": [],
-        "days": 9,
+        "days": 10,
         "level": "L2",
         "phase": "增长期",
         "heat": [
-          58,
+          0,
           0,
           0,
           0,
@@ -5661,11 +5903,11 @@
         "cluster": "ETH_roadmap",
         "name": "Ethereum 5 north stars / 7 forks roadmap 公布",
         "aliases": [],
-        "days": 9,
+        "days": 10,
         "level": "L2",
         "phase": "增长期",
         "heat": [
-          55,
+          0,
           0,
           0,
           0,
@@ -5680,11 +5922,10 @@
         "cluster": "LTC_MWEB",
         "name": "LTC MWEB exploit + 13-block reorg — Day 2",
         "aliases": [],
-        "days": 8,
+        "days": 9,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
-          0,
           92,
           0,
           0,
@@ -5692,34 +5933,53 @@
           0,
           0,
           0,
-          0
-        ]
-      },
-      {
-        "cluster": "CARDS",
-        "name": "CARDS Day 2 — Bluntz 持续推 + 多源验证 collectibles 超级周期",
-        "aliases": [
-          "$CARDS — Bluntz 罕见高确信 alt 仓位（单源）",
-          "CARDS (Collector Crypt) — Bluntz 重仓推荐：$82M April revenue / $26M mcap，OKX 全无"
-        ],
-        "days": 8,
-        "level": "L3",
-        "phase": "爆发期",
-        "heat": [
           0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          75,
-          78,
           0
         ]
       },
       {
         "cluster": "PRL_XCN",
         "name": "Upbit + Bithumb 同日上 PRL & XCN — 双 Tier1 韩交所联动 OKX 缺位",
+        "aliases": [],
+        "days": 8,
+        "level": "L3",
+        "phase": "爆发期",
+        "heat": [
+          0,
+          80,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cluster": "PROS",
+        "name": "PROS Day 2 — Bitget 现货 + 三家现货已上，OKX 仅永续无现货",
+        "aliases": [
+          "PROS 三家同期上线现货 — OKX 仅有 perp 缺现货"
+        ],
+        "days": 7,
+        "level": "L3",
+        "phase": "增长期",
+        "heat": [
+          0,
+          0,
+          72,
+          68,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cluster": "PUMP",
+        "name": "PUMP 36% 流通供应燃烧 + 50% 收入回购承诺",
         "aliases": [],
         "days": 7,
         "level": "L3",
@@ -5737,63 +5997,24 @@
         ]
       },
       {
-        "cluster": "PROS",
-        "name": "PROS Day 2 — Bitget 现货 + 三家现货已上，OKX 仅永续无现货",
-        "aliases": [
-          "PROS 三家同期上线现货 — OKX 仅有 perp 缺现货"
-        ],
-        "days": 6,
-        "level": "L3",
-        "phase": "增长期",
-        "heat": [
-          0,
-          0,
-          0,
-          72,
-          68,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "cluster": "PUMP",
-        "name": "PUMP 36% 流通供应燃烧 + 50% 收入回购承诺",
-        "aliases": [],
-        "days": 6,
-        "level": "L3",
-        "phase": "爆发期",
-        "heat": [
-          0,
-          0,
-          0,
-          80,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
         "cluster": "AIGENSYN",
         "name": "AIGENSYN Day 3 — 无 KOL 新增信号，但 OKX 仍未行动，决策窗口收窄",
         "aliases": [
           "AIGENSYN Day 1 — Binance Futures + Bitget 现货/永续同日齐发，OKX 全无",
-          "AIGENSYN Day 2 — Bybit 加 perp，Tier1+Tier2 沉淀完毕，OKX 三线仍全空"
+          "AIGENSYN Day 2 — Bybit 加 perp，Tier1+Tier2 沉淀完毕，OKX 三线仍全空",
+          "Bitget 首发 Billions Network ($BILL) — OKX 缺位"
         ],
-        "days": 5,
+        "days": 6,
         "level": "L3",
         "phase": "增长期",
         "heat": [
-          0,
           0,
           0,
           0,
           72,
           75,
           65,
+          0,
           0,
           0
         ]
@@ -5802,7 +6023,7 @@
         "cluster": "SPACE",
         "name": "🚨 SPACE 风控紧急预警 — OKX 已上现货+永续，CN KOL 三源联动指控项目方丢仓 95%",
         "aliases": [],
-        "days": 4,
+        "days": 5,
         "level": "L3",
         "phase": "爆发期",
         "heat": [
@@ -5810,8 +6031,8 @@
           0,
           0,
           0,
-          0,
           88,
+          0,
           0,
           0,
           0
@@ -5821,7 +6042,7 @@
         "cluster": "monitoring_tag",
         "name": "Binance Monitoring Tag 扩列 — NFP/NOM/POND/QUICK/VIC 退市风险",
         "aliases": [],
-        "days": 4,
+        "days": 5,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5829,8 +6050,8 @@
           0,
           0,
           0,
-          0,
           60,
+          0,
           0,
           0,
           0
@@ -5842,7 +6063,69 @@
         "aliases": [
           "🚨 数百 ETH 长期休眠地址被盗（原因不明）— 钱包/硬件/密钥安全事件"
         ],
+        "days": 4,
+        "level": "L2",
+        "phase": "增长期",
+        "heat": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          70,
+          65,
+          0,
+          0
+        ]
+      },
+      {
+        "cluster": "LAB",
+        "name": "LAB 闪崩 -80% Day 2 — 合约爆仓全网第一",
+        "aliases": [
+          "LAB Day 1 — TG 13 次高频 + 山寨齐拉升领涨，OKX 已永续无现货",
+          "LAB 闪崩 Day 2 — 无新信号,延续静默期"
+        ],
         "days": 3,
+        "level": "L3",
+        "phase": "爆发期",
+        "heat": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          75,
+          88,
+          0
+        ]
+      },
+      {
+        "cluster": "buffett_cash",
+        "name": "Buffett 股东大会 — 现金 $3,970 亿创纪录",
+        "aliases": [
+          "巴菲特股东大会 — 伯克希尔现金 $3,970 亿创纪录 + 拒绝 AI + 数据中心利好公用事业"
+        ],
+        "days": 3,
+        "level": "L2",
+        "phase": "爆发期",
+        "heat": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          75,
+          70,
+          0
+        ]
+      },
+      {
+        "cluster": "ETH_glamsterdam",
+        "name": "ETH Glamsterdam 升级 gas 60M→200M",
+        "aliases": [],
+        "days": 2,
         "level": "L2",
         "phase": "增长期",
         "heat": [
@@ -5852,8 +6135,27 @@
           0,
           0,
           0,
-          70,
-          65,
+          0,
+          68,
+          0
+        ]
+      },
+      {
+        "cluster": "DeFi_tvl",
+        "name": "ETH DeFi TVL 腰斩 — 大资金离场",
+        "aliases": [],
+        "days": 2,
+        "level": "L2",
+        "phase": "增长期",
+        "heat": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          58,
           0
         ]
       }
@@ -5861,30 +6163,30 @@
   },
   "weeks": [
     {
-      "period": "2026-04-28 ~ 2026-05-04",
+      "period": "2026-04-29 ~ 2026-05-05",
       "kpis": [
         {
           "label": "新增L3",
-          "val": 15,
-          "prev": 27,
+          "val": 13,
+          "prev": 26,
           "unit": ""
         },
         {
           "label": "竞对动作",
-          "val": 47,
-          "prev": 57,
+          "val": 49,
+          "prev": 54,
           "unit": "条"
         },
         {
           "label": "信号总数",
-          "val": 1795,
-          "prev": 1996,
+          "val": 1768,
+          "prev": 2075,
           "unit": "条"
         },
         {
           "label": "追踪叙事",
-          "val": 38,
-          "prev": 57,
+          "val": 36,
+          "prev": 55,
           "unit": "个"
         }
       ],
@@ -5904,39 +6206,43 @@
           "cluster": "LAB",
           "name": "LAB 闪崩 -80% Day 2 — 合约爆仓全网第一",
           "aliases": [
-            "LAB Day 1 — TG 13 次高频 + 山寨齐拉升领涨，OKX 已永续无现货"
+            "LAB Day 1 — TG 13 次高频 + 山寨齐拉升领涨，OKX 已永续无现货",
+            "LAB 闪崩 Day 2 — 无新信号,延续静默期"
           ],
           "from": "L3",
           "to": "L3",
           "heat": 88,
           "delta": "+13",
           "type": "stay",
-          "appearances": 2
-        },
-        {
-          "cluster": "KELP",
-          "name": "KELP / rsETH / AAVE 救助 Day 9 — Consensys 30K ETH + Circle Ventures 买 AAVE",
-          "aliases": [],
-          "from": "L3",
-          "to": "L3",
-          "heat": 84,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 1
+          "appearances": 3
         },
         {
           "cluster": "HYPE",
-          "name": "Hyperliquid HIP-4 二元预测市场首日 $238 万",
+          "name": "Hyperliquid HIP-4 Day 2 — 首日 $6M (vs 昨日 $238 万 +31x)",
           "aliases": [
             "Hyperliquid 垄断叙事再升级 — 0xSisyphus 力推",
-            "Hyperliquid HIP-4 二元预测市场上线 + Polymarket fees ATH + a16z 反对各州 — 预测市场赛道制度突破"
+            "Hyperliquid HIP-4 二元预测市场上线 + Polymarket fees ATH + a16z 反对各州 — 预测市场赛道制度突破",
+            "Hyperliquid HIP-4 二元预测市场首日 $238 万"
           ],
           "from": "L2",
           "to": "L3",
-          "heat": 82,
-          "delta": "+12",
+          "heat": 86,
+          "delta": "+16",
           "type": "up",
-          "appearances": 3
+          "appearances": 4
+        },
+        {
+          "cluster": "ARB_legal",
+          "name": "Aave 紧急动议要求撤销对 Arbitrum DAO 资产冻结通知 (Day 2)",
+          "aliases": [
+            "Arbitrum 朝鲜冻结资金被纽约联邦法院判赔"
+          ],
+          "from": "L3",
+          "to": "L3",
+          "heat": 84,
+          "delta": "+12",
+          "type": "stay",
+          "appearances": 2
         },
         {
           "cluster": "BLEND",
@@ -5945,17 +6251,6 @@
           "from": "L3",
           "to": "L3",
           "heat": 82,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 1
-        },
-        {
-          "cluster": "PRL_XCN",
-          "name": "Upbit + Bithumb 同日上 PRL & XCN — 双 Tier1 韩交所联动 OKX 缺位",
-          "aliases": [],
-          "from": "L3",
-          "to": "L3",
-          "heat": 80,
           "delta": "+0",
           "type": "stay",
           "appearances": 1
@@ -5985,51 +6280,64 @@
           "appearances": 2
         },
         {
+          "cluster": "TON_telegram",
+          "name": "Telegram/Durov 接管 TON 最大 validator + 手续费降 1/6",
+          "aliases": [],
+          "from": "L3",
+          "to": "L3",
+          "heat": 80,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
+          "cluster": "BTC_technical",
+          "name": "BTC > $80k 持续 + Coinbase premium + Murphy 趋势通道上轨",
+          "aliases": [
+            "BTC 80k 上沿震荡 / Pentoshi 84-86k 决胜位 + ETF 流入断档",
+            "BTC $80K 上沿 + 30 日交易所流入新高 + 巨鲸 Coinbase Institutional 鳄吞",
+            "BTC 顶部多重信号叠加 + 巨鲸混合流向 + IV 历史低位",
+            "BTC 多空叙事激烈对撞 — $160K 月线目标 vs OI 阻力 fade + 巨鲸混合流向",
+            "BTC 多空对撞 — Hayes $125K EOY vs based16z TP $65K + Murphy BRS 钉零轴 + CryptoQuant 投机回调",
+            "BTC 熊牛转化早期信号 + 多空对撞延续",
+            "@CryptoPainter BTC bear case $50-55k + 10% short 已锁定"
+          ],
+          "from": "L2",
+          "to": "L2",
+          "heat": 78,
+          "delta": "+6",
+          "type": "stay",
+          "appearances": 8
+        },
+        {
           "cluster": "CARDS",
           "name": "CARDS Day 2 — Bluntz 持续推 + 多源验证 collectibles 超级周期",
           "aliases": [
-            "CARDS (Collector Crypt) — Bluntz 重仓推荐：$82M April revenue / $26M mcap，OKX 全无"
+            "CARDS (Collector Crypt) — Bluntz 重仓推荐：$82M April revenue / $26M mcap，OKX 全无",
+            "CARDS Day 4 — Bluntz +165% 突破多月积累"
           ],
           "from": "L3",
           "to": "L3",
           "heat": 78,
           "delta": "+3",
           "type": "stay",
-          "appearances": 2
+          "appearances": 3
         },
         {
           "cluster": "stock_derivatives",
-          "name": "Bitget 美股 perp 矩阵扩张 — OKLO/MP/CRDO/APLD/KLAC 5 个新品",
+          "name": "Binance Futures 5/6 上 AMD/QCOM/USAR + Kraken 完成 Bitnomial 收购",
           "aliases": [
-            "Bybit 上线 GOOGL / META / MSFT 股票永续 — OKX 已全覆盖",
-            "IREN（Iris Energy 矿企）TG 热度 3 次 — OKX 无 stock perp",
+            "Bitget 美股 perp 矩阵扩张 — OKLO/MP/CRDO/APLD/KLAC 5 个新品",
             "RWA 25K 美股代币化 + Bybit 新增 COIN/MSTR/PLTR perp",
-            "RWA 市值 $19.3B (+256.7% / 15 个月) — CoinGecko 2026 报告"
+            "RWA 市值 $19.3B (+256.7% / 15 个月) — CoinGecko 2026 报告",
+            "Burry 抛 GameStop + 但斌建仓 Circle"
           ],
-          "from": "L2",
+          "from": "L3",
           "to": "L3",
           "heat": 75,
-          "delta": "+20",
-          "type": "up",
+          "delta": "+0",
+          "type": "stay",
           "appearances": 5
-        },
-        {
-          "cluster": "BTC_technical",
-          "name": "BTC 熊牛转化早期信号 + 多空对撞延续",
-          "aliases": [
-            "Solana 采用 Falcon 后量子签名 — 量子叙事延伸到 SOL",
-            "BTC 80k 上沿震荡 / Pentoshi 84-86k 决胜位 + ETF 流入断档",
-            "BTC $80K 上沿 + 30 日交易所流入新高 + 巨鲸 Coinbase Institutional 鳄吞",
-            "BTC 顶部多重信号叠加 + 巨鲸混合流向 + IV 历史低位",
-            "BTC 多空叙事激烈对撞 — $160K 月线目标 vs OI 阻力 fade + 巨鲸混合流向",
-            "BTC 多空对撞 — Hayes $125K EOY vs based16z TP $65K + Murphy BRS 钉零轴 + CryptoQuant 投机回调"
-          ],
-          "from": "L1",
-          "to": "L2",
-          "heat": 75,
-          "delta": "+75",
-          "type": "up",
-          "appearances": 7
         },
         {
           "cluster": "GENIUS_ACT",
@@ -6045,10 +6353,33 @@
           "appearances": 2
         },
         {
+          "cluster": "tokenized_securities",
+          "name": "DTCC 7月代币化证券试点 + Western Union USDPT (Day 2)",
+          "aliases": [
+            "BlackRock + NYSE 双线推进代币化证券"
+          ],
+          "from": "L2",
+          "to": "L2",
+          "heat": 75,
+          "delta": "+3",
+          "type": "stay",
+          "appearances": 2
+        },
+        {
+          "cluster": "ETH_staking_surge",
+          "name": "ETH 大额 staking inflow + Bitmine 加 101,745 ETH",
+          "aliases": [],
+          "from": "L2",
+          "to": "L2",
+          "heat": 75,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
           "cluster": "etf_flow",
           "name": "ETF 单日反转 — BTC ETF +$629.8M / ETH ETF +$101.2M（昨日双流出今日双反转）",
           "aliases": [
-            "数字资产周流入 $1.2B — BTC +$933M / ETH +$192M (CoinShares)",
             "BTC/ETH 现货 ETF 转向流出",
             "BTC/ETH ETF 同日双流出 + 5月历史季节性看涨 + Drift 朝鲜社工 $285M"
           ],
@@ -6057,71 +6388,31 @@
           "heat": 72,
           "delta": "+12",
           "type": "stay",
-          "appearances": 4
+          "appearances": 3
         },
         {
-          "cluster": "ARB_legal",
-          "name": "Arbitrum 朝鲜冻结资金被纽约联邦法院判赔",
-          "aliases": [],
-          "from": "L3",
-          "to": "L3",
-          "heat": 72,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 1
-        },
-        {
-          "cluster": "tokenized_securities",
-          "name": "BlackRock + NYSE 双线推进代币化证券",
-          "aliases": [],
-          "from": "L2",
+          "cluster": "regulation",
+          "name": "CLARITY Act 稳定币收益规则敲定 — based16z 标 'Go Time'",
+          "aliases": [
+            "Robinhood Q1 crypto rev -47%",
+            "Powell 末次 FOMC + Warsh 接班 — Fed 制度过渡周",
+            "Fed 6月不动 94.9% + 欧英央行齐按兵 + 核心 PCE 3.2% 符合预期 + Powell 留任叙事",
+            "Arbitrum 治理双向 + 加密市场结构法案 5 月中旬推进 + Trump 退休储蓄行政命令",
+            "WLFI 卖 5.9B + 80% 早期持仓仍锁 + Pharos 利好出货争议 + Brazil 禁 crypto eFX vs JPX 2027 ETF",
+            "特朗普枪击案监控视频公布 + Trump 退休储蓄行政命令（潜在间接利好被动配置）",
+            "美联储中性观望 + a16z 反对各州预测市场打压 + USDT/USDC 大额铸造与回笼",
+            "Fed 转中性观望 + Kashkari 警告加息可能",
+            "POLITICO 民调:多数美国人对 AI 与加密仍持怀疑",
+            "Japan 加密 ETF 最早明年获批 — Wu 报道",
+            "130+ 国家推进 CBDC,Russia 出台加密个税",
+            "Aave 紧急动议要求撤销 Arbitrum 资产冻结(已并入 ARB_legal L3)"
+          ],
+          "from": "L1",
           "to": "L2",
           "heat": 72,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 1
-        },
-        {
-          "cluster": "meme",
-          "name": "USELESS 续热但 OKX 仅永续无现货 — 现货补位机会",
-          "aliases": [
-            "PENGU 独立突破 — Pudgy Penguins 品牌行情延续",
-            "PARANOID / SCAM / HENRY meme 单源延续",
-            "Mad Lads / SOL NFT 复苏叙事看空",
-            "TG 小币热度 RISE/SWARMS/INIT/VELODROME",
-            "TG 高频小币 — FORM / WISH / QCOM / BEACHBALLS / HOPPY / GOBLIN / RC（OKX 全无）",
-            "TG 高频小币 + 新 meme 涌现 — GOBLIN/ARTEMIS/DAI/FARTCOIN/ASTEROID/SCRIBBLI/SIMULATOR",
-            "TG 24h 高频 — DAI(6,多源) / BWOYS(4) / FLYYQ(3) / HALFTRUMP / ANIMALS / GOBLIN / SLOPNALD / SKR(2,多源)",
-            "TG 24h 高频 — LAB(13)/INJ(8)/ZEC(6)/ONDO(6)/ORDI(5)/MOVE(5)/AAVE(4)/USELESS(4)/PIEVERSE(2)",
-            "TG 高频山寨齐拉升 + LAB/UB/B/Freedom 领涨",
-            "BSC Meme 圈研究 — 刀盾/比比/拉布 (@Web3Feng)"
-          ],
-          "from": "L3",
-          "to": "L3",
-          "heat": 70,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 11
-        },
-        {
-          "cluster": "ai_crypto",
-          "name": "Manus 被叫停 → 月之暗面/阶跃星辰拆红筹回国 + Apple Mac Mini 提价 $799 + Binance Agentic AI",
-          "aliases": [
-            "Gemini Agentic Trading via MCP + Manus 估值 -90%",
-            "based16z 提 AI coding tools 周期",
-            "AI x Crypto 双线 — Vitalik via OKX 推 ETH 接 AI + AI Agent 用交易盈余付 AWS",
-            "AIGENSYN 单源延续观察 + AI 题材其他外溢",
-            "AI x Crypto — Binance Agent Wallet 反追 OKX，CryptoPainter 双线评论",
-            "OKX Hermes Agent / Agent Trade Kit — KOL 公开实测 + Musk vs OpenAI 调查可能开门",
-            "Founders Fund 关闭 $6B 新基金 — AI/科技配置",
-            "@Rewkang 看好机器人/AI 行业指数级机会"
-          ],
-          "from": "L2",
-          "to": "L2",
-          "heat": 70,
-          "delta": "+12",
-          "type": "stay",
-          "appearances": 9
+          "delta": "+72",
+          "type": "up",
+          "appearances": 13
         },
         {
           "cluster": "MNT",
@@ -6133,6 +6424,21 @@
           "delta": "+0",
           "type": "stay",
           "appearances": 1
+        },
+        {
+          "cluster": "geopolitics",
+          "name": "Iran 战争或持续 2-3 周 + 美军舰被导弹击中传闻",
+          "aliases": [
+            "Iran 战停 + OFAC 制裁警告 + 原油跌金银涨 — 地缘缓和阶段",
+            "Iran 战停反复 + Trump 重启空袭可能 + BTC 冲高回落",
+            "Iran 战停反复 + 霍尔木兹引导船只"
+          ],
+          "from": "L2",
+          "to": "L2",
+          "heat": 70,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 4
         },
         {
           "cluster": "buffett_cash",
@@ -6148,22 +6454,6 @@
           "appearances": 2
         },
         {
-          "cluster": "BMNR",
-          "name": "WLFI 5.9B 卖出延续 + rsETH 恢复计划 + Ondo proxy voting 启动 + 跨市场 NVDA/MSTR 跑赢 BTC",
-          "aliases": [
-            "BTC 机构吸筹 vs 80k 上沿 — Whale + MicroStrategy + 韩资反差",
-            "MicroStrategy $44.1B 弹药 + STRC RWA 化提议 + Saylor 量子论",
-            "Saturn / STRC / sUSDat — MSTR-linked DeFi 收益率新原语 + AIMCo $219M MSTR 持仓披露",
-            "ETH Foundation 卖 10K ETH @$2,292 给 BitMine + Bitmine 4M+ ETH staked $508M + DeFi United $314.57M ETH"
-          ],
-          "from": "L2",
-          "to": "L2",
-          "heat": 68,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 5
-        },
-        {
           "cluster": "PROS",
           "name": "PROS Day 2 — Bitget 现货 + 三家现货已上，OKX 仅永续无现货",
           "aliases": [
@@ -6177,6 +6467,43 @@
           "appearances": 2
         },
         {
+          "cluster": "meme",
+          "name": "TG 高频 TON/ZEC/ONDO + 山寨涨疯",
+          "aliases": [
+            "Mad Lads / SOL NFT 复苏叙事看空",
+            "TG 小币热度 RISE/SWARMS/INIT/VELODROME",
+            "TG 高频小币 — FORM / WISH / QCOM / BEACHBALLS / HOPPY / GOBLIN / RC（OKX 全无）",
+            "TG 高频小币 + 新 meme 涌现 — GOBLIN/ARTEMIS/DAI/FARTCOIN/ASTEROID/SCRIBBLI/SIMULATOR",
+            "TG 24h 高频 — DAI(6,多源) / BWOYS(4) / FLYYQ(3) / HALFTRUMP / ANIMALS / GOBLIN / SLOPNALD / SKR(2,多源)",
+            "TG 24h 高频 — LAB(13)/INJ(8)/ZEC(6)/ONDO(6)/ORDI(5)/MOVE(5)/AAVE(4)/USELESS(4)/PIEVERSE(2)",
+            "TG 高频山寨齐拉升 + LAB/UB/B/Freedom 领涨",
+            "BSC Meme 圈研究 — 刀盾/比比/拉布 (@Web3Feng)",
+            "@hexiecs 港股曦智科技 + GME + BSC '共建' 小盘 meme 联动",
+            "@Web3Feng SATO LP 区间被拉爆 + Polymarket vs Binance CL/BZ funding -$8k"
+          ],
+          "from": "L1",
+          "to": "L2",
+          "heat": 68,
+          "delta": "+68",
+          "type": "up",
+          "appearances": 11
+        },
+        {
+          "cluster": "BMNR",
+          "name": "WLFI 5.9B 卖出延续 + rsETH 恢复计划 + Ondo proxy voting 启动 + 跨市场 NVDA/MSTR 跑赢 BTC",
+          "aliases": [
+            "MicroStrategy $44.1B 弹药 + STRC RWA 化提议 + Saylor 量子论",
+            "Saturn / STRC / sUSDat — MSTR-linked DeFi 收益率新原语 + AIMCo $219M MSTR 持仓披露",
+            "ETH Foundation 卖 10K ETH @$2,292 给 BitMine + Bitmine 4M+ ETH staked $508M + DeFi United $314.57M ETH"
+          ],
+          "from": "L2",
+          "to": "L2",
+          "heat": 68,
+          "delta": "+3",
+          "type": "stay",
+          "appearances": 4
+        },
+        {
           "cluster": "ETH_glamsterdam",
           "name": "ETH Glamsterdam 升级 gas 60M→200M",
           "aliases": [],
@@ -6188,12 +6515,12 @@
           "appearances": 1
         },
         {
-          "cluster": "ZRO",
-          "name": "本周大额解锁 >$330M — SUI / JUP / SIGN / EIGEN / OMNI / GUN",
+          "cluster": "WLFI_TRX",
+          "name": "WLFI 起诉孙宇晨 + ZachXBT 宣战 imToken/Tokenlon",
           "aliases": [],
           "from": "L2",
           "to": "L2",
-          "heat": 65,
+          "heat": 68,
           "delta": "+0",
           "type": "stay",
           "appearances": 1
@@ -6210,40 +6537,40 @@
           "appearances": 1
         },
         {
-          "cluster": "regulation",
-          "name": "Fed 转中性观望 + Kashkari 警告加息可能",
+          "cluster": "ai_crypto",
+          "name": "Pentosh1 UUUU/AI 多年 boom + KWM 5亿 BTC 转 AI infra",
           "aliases": [
-            "Robinhood Q1 crypto rev -47%",
-            "Powell 末次 FOMC + Warsh 接班 — Fed 制度过渡周",
-            "Fed 6月不动 94.9% + 欧英央行齐按兵 + 核心 PCE 3.2% 符合预期 + Powell 留任叙事",
-            "Arbitrum 治理双向 + 加密市场结构法案 5 月中旬推进 + Trump 退休储蓄行政命令",
-            "WLFI 卖 5.9B + 80% 早期持仓仍锁 + Pharos 利好出货争议 + Brazil 禁 crypto eFX vs JPX 2027 ETF",
-            "特朗普枪击案监控视频公布 + Trump 退休储蓄行政命令（潜在间接利好被动配置）",
-            "美联储中性观望 + a16z 反对各州预测市场打压 + USDT/USDC 大额铸造与回笼",
-            "POLITICO 民调:多数美国人对 AI 与加密仍持怀疑",
-            "Japan 加密 ETF 最早明年获批 — Wu 报道",
-            "130+ 国家推进 CBDC,Russia 出台加密个税"
+            "based16z 提 AI coding tools 周期",
+            "AI x Crypto 双线 — Vitalik via OKX 推 ETH 接 AI + AI Agent 用交易盈余付 AWS",
+            "AIGENSYN 单源延续观察 + AI 题材其他外溢",
+            "AI x Crypto — Binance Agent Wallet 反追 OKX，CryptoPainter 双线评论",
+            "OKX Hermes Agent / Agent Trade Kit — KOL 公开实测 + Musk vs OpenAI 调查可能开门",
+            "Manus 被叫停 → 月之暗面/阶跃星辰拆红筹回国 + Apple Mac Mini 提价 $799 + Binance Agentic AI",
+            "Founders Fund 关闭 $6B 新基金 — AI/科技配置",
+            "@Rewkang 看好机器人/AI 行业指数级机会",
+            "X 用户通过 Grok 从 Bankr 盗 $17.5 万后归还跑路 — AI agent 信任危机"
           ],
           "from": "L1",
           "to": "L2",
           "heat": 65,
           "delta": "+65",
           "type": "up",
-          "appearances": 11
+          "appearances": 10
         },
         {
           "cluster": "AIGENSYN",
           "name": "AIGENSYN Day 3 — 无 KOL 新增信号，但 OKX 仍未行动，决策窗口收窄",
           "aliases": [
             "AIGENSYN Day 1 — Binance Futures + Bitget 现货/永续同日齐发，OKX 全无",
-            "AIGENSYN Day 2 — Bybit 加 perp，Tier1+Tier2 沉淀完毕，OKX 三线仍全空"
+            "AIGENSYN Day 2 — Bybit 加 perp，Tier1+Tier2 沉淀完毕，OKX 三线仍全空",
+            "Bitget 首发 Billions Network ($BILL) — OKX 缺位"
           ],
           "from": "L3",
           "to": "L3",
           "heat": 65,
           "delta": "-7",
           "type": "stay",
-          "appearances": 3
+          "appearances": 4
         },
         {
           "cluster": "ETH_dormant_hack",
@@ -6259,20 +6586,6 @@
           "appearances": 2
         },
         {
-          "cluster": "geopolitics",
-          "name": "Iran 战停反复 + 霍尔木兹引导船只",
-          "aliases": [
-            "Iran 战停 + OFAC 制裁警告 + 原油跌金银涨 — 地缘缓和阶段",
-            "Iran 战停反复 + Trump 重启空袭可能 + BTC 冲高回落"
-          ],
-          "from": "L2",
-          "to": "L2",
-          "heat": 65,
-          "delta": "-5",
-          "type": "stay",
-          "appearances": 3
-        },
-        {
           "cluster": "prediction_market",
           "name": "首批 Prediction Market ETF 5/5 启动 (Roundhill)",
           "aliases": [
@@ -6284,6 +6597,24 @@
           "delta": "-5",
           "type": "stay",
           "appearances": 2
+        },
+        {
+          "cluster": "stablecoin_flow",
+          "name": "USDC/USDT 大额铸造移动 + Western Union USDPT",
+          "aliases": [
+            "稳定币大流动 — $1B USDT 流出 Binance + $500M USDC Solana 增发",
+            "Meta USDC 创作者支付 LATAM/PH + 250M USDC Solana 增发 + Tether/Circle 信誉对峙",
+            "稳定币/支付基础设施齐扩 — Visa+5 链 / Shinhan-SOL / PayPal 重组 / OKX USDG",
+            "Tether Q1 $10.4B 盈利 + 储备 $82.32B 创纪录 + 24h $750M USDC + $631M USDT 流入 HTX/Bitfinex",
+            "OKEX 大额 USDT 净流出 ~$334M",
+            "Saylor 推 $3.5T 私人信贷 RWA + Cambrian 叙事"
+          ],
+          "from": "L2",
+          "to": "L2",
+          "heat": 60,
+          "delta": "-2",
+          "type": "stay",
+          "appearances": 7
         },
         {
           "cluster": "monitoring_tag",
@@ -6303,57 +6634,6 @@
           "from": "L2",
           "to": "L2",
           "heat": 58,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 1
-        },
-        {
-          "cluster": "stablecoin_flow",
-          "name": "OKEX 大额 USDT 净流出 ~$334M",
-          "aliases": [
-            "Western Union 在 Solana 发 USDPT + OKX USDG 4.1% Earn 口碑延续",
-            "稳定币大流动 — $1B USDT 流出 Binance + $500M USDC Solana 增发",
-            "Meta USDC 创作者支付 LATAM/PH + 250M USDC Solana 增发 + Tether/Circle 信誉对峙",
-            "稳定币/支付基础设施齐扩 — Visa+5 链 / Shinhan-SOL / PayPal 重组 / OKX USDG",
-            "Tether Q1 $10.4B 盈利 + 储备 $82.32B 创纪录 + 24h $750M USDC + $631M USDT 流入 HTX/Bitfinex",
-            "Saylor 推 $3.5T 私人信贷 RWA + Cambrian 叙事"
-          ],
-          "from": "L2",
-          "to": "L2",
-          "heat": 55,
-          "delta": "-5",
-          "type": "stay",
-          "appearances": 7
-        },
-        {
-          "cluster": "KAITO",
-          "name": "billions_ntwk Public Sale TGE 规则变更争议",
-          "aliases": [],
-          "from": "L1",
-          "to": "L1",
-          "heat": 0,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 1
-        },
-        {
-          "cluster": "exchange_hack",
-          "name": "ZetaChain GatewayEVM exploit — 仅团队钱包受影响",
-          "aliases": [],
-          "from": "L1",
-          "to": "L1",
-          "heat": 0,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 1
-        },
-        {
-          "cluster": "POL",
-          "name": "WPOL TG 热度 3 次 — Polygon 升级后 OKX 仍无 WPOL",
-          "aliases": [],
-          "from": "L1",
-          "to": "L1",
-          "heat": 0,
           "delta": "+0",
           "type": "stay",
           "appearances": 1
@@ -6395,9 +6675,80 @@
           "delta": "+0",
           "type": "stay",
           "appearances": 1
+        },
+        {
+          "cluster": "ZRO",
+          "name": "本周大额解锁 >$229M(HYPE/ENA/SXT/RED/OPN; SOL/RAIN 线性)",
+          "aliases": [],
+          "from": "L1",
+          "to": "L1",
+          "heat": 0,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
         }
       ],
       "events": [
+        {
+          "date": "05-05",
+          "title": "ARB + AAVE 风控/合规联动告警,跟踪法院对 Aave 动议的裁决节奏与抛压",
+          "color": "#E74C5A"
+        },
+        {
+          "date": "05-05",
+          "title": "产品决策窗口 — 评估 OKX 上预测市场/二元期权的可行性并加速;同步监控 HIP-4 OI...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "05-05",
+          "title": "评估 TON 现货+永续流动性是否需要扩容;关注 TON 生态 token (NOT/Hams...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "05-05",
+          "title": "QCOM perp 上线评估 — Binance 明日跟进, OKX 缺位;Bitnomial...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "05-05",
+          "title": "Binance Futures 5/6 上线 AMD/QCOM/USAR 永续 — AMDUS...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "05-05",
+          "title": "Kraken 完成收购 Bitnomial — 正式打通美国加密衍生品业务, 持牌渠道推进",
+          "color": "#FFB302"
+        },
+        {
+          "date": "05-05",
+          "title": "Bitget 首发 Billions Network ($BILL) — OKX 缺位; @C...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "05-05",
+          "title": "DTCC 7月代币化证券试点 — BlackRock/JPM/GS/Nasdaq/Ondo/P...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "05-05",
+          "title": "Hyperliquid HIP-4 day1 $6M — 二元预测市场首日成交较 5/4 增长...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "05-05",
+          "title": "Telegram/Durov 接管 TON validator — TON 手续费降 1/6 ...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "05-05",
+          "title": "Western Union 在 Solana 发 USDPT — 新稳定币入场, RWA/支付...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "05-05",
+          "title": "Binance 推 Withdraw Protection 锁定功能 — 新风控产品, 减少黑...",
+          "color": "#FFB302"
+        },
         {
           "date": "05-04",
           "title": "风控立即评估 LAB 永续杠杆/限仓上限;现货上线评估暂缓直至波动率收敛",
@@ -6697,79 +7048,34 @@
           "date": "04-29",
           "title": "Coinbase 上线 VIRTUAL/USD 现货 — OKX 已有完整产品线",
           "color": "#FFB302"
-        },
-        {
-          "date": "04-28",
-          "title": "评估 PRL / XCN 现货 + 永续上线可行性；Upbit + Bithumb 同步上线通...",
-          "color": "#FFB302"
-        },
-        {
-          "date": "04-28",
-          "title": "评估 USELESS 现货上线（永续已运营，市场深度数据可直接复用）",
-          "color": "#23F7DD"
-        },
-        {
-          "date": "04-28",
-          "title": "(1) 风控：盯 AAVE / ETHFI 永续 OI 与外盘背离，挤空若启动加密价差监控；(...",
-          "color": "#FFB302"
-        },
-        {
-          "date": "04-28",
-          "title": "Upbit + Bithumb 同日上 PRL — Upbit (KRW/USDT/BTC 三...",
-          "color": "#FFB302"
-        },
-        {
-          "date": "04-28",
-          "title": "Upbit 上 XCN — Upbit KRW + USDT 双对；Onyxcoin ~$17...",
-          "color": "#FFB302"
-        },
-        {
-          "date": "04-28",
-          "title": "Bybit 上 GOOGL/META/MSFT 股票永续 — 三只美股 perp_usdt；O...",
-          "color": "#FFB302"
-        },
-        {
-          "date": "04-28",
-          "title": "Gemini 上线 AI Agentic Trading — 基于 Anthropic MCP...",
-          "color": "#FFB302"
-        },
-        {
-          "date": "04-28",
-          "title": "Circle Ventures 出手买 AAVE — USDC 发行方 VC 部门入场，与 K...",
-          "color": "#FFB302"
-        },
-        {
-          "date": "04-28",
-          "title": "Consensys/Lubin 承诺 30K ETH 救 rsETH — LRT 板块结构性救...",
-          "color": "#FFB302"
         }
       ]
     },
     {
-      "period": "2026-04-21 ~ 2026-04-27",
+      "period": "2026-04-22 ~ 2026-04-28",
       "kpis": [
         {
           "label": "新增L3",
-          "val": 14,
-          "prev": 15,
+          "val": 13,
+          "prev": 19,
           "unit": ""
         },
         {
           "label": "竞对动作",
-          "val": 57,
-          "prev": 23,
+          "val": 54,
+          "prev": 32,
           "unit": "条"
         },
         {
           "label": "信号总数",
-          "val": 1996,
-          "prev": 1151,
+          "val": 2075,
+          "prev": 1426,
           "unit": "条"
         },
         {
           "label": "追踪叙事",
-          "val": 57,
-          "prev": 62,
+          "val": 55,
+          "prev": 73,
           "unit": "个"
         }
       ],
@@ -6787,49 +7093,34 @@
         },
         {
           "cluster": "KELP",
-          "name": "KELP / Aave / rsETH 救助 Day 8 — TVL 出血 + 治理裂变",
+          "name": "KELP / rsETH / AAVE 救助 Day 9 — Consensys 30K ETH + Circle Ventures 买 AAVE",
           "aliases": [
-            "Kelp rsETH / LayerZero 事件 Day 2 — Aave TVL -$84.5 亿 + 坏账决策期",
             "Kelp / rsETH / AAVE Day 3 — 坏账 $124-230M + $660M CEX 敞口卡住",
             "Aave/rsETH 危机 Day 4 — $15.1B TVL 外流，Fluid 赎回 $400M，资金转 Spark",
             "Kelp/Aave 坏账事件 Day 5 — Mantle 提议 30k ETH 救助贷款",
             "Kelp/Aave 坏账救助 Day 6 — Aave DAO 25k ETH + Mantle 30k ETH 双方案推进",
-            "Kelp/Aave 救助 Day 7 — 跨链 DAO 联合提案 + Solana 基金会介入"
+            "Kelp/Aave 救助 Day 7 — 跨链 DAO 联合提案 + Solana 基金会介入",
+            "KELP / Aave / rsETH 救助 Day 8 — TVL 出血 + 治理裂变"
           ],
           "from": "L3",
           "to": "L3",
-          "heat": 86,
-          "delta": "-9",
+          "heat": 84,
+          "delta": "-6",
           "type": "stay",
           "appearances": 7
-        },
-        {
-          "cluster": "ASTEROID",
-          "name": "ASTEROID — TG 热榜 #2 + 鲸鱼 $114 万买入，OKX 无",
-          "aliases": [
-            "ASTEROID — TG 热榜大幅降温（从 11 次 → 2 次）"
-          ],
-          "from": "L3",
-          "to": "L3",
-          "heat": 85,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 2
         },
         {
           "cluster": "CHIP",
           "name": "CHIP Day 5 — Hyperliquid 再上永续 + Kraken 欧元现货，OKX 仍只有 perp 缺现货",
           "aliases": [
-            "CHIP — Coinbase 今日新上现货 + Binance Futures 已上预市场，OKX 完全缺失",
-            "CHIP 在 OKX 外多个交易所同日动作",
             "CHIP 24h 爆发 — 5 家 Tier1 现货同时上，OKX 仅 perp、缺现货"
           ],
           "from": "L3",
           "to": "L3",
           "heat": 80,
-          "delta": "+0",
+          "delta": "-15",
           "type": "stay",
-          "appearances": 4
+          "appearances": 2
         },
         {
           "cluster": "GENIUS_ACT",
@@ -6843,23 +7134,15 @@
           "appearances": 1
         },
         {
-          "cluster": "regulation",
-          "name": "Zondacrypto (波兰) 近破产 + CEO 跑路以色列 — 交易所信任叙事重提",
-          "aliases": [
-            "Claude Desktop 后门警告（安全合规）",
-            "交易所信任叙事 — Bybit CN 客服缺口",
-            "美冻结 $344M Tron-USDT 与伊朗关联 + Tether 协助",
-            "Binance Futures 下架 USDⓈ-M 永续合约 (2026-04-28 生效)",
-            "Believe 创始人 Ben Pasternak 在纽约被捕 — memecoin 监管事件",
-            "法国 88 人因 12 起 crypto 绑架案被起诉",
-            "US CLARITY Act May 通过 / June 签署预期"
-          ],
-          "from": "L2",
+          "cluster": "PRL_XCN",
+          "name": "Upbit + Bithumb 同日上 PRL & XCN — 双 Tier1 韩交所联动 OKX 缺位",
+          "aliases": [],
+          "from": "L3",
           "to": "L3",
-          "heat": 78,
-          "delta": "+28",
-          "type": "up",
-          "appearances": 8
+          "heat": 80,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
         },
         {
           "cluster": "stock_derivatives",
@@ -6868,55 +7151,34 @@
             "竞对股票衍生品继续扩张 — Bitget 5 只 AI/半导体小盘股 + Bybit 补 HOOD/INTC/TSM",
             "竞对股票衍生品 Day 4 — 半导体/AI 基建缺口扩大",
             "竞对股票永续 Day 5 — 半导体设备 + 中概股 gap 扩大",
-            "Uranium / 核能复兴叙事 — Bluntz 高确信多年牛市"
+            "Uranium / 核能复兴叙事 — Bluntz 高确信多年牛市",
+            "Bybit 上线 GOOGL / META / MSFT 股票永续 — OKX 已全覆盖",
+            "IREN（Iris Energy 矿企）TG 热度 3 次 — OKX 无 stock perp"
           ],
           "from": "L3",
           "to": "L3",
           "heat": 78,
           "delta": "+0",
           "type": "stay",
-          "appearances": 5
+          "appearances": 7
         },
         {
-          "cluster": "ZRO",
-          "name": "本周超大额解锁预警 — $330M+ 一次性 + 多个日解锁 >$1M",
-          "aliases": [],
-          "from": "L3",
-          "to": "L3",
-          "heat": 75,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 1
-        },
-        {
-          "cluster": "IPO",
-          "name": "Coinbase Sonar SpaceX-类 Pre-IPO 4/28 倒计时",
+          "cluster": "regulation",
+          "name": "Zondacrypto (波兰) 近破产 + CEO 跑路以色列 — 交易所信任叙事重提",
           "aliases": [
-            "Coinbase + Bybit 谈判代币化美股 + Pre-IPO",
-            "Coinbase Sonar 4/28 SpaceX 类 Pre-IPO 打新 — CN KOL 双源共振"
+            "交易所信任叙事 — Bybit CN 客服缺口",
+            "美冻结 $344M Tron-USDT 与伊朗关联 + Tether 协助",
+            "Binance Futures 下架 USDⓈ-M 永续合约 (2026-04-28 生效)",
+            "Believe 创始人 Ben Pasternak 在纽约被捕 — memecoin 监管事件",
+            "法国 88 人因 12 起 crypto 绑架案被起诉",
+            "US CLARITY Act May 通过 / June 签署预期"
           ],
-          "from": "L2",
+          "from": "L1",
           "to": "L3",
-          "heat": 75,
-          "delta": "+7",
+          "heat": 78,
+          "delta": "+78",
           "type": "up",
-          "appearances": 3
-        },
-        {
-          "cluster": "meme",
-          "name": "币安人生（CZ 社交 meme）今日 Binance 现货 2 对上线，OKX 完全缺",
-          "aliases": [
-            "币安人生 — Meme 辐射",
-            "OPENCLAW (Lobster) 热度消退",
-            "TG 新 token: COLE/KAROLINE/IMMORTAL/SHOW/FIGHT/VVV — 全 OKX 无",
-            "HENRY (TG 8 次) — TG 第三热但来源未明"
-          ],
-          "from": "L3",
-          "to": "L3",
-          "heat": 75,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 5
+          "appearances": 7
         },
         {
           "cluster": "prediction_market",
@@ -6945,49 +7207,36 @@
           "appearances": 1
         },
         {
-          "cluster": "BMNR",
-          "name": "BTC 宏观看多续延 — Hayes $1M 目标 via $15T 信用扩张",
+          "cluster": "IPO",
+          "name": "Coinbase Sonar SpaceX-类 Pre-IPO 4/28 倒计时",
           "aliases": [
-            "机构大买 BTC/ETH 持续 — Strategy +34k BTC / BitMine +101k ETH",
-            "BMNR (BitMine) — 0xVeryBigOrange 喊 Binance 上永续",
-            "机构大买 BTC/ETH 继续 — Strategy +34k BTC / BitMine +101k ETH",
-            "BMNR 永续呼声",
-            "BMNR 永续呼声 Day 6 — 0xVeryBigOrange 持续呼吁",
-            "BNB/BTC pair 收复 1011 插针 — 0xVeryBigOrange 看多"
+            "Coinbase Sonar 4/28 SpaceX 类 Pre-IPO 打新 — CN KOL 双源共振"
           ],
-          "from": "L2",
-          "to": "L2",
-          "heat": 70,
-          "delta": "-15",
-          "type": "stay",
-          "appearances": 7
-        },
-        {
-          "cluster": "HYPE",
-          "name": "Hyperliquid 生态垄断叙事 + HYPE 技术性挤压",
-          "aliases": [
-            "Hyperliquid ETF 推进 — 灰度修订申请 + HYPE 大量解押"
-          ],
-          "from": "L2",
-          "to": "L2",
-          "heat": 70,
-          "delta": "+0",
+          "from": "L3",
+          "to": "L3",
+          "heat": 75,
+          "delta": "+3",
           "type": "stay",
           "appearances": 2
         },
         {
-          "cluster": "geopolitics",
-          "name": "美伊停火到期 / 万斯周二赴巴谈判 / BTC 逆势",
+          "cluster": "meme",
+          "name": "USELESS 续热但 OKX 仅永续无现货 — 现货补位机会",
           "aliases": [
-            "美印太司令 Paparo 参议院: BTC = 国家利益",
-            "BTC 国家安全叙事余温"
+            "币安人生（CZ 社交 meme）今日 Binance 现货 2 对上线，OKX 完全缺",
+            "币安人生 — Meme 辐射",
+            "OPENCLAW (Lobster) 热度消退",
+            "TG 新 token: COLE/KAROLINE/IMMORTAL/SHOW/FIGHT/VVV — 全 OKX 无",
+            "HENRY (TG 8 次) — TG 第三热但来源未明",
+            "PENGU 独立突破 — Pudgy Penguins 品牌行情延续",
+            "PARANOID / SCAM / HENRY meme 单源延续"
           ],
-          "from": "L2",
-          "to": "L2",
+          "from": "L3",
+          "to": "L3",
           "heat": 70,
-          "delta": "+0",
+          "delta": "-5",
           "type": "stay",
-          "appearances": 3
+          "appearances": 8
         },
         {
           "cluster": "ARB",
@@ -7007,41 +7256,43 @@
             "BTC 结构性挤压信号 — ByzGeneral 看 upper-80s，whale_alert 链上流入超 $500M",
             "BTC 顶部信号多源共振 — Murphy BRS=0 Day 8 + CB Inst 流入 $440M + 资金轮动股市",
             "量子 ECC 15-bit 破解 — BTC 量子风险早期预警",
-            "BIP-361 量子迁移争议升级 — Adam Back 推优选升级 vs 强制冻结"
+            "BIP-361 量子迁移争议升级 — Adam Back 推优选升级 vs 强制冻结",
+            "Solana 采用 Falcon 后量子签名 — 量子叙事延伸到 SOL"
           ],
           "from": "L2",
           "to": "L3",
           "heat": 70,
           "delta": "-2",
           "type": "up",
-          "appearances": 5
+          "appearances": 6
         },
         {
-          "cluster": "etf_flow",
-          "name": "BTC ETF 9 连续日净流入 + ETH 反转 + Grayscale/Bitmine $500M ETH 质押",
-          "aliases": [
-            "机构加码 BTC — GSR BESO ETF 上线 + Saylor 增持 + Tesla Q1 BTC 持仓 $786M",
-            "资金从加密转股市的轮动证据",
-            "ETH 机构结构性吸筹 — BitMine + 基金会 OTC + 9.18万 ETH staking",
-            "Whale Alert: 1,146 BTC OKEX 出 + 663 BTC 入 Coinbase"
-          ],
-          "from": "L2",
-          "to": "L2",
-          "heat": 70,
-          "delta": "+2",
-          "type": "stay",
-          "appearances": 5
-        },
-        {
-          "cluster": "LAYERZERO",
-          "name": "LayerZero 单签桥生态风险公开 — 近半 OApp 仍用高危配置",
+          "cluster": "HYPE",
+          "name": "Hyperliquid 生态垄断叙事 + HYPE 技术性挤压",
           "aliases": [],
           "from": "L2",
           "to": "L2",
-          "heat": 65,
+          "heat": 70,
           "delta": "+0",
           "type": "stay",
           "appearances": 1
+        },
+        {
+          "cluster": "BMNR",
+          "name": "BTC 机构吸筹 vs 80k 上沿 — Whale + MicroStrategy + 韩资反差",
+          "aliases": [
+            "机构大买 BTC/ETH 继续 — Strategy +34k BTC / BitMine +101k ETH",
+            "BMNR 永续呼声",
+            "BMNR 永续呼声 Day 6 — 0xVeryBigOrange 持续呼吁",
+            "BNB/BTC pair 收复 1011 插针 — 0xVeryBigOrange 看多",
+            "BTC 宏观看多续延 — Hayes $1M 目标 via $15T 信用扩张"
+          ],
+          "from": "L2",
+          "to": "L2",
+          "heat": 68,
+          "delta": "-17",
+          "type": "stay",
+          "appearances": 6
         },
         {
           "cluster": "btc破区间负资金费率低oibyzgeneral",
@@ -7102,6 +7353,17 @@
           "appearances": 1
         },
         {
+          "cluster": "ZRO",
+          "name": "本周大额解锁 >$330M — SUI / JUP / SIGN / EIGEN / OMNI / GUN",
+          "aliases": [],
+          "from": "L2",
+          "to": "L2",
+          "heat": 65,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
           "cluster": "MEXC",
           "name": "CEX 链上敞口曝光 — MEXC/CoinEx/Kiln 被卡 $660M",
           "aliases": [],
@@ -7113,19 +7375,38 @@
           "appearances": 1
         },
         {
-          "cluster": "ai_crypto",
-          "name": "AI / DeepSeek 叙事降温 + Agent-Trading 主导论",
+          "cluster": "stablecoin_flow",
+          "name": "Western Union 在 Solana 发 USDPT + OKX USDG 4.1% Earn 口碑延续",
           "aliases": [
-            "AI x 信任危机 — GPT-Image-2 + '去中心化真实信息网络'设想",
-            "FLOCK / AI Agent 半玩笑提及 — Web3Feng",
-            "Agent-Trading 主导论 — yuyue_chris"
+            "稳定币巨鲸轮转延续 — Tether $200M / Paxos $300M USDC / XRP $107M",
+            "稳定币巨额铸造延续 — $600M USDC 新增 + $200M USDT → Binance",
+            "稳定币巨额铸造 Day 5 — 1B USDT + 175M USDC 单日",
+            "稳定币流动性观察 — Tether 2亿 USDT 出入 Bitfinex",
+            "Tron $344M USDT 冻结余波 + Whale Alert: Ceffu 168M USDT 出走"
           ],
-          "from": "L1",
+          "from": "L2",
           "to": "L2",
-          "heat": 62,
-          "delta": "+62",
-          "type": "up",
-          "appearances": 4
+          "heat": 60,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 6
+        },
+        {
+          "cluster": "etf_flow",
+          "name": "数字资产周流入 $1.2B — BTC +$933M / ETH +$192M (CoinShares)",
+          "aliases": [
+            "机构加码 BTC — GSR BESO ETF 上线 + Saylor 增持 + Tesla Q1 BTC 持仓 $786M",
+            "资金从加密转股市的轮动证据",
+            "ETH 机构结构性吸筹 — BitMine + 基金会 OTC + 9.18万 ETH staking",
+            "BTC ETF 9 连续日净流入 + ETH 反转 + Grayscale/Bitmine $500M ETH 质押",
+            "Whale Alert: 1,146 BTC OKEX 出 + 663 BTC 入 Coinbase"
+          ],
+          "from": "L2",
+          "to": "L2",
+          "heat": 60,
+          "delta": "-8",
+          "type": "stay",
+          "appearances": 6
         },
         {
           "cluster": "HK_stablecoin",
@@ -7141,40 +7422,55 @@
         {
           "cluster": "KAITO",
           "name": "Kaito InfoFi B2B 转型 — 下轮周期基建候选",
-          "aliases": [],
+          "aliases": [
+            "billions_ntwk Public Sale TGE 规则变更争议"
+          ],
           "from": "L2",
           "to": "L2",
           "heat": 60,
           "delta": "+0",
           "type": "stay",
-          "appearances": 1
+          "appearances": 2
         },
         {
           "cluster": "ETHFI",
           "name": "LRT 赛道结构性重估延续（与 KELP 同族）",
           "aliases": [
-            "LRT 赛道结构性 re-rating — 0xVeryBigOrange 称'半废'",
             "LRT 赛道结构性 re-rating — 0xVeryBigOrange '基本死'"
           ],
           "from": "L2",
           "to": "L2",
           "heat": 58,
-          "delta": "+6",
+          "delta": "-2",
           "type": "stay",
-          "appearances": 3
+          "appearances": 2
         },
         {
           "cluster": "SPARK",
           "name": "Spark 协议 Q1 基本面强势 + 风控叙事 (vs Aave)",
+          "aliases": [],
+          "from": "L2",
+          "to": "L2",
+          "heat": 58,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
+          "cluster": "ai_crypto",
+          "name": "Gemini Agentic Trading via MCP + Manus 估值 -90%",
           "aliases": [
-            "SPARK / KAMINO — Aave 事件受益者"
+            "AI x 信任危机 — GPT-Image-2 + '去中心化真实信息网络'设想",
+            "FLOCK / AI Agent 半玩笑提及 — Web3Feng",
+            "AI / DeepSeek 叙事降温 + Agent-Trading 主导论",
+            "Agent-Trading 主导论 — yuyue_chris"
           ],
           "from": "L1",
           "to": "L2",
           "heat": 58,
           "delta": "+58",
           "type": "up",
-          "appearances": 2
+          "appearances": 5
         },
         {
           "cluster": "APE_NFT",
@@ -7188,36 +7484,18 @@
           "appearances": 1
         },
         {
-          "cluster": "stablecoin_flow",
-          "name": "Tron $344M USDT 冻结余波 + Whale Alert: Ceffu 168M USDT 出走",
-          "aliases": [
-            "稳定币巨鲸轮转延续 — Tether 铸新 $200M / PYUSD 销毁 $301M",
-            "稳定币巨鲸轮转延续 — Tether $200M / Paxos $300M USDC / XRP $107M",
-            "稳定币巨额铸造延续 — $600M USDC 新增 + $200M USDT → Binance",
-            "稳定币巨额铸造 Day 5 — 1B USDT + 175M USDC 单日",
-            "稳定币流动性观察 — Tether 2亿 USDT 出入 Bitfinex"
-          ],
-          "from": "L2",
-          "to": "L2",
-          "heat": 55,
-          "delta": "-10",
-          "type": "stay",
-          "appearances": 6
-        },
-        {
           "cluster": "RAVE",
           "name": "RAVE 操纵事件 Day 5 — 20 万枚代币市值 600 万 → 30 万美金",
           "aliases": [
-            "RAVE 操纵事件延续 — OKX 已上永续",
             "RAVE 操纵事件 Day 4 — TG #2 热榜、'CEX 变骗局公园'",
             "RAVE 操纵事件 Day 6 — 静默期"
           ],
           "from": "L2",
           "to": "L2",
           "heat": 55,
-          "delta": "+0",
+          "delta": "-17",
           "type": "stay",
-          "appearances": 4
+          "appearances": 3
         },
         {
           "cluster": "ETH_roadmap",
@@ -7242,21 +7520,8 @@
           "appearances": 1
         },
         {
-          "cluster": "EDU",
-          "name": "EDU — TG 3 次（上日 8 次）",
-          "aliases": [
-            "EDU — TG 热榜 #3 OKX 无"
-          ],
-          "from": "L1",
-          "to": "L1",
-          "heat": 0,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 2
-        },
-        {
-          "cluster": "PIEVERSE",
-          "name": "PIEVERSE — Upbit KRW/BTC/USDT 三盘口上线",
+          "cluster": "GIGGLE",
+          "name": "GIGGLE — Binance 新上现货，OKX 仅永续",
           "aliases": [],
           "from": "L1",
           "to": "L1",
@@ -7269,7 +7534,6 @@
           "cluster": "OPG",
           "name": "OPG (OpenGradient) — OKX 已上 perp 跟进结束",
           "aliases": [
-            "OPG — Coinbase 新上现货",
             "OPG — 多家 Tier1/2 叠加上线",
             "OPG — Binance 今日正式上 OPGUSDT 永续（市值 $80M）",
             "OPG Day 4 — Binance/Bybit/Bitget 均已上 perp"
@@ -7279,51 +7543,7 @@
           "heat": 0,
           "delta": "+0",
           "type": "stay",
-          "appearances": 5
-        },
-        {
-          "cluster": "APXUSD",
-          "name": "APXUSD / QCAD — Kraken 新上",
-          "aliases": [],
-          "from": "L1",
-          "to": "L1",
-          "heat": 0,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 1
-        },
-        {
-          "cluster": "PENGU",
-          "name": "PENGU — TG 热榜 #4 OKX 已全覆盖",
-          "aliases": [],
-          "from": "L1",
-          "to": "L1",
-          "heat": 0,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 1
-        },
-        {
-          "cluster": "tomlee1824月大牛市论",
-          "name": "Tom Lee 18-24 月大牛市论",
-          "aliases": [],
-          "from": "L1",
-          "to": "L1",
-          "heat": 0,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 1
-        },
-        {
-          "cluster": "GIGGLE",
-          "name": "GIGGLE — Binance 新上现货，OKX 仅永续",
-          "aliases": [],
-          "from": "L1",
-          "to": "L1",
-          "heat": 0,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 1
+          "appearances": 4
         },
         {
           "cluster": "DIEM",
@@ -7350,6 +7570,28 @@
         {
           "cluster": "BABYFLORK",
           "name": "BABYFLORK / USDGO — TG 冷启动",
+          "aliases": [],
+          "from": "L1",
+          "to": "L1",
+          "heat": 0,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
+          "cluster": "ASTEROID",
+          "name": "ASTEROID — TG 热榜大幅降温（从 11 次 → 2 次）",
+          "aliases": [],
+          "from": "L1",
+          "to": "L1",
+          "heat": 0,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
+          "cluster": "EDU",
+          "name": "EDU — TG 3 次（上日 8 次）",
           "aliases": [],
           "from": "L1",
           "to": "L1",
@@ -7483,8 +7725,43 @@
           "appearances": 1
         },
         {
+          "cluster": "geopolitics",
+          "name": "BTC 国家安全叙事余温",
+          "aliases": [
+            "美印太司令 Paparo 参议院: BTC = 国家利益"
+          ],
+          "from": "L1",
+          "to": "L1",
+          "heat": 0,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 2
+        },
+        {
           "cluster": "CARDS",
           "name": "$CARDS — Bluntz 罕见高确信 alt 仓位（单源）",
+          "aliases": [],
+          "from": "L1",
+          "to": "L1",
+          "heat": 0,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
+          "cluster": "exchange_hack",
+          "name": "ZetaChain GatewayEVM exploit — 仅团队钱包受影响",
+          "aliases": [],
+          "from": "L1",
+          "to": "L1",
+          "heat": 0,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
+          "cluster": "POL",
+          "name": "WPOL TG 热度 3 次 — Polygon 升级后 OKX 仍无 WPOL",
           "aliases": [],
           "from": "L1",
           "to": "L1",
@@ -7495,6 +7772,51 @@
         }
       ],
       "events": [
+        {
+          "date": "04-28",
+          "title": "评估 PRL / XCN 现货 + 永续上线可行性；Upbit + Bithumb 同步上线通...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "04-28",
+          "title": "评估 USELESS 现货上线（永续已运营，市场深度数据可直接复用）",
+          "color": "#23F7DD"
+        },
+        {
+          "date": "04-28",
+          "title": "(1) 风控：盯 AAVE / ETHFI 永续 OI 与外盘背离，挤空若启动加密价差监控；(...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "04-28",
+          "title": "Upbit + Bithumb 同日上 PRL — Upbit (KRW/USDT/BTC 三...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "04-28",
+          "title": "Upbit 上 XCN — Upbit KRW + USDT 双对；Onyxcoin ~$17...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "04-28",
+          "title": "Bybit 上 GOOGL/META/MSFT 股票永续 — 三只美股 perp_usdt；O...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "04-28",
+          "title": "Gemini 上线 AI Agentic Trading — 基于 Anthropic MCP...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "04-28",
+          "title": "Circle Ventures 出手买 AAVE — USDC 发行方 VC 部门入场，与 K...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "04-28",
+          "title": "Consensys/Lubin 承诺 30K ETH 救 rsETH — LRT 板块结构性救...",
+          "color": "#FFB302"
+        },
         {
           "date": "04-27",
           "title": "立即由风控/上币团队评估：(a) OKX LTC 充提是否已暂停或加白名单，至少要求 v0.2...",
@@ -7849,113 +8171,50 @@
           "date": "04-22",
           "title": "AAVE 多签冻结 WETH 借贷 + 坏账方案决策期（Day 3） — LlamaRisk ...",
           "color": "#FFB302"
-        },
-        {
-          "date": "04-21",
-          "title": "合约风控：AAVE 坏账方案公告前后的波动监控；预案 LRT 赛道 re-rating；评估 ...",
-          "color": "#23F7DD"
-        },
-        {
-          "date": "04-21",
-          "title": "上币团队 24h 内完成 ASTEROID 项目调研：合约审计状态、代币分配、流动性深度；若通...",
-          "color": "#23F7DD"
-        },
-        {
-          "date": "04-21",
-          "title": "产品/上币紧急评估 CHIP 永续上线（股票 Swap 产品线补位，配合 AVGO/BABA 建议）",
-          "color": "#23F7DD"
-        },
-        {
-          "date": "04-21",
-          "title": "合约风控：本周对 HYPE/ZRO/XPL/KAITO/WLD/TRUMP 永续 OI 与资金...",
-          "color": "#23F7DD"
-        },
-        {
-          "date": "04-21",
-          "title": "Coinbase 今日上线 CHIP/USD 现货 + OPG/USD 现货 — CHIP B...",
-          "color": "#FFB302"
-        },
-        {
-          "date": "04-21",
-          "title": "Upbit 上线 PIEVERSE KRW/BTC/USDT 三对 — PIEVERSE MC...",
-          "color": "#FFB302"
-        },
-        {
-          "date": "04-21",
-          "title": "Kraken 新上 APXUSD/ZUSD + QCAD/ZUSD 现货 — 法币挂钩类小市值...",
-          "color": "#FFB302"
-        },
-        {
-          "date": "04-21",
-          "title": "Aave V3/V4 多签冻结 WETH 借贷 + 讨论两种坏账处理方案 — Kelp 事件 ...",
-          "color": "#FFB302"
-        },
-        {
-          "date": "04-21",
-          "title": "Spark 协议 TVL 48h +17%，Justin Sun 存入 $1.74 亿占 US...",
-          "color": "#FFB302"
-        },
-        {
-          "date": "04-21",
-          "title": "灰度向 SEC 提交 Hyperliquid ETF 修订申请 — Anchorage 替换 ...",
-          "color": "#FFB302"
-        },
-        {
-          "date": "04-21",
-          "title": "Coinbase 与 Bybit 谈判代币化美股 + Pre-IPO — 托管/分发层合作，冲...",
-          "color": "#FFB302"
-        },
-        {
-          "date": "04-21",
-          "title": "Binance / Bitget 启动 RAVE 操纵官方调查（Day 3） — 0xVery...",
-          "color": "#FFB302"
-        },
-        {
-          "date": "04-21",
-          "title": "LayerZero DVN 开启运营，近半 OApp 仍高危 — 多 DVN 团队被建议切换配置",
-          "color": "#FFB302"
         }
       ]
     },
     {
-      "period": "2026-04-16 ~ 2026-04-20",
+      "period": "2026-04-16 ~ 2026-04-21",
       "kpis": [
         {
           "label": "新增L3",
-          "val": 11,
-          "prev": 5,
+          "val": 13,
+          "prev": 6,
           "unit": ""
         },
         {
           "label": "竞对动作",
-          "val": 23,
-          "prev": 11,
+          "val": 32,
+          "prev": 16,
           "unit": "条"
         },
         {
           "label": "信号总数",
-          "val": 1151,
-          "prev": 575,
+          "val": 1426,
+          "prev": 713,
           "unit": "条"
         },
         {
           "label": "追踪叙事",
-          "val": 62,
-          "prev": 31,
+          "val": 73,
+          "prev": 36,
           "unit": "个"
         }
       ],
       "movers": [
         {
           "cluster": "KELP",
-          "name": "KelpDAO rsETH + LayerZero 桥漏洞事件 — DeFi 系统性风险",
-          "aliases": [],
+          "name": "Kelp rsETH / LayerZero 事件 Day 2 — Aave TVL -$84.5 亿 + 坏账决策期",
+          "aliases": [
+            "KelpDAO rsETH + LayerZero 桥漏洞事件 — DeFi 系统性风险"
+          ],
           "from": "L3",
           "to": "L3",
           "heat": 95,
           "delta": "+0",
           "type": "stay",
-          "appearances": 1
+          "appearances": 2
         },
         {
           "cluster": "RAVE",
@@ -7963,40 +8222,15 @@
           "aliases": [
             "RAVE 合约风控预警 + 产品线不完整",
             "RAVE 风控预警: 多源警告庄家控盘",
-            "RAVE 风控预警 — 97% 控盘、爆仓激增"
+            "RAVE 风控预警 — 97% 控盘、爆仓激增",
+            "RAVE 操纵事件延续 — OKX 已上永续"
           ],
           "from": "L3",
           "to": "L3",
           "heat": 90,
           "delta": "+0",
           "type": "stay",
-          "appearances": 4
-        },
-        {
-          "cluster": "geopolitics",
-          "name": "美伊和谈破裂 / BTC 跌破 $7.4 万 — risk-off 反转",
-          "aliases": [
-            "地缘政治风险 — 伊朗/霍尔木兹海峡",
-            "宏观: 美伊接近核协议 + 以黎停火",
-            "美伊缓和 / 霍尔木兹重开 → 全面 risk-on"
-          ],
-          "from": "L2",
-          "to": "L2",
-          "heat": 88,
-          "delta": "+18",
-          "type": "stay",
-          "appearances": 4
-        },
-        {
-          "cluster": "CHIP",
-          "name": "新币盲区: CHIP + GENIUS 被 Binance 抢先",
-          "aliases": [],
-          "from": "L3",
-          "to": "L3",
-          "heat": 88,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 1
+          "appearances": 5
         },
         {
           "cluster": "GENIUS",
@@ -8015,6 +8249,31 @@
           "aliases": [],
           "from": "L2",
           "to": "L2",
+          "heat": 85,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
+          "cluster": "BMNR",
+          "name": "机构大买 BTC/ETH 持续 — Strategy +34k BTC / BitMine +101k ETH",
+          "aliases": [
+            "BMNR (BitMine 永续 pref) 概念",
+            "BMNR (BitMine) — 0xVeryBigOrange 喊 Binance 上永续"
+          ],
+          "from": "L1",
+          "to": "L2",
+          "heat": 85,
+          "delta": "+85",
+          "type": "up",
+          "appearances": 3
+        },
+        {
+          "cluster": "ASTEROID",
+          "name": "ASTEROID — TG 热榜 #2 + 鲸鱼 $114 万买入，OKX 无",
+          "aliases": [],
+          "from": "L3",
+          "to": "L3",
           "heat": 85,
           "delta": "+0",
           "type": "stay",
@@ -8056,15 +8315,18 @@
           "appearances": 1
         },
         {
-          "cluster": "HYPE",
-          "name": "HYPE 巨鲸加仓 + Hayes 跟进",
-          "aliases": [],
-          "from": "L2",
-          "to": "L2",
+          "cluster": "CHIP",
+          "name": "CHIP — Coinbase 今日新上现货 + Binance Futures 已上预市场，OKX 完全缺失",
+          "aliases": [
+            "新币盲区: CHIP + GENIUS 被 Binance 抢先",
+            "CHIP 在 OKX 外多个交易所同日动作"
+          ],
+          "from": "L3",
+          "to": "L3",
           "heat": 80,
-          "delta": "+0",
+          "delta": "-8",
           "type": "stay",
-          "appearances": 1
+          "appearances": 3
         },
         {
           "cluster": "stock_derivatives",
@@ -8102,11 +8364,11 @@
           "appearances": 1
         },
         {
-          "cluster": "stablecoin_flow",
-          "name": "稳定币巨鲸轮转 $1.5B+ — Aave 去杠杆 + CEX 流动性补充",
+          "cluster": "ZRO",
+          "name": "本周超大额解锁预警 — $330M+ 一次性 + 多个日解锁 >$1M",
           "aliases": [],
-          "from": "L2",
-          "to": "L2",
+          "from": "L3",
+          "to": "L3",
           "heat": 75,
           "delta": "+0",
           "type": "stay",
@@ -8122,6 +8384,35 @@
           "delta": "+0",
           "type": "stay",
           "appearances": 1
+        },
+        {
+          "cluster": "geopolitics",
+          "name": "美伊停火到期 / 万斯周二赴巴谈判 / BTC 逆势",
+          "aliases": [
+            "地缘政治风险 — 伊朗/霍尔木兹海峡",
+            "宏观: 美伊接近核协议 + 以黎停火",
+            "美伊缓和 / 霍尔木兹重开 → 全面 risk-on",
+            "美伊和谈破裂 / BTC 跌破 $7.4 万 — risk-off 反转"
+          ],
+          "from": "L2",
+          "to": "L2",
+          "heat": 70,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 5
+        },
+        {
+          "cluster": "HYPE",
+          "name": "Hyperliquid ETF 推进 — 灰度修订申请 + HYPE 大量解押",
+          "aliases": [
+            "HYPE 巨鲸加仓 + Hayes 跟进"
+          ],
+          "from": "L2",
+          "to": "L2",
+          "heat": 70,
+          "delta": "-10",
+          "type": "stay",
+          "appearances": 2
         },
         {
           "cluster": "机构btc分化矿企抛售vs贝莱德提币",
@@ -8144,6 +8435,19 @@
           "delta": "+0",
           "type": "stay",
           "appearances": 1
+        },
+        {
+          "cluster": "IPO",
+          "name": "Coinbase + Bybit 谈判代币化美股 + Pre-IPO",
+          "aliases": [
+            "Paimon Finance / SpaceX Pre-IPO"
+          ],
+          "from": "L1",
+          "to": "L2",
+          "heat": 68,
+          "delta": "+68",
+          "type": "up",
+          "appearances": 2
         },
         {
           "cluster": "BLESS",
@@ -8173,6 +8477,30 @@
           "aliases": [],
           "from": "L3",
           "to": "L3",
+          "heat": 65,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
+          "cluster": "stablecoin_flow",
+          "name": "稳定币巨鲸轮转延续 — Tether 铸新 $200M / PYUSD 销毁 $301M",
+          "aliases": [
+            "稳定币巨鲸轮转 $1.5B+ — Aave 去杠杆 + CEX 流动性补充"
+          ],
+          "from": "L2",
+          "to": "L2",
+          "heat": 65,
+          "delta": "-10",
+          "type": "stay",
+          "appearances": 2
+        },
+        {
+          "cluster": "LAYERZERO",
+          "name": "LayerZero 单签桥生态风险公开 — 近半 OApp 仍用高危配置",
+          "aliases": [],
+          "from": "L2",
+          "to": "L2",
           "heat": 65,
           "delta": "+0",
           "type": "stay",
@@ -8210,19 +8538,6 @@
           "delta": "+0",
           "type": "stay",
           "appearances": 1
-        },
-        {
-          "cluster": "regulation",
-          "name": "Binance / Bybit / 监管格局变化",
-          "aliases": [
-            "美国加密市场结构法案"
-          ],
-          "from": "L1",
-          "to": "L2",
-          "heat": 60,
-          "delta": "+60",
-          "type": "up",
-          "appearances": 2
         },
         {
           "cluster": "ASTER",
@@ -8300,6 +8615,31 @@
           "delta": "+0",
           "type": "stay",
           "appearances": 1
+        },
+        {
+          "cluster": "ETHFI",
+          "name": "LRT 赛道结构性 re-rating — 0xVeryBigOrange 称'半废'",
+          "aliases": [],
+          "from": "L2",
+          "to": "L2",
+          "heat": 52,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
+          "cluster": "regulation",
+          "name": "Claude Desktop 后门警告（安全合规）",
+          "aliases": [
+            "美国加密市场结构法案",
+            "Binance / Bybit / 监管格局变化"
+          ],
+          "from": "L1",
+          "to": "L2",
+          "heat": 50,
+          "delta": "+50",
+          "type": "up",
+          "appearances": 3
         },
         {
           "cluster": "ai_trading_tools",
@@ -8480,17 +8820,6 @@
           "appearances": 1
         },
         {
-          "cluster": "IPO",
-          "name": "Paimon Finance / SpaceX Pre-IPO",
-          "aliases": [],
-          "from": "L1",
-          "to": "L1",
-          "heat": 0,
-          "delta": "+0",
-          "type": "stay",
-          "appearances": 1
-        },
-        {
           "cluster": "DRIFT",
           "name": "DRIFT Tether 救助 $127.5M",
           "aliases": [],
@@ -8623,8 +8952,8 @@
           "appearances": 1
         },
         {
-          "cluster": "BMNR",
-          "name": "BMNR (BitMine 永续 pref) 概念",
+          "cluster": "cex_integration",
+          "name": "Sberbank 俄罗斯加密交易",
           "aliases": [],
           "from": "L1",
           "to": "L1",
@@ -8634,8 +8963,74 @@
           "appearances": 1
         },
         {
-          "cluster": "cex_integration",
-          "name": "Sberbank 俄罗斯加密交易",
+          "cluster": "EDU",
+          "name": "EDU — TG 热榜 #3 OKX 无",
+          "aliases": [],
+          "from": "L1",
+          "to": "L1",
+          "heat": 0,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
+          "cluster": "PIEVERSE",
+          "name": "PIEVERSE — Upbit KRW/BTC/USDT 三盘口上线",
+          "aliases": [],
+          "from": "L1",
+          "to": "L1",
+          "heat": 0,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
+          "cluster": "OPG",
+          "name": "OPG — Coinbase 新上现货",
+          "aliases": [],
+          "from": "L1",
+          "to": "L1",
+          "heat": 0,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
+          "cluster": "APXUSD",
+          "name": "APXUSD / QCAD — Kraken 新上",
+          "aliases": [],
+          "from": "L1",
+          "to": "L1",
+          "heat": 0,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
+          "cluster": "SPARK",
+          "name": "SPARK / KAMINO — Aave 事件受益者",
+          "aliases": [],
+          "from": "L1",
+          "to": "L1",
+          "heat": 0,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
+          "cluster": "PENGU",
+          "name": "PENGU — TG 热榜 #4 OKX 已全覆盖",
+          "aliases": [],
+          "from": "L1",
+          "to": "L1",
+          "heat": 0,
+          "delta": "+0",
+          "type": "stay",
+          "appearances": 1
+        },
+        {
+          "cluster": "tomlee1824月大牛市论",
+          "name": "Tom Lee 18-24 月大牛市论",
           "aliases": [],
           "from": "L1",
           "to": "L1",
@@ -8646,6 +9041,71 @@
         }
       ],
       "events": [
+        {
+          "date": "04-21",
+          "title": "合约风控：AAVE 坏账方案公告前后的波动监控；预案 LRT 赛道 re-rating；评估 ...",
+          "color": "#23F7DD"
+        },
+        {
+          "date": "04-21",
+          "title": "上币团队 24h 内完成 ASTEROID 项目调研：合约审计状态、代币分配、流动性深度；若通...",
+          "color": "#23F7DD"
+        },
+        {
+          "date": "04-21",
+          "title": "产品/上币紧急评估 CHIP 永续上线（股票 Swap 产品线补位，配合 AVGO/BABA 建议）",
+          "color": "#23F7DD"
+        },
+        {
+          "date": "04-21",
+          "title": "合约风控：本周对 HYPE/ZRO/XPL/KAITO/WLD/TRUMP 永续 OI 与资金...",
+          "color": "#23F7DD"
+        },
+        {
+          "date": "04-21",
+          "title": "Coinbase 今日上线 CHIP/USD 现货 + OPG/USD 现货 — CHIP B...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "04-21",
+          "title": "Upbit 上线 PIEVERSE KRW/BTC/USDT 三对 — PIEVERSE MC...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "04-21",
+          "title": "Kraken 新上 APXUSD/ZUSD + QCAD/ZUSD 现货 — 法币挂钩类小市值...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "04-21",
+          "title": "Aave V3/V4 多签冻结 WETH 借贷 + 讨论两种坏账处理方案 — Kelp 事件 ...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "04-21",
+          "title": "Spark 协议 TVL 48h +17%，Justin Sun 存入 $1.74 亿占 US...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "04-21",
+          "title": "灰度向 SEC 提交 Hyperliquid ETF 修订申请 — Anchorage 替换 ...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "04-21",
+          "title": "Coinbase 与 Bybit 谈判代币化美股 + Pre-IPO — 托管/分发层合作，冲...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "04-21",
+          "title": "Binance / Bitget 启动 RAVE 操纵官方调查（Day 3） — 0xVery...",
+          "color": "#FFB302"
+        },
+        {
+          "date": "04-21",
+          "title": "LayerZero DVN 开启运营，近半 OApp 仍高危 — 多 DVN 团队被建议切换配置",
+          "color": "#FFB302"
+        },
         {
           "date": "04-20",
           "title": "合约风控：监控 AAVE 永续 OI 与强平阶梯、评估坏账事件冲击；关注 LRT 赛道整体风险...",
@@ -8841,30 +9301,30 @@
   ],
   "months": [
     {
-      "period": "2026-04-16 ~ 2026-05-04",
+      "period": "2026-04-16 ~ 2026-05-05",
       "kpis": [
         {
           "label": "追踪叙事",
-          "val": 121,
-          "prev": 60,
+          "val": 124,
+          "prev": 62,
           "unit": "个"
         },
         {
           "label": "累计L3预警",
-          "val": 33,
-          "prev": 16,
+          "val": 34,
+          "prev": 17,
           "unit": "个"
         },
         {
           "label": "竞对动作",
-          "val": 127,
-          "prev": 63,
+          "val": 135,
+          "prev": 67,
           "unit": "条"
         },
         {
           "label": "信号总数",
-          "val": 4942,
-          "prev": 2471,
+          "val": 5269,
+          "prev": 2634,
           "unit": "条"
         }
       ],
@@ -8872,10 +9332,36 @@
       "misses": [],
       "lifecycle": [
         {
-          "cluster": "LAB",
-          "name": "LAB 闪崩 -80% Day 2 — 合约爆仓全网第一",
+          "cluster": "HYPE",
+          "name": "Hyperliquid HIP-4 Day 2 — 首日 $6M (vs 昨日 $238 万 +31x)",
           "aliases": [
-            "LAB Day 1 — TG 13 次高频 + 山寨齐拉升领涨，OKX 已永续无现货"
+            "HYPE 巨鲸加仓 + Hayes 跟进",
+            "Hyperliquid ETF 推进 — 灰度修订申请 + HYPE 大量解押",
+            "Hyperliquid 生态垄断叙事 + HYPE 技术性挤压",
+            "Hyperliquid 垄断叙事再升级 — 0xSisyphus 力推",
+            "Hyperliquid HIP-4 二元预测市场上线 + Polymarket fees ATH + a16z 反对各州 — 预测市场赛道制度突破",
+            "Hyperliquid HIP-4 二元预测市场首日 $238 万"
+          ],
+          "days": 19,
+          "level": "L3",
+          "phase": "爆发期",
+          "heat": [
+            0,
+            0,
+            70,
+            0,
+            0,
+            0,
+            78,
+            82,
+            86
+          ]
+        },
+        {
+          "cluster": "ARB_legal",
+          "name": "Aave 紧急动议要求撤销对 Arbitrum DAO 资产冻结通知 (Day 2)",
+          "aliases": [
+            "Arbitrum 朝鲜冻结资金被纽约联邦法院判赔"
           ],
           "days": 2,
           "level": "L3",
@@ -8888,33 +9374,27 @@
             0,
             0,
             0,
-            75,
-            88
+            72,
+            84
           ]
         },
         {
-          "cluster": "HYPE",
-          "name": "Hyperliquid HIP-4 二元预测市场首日 $238 万",
-          "aliases": [
-            "HYPE 巨鲸加仓 + Hayes 跟进",
-            "Hyperliquid ETF 推进 — 灰度修订申请 + HYPE 大量解押",
-            "Hyperliquid 生态垄断叙事 + HYPE 技术性挤压",
-            "Hyperliquid 垄断叙事再升级 — 0xSisyphus 力推",
-            "Hyperliquid HIP-4 二元预测市场上线 + Polymarket fees ATH + a16z 反对各州 — 预测市场赛道制度突破"
-          ],
-          "days": 18,
+          "cluster": "TON_telegram",
+          "name": "Telegram/Durov 接管 TON 最大 validator + 手续费降 1/6",
+          "aliases": [],
+          "days": 1,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
             0,
             0,
             0,
-            70,
             0,
             0,
             0,
-            78,
-            82
+            0,
+            0,
+            80
           ]
         },
         {
@@ -8931,13 +9411,14 @@
             "BTC 顶部多重信号叠加 + 巨鲸混合流向 + IV 历史低位",
             "BTC 多空叙事激烈对撞 — $160K 月线目标 vs OI 阻力 fade + 巨鲸混合流向",
             "BTC 多空对撞 — Hayes $125K EOY vs based16z TP $65K + Murphy BRS 钉零轴 + CryptoQuant 投机回调",
-            "BTC 熊牛转化早期信号 + 多空对撞延续"
+            "BTC 熊牛转化早期信号 + 多空对撞延续",
+            "BTC > $80k 持续 + Coinbase premium + Murphy 趋势通道上轨",
+            "@CryptoPainter BTC bear case $50-55k + 10% short 已锁定"
           ],
-          "days": 12,
+          "days": 13,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
-            68,
             0,
             0,
             72,
@@ -8945,52 +9426,48 @@
             80,
             82,
             80,
+            75,
+            78
+          ]
+        },
+        {
+          "cluster": "stock_derivatives",
+          "name": "Binance Futures 5/6 上 AMD/QCOM/USAR + Kraken 完成 Bitnomial 收购",
+          "aliases": [
+            "竞对股票/商品衍生品产品线加速扩张",
+            "竞对股票衍生品 4/20 正式上线 — OKX 产品线差距收窄窗口",
+            "竞对股票衍生品继续扩张 — Bitget 5 只 AI/半导体小盘股 + Bybit 补 HOOD/INTC/TSM",
+            "竞对股票衍生品 Day 4 — 半导体/AI 基建缺口扩大",
+            "竞对股票永续 Day 5 — 半导体设备 + 中概股 gap 扩大",
+            "竞对股票永续 Day 6 — 半导体 + 中概 gap 持续扩大",
+            "Uranium / 核能复兴叙事 — Bluntz 高确信多年牛市",
+            "Bybit 上线 GOOGL / META / MSFT 股票永续 — OKX 已全覆盖",
+            "IREN（Iris Energy 矿企）TG 热度 3 次 — OKX 无 stock perp",
+            "Bitget 美股 perp 矩阵扩张 — OKLO/MP/CRDO/APLD/KLAC 5 个新品",
+            "RWA 25K 美股代币化 + Bybit 新增 COIN/MSTR/PLTR perp",
+            "RWA 市值 $19.3B (+256.7% / 15 个月) — CoinGecko 2026 报告",
+            "Burry 抛 GameStop + 但斌建仓 Circle"
+          ],
+          "days": 18,
+          "level": "L3",
+          "phase": "爆发期",
+          "heat": [
+            78,
+            55,
+            75,
+            64,
+            68,
+            0,
+            0,
+            0,
             75
           ]
         },
         {
-          "cluster": "ARB_legal",
-          "name": "Arbitrum 朝鲜冻结资金被纽约联邦法院判赔",
-          "aliases": [],
-          "days": 1,
-          "level": "L3",
-          "phase": "爆发期",
-          "heat": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            72
-          ]
-        },
-        {
           "cluster": "tokenized_securities",
-          "name": "BlackRock + NYSE 双线推进代币化证券",
-          "aliases": [],
-          "days": 1,
-          "level": "L2",
-          "phase": "爆发期",
-          "heat": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            72
-          ]
-        },
-        {
-          "cluster": "buffett_cash",
-          "name": "Buffett 股东大会 — 现金 $3,970 亿创纪录",
+          "name": "DTCC 7月代币化证券试点 + Western Union USDPT (Day 2)",
           "aliases": [
-            "巴菲特股东大会 — 伯克希尔现金 $3,970 亿创纪录 + 拒绝 AI + 数据中心利好公用事业"
+            "BlackRock + NYSE 双线推进代币化证券"
           ],
           "days": 2,
           "level": "L2",
@@ -9003,92 +9480,27 @@
             0,
             0,
             0,
-            75,
-            70
+            72,
+            75
           ]
         },
         {
-          "cluster": "meme",
-          "name": "USELESS 续热但 OKX 仅永续无现货 — 现货补位机会",
-          "aliases": [
-            "Meme 行情升温：币安人生 / ASTEROID / ASTER / RAVE",
-            "币安人生（CZ 社交 meme）今日 Binance 现货 2 对上线，OKX 完全缺",
-            "币安人生 — Meme 辐射",
-            "OPENCLAW (Lobster) 热度消退",
-            "TG 新 token: COLE/KAROLINE/IMMORTAL/SHOW/FIGHT/VVV — 全 OKX 无",
-            "HENRY (TG 8 次) — TG 第三热但来源未明",
-            "PENGU 独立突破 — Pudgy Penguins 品牌行情延续",
-            "PARANOID / SCAM / HENRY meme 单源延续",
-            "Mad Lads / SOL NFT 复苏叙事看空",
-            "TG 小币热度 RISE/SWARMS/INIT/VELODROME",
-            "TG 高频小币 — FORM / WISH / QCOM / BEACHBALLS / HOPPY / GOBLIN / RC（OKX 全无）",
-            "TG 高频小币 + 新 meme 涌现 — GOBLIN/ARTEMIS/DAI/FARTCOIN/ASTEROID/SCRIBBLI/SIMULATOR",
-            "TG 24h 高频 — DAI(6,多源) / BWOYS(4) / FLYYQ(3) / HALFTRUMP / ANIMALS / GOBLIN / SLOPNALD / SKR(2,多源)",
-            "TG 24h 高频 — LAB(13)/INJ(8)/ZEC(6)/ONDO(6)/ORDI(5)/MOVE(5)/AAVE(4)/USELESS(4)/PIEVERSE(2)",
-            "TG 高频山寨齐拉升 + LAB/UB/B/Freedom 领涨",
-            "BSC Meme 圈研究 — 刀盾/比比/拉布 (@Web3Feng)"
-          ],
-          "days": 17,
-          "level": "L3",
+          "cluster": "ETH_staking_surge",
+          "name": "ETH 大额 staking inflow + Bitmine 加 101,745 ETH",
+          "aliases": [],
+          "days": 1,
+          "level": "L2",
           "phase": "爆发期",
           "heat": [
             0,
             0,
-            72,
-            0,
-            0,
-            0,
-            0,
-            0,
-            68
-          ]
-        },
-        {
-          "cluster": "ETH_glamsterdam",
-          "name": "ETH Glamsterdam 升级 gas 60M→200M",
-          "aliases": [],
-          "days": 1,
-          "level": "L2",
-          "phase": "增长期",
-          "heat": [
             0,
             0,
             0,
             0,
             0,
             0,
-            0,
-            0,
-            68
-          ]
-        },
-        {
-          "cluster": "geopolitics",
-          "name": "Iran 战停反复 + 霍尔木兹引导船只",
-          "aliases": [
-            "地缘政治风险 — 伊朗/霍尔木兹海峡",
-            "宏观: 美伊接近核协议 + 以黎停火",
-            "美伊缓和 / 霍尔木兹重开 → 全面 risk-on",
-            "美伊和谈破裂 / BTC 跌破 $7.4 万 — risk-off 反转",
-            "美伊停火到期 / 万斯周二赴巴谈判 / BTC 逆势",
-            "美印太司令 Paparo 参议院: BTC = 国家利益",
-            "BTC 国家安全叙事余温",
-            "Iran 战停 + OFAC 制裁警告 + 原油跌金银涨 — 地缘缓和阶段",
-            "Iran 战停反复 + Trump 重启空袭可能 + BTC 冲高回落"
-          ],
-          "days": 19,
-          "level": "L2",
-          "phase": "增长期",
-          "heat": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            70,
-            65,
-            65
+            75
           ]
         },
         {
@@ -9114,13 +9526,14 @@
             "Fed 转中性观望 + Kashkari 警告加息可能",
             "POLITICO 民调:多数美国人对 AI 与加密仍持怀疑",
             "Japan 加密 ETF 最早明年获批 — Wu 报道",
-            "130+ 国家推进 CBDC,Russia 出台加密个税"
+            "130+ 国家推进 CBDC,Russia 出台加密个税",
+            "CLARITY Act 稳定币收益规则敲定 — based16z 标 'Go Time'",
+            "Aave 紧急动议要求撤销 Arbitrum 资产冻结(已并入 ARB_legal L3)"
           ],
-          "days": 19,
+          "days": 20,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
-            78,
             68,
             0,
             0,
@@ -9128,12 +9541,105 @@
             70,
             65,
             0,
-            65
+            65,
+            72
           ]
         },
         {
-          "cluster": "DeFi_tvl",
-          "name": "ETH DeFi TVL 腰斩 — 大资金离场",
+          "cluster": "CARDS",
+          "name": "CARDS Day 2 — Bluntz 持续推 + 多源验证 collectibles 超级周期",
+          "aliases": [
+            "$CARDS — Bluntz 罕见高确信 alt 仓位（单源）",
+            "CARDS (Collector Crypt) — Bluntz 重仓推荐：$82M April revenue / $26M mcap，OKX 全无",
+            "CARDS Day 4 — Bluntz +165% 突破多月积累"
+          ],
+          "days": 9,
+          "level": "L3",
+          "phase": "爆发期",
+          "heat": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            75,
+            78,
+            0,
+            72
+          ]
+        },
+        {
+          "cluster": "geopolitics",
+          "name": "Iran 战争或持续 2-3 周 + 美军舰被导弹击中传闻",
+          "aliases": [
+            "地缘政治风险 — 伊朗/霍尔木兹海峡",
+            "宏观: 美伊接近核协议 + 以黎停火",
+            "美伊缓和 / 霍尔木兹重开 → 全面 risk-on",
+            "美伊和谈破裂 / BTC 跌破 $7.4 万 — risk-off 反转",
+            "美伊停火到期 / 万斯周二赴巴谈判 / BTC 逆势",
+            "美印太司令 Paparo 参议院: BTC = 国家利益",
+            "BTC 国家安全叙事余温",
+            "Iran 战停 + OFAC 制裁警告 + 原油跌金银涨 — 地缘缓和阶段",
+            "Iran 战停反复 + Trump 重启空袭可能 + BTC 冲高回落",
+            "Iran 战停反复 + 霍尔木兹引导船只"
+          ],
+          "days": 20,
+          "level": "L2",
+          "phase": "爆发期",
+          "heat": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            70,
+            65,
+            65,
+            70
+          ]
+        },
+        {
+          "cluster": "meme",
+          "name": "USELESS 续热但 OKX 仅永续无现货 — 现货补位机会",
+          "aliases": [
+            "Meme 行情升温：币安人生 / ASTEROID / ASTER / RAVE",
+            "币安人生（CZ 社交 meme）今日 Binance 现货 2 对上线，OKX 完全缺",
+            "币安人生 — Meme 辐射",
+            "OPENCLAW (Lobster) 热度消退",
+            "TG 新 token: COLE/KAROLINE/IMMORTAL/SHOW/FIGHT/VVV — 全 OKX 无",
+            "HENRY (TG 8 次) — TG 第三热但来源未明",
+            "PENGU 独立突破 — Pudgy Penguins 品牌行情延续",
+            "PARANOID / SCAM / HENRY meme 单源延续",
+            "Mad Lads / SOL NFT 复苏叙事看空",
+            "TG 小币热度 RISE/SWARMS/INIT/VELODROME",
+            "TG 高频小币 — FORM / WISH / QCOM / BEACHBALLS / HOPPY / GOBLIN / RC（OKX 全无）",
+            "TG 高频小币 + 新 meme 涌现 — GOBLIN/ARTEMIS/DAI/FARTCOIN/ASTEROID/SCRIBBLI/SIMULATOR",
+            "TG 24h 高频 — DAI(6,多源) / BWOYS(4) / FLYYQ(3) / HALFTRUMP / ANIMALS / GOBLIN / SLOPNALD / SKR(2,多源)",
+            "TG 24h 高频 — LAB(13)/INJ(8)/ZEC(6)/ONDO(6)/ORDI(5)/MOVE(5)/AAVE(4)/USELESS(4)/PIEVERSE(2)",
+            "TG 高频山寨齐拉升 + LAB/UB/B/Freedom 领涨",
+            "BSC Meme 圈研究 — 刀盾/比比/拉布 (@Web3Feng)",
+            "TG 高频 TON/ZEC/ONDO + 山寨涨疯",
+            "@hexiecs 港股曦智科技 + GME + BSC '共建' 小盘 meme 联动",
+            "@Web3Feng SATO LP 区间被拉爆 + Polymarket vs Binance CL/BZ funding -$8k"
+          ],
+          "days": 18,
+          "level": "L3",
+          "phase": "爆发期",
+          "heat": [
+            0,
+            72,
+            0,
+            0,
+            0,
+            0,
+            0,
+            68,
+            68
+          ]
+        },
+        {
+          "cluster": "WLFI_TRX",
+          "name": "WLFI 起诉孙宇晨 + ZachXBT 宣战 imToken/Tokenlon",
           "aliases": [],
           "days": 1,
           "level": "L2",
@@ -9147,12 +9653,46 @@
             0,
             0,
             0,
-            58
+            68
+          ]
+        },
+        {
+          "cluster": "ai_crypto",
+          "name": "Pentosh1 UUUU/AI 多年 boom + KWM 5亿 BTC 转 AI infra",
+          "aliases": [
+            "AI x 信任危机 — GPT-Image-2 + '去中心化真实信息网络'设想",
+            "FLOCK / AI Agent 半玩笑提及 — Web3Feng",
+            "AI / DeepSeek 叙事降温 + Agent-Trading 主导论",
+            "Agent-Trading 主导论 — yuyue_chris",
+            "Gemini Agentic Trading via MCP + Manus 估值 -90%",
+            "based16z 提 AI coding tools 周期",
+            "AI x Crypto 双线 — Vitalik via OKX 推 ETH 接 AI + AI Agent 用交易盈余付 AWS",
+            "AIGENSYN 单源延续观察 + AI 题材其他外溢",
+            "AI x Crypto — Binance Agent Wallet 反追 OKX，CryptoPainter 双线评论",
+            "OKX Hermes Agent / Agent Trade Kit — KOL 公开实测 + Musk vs OpenAI 调查可能开门",
+            "Manus 被叫停 → 月之暗面/阶跃星辰拆红筹回国 + Apple Mac Mini 提价 $799 + Binance Agentic AI",
+            "Founders Fund 关闭 $6B 新基金 — AI/科技配置",
+            "@Rewkang 看好机器人/AI 行业指数级机会",
+            "X 用户通过 Grok 从 Bankr 盗 $17.5 万后归还跑路 — AI agent 信任危机"
+          ],
+          "days": 11,
+          "level": "L2",
+          "phase": "增长期",
+          "heat": [
+            62,
+            58,
+            0,
+            70,
+            70,
+            70,
+            70,
+            0,
+            65
           ]
         },
         {
           "cluster": "stablecoin_flow",
-          "name": "OKEX 大额 USDT 净流出 ~$334M",
+          "name": "USDC/USDT 大额铸造移动 + Western Union USDPT",
           "aliases": [
             "稳定币巨鲸轮转 $1.5B+ — Aave 去杠杆 + CEX 流动性补充",
             "稳定币巨鲸轮转延续 — Tether 铸新 $200M / PYUSD 销毁 $301M",
@@ -9166,13 +9706,13 @@
             "Meta USDC 创作者支付 LATAM/PH + 250M USDC Solana 增发 + Tether/Circle 信誉对峙",
             "稳定币/支付基础设施齐扩 — Visa+5 链 / Shinhan-SOL / PayPal 重组 / OKX USDG",
             "Tether Q1 $10.4B 盈利 + 储备 $82.32B 创纪录 + 24h $750M USDC + $631M USDT 流入 HTX/Bitfinex",
+            "OKEX 大额 USDT 净流出 ~$334M",
             "Saylor 推 $3.5T 私人信贷 RWA + Cambrian 叙事"
           ],
-          "days": 15,
+          "days": 16,
           "level": "L2",
           "phase": "增长期",
           "heat": [
-            55,
             0,
             60,
             62,
@@ -9180,14 +9720,15 @@
             75,
             75,
             0,
-            55
+            55,
+            60
           ]
         },
         {
           "cluster": "GENIUS",
           "name": "GENIUS 永续合约缺失",
           "aliases": [],
-          "days": 19,
+          "days": 20,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
@@ -9214,7 +9755,7 @@
             "RAVE 操纵事件 Day 5 — 20 万枚代币市值 600 万 → 30 万美金",
             "RAVE 操纵事件 Day 6 — 静默期"
           ],
-          "days": 19,
+          "days": 20,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
@@ -9233,7 +9774,7 @@
           "cluster": "BLESS",
           "name": "BLESS 项目方砸盘预警",
           "aliases": [],
-          "days": 19,
+          "days": 20,
           "level": "L3",
           "phase": "增长期",
           "heat": [
@@ -9252,7 +9793,7 @@
           "cluster": "USD1",
           "name": "Binance USD1/WLFI 生态布局",
           "aliases": [],
-          "days": 19,
+          "days": 20,
           "level": "L3",
           "phase": "增长期",
           "heat": [
@@ -9271,7 +9812,7 @@
           "cluster": "btc积累阶段信号",
           "name": "BTC 积累阶段信号",
           "aliases": [],
-          "days": 19,
+          "days": 20,
           "level": "L2",
           "phase": "爆发期",
           "heat": [
@@ -9290,7 +9831,7 @@
           "cluster": "UNC",
           "name": "Meme 板块回温",
           "aliases": [],
-          "days": 19,
+          "days": 20,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -9309,7 +9850,7 @@
           "cluster": "RENDER",
           "name": "RENDER / HYPE 持续活跃",
           "aliases": [],
-          "days": 19,
+          "days": 20,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -9328,7 +9869,7 @@
           "cluster": "aixcrypto动态",
           "name": "AI x Crypto 动态",
           "aliases": [],
-          "days": 19,
+          "days": 20,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -9353,14 +9894,14 @@
             "CHIP 24h 爆发 — 5 家 Tier1 现货同时上，OKX 仅 perp、缺现货",
             "CHIP / USD.AI Binance HODLer Airdrop 上线"
           ],
-          "days": 18,
+          "days": 19,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
             0,
             0,
-            0,
             65,
+            0,
             0,
             0,
             0,
@@ -9372,7 +9913,7 @@
           "cluster": "AVGO",
           "name": "股票代币永续对标: Binance 4/20 批量上线",
           "aliases": [],
-          "days": 18,
+          "days": 19,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
@@ -9391,7 +9932,7 @@
           "cluster": "btcfi产品线空白goldman覆盖式看涨et",
           "name": "BTCFi 产品线空白: Goldman 覆盖式看涨 ETF 上线",
           "aliases": [],
-          "days": 18,
+          "days": 19,
           "level": "L3",
           "phase": "增长期",
           "heat": [
@@ -9410,7 +9951,7 @@
           "cluster": "ORDI",
           "name": "ORDI 暴涨 190% 引爆 BRC20 + Runes 情绪",
           "aliases": [],
-          "days": 18,
+          "days": 19,
           "level": "L2",
           "phase": "爆发期",
           "heat": [
@@ -9429,7 +9970,7 @@
           "cluster": "机构btc分化矿企抛售vs贝莱德提币",
           "name": "机构 BTC 分化: 矿企抛售 vs 贝莱德提币",
           "aliases": [],
-          "days": 18,
+          "days": 19,
           "level": "L2",
           "phase": "爆发期",
           "heat": [
@@ -9448,7 +9989,7 @@
           "cluster": "schwab启动btceth现货交易paxos驱",
           "name": "Schwab 启动 BTC/ETH 现货交易(Paxos 驱动)",
           "aliases": [],
-          "days": 18,
+          "days": 19,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -9467,7 +10008,7 @@
           "cluster": "ZEC",
           "name": "隐私赛道轮动: ZEC/ZEN 退潮, CRCL 接力",
           "aliases": [],
-          "days": 18,
+          "days": 19,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -9488,7 +10029,7 @@
           "aliases": [
             "SIREN (OKX无)"
           ],
-          "days": 18,
+          "days": 19,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
@@ -9498,37 +10039,6 @@
             0,
             0,
             0,
-            0,
-            0,
-            0
-          ]
-        },
-        {
-          "cluster": "stock_derivatives",
-          "name": "Bitget 美股 perp 矩阵扩张 — OKLO/MP/CRDO/APLD/KLAC 5 个新品",
-          "aliases": [
-            "竞对股票/商品衍生品产品线加速扩张",
-            "竞对股票衍生品 4/20 正式上线 — OKX 产品线差距收窄窗口",
-            "竞对股票衍生品继续扩张 — Bitget 5 只 AI/半导体小盘股 + Bybit 补 HOOD/INTC/TSM",
-            "竞对股票衍生品 Day 4 — 半导体/AI 基建缺口扩大",
-            "竞对股票永续 Day 5 — 半导体设备 + 中概股 gap 扩大",
-            "竞对股票永续 Day 6 — 半导体 + 中概 gap 持续扩大",
-            "Uranium / 核能复兴叙事 — Bluntz 高确信多年牛市",
-            "Bybit 上线 GOOGL / META / MSFT 股票永续 — OKX 已全覆盖",
-            "IREN（Iris Energy 矿企）TG 热度 3 次 — OKX 无 stock perp",
-            "RWA 25K 美股代币化 + Bybit 新增 COIN/MSTR/PLTR perp",
-            "RWA 市值 $19.3B (+256.7% / 15 个月) — CoinGecko 2026 报告"
-          ],
-          "days": 17,
-          "level": "L3",
-          "phase": "爆发期",
-          "heat": [
-            0,
-            78,
-            55,
-            75,
-            64,
-            68,
             0,
             0,
             0
@@ -9538,7 +10048,7 @@
           "cluster": "STRC",
           "name": "STRC（Strategy 半月分红产品）上币机会",
           "aliases": [],
-          "days": 17,
+          "days": 18,
           "level": "L3",
           "phase": "增长期",
           "heat": [
@@ -9567,11 +10077,10 @@
             "BTC/ETH 现货 ETF 转向流出",
             "BTC/ETH ETF 同日双流出 + 5月历史季节性看涨 + Drift 朝鲜社工 $285M"
           ],
-          "days": 17,
+          "days": 18,
           "level": "L2",
           "phase": "爆发期",
           "heat": [
-            70,
             0,
             60,
             60,
@@ -9579,6 +10088,7 @@
             65,
             0,
             72,
+            0,
             0
           ]
         },
@@ -9586,7 +10096,7 @@
           "cluster": "行业结构kraken收购bitnomial550",
           "name": "行业结构：Kraken 收购 Bitnomial ($550M)",
           "aliases": [],
-          "days": 17,
+          "days": 18,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -9612,15 +10122,15 @@
             "Polymarket 推 CFTC 美国主交易所回归",
             "首批 Prediction Market ETF 5/5 启动 (Roundhill)"
           ],
-          "days": 17,
+          "days": 18,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
-            75,
             0,
             0,
             65,
             60,
+            0,
             0,
             0,
             0,
@@ -9631,7 +10141,7 @@
           "cluster": "AAVE",
           "name": "巨鲸 Aave 杠杆循环 / 稳定币供给扩张",
           "aliases": [],
-          "days": 17,
+          "days": 18,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -9650,7 +10160,7 @@
           "cluster": "coinbaseventures资本主题rwaa",
           "name": "Coinbase Ventures 资本主题 / RWA & AI Agent",
           "aliases": [],
-          "days": 17,
+          "days": 18,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -9675,12 +10185,12 @@
             "ZEC 隐私币突破延续 Day 6 — ByzGeneral 看多 + ETH ETF 资金分流",
             "量子风险讨论 — Toly / Adam Back / Galaxy 论 Satoshi P2PK"
           ],
-          "days": 17,
+          "days": 18,
           "level": "L2",
           "phase": "增长期",
           "heat": [
-            62,
             65,
+            0,
             0,
             0,
             0,
@@ -9698,12 +10208,12 @@
             "Coinbase + Bybit 谈判代币化美股 + Pre-IPO",
             "Coinbase Sonar 4/28 SpaceX 类 Pre-IPO 打新 — CN KOL 双源共振"
           ],
-          "days": 17,
+          "days": 18,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
-            72,
             75,
+            0,
             0,
             0,
             0,
@@ -9726,13 +10236,13 @@
             "Kelp/Aave 救助 Day 7 — 跨链 DAO 联合提案 + Solana 基金会介入",
             "KELP / Aave / rsETH 救助 Day 8 — TVL 出血 + 治理裂变"
           ],
-          "days": 15,
+          "days": 16,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
-            82,
             86,
             84,
+            0,
             0,
             0,
             0,
@@ -9745,7 +10255,7 @@
           "cluster": "layerzero_risk",
           "name": "LayerZero 桥单签风险公开列表 — 下一波潜在受害者",
           "aliases": [],
-          "days": 15,
+          "days": 16,
           "level": "L2",
           "phase": "爆发期",
           "heat": [
@@ -9764,7 +10274,7 @@
           "cluster": "JUP",
           "name": "Solana 稳定币借贷利率爆表 — Jupiter Lend USDC 99%",
           "aliases": [],
-          "days": 15,
+          "days": 16,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -9783,7 +10293,7 @@
           "cluster": "ASTER",
           "name": "ASTER 结构性多头 — 不冻账户 + Binance 流动性",
           "aliases": [],
-          "days": 15,
+          "days": 16,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -9802,7 +10312,7 @@
           "cluster": "ai_trading_tools",
           "name": "AI / Vibe Coding 交易工具渗透深",
           "aliases": [],
-          "days": 15,
+          "days": 16,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -9821,7 +10331,7 @@
           "cluster": "dprk_risk",
           "name": "北朝鲜渗透 Web3 开发团队",
           "aliases": [],
-          "days": 15,
+          "days": 16,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -9842,7 +10352,7 @@
           "aliases": [
             "MNT (Mantle) — TG 热榜 #2 OKX 无"
           ],
-          "days": 15,
+          "days": 16,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
@@ -9851,8 +10361,8 @@
             0,
             0,
             0,
-            0,
             70,
+            0,
             0,
             0
           ]
@@ -9874,11 +10384,10 @@
             "Saturn / STRC / sUSDat — MSTR-linked DeFi 收益率新原语 + AIMCo $219M MSTR 持仓披露",
             "ETH Foundation 卖 10K ETH @$2,292 给 BitMine + Bitmine 4M+ ETH staked $508M + DeFi United $314.57M ETH"
           ],
-          "days": 15,
+          "days": 16,
           "level": "L2",
           "phase": "增长期",
           "heat": [
-            0,
             70,
             68,
             0,
@@ -9886,6 +10395,7 @@
             72,
             72,
             68,
+            0,
             0
           ]
         },
@@ -9895,7 +10405,7 @@
           "aliases": [
             "ASTEROID — TG 热榜大幅降温（从 11 次 → 2 次）"
           ],
-          "days": 14,
+          "days": 15,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
@@ -9914,15 +10424,16 @@
           "cluster": "ZRO",
           "name": "本周超大额解锁预警 — $330M+ 一次性 + 多个日解锁 >$1M",
           "aliases": [
-            "本周大额解锁 >$330M — SUI / JUP / SIGN / EIGEN / OMNI / GUN"
+            "本周大额解锁 >$330M — SUI / JUP / SIGN / EIGEN / OMNI / GUN",
+            "本周大额解锁 >$229M(HYPE/ENA/SXT/RED/OPN; SOL/RAIN 线性)"
           ],
-          "days": 14,
+          "days": 15,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
             0,
-            0,
             65,
+            0,
             0,
             0,
             0,
@@ -9935,7 +10446,7 @@
           "cluster": "LAYERZERO",
           "name": "LayerZero 单签桥生态风险公开 — 近半 OApp 仍用高危配置",
           "aliases": [],
-          "days": 14,
+          "days": 15,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -9957,7 +10468,7 @@
             "LRT 赛道结构性 re-rating — 0xVeryBigOrange 称'半废'",
             "LRT 赛道结构性 re-rating — 0xVeryBigOrange '基本死'"
           ],
-          "days": 14,
+          "days": 15,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -9978,7 +10489,7 @@
           "aliases": [
             "SPARK / KAMINO — Aave 事件受益者"
           ],
-          "days": 14,
+          "days": 15,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -9997,7 +10508,7 @@
           "cluster": "ARB",
           "name": "Arbitrum Security Council 紧急冻结黑客资金 — L2 信任重塑事件",
           "aliases": [],
-          "days": 13,
+          "days": 14,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
@@ -10016,7 +10527,7 @@
           "cluster": "MEXC",
           "name": "CEX 链上敞口曝光 — MEXC/CoinEx/Kiln 被卡 $660M",
           "aliases": [],
-          "days": 13,
+          "days": 14,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -10035,7 +10546,7 @@
           "cluster": "btc破区间负资金费率低oibyzgeneral",
           "name": "BTC 破区间 + 负资金费率 + 低 OI — ByzGeneral 看 upper-80s",
           "aliases": [],
-          "days": 13,
+          "days": 14,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -10054,7 +10565,7 @@
           "cluster": "altseason跟不上russell新高vsa",
           "name": "Alt season 跟不上 — Russell 新高 vs alts 无法收复 ATH",
           "aliases": [],
-          "days": 13,
+          "days": 14,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -10073,7 +10584,7 @@
           "cluster": "HK_stablecoin",
           "name": "香港发放首两张稳定币牌照（新事件）",
           "aliases": [],
-          "days": 12,
+          "days": 13,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -10098,7 +10609,7 @@
             "INTC 市值破 $5000亿 + Trump 政府持股 6 月翻近 5x + Strategy +3.2%",
             "AI 算力短缺 → Apple Mac Mini 提价 $799 + Berkshire 重仓数据中心利好公用事业"
           ],
-          "days": 12,
+          "days": 13,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -10119,7 +10630,7 @@
           "aliases": [
             "billions_ntwk Public Sale TGE 规则变更争议"
           ],
-          "days": 11,
+          "days": 12,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -10141,16 +10652,16 @@
             "MEGA pre-launch 强势",
             "MegaETH (MEGA) 主网今日上线 + Coinbase 现货首发 — OKX 完全缺位"
           ],
-          "days": 11,
+          "days": 12,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
             0,
             0,
             0,
-            0,
             88,
             80,
+            0,
             0,
             0,
             0
@@ -10162,15 +10673,15 @@
           "aliases": [
             "Fluent (BLEND) 四家竞对同步首发 — OKX 完全缺位"
           ],
-          "days": 10,
+          "days": 11,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
             0,
             0,
             0,
-            0,
             82,
+            0,
             0,
             0,
             0,
@@ -10181,7 +10692,7 @@
           "cluster": "perp_dex",
           "name": "Perp DEX + Pre-IPO RWA 三方叙事抬头",
           "aliases": [],
-          "days": 10,
+          "days": 11,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -10193,38 +10704,6 @@
             0,
             0,
             0,
-            0
-          ]
-        },
-        {
-          "cluster": "ai_crypto",
-          "name": "Manus 被叫停 → 月之暗面/阶跃星辰拆红筹回国 + Apple Mac Mini 提价 $799 + Binance Agentic AI",
-          "aliases": [
-            "AI x 信任危机 — GPT-Image-2 + '去中心化真实信息网络'设想",
-            "FLOCK / AI Agent 半玩笑提及 — Web3Feng",
-            "AI / DeepSeek 叙事降温 + Agent-Trading 主导论",
-            "Agent-Trading 主导论 — yuyue_chris",
-            "Gemini Agentic Trading via MCP + Manus 估值 -90%",
-            "based16z 提 AI coding tools 周期",
-            "AI x Crypto 双线 — Vitalik via OKX 推 ETH 接 AI + AI Agent 用交易盈余付 AWS",
-            "AIGENSYN 单源延续观察 + AI 题材其他外溢",
-            "AI x Crypto — Binance Agent Wallet 反追 OKX，CryptoPainter 双线评论",
-            "OKX Hermes Agent / Agent Trade Kit — KOL 公开实测 + Musk vs OpenAI 调查可能开门",
-            "Founders Fund 关闭 $6B 新基金 — AI/科技配置",
-            "@Rewkang 看好机器人/AI 行业指数级机会"
-          ],
-          "days": 10,
-          "level": "L2",
-          "phase": "爆发期",
-          "heat": [
-            0,
-            62,
-            58,
-            0,
-            70,
-            70,
-            70,
-            70,
             0
           ]
         },
@@ -10235,11 +10714,10 @@
             "CLARITY 法案稳定币收益规则进入『启动阶段』 + CFTC 公告 true perps 美国合法化在即",
             "SEC Atkins 现框架不适用 crypto + Taiwan BTC reserve + Paradigm PACTs 量子抗性 + 美联储中性观望"
           ],
-          "days": 9,
+          "days": 10,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
-            80,
             0,
             0,
             0,
@@ -10247,6 +10725,7 @@
             0,
             78,
             75,
+            0,
             0
           ]
         },
@@ -10254,11 +10733,11 @@
           "cluster": "LTC_security",
           "name": "Litecoin MWEB 零日漏洞触发链重组 — LTC 安全事件",
           "aliases": [],
-          "days": 9,
+          "days": 10,
           "level": "L2",
           "phase": "增长期",
           "heat": [
-            65,
+            0,
             0,
             0,
             0,
@@ -10273,11 +10752,11 @@
           "cluster": "APE_NFT",
           "name": "APE 新 CEO + BAYC NFT 复兴 — ByzGeneral 双信号看多",
           "aliases": [],
-          "days": 9,
+          "days": 10,
           "level": "L2",
           "phase": "增长期",
           "heat": [
-            58,
+            0,
             0,
             0,
             0,
@@ -10292,11 +10771,11 @@
           "cluster": "ETH_roadmap",
           "name": "Ethereum 5 north stars / 7 forks roadmap 公布",
           "aliases": [],
-          "days": 9,
+          "days": 10,
           "level": "L2",
           "phase": "增长期",
           "heat": [
-            55,
+            0,
             0,
             0,
             0,
@@ -10311,11 +10790,10 @@
           "cluster": "LTC_MWEB",
           "name": "LTC MWEB exploit + 13-block reorg — Day 2",
           "aliases": [],
-          "days": 8,
+          "days": 9,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
-            0,
             92,
             0,
             0,
@@ -10323,34 +10801,53 @@
             0,
             0,
             0,
-            0
-          ]
-        },
-        {
-          "cluster": "CARDS",
-          "name": "CARDS Day 2 — Bluntz 持续推 + 多源验证 collectibles 超级周期",
-          "aliases": [
-            "$CARDS — Bluntz 罕见高确信 alt 仓位（单源）",
-            "CARDS (Collector Crypt) — Bluntz 重仓推荐：$82M April revenue / $26M mcap，OKX 全无"
-          ],
-          "days": 8,
-          "level": "L3",
-          "phase": "爆发期",
-          "heat": [
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            75,
-            78,
             0
           ]
         },
         {
           "cluster": "PRL_XCN",
           "name": "Upbit + Bithumb 同日上 PRL & XCN — 双 Tier1 韩交所联动 OKX 缺位",
+          "aliases": [],
+          "days": 8,
+          "level": "L3",
+          "phase": "爆发期",
+          "heat": [
+            0,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "cluster": "PROS",
+          "name": "PROS Day 2 — Bitget 现货 + 三家现货已上，OKX 仅永续无现货",
+          "aliases": [
+            "PROS 三家同期上线现货 — OKX 仅有 perp 缺现货"
+          ],
+          "days": 7,
+          "level": "L3",
+          "phase": "增长期",
+          "heat": [
+            0,
+            0,
+            72,
+            68,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "cluster": "PUMP",
+          "name": "PUMP 36% 流通供应燃烧 + 50% 收入回购承诺",
           "aliases": [],
           "days": 7,
           "level": "L3",
@@ -10368,63 +10865,24 @@
           ]
         },
         {
-          "cluster": "PROS",
-          "name": "PROS Day 2 — Bitget 现货 + 三家现货已上，OKX 仅永续无现货",
-          "aliases": [
-            "PROS 三家同期上线现货 — OKX 仅有 perp 缺现货"
-          ],
-          "days": 6,
-          "level": "L3",
-          "phase": "增长期",
-          "heat": [
-            0,
-            0,
-            0,
-            72,
-            68,
-            0,
-            0,
-            0,
-            0
-          ]
-        },
-        {
-          "cluster": "PUMP",
-          "name": "PUMP 36% 流通供应燃烧 + 50% 收入回购承诺",
-          "aliases": [],
-          "days": 6,
-          "level": "L3",
-          "phase": "爆发期",
-          "heat": [
-            0,
-            0,
-            0,
-            80,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        },
-        {
           "cluster": "AIGENSYN",
           "name": "AIGENSYN Day 3 — 无 KOL 新增信号，但 OKX 仍未行动，决策窗口收窄",
           "aliases": [
             "AIGENSYN Day 1 — Binance Futures + Bitget 现货/永续同日齐发，OKX 全无",
-            "AIGENSYN Day 2 — Bybit 加 perp，Tier1+Tier2 沉淀完毕，OKX 三线仍全空"
+            "AIGENSYN Day 2 — Bybit 加 perp，Tier1+Tier2 沉淀完毕，OKX 三线仍全空",
+            "Bitget 首发 Billions Network ($BILL) — OKX 缺位"
           ],
-          "days": 5,
+          "days": 6,
           "level": "L3",
           "phase": "增长期",
           "heat": [
-            0,
             0,
             0,
             0,
             72,
             75,
             65,
+            0,
             0,
             0
           ]
@@ -10433,7 +10891,7 @@
           "cluster": "SPACE",
           "name": "🚨 SPACE 风控紧急预警 — OKX 已上现货+永续，CN KOL 三源联动指控项目方丢仓 95%",
           "aliases": [],
-          "days": 4,
+          "days": 5,
           "level": "L3",
           "phase": "爆发期",
           "heat": [
@@ -10441,8 +10899,8 @@
             0,
             0,
             0,
-            0,
             88,
+            0,
             0,
             0,
             0
@@ -10452,7 +10910,7 @@
           "cluster": "monitoring_tag",
           "name": "Binance Monitoring Tag 扩列 — NFP/NOM/POND/QUICK/VIC 退市风险",
           "aliases": [],
-          "days": 4,
+          "days": 5,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -10460,8 +10918,8 @@
             0,
             0,
             0,
-            0,
             60,
+            0,
             0,
             0,
             0
@@ -10473,7 +10931,69 @@
           "aliases": [
             "🚨 数百 ETH 长期休眠地址被盗（原因不明）— 钱包/硬件/密钥安全事件"
           ],
+          "days": 4,
+          "level": "L2",
+          "phase": "增长期",
+          "heat": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            70,
+            65,
+            0,
+            0
+          ]
+        },
+        {
+          "cluster": "LAB",
+          "name": "LAB 闪崩 -80% Day 2 — 合约爆仓全网第一",
+          "aliases": [
+            "LAB Day 1 — TG 13 次高频 + 山寨齐拉升领涨，OKX 已永续无现货",
+            "LAB 闪崩 Day 2 — 无新信号,延续静默期"
+          ],
           "days": 3,
+          "level": "L3",
+          "phase": "爆发期",
+          "heat": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            75,
+            88,
+            0
+          ]
+        },
+        {
+          "cluster": "buffett_cash",
+          "name": "Buffett 股东大会 — 现金 $3,970 亿创纪录",
+          "aliases": [
+            "巴菲特股东大会 — 伯克希尔现金 $3,970 亿创纪录 + 拒绝 AI + 数据中心利好公用事业"
+          ],
+          "days": 3,
+          "level": "L2",
+          "phase": "爆发期",
+          "heat": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            75,
+            70,
+            0
+          ]
+        },
+        {
+          "cluster": "ETH_glamsterdam",
+          "name": "ETH Glamsterdam 升级 gas 60M→200M",
+          "aliases": [],
+          "days": 2,
           "level": "L2",
           "phase": "增长期",
           "heat": [
@@ -10483,8 +11003,27 @@
             0,
             0,
             0,
-            70,
-            65,
+            0,
+            68,
+            0
+          ]
+        },
+        {
+          "cluster": "DeFi_tvl",
+          "name": "ETH DeFi TVL 腰斩 — 大资金离场",
+          "aliases": [],
+          "days": 2,
+          "level": "L2",
+          "phase": "增长期",
+          "heat": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            58,
             0
           ]
         }
