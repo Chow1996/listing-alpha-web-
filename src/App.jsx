@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { fetchIndex, fetchDay, fetchTargetsList, fetchTargetProfile, fetchTargetThesis, fetchTargetMeta, fetchTargetFeed, fetchTargetDigest } from "./supabase";
 
 const C={bg:"#1A1F2E",bg2:"#212738",t1:"#E2E2EE",t2:"#A8A8C0",t3:"#6E6E88",t4:"#555570",ac:"#23F7DD",acd:"rgba(35,247,221,0.07)",bd:"rgba(255,255,255,0.06)",bm:"rgba(255,255,255,0.08)",r:"#E74C5A",rg:"rgba(231,76,90,0.08)",rb:"rgba(231,76,90,0.15)",g:"#23F7DD",gg:"rgba(35,247,221,0.07)",y:"#FFB302",yg:"rgba(255,179,2,0.08)",p:"#A78BFA",pg:"rgba(167,139,250,0.1)",w:"#6E6E88"};
 const MO={fontFamily:"'Space Mono',monospace"};
@@ -653,17 +654,17 @@ const PageDR=({id,targets,onBack})=>{
   useEffect(()=>{
     if(!id)return;
     setProfile(null);setFeed([]);setDigest(null);setThesis(null);setMeta(null);setErr(null);
-    fetch(`/targets/${id}/profile.json`).then(r=>r.ok?r.json():null).then(d=>{if(d)setProfile(d);else setErr("profile 不存在");}).catch(e=>setErr(String(e)));
-    fetch(`/targets/${id}/thesis.json`).then(r=>r.ok?r.json():null).then(d=>d&&setThesis(d)).catch(()=>{});
-    fetch(`/targets/${id}/meta.json`).then(r=>r.ok?r.json():null).then(d=>d&&setMeta(d)).catch(()=>{});
-    fetch(`/targets/${id}/feed.jsonl`).then(r=>r.ok?r.text():"").then(t=>{
-      const items=(t||"").split(/\n+/).map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
-      items.sort((a,b)=>(b.ts||"").localeCompare(a.ts||""));
-      setFeed(items);
+    fetchTargetProfile(id).then(d=>{if(d)setProfile(d);else setErr("profile 不存在");}).catch(e=>setErr(String(e)));
+    fetchTargetThesis(id).then(d=>d&&setThesis(d)).catch(()=>{});
+    fetchTargetMeta(id).then(d=>d&&setMeta(d)).catch(()=>{});
+    fetchTargetFeed(id).then(items=>{
+      const arr = Array.isArray(items) ? [...items] : [];
+      arr.sort((a,b)=>(b.ts||"").localeCompare(a.ts||""));
+      setFeed(arr);
     }).catch(()=>setFeed([]));
-    // 尝试今日 digest，失败则尝试列出最近的
+    // 尝试今日 digest
     const today=new Date().toISOString().slice(0,10);
-    fetch(`/targets/${id}/digest/${today}.json`).then(r=>r.ok?r.json():null).then(d=>{if(d){setDigest(d);setDigestDate(today);}}).catch(()=>{});
+    fetchTargetDigest(id, today).then(d=>{if(d){setDigest(d);setDigestDate(today);}}).catch(()=>{});
   },[id]);
 
   if(err) return <div><BackBtn onClick={onBack} label="Back"/><Glass><div style={{padding:20,color:C.r,fontSize:13}}>{err}</div></Glass></div>;
@@ -714,8 +715,8 @@ export default function App(){
 
   // Load index.json on startup
   useEffect(()=>{
-    fetch("/index.json").then(r=>r.ok?r.json():null).then(d=>{if(d)setIndex(d)}).catch(()=>{});
-    fetch("/targets/index.json").then(r=>r.ok?r.json():null).then(d=>{if(d?.targets)setTargets(d.targets)}).catch(()=>{});
+    fetchIndex().then(d=>{if(d)setIndex(d)}).catch(()=>{});
+    fetchTargetsList().then(d=>{if(d?.length)setTargets(d)}).catch(()=>{});
   },[]);
 
   // Derived data
@@ -757,8 +758,7 @@ export default function App(){
     if(!currentDate) return;
     if(dayCache[currentDate]) return;
     setLoadingDay(true);
-    fetch(`/days/${currentDate}.json`)
-      .then(r=>r.ok?r.json():null)
+    fetchDay(currentDate)
       .then(d=>{
         if(d) setDayCache(prev=>({...prev,[currentDate]:d}));
         setLoadingDay(false);
